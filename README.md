@@ -1,1 +1,1 @@
-# Medieval-Minecraft-FORGE-1.18
+https://www.curseforge.com/minecraft/modpacks/medieval-minecraft-fabric
