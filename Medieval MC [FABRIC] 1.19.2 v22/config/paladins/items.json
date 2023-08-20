@@ -6,7 +6,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -17,7 +17,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -28,7 +28,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -39,7 +39,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -50,7 +50,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -61,8 +61,13 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 3.0,
+          "value": 6.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -72,7 +77,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -83,7 +88,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -94,7 +99,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -105,7 +110,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -116,7 +121,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -127,7 +132,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -138,7 +143,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -149,7 +154,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -160,7 +165,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 4.0,
+          "value": 6.0,
           "operation": "ADDITION"
         }
       ]
@@ -171,8 +176,13 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 1.0,
+          "value": 2.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -182,7 +192,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 6.0,
+          "value": 10.0,
           "operation": "ADDITION"
         }
       ]
@@ -193,7 +203,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -204,7 +214,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -215,7 +225,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 5.0,
+          "value": 8.0,
           "operation": "ADDITION"
         }
       ]
@@ -226,8 +236,13 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -237,7 +252,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -248,7 +263,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 0.0,
+          "value": 2.0,
           "operation": "ADDITION"
         }
       ]
@@ -256,7 +271,7 @@
   },
   "armor_sets": {
     "crusader_armor": {
-      "armor_toughness": 0.0,
+      "armor_toughness": 2.0,
       "knockback_resistance": 0.0,
       "head": {
         "armor": 2,
@@ -408,7 +423,7 @@
       }
     },
     "paladin_armor": {
-      "armor_toughness": 0.0,
+      "armor_toughness": 1.0,
       "knockback_resistance": 0.0,
       "head": {
         "armor": 2,

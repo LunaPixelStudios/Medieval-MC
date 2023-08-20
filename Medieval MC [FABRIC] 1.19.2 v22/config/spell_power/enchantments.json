@@ -57,8 +57,8 @@
     "bonus_per_level": 0.04
   },
   "magic_protection": {
-    "enabled": true,
-    "max_level": 4,
+    "enabled": false,
+    "max_level": 0,
     "min_cost": 3,
     "step_cost": 6,
     "bonus_per_level": 2.0

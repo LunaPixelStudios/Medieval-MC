@@ -1,9 +1,9 @@
 {
-  "levelMultiplier": 9,
+  "levelMultiplier": 15,
   "nameColor": 553648127,
   "backgroundColor": -1,
   "backgroundOpacity": 0.0,
-  "nameplateHeight": 0.4,
+  "nameplateHeight": 0.3,
   "nameplateSize": -0.025,
   "showHealth": false,
   "showLevel": true,
@@ -14,6 +14,7 @@
   "excludedEntities": [
     "minecraft:ender_dragon",
     "minecraft:wither",
+    "minecraft:warden",
     "adventurez:stone_golem",
     "adventurez:void_shadow",
     "adventurez:the_eye",
@@ -28,6 +29,13 @@
     "soulsweapons:moonknight",
     "soulsweapons:night_shade",
     "spellbladenext:magus",
-    "spellbladenext:archmagus"
+    "spellbladenext:reaver",
+    "spellbladenext:archmagus",
+    "whisperwoods:hirschgeist",
+    "whisperwoods:hidebehind",
+    "mutantmonsters:mutant_enderman",
+    "mutantmonsters:mutant_skeleton",
+    "mutantmonsters:mutant_zombie",
+    "mutantmonsters:mutant_creeper"
   ]
 }

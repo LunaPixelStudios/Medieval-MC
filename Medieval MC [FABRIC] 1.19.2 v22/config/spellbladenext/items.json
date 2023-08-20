@@ -44,17 +44,17 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
           "name": "frost",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
           "name": "fire",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         }
       ]
@@ -65,17 +65,17 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 4.0,
+          "value": 8.0,
           "operation": "ADDITION"
         },
         {
           "name": "frost",
-          "value": 4.0,
+          "value": 8.0,
           "operation": "ADDITION"
         },
         {
           "name": "fire",
-          "value": 4.0,
+          "value": 8.0,
           "operation": "ADDITION"
         }
       ]
@@ -145,7 +145,7 @@
       "spell_attributes": [
         {
           "name": "frost",
-          "value": 4.0,
+          "value": 8.0,
           "operation": "ADDITION"
         }
       ]
@@ -189,17 +189,17 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
           "name": "frost",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
           "name": "fire",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         }
       ]
@@ -237,17 +237,17 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 8.0,
+          "value": 16.0,
           "operation": "ADDITION"
         },
         {
           "name": "frost",
-          "value": 8.0,
+          "value": 16.0,
           "operation": "ADDITION"
         },
         {
           "name": "fire",
-          "value": 8.0,
+          "value": 16.0,
           "operation": "ADDITION"
         }
       ]

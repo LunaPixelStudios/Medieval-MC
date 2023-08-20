@@ -1,0 +1,8 @@
+{
+	// If the recipe book should be hidden by default on first launch of the client.
+	"shouldHideRecipeBook": true,
+	// If the recipe book visibility can be toggled with the hotkey.
+	"allowRecipeBookToggleHotkey": false,
+	// If a message should be sent whenever the recipe book is shown/hidden.
+	"showMessageOnRecipeBookToggle": false
+}

@@ -9,7 +9,7 @@
 	},
 	// ENIGMA_RESONATOR_DIVISOR -> Higher number = lower damage. Default value = 3.25.
 	"ENIGMA_RESONATOR_DIVISOR": {
-		"ENIGMA_RESONATOR_DIVISOR": 2.75
+		"ENIGMA_RESONATOR_DIVISOR": 3.0
 	},
 	// Dynamo Stack Cap, Higher number = more potential damage. Default value = 20.
 	"DYNAMO_STACK_CAP": {
@@ -41,10 +41,10 @@
 		"SWIRLING": 10,
 		"THUNDERING": 20,
 		"VOID_SHOT": 14,
-		"VOID_STRIKE": 8,
+		"VOID_STRIKE": 10,
 		"WEAKENING": 30,
 		"WILD_RAGE": 10
 	},
 	// Overall Enchantment Strength Slider
-	"enchantmentStrength": 1.0
+	"enchantmentStrength": 0.9
 }

@@ -1,8 +1,8 @@
 {
 	// Chance to get a weapon from chests. Default = 0.10f
-	"findWeaponChance": 0.10000000149011612,
+	"findWeaponChance": 0.250000000149011612,
 	// Higher Number makes Luck give you potential for extra MCDW loot. Default = 1.2f
-	"bonusRollsWithLuck": 0.9,
+	"bonusRollsWithLuck": 0.599999761581421,
 	"WEAPONS_ENABLED_IN_LOOTTABLES": {
 		"ENABLE_WEAPONS_IN_LOOTTABLES": true
 	},

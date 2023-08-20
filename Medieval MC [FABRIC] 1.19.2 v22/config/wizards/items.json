@@ -6,7 +6,7 @@
       "spell_attributes": [
         {
           "name": "fire",
-          "value": 5.0,
+          "value": 6.0,
           "operation": "ADDITION"
         }
       ]
@@ -17,7 +17,7 @@
       "spell_attributes": [
         {
           "name": "frost",
-          "value": 5.0,
+          "value": 6.0,
           "operation": "ADDITION"
         }
       ]
@@ -28,7 +28,7 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 5.0,
+          "value": 6.0,
           "operation": "ADDITION"
         }
       ]
@@ -39,8 +39,13 @@
       "spell_attributes": [
         {
           "name": "fire",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -61,8 +66,13 @@
       "spell_attributes": [
         {
           "name": "fire",
-          "value": 1.0,
+          "value": 2.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -72,8 +82,13 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -94,8 +109,13 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 3.0,
+          "value": 6.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -116,7 +136,7 @@
       "spell_attributes": [
         {
           "name": "frost",
-          "value": 6.0,
+          "value": 10.0,
           "operation": "ADDITION"
         }
       ]
@@ -127,8 +147,13 @@
       "spell_attributes": [
         {
           "name": "frost",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -138,7 +163,7 @@
       "spell_attributes": [
         {
           "name": "fire",
-          "value": 6.0,
+          "value": 10.0,
           "operation": "ADDITION"
         }
       ]
@@ -149,7 +174,7 @@
       "spell_attributes": [
         {
           "name": "arcane",
-          "value": 6.0,
+          "value": 10.0,
           "operation": "ADDITION"
         }
       ]
@@ -160,8 +185,13 @@
       "spell_attributes": [
         {
           "name": "fire",
-          "value": 3.0,
+          "value": 6.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -171,8 +201,13 @@
       "spell_attributes": [
         {
           "name": "frost",
-          "value": 3.0,
+          "value": 6.0,
           "operation": "ADDITION"
+        },
+        {
+          "name": "haste",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     }
