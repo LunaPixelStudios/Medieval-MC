@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:obsidian"
+	id: "41ABF114AF030084"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5C13EA90D50CD574"
+			rewards: [{
+				id: "4B61EC531B9EF5D6"
+				item: {
+					Count: 1b
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "71CAB6D988A5B31C"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter &cThe Nether"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "41CFE6AEBCADDC3F"
+			rewards: [{
+				id: "36AF2D5C948E0098"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found in Soul Sand Valleys"
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				icon: "biomemakeover:soul_embers"
+				id: "0705A84BECBBCE36"
+				title: "Kill a the Soul Reaper"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &bSoul Reaper"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "13247698A9E98C61"
+			rewards: [
+				{
+					id: "77F83375B1CF985C"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2F5630715A08C7ED"
+					item: "alexsmobs:spawn_egg_warped_mosco"
+					type: "item"
+				}
+				{
+					id: "423B1622FCADD4C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in &8Keeping Castles &rin &cNether Waste &rand &4Crimson Forest &rbiomes. Right click the altar with a &fNether Star &rto summon."
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				id: "3702E4C32FE0F698"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the &4Nether Keeper"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "68D7F63EAA0FE3E4"
+			rewards: [
+				{
+					id: "25D03449F1A59CF6"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "62D4D1064470D0AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in Awful Dungeons, which spawn in Soul Sand Valleys and Warped Forests. Right click the altar with a &fNether Star &rto summon."
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: "stalwart_dungeons:awful_dungeon_spawner"
+				id: "320E04AD2AD28E79"
+				title: "Kill an Awful Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &9Awful Ghast"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "1DEBE563E5673B95"
+			rewards: [
+				{
+					id: "3F53BE78EC264653"
+					item: "upgradednetherite_items:netherite_totem"
+					type: "item"
+				}
+				{
+					id: "6FB8202CD5C7DF9A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1b
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4DBC642134268AE7"
+				title: "Kill the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Netherite Monstrosity"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "4BE6497EB34F8C47"
+			rewards: [
+				{
+					id: "3ED3213296662E73"
+					item: "upgradednetherite_items:wither_upgraded_netherite_totem"
+					type: "item"
+				}
+				{
+					id: "5181BC449058BE2A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "366E68A0D8CB2326"
+				title: "Kill The Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &8&lThe Wither"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "6CD3F5FFA15ACC81"
+			rewards: [
+				{
+					id: "26B4EDC38A0A6C90"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					id: "718EDF2257D4FA95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in the Burning Arena"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "4CE4CD701A07CA04"
+				title: "Kill a Ignited Revenant"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &6Ignited Revenant"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "4D2923365DB9C4C0"
+			rewards: [
+				{
+					id: "27679B02D6879E83"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "4138040678ED15A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found at the Top of the Burning Arena. Place Burning Ashes in the Altar to Summon &2Ignis"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:altar_of_fire"
+				id: "3363067332FD6A6A"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Ignis"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "54FDADE6A3677692"
+			rewards: [{
+				id: "309585648B844C59"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "iter_rpg:hell_ingot"
+				}
+				type: "item"
+			}]
+			subtitle: "&cCarcasses &7roam the Nether Wastes, and will try to kill the player on sight."
+			tasks: [{
+				entity: "iter_rpg:carcass"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "iter_rpg:magmanum_chunk"
+				}
+				id: "58CE0C54D1911293"
+				title: "Kill a &cCarcass"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "38B63AC789BBCA31"
+			rewards: [{
+				id: "063EAB841ECE9D49"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mutantmore:mutant_blaze"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:mutant_blaze_core"
+				}
+				id: "6ADA030772AA549F"
+				title: "Kill a &eMutant Blaze"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			id: "60E8DCEF275378CE"
+			rewards: [{
+				id: "50C124899C2395EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mutantmore:mutant_wither_skeleton"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "mutantmore:mutant_wither_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "71D18D84F6E75A06"
+				title: "Kill a &8Mutant Wither Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C13EA90D50CD574"]
+			description: ["&o&7The Boss is accessed by opening the secret door to the basement using Crystal Tear and then breaking the charged grimstone bricks by converting them into normal grimstone bricks, using the said crystal tear."]
+			id: "444263D4A9406313"
+			rewards: [{
+				id: "17F5D0E9E92B5739"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "iter_rpg:creative_catalyst"
+				}
+				type: "item"
+			}]
+			subtitle: "&5Sorrow Spire &7is a structure intended to be looted after clearing nether fortresses and before obtaining netherite. It is a stealth-based dungeon with mobs attacking you only if you disturb their peace."
+			tasks: [{
+				entity: "iter_rpg:sorrowsealed"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": { }
+					}
+					id: "iter_rpg:hollow_visage"
+				}
+				id: "7C4EDA5BC45FDCB2"
+				title: "Kill the &5Sorrow Sealed"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: " &cNether"
+}

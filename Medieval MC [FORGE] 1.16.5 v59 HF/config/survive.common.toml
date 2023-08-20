@@ -1,0 +1,279 @@
+
+[Temperature]
+	#
+	############################################
+	#Disabling this will disable this mods temperature system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Temperature" = false
+	#
+	############################################
+	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Hypothermia/Hyperthermia Allows Sleep" = false
+	#
+	############################################
+	#This determines the mode used when deciding the temperature
+	#NORMAL Mode: calculates the average temperature of each block around the player
+	#BLEND Mode: calculates the average temperature similar to that of NORMAL, but blends the temperature of the target positions with the player's. The blend ratio is determined by your distance from the block
+	#-------------------------------------------
+	#Default: BLEND
+	#-------------------------------------------
+	#Allowed Values: BLEND, NORMAL
+	"Enum: Temperature Mode" = "NORMAL"
+	#
+	############################################
+	#The speed at which the players temperature will change from their current temperature to the target temperature.
+	#Setting it to 1 makes the players temperature change instantly to its target
+	#-------------------------------------------
+	#Default: 0.001
+	#-------------------------------------------
+	#Range: 1.0E-4 ~ 1.0
+	"Double: Temperature Update Speed" = 0.001
+	#
+	############################################
+	#This is a timer used to decide when a player should get affected by the elements when their temperature hits the extreme
+	#-------------------------------------------
+	#Default: 20
+	#-------------------------------------------
+	#Range: 0 ~ 1980
+	"Integer: Hypo/Hyperthermia Grace Timer" = 20
+
+[Thirst]
+	#
+	############################################
+	#Disabling this will disable this mods thirst system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Thirst" = true
+	#
+	############################################
+	#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Drink From Flowing Water" = false
+	#
+	############################################
+	#Enabling this will remove the water source block when it is drunk
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Remove Source Water Block" = false
+	#
+	############################################
+	#Enabling this will remove the water source block when it is drunk
+	#-------------------------------------------
+	#Default: 0.1125
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Idle Thirst Exhaustion" = 0.05
+	#
+	############################################
+	#The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#-------------------------------------------
+	#Default: 100
+	#-------------------------------------------
+	#Range: -1 ~ 1000
+	"Integer: Idle Thrist Tick Rate" = 100
+	#
+	############################################
+	#The amount of times we can drink water from a canteen before it's empty
+	#-------------------------------------------
+	#Default: 3
+	#-------------------------------------------
+	#Range: 1 ~ 10
+	"Integer: Canteen Fill Amount" = 3
+
+[Hunger]
+	#
+	############################################
+	#The amount of hunger exaustion added to the player regardless of what the player is doing
+	#-------------------------------------------
+	#Default: 0.1125
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Idle Hunger Exhaustion" = 0.05
+	#
+	############################################
+	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#-------------------------------------------
+	#Default: 120
+	#-------------------------------------------
+	#Range: -1 ~ 1000
+	"Integer: Idle Hunger Tick Rate" = 120
+
+[Sleep]
+	#
+	############################################
+	#Disabling this will disable this mods sleep management system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Sleep" = false
+	#
+	############################################
+	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Can Sleep During Day" = false
+	#
+	############################################
+	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
+	#-------------------------------------------
+	#Default: 24000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Initial Tired Time" = 24000
+	#
+	############################################
+	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
+	#-------------------------------------------
+	#Default: 12000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Tired Time Step" = 12000
+	#
+	############################################
+	#The maximum amount of sleep time can stack up to. This also determines the maximum amplifier for the tiredness effect
+	#-------------------------------------------
+	#Default: 20
+	#-------------------------------------------
+	#Range: 0 ~ 255
+	"Integer: Tired Time Stacks" = 20
+
+[Stamina]
+	#
+	############################################
+	#Disabling this will disable this mods stamina system and energy management system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Stamina" = true
+	#
+	############################################
+	#Disabling this will allow the weight of certain armor pieces to affect your stamina
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Armor Weights" = false
+	#
+	############################################
+	#Adds stamina exhaustion from interacting with blocks
+	#This will only count if the block's interaction is successful i.e opening a chest
+	#Stamina exhaustion unlike food exhaustion counts up to 10
+	#-------------------------------------------
+	#Default: 1.25
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Stamina Exhaustion From Interacting With Blocks" = 0.05
+	#
+	############################################
+	#Adds stamina exhaustion from interacting with items
+	#This will only count if the block's interaction is successful i.e drawing a bow
+	#Stamina exhaustion unlike food exhaustion counts up to 10
+	#-------------------------------------------
+	#Default: 1.25
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Stamina Exhaustion From Interacting With Items" = 0.05
+	#
+	############################################
+	#Adds stamina exhaustion from breaking harvestable blocks
+	#This will only count if the player uses the incorrect tool to break the block
+	#Stamina exhaustion unlike food exhaustion counts up to 10
+	#-------------------------------------------
+	#Default: 1.5
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 0.05
+	#
+	############################################
+	#Adds stamina exhaustion from breaking non harvestable blocks
+	#This will only count if the player uses the correct tool to break the block
+	#Stamina exhaustion unlike food exhaustion counts up to 10
+	#-------------------------------------------
+	#Default: 0.125
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.05
+	#
+	############################################
+	#How often in ticks does the player recover stamina
+	#This recovers 1 point of stamina after the amount of set ticks passes
+	#-------------------------------------------
+	#Default: 300
+	#-------------------------------------------
+	#Range: 0 ~ 10000
+	"Integer: Stamina Recovery Ticks" = 300
+	#
+	############################################
+	#The maximum weight (kg) of armor that the player can carry without losing stamina
+	#-------------------------------------------
+	#Default: 21.0
+	#-------------------------------------------
+	#Range: 0.0 ~ 10000.0
+	"Float: Maximum Armor Carry Weight" = 21.0
+
+[Hygiene]
+	#
+	############################################
+	#Disabling this will disable this mods hygiene system
+	#The hygiene system might be pretty buggy, so proceed with caution
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Enable Hygiene (Beta)" = false
+
+[Micellaneous]
+	#
+	############################################
+	#Enable Debug mode to have some informational stuff print on your console
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Debug Mode" = false
+	#
+	############################################
+	#For hardcore servers that do not need a little bit of magic to make life easier
+	#Be warned, this is not for the faint of heart.
+	#A lot of the mechanics in this mod become a lot more unreasonable without enchantments
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Disable All Enchantments" = false
+
+[Nutrition]
+	#
+	############################################
+	#Disabling this will disable this mods nutrition system
+	#The nutrition system might be pretty buggy, so proceed with caution
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Enable Nutrition (Beta)" = false
+
+["Well Being"]
+	#
+	############################################
+	#Disabling this will disable this mods well being system
+	#The nutrition system might be pretty buggy, so proceed with caution
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Enable Well Being (Beta)" = false
+
+[Other]
+	#
+	############################################
+	#If you have the origins mod, specify the names of races to add heat resistance to. Comma separated list
+	#-------------------------------------------
+	#Default: origins:blazeborn
+	#-------------------------------------------
+	"String: Origins Heat Resistant Races" = "origins:blazeborn"
+

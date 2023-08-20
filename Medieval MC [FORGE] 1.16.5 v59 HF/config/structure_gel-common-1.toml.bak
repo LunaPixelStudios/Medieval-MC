@@ -1,0 +1,6 @@
+features = {}
+
+[commands]
+	#When true, removes the size limit from the fill and clone commands.
+	exceed_fill_clone_limit = true
+

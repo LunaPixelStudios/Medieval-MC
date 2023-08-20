@@ -1,0 +1,19 @@
+
+["Skill points"]
+	#Range: 1 ~ 500
+	"Maximum skill points" = 100
+	#This list's size must be equal to maximum skill points.
+	"Levelup costs" = [15, 19, 24, 30, 37, 45, 54, 64, 75, 87, 100, 114, 129, 145, 162, 180, 199, 219, 240, 262, 285, 309, 334, 360, 387, 415, 444, 474, 505, 537, 570, 604, 639, 675, 712, 750, 789, 829, 870, 912, 955, 999, 1044, 1090, 1137, 1185, 1234, 1284, 1335, 1387, 1440, 1494, 1549, 1605, 1662, 1720, 1779, 1839, 1900, 1962, 2025, 2089, 2154, 2220, 2287, 2355, 2424, 2494, 2565, 2637, 2710, 2784, 2859, 2935, 3012, 3090, 3169, 3249, 3330, 3412, 3495, 3579, 3664, 3750, 3837, 3925, 4014, 4104, 4195, 4287, 4380, 4474, 4569, 4665, 4762, 4860, 4959, 5059, 5160, 5262]
+	#Disabling this will remove chat messages when you gain a skill point.
+	"Show chat messages" = true
+	#Warning: If you disable this make sure you make alternative way of getting skill points.
+	"Enable exprerience exchange for skill points" = true
+
+[Gemstones]
+	#Range: 0.0 ~ 1.0
+	"Base drop chance" = 0.05
+	#This is how to blacklist specific items: ["minecraft:diamond_hoe", "minecraft:golden_hoe"]
+	#You can also blacklist whole namespace like this: ["<mod_id>:*"]
+	#You can also blacklist all items like this: ["*:*"]
+	"IDs of items that shouldn't have gemstone slots" = []
+

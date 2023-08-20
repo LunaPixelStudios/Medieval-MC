@@ -1,0 +1,176 @@
+{
+	id: "10A10D8E2785307F"
+	group: "3EE558C2597954C8"
+	order_index: 10
+	filename: "address"
+	title: " &4&lEND OF THE WORLD!"
+	icon: "sons_of_sins:rotten_apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "220C2534FA360739"
+			tasks: [{
+				id: "01A8F8F552191C0E"
+				type: "item"
+				title: "Obtain a Adams Apple"
+				icon: "sons_of_sins:rotten_apple"
+				item: "sons_of_sins:rotten_apple"
+			}]
+			rewards: [
+				{
+					id: "5F3F36ED49A1EE33"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						Count: 1b
+						tag: {
+							pages: ["{\"text\":\"I HIGHLY RECOMMEND TO ONLY EAT THE ADAMS APPLE IF YOU THINK YOU ARE UNKILLABLE! \\n\\nYOU HAVE BEEN WARNED!\"}"]
+							RepairCost: 0
+							author: "xSharkieTV"
+							display: {
+								Name: "{\"text\":\"THE END OF THE WORLD!\"}"
+							}
+							title: "BEWARE"
+							resolved: 1b
+						}
+					}
+				}
+				{
+					id: "7E1C9CC80F148DCA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "44CB33D28F30107B"
+			tasks: [{
+				id: "14D4948D88EE8DDA"
+				type: "kill"
+				title: "Kill the Prowler"
+				icon: "sons_of_sins:prowler_s_hand"
+				entity: "sons_of_sins:prowler"
+				value: 1L
+			}]
+			rewards: [{
+				id: "680CB6ADD85640C9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "4BC690AD56F2CD2B"
+			tasks: [{
+				id: "0C9FA66656DB5A2F"
+				type: "kill"
+				title: "Kill the Bloody Buthcer"
+				icon: "sons_of_sins:butcher_carcass"
+				entity: "sons_of_sins:bloody_butcher"
+				value: 1L
+			}]
+			rewards: [{
+				id: "28C0FF823320F140"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "5475F7AF9519C9A7"
+			tasks: [{
+				id: "50D5E57DC849F6E6"
+				type: "kill"
+				title: "Kill a Wistiver"
+				icon: "sons_of_sins:wistiver_jaws"
+				entity: "sons_of_sins:wistiver"
+				value: 1L
+			}]
+			rewards: [{
+				id: "33F148E066D05BCF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "091BC00D946B6F92"
+			tasks: [{
+				id: "5ADD5D65191DBBA5"
+				type: "kill"
+				title: "Kill the Iron Hit"
+				icon: "sons_of_sins:iron_motor"
+				entity: "sons_of_sins:iron_hit"
+				value: 1L
+			}]
+			rewards: [{
+				id: "12ADF48347C9046E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "075EEF57C5990374"
+			tasks: [{
+				id: "470CE58DD610E1DD"
+				type: "kill"
+				title: "Kill the Curse"
+				icon: "sons_of_sins:cursed_head"
+				entity: "sons_of_sins:curse"
+				value: 1L
+			}]
+			rewards: [{
+				id: "01C676FCFDA197D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			id: "539D2008CBCAD875"
+			tasks: [{
+				id: "424F09E94ADDA430"
+				type: "kill"
+				title: "Kill the Walking Bed"
+				icon: "sons_of_sins:peaceful_bed"
+				entity: "sons_of_sins:walking_bed"
+				value: 1L
+			}]
+			rewards: [{
+				id: "50C4134B4D5066BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["220C2534FA360739"]
+			id: "72606DAA5772653D"
+			tasks: [{
+				id: "39FB26255345B80B"
+				type: "kill"
+				title: "Kill the Bloody Driver"
+				icon: "sons_of_sins:bloody_puddle"
+				entity: "sons_of_sins:bloody_driver"
+				value: 1L
+			}]
+			rewards: [{
+				id: "45C9EED49B284DB2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "xyz.apex.forge.fantasyfurniture.client.screen.FurnitureStationMenuScreen": {
+        "ignore": true,
+        "playerSideOnly": true
+    },
+    "xyz.apex.forge.fantasyfurniture.common.menu.FurnitureStationMenu": {
+        "ignore": true
+    }
+}

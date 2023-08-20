@@ -1,0 +1,269 @@
+{
+	id: "50EEC609E833AB5F"
+	group: "3EE558C2597954C8"
+	order_index: 8
+	filename: "dragon"
+	title: " &5The End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Enter &8The End"
+			x: 4.0d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "To locate the Stronghold and activate the portal, you will need to use the eyes from the &5End Remastered&r mod."
+			size: 2.0d
+			id: "4D36AAFE17F5CD9C"
+			tasks: [{
+				id: "444AC080F3243355"
+				type: "dimension"
+				title: "Enter The End Dimension"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "79C24BB3FED98617"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "theabyss:abyssbookitem"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Defeat the &8&lEnder Dragon"
+			icon: "minecraft:dragon_head"
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim."
+			dependencies: ["4D36AAFE17F5CD9C"]
+			dependency_requirement: "all_started"
+			id: "2A51F2BA00FCA9DF"
+			tasks: [{
+				id: "412B85684482E982"
+				type: "kill"
+				title: "Kill The Ender Dragon"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "550A6C81DFE375B5"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "betterendforge:end_veil"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "558D9F5FEDC7FC22"
+					type: "item"
+					item: {
+						id: "minecraft:light_blue_bed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Summon and Kill the &9Void Worm"
+			x: 5.5d
+			y: 3.0d
+			subtitle: "Put the Crimson Mosquito Larva into the Capsid, then throw the Mysterious Lava into the void of The End."
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "43E0AD91C15669D8"
+			tasks: [{
+				id: "679295C74DF4AA03"
+				type: "kill"
+				title: "Summon and Kill The Void Worm"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7F9FB286E02FC06D"
+					type: "item"
+					item: "upgradednetherite_items:ultimate_upgraded_netherite_totem"
+				}
+				{
+					id: "431401C91D175B2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Defeat the &6Ender Golem"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Found in Ruined Citadels in &5The End &rislands."
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "66E7CB465F845A15"
+			tasks: [{
+				id: "60D9ED81B17CAE0F"
+				type: "kill"
+				title: "Kill a Ender Golem"
+				icon: "cataclysm:void_core"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "52F190738B4D81C2"
+					type: "item"
+					item: "cataclysm:music_disc_ender_guardian"
+				}
+				{
+					id: "54B860B89029F1EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Defeat the &3Ender Guardian"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "Found at the bottom of Ruined Citadels."
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "355ABBA15B609961"
+			tasks: [{
+				id: "2A41742198B4693C"
+				type: "kill"
+				title: "Kill the Ender Guardian"
+				icon: "cataclysm:ender_guardian_spawner"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6FA06FCC2870331E"
+					type: "item"
+					item: "upgradednetherite:corrupt_upgraded_netherite_ingot"
+				}
+				{
+					id: "0303343E7736CC11"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Defeat &3The Shelterer &rand obtain a Void Crystal"
+			x: 2.5d
+			y: 3.0d
+			subtitle: "Use TNT to defeat the boss"
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "36B77024E67E279C"
+			tasks: [{
+				id: "7B37F3A22D97E75F"
+				type: "item"
+				item: "stalwart_dungeons:void_crystal"
+			}]
+			rewards: [
+				{
+					id: "608A75E04FED4206"
+					type: "item"
+					item: "alexsmobs:capsid"
+				}
+				{
+					id: "25D8FBF0CF5434F3"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+				{
+					id: "64A788283FBBDA3D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Defeat a &6Mutant Enderman"
+			x: 3.5d
+			y: 4.0d
+			subtitle: "Normal endermen have a small chance of being replaced by a &8Mutant Enderman&r when spawned."
+			id: "7CB4A8E2B266BCF3"
+			tasks: [{
+				id: "6ED0F4A584CAEFD1"
+				type: "kill"
+				title: "Kill a Mutant Enderman"
+				icon: "minecraft:ender_eye"
+				entity: "mutantbeasts:mutant_enderman"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "494A36EDEB1929CE"
+					type: "item"
+					item: {
+						id: "dannys_expansion:enderman_kite"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3FE54C34070EC656"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Defeat a &dMutant Shulker"
+			x: 4.5d
+			y: 4.0d
+			subtitle: "Normal shulkers have a small chance of being replaced by a &dMutant Shulker&r when spawned."
+			id: "3DC054878E68C0A7"
+			tasks: [{
+				id: "6D41BDC739DCAB05"
+				type: "kill"
+				title: "Kill a Mutant Shulker"
+				icon: "mutantmore:mutant_shulker_box"
+				entity: "mutantmore:mutant_shulker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2C72480CFCF88D58"
+					type: "item"
+					item: "forbidden_arcanus:end_crystal_gem"
+				}
+				{
+					id: "27ED6893A0186209"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+	]
+}

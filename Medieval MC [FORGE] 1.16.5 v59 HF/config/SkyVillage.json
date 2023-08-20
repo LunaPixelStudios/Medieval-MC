@@ -1,0 +1,9 @@
+{
+  "Enable Debug [Do not turn this on]": false,
+  "Spawn Height [Max 100 Min 30]": 100,
+  "Spawn Weight [Min Default: 50]": 50,
+  "Spawn Weight [Max Default: 120]": 100,
+  "Spawn Radius [Keep this at a High Number]": 350,
+  "SkyVillage Seed": 284992837,
+  "Mod Version [Don't change that]": 1.0.0
+}

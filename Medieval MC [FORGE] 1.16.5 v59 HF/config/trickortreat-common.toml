@@ -1,0 +1,6 @@
+#Should goodie bags only drop during Halloween month? (October 1 to November 1)
+onlyHalloween = true
+#Multiply the chance that goodie bags drop
+#Range: 0.1 ~ 4.0
+goodieBagDropChance = 1.0
+

@@ -1,0 +1,798 @@
+{
+	id: "1D4E5CDD59FFB7A0"
+	group: "71D3DA52A45EA99C"
+	order_index: 0
+	filename: "earth"
+	title: " &aOverworld"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
+			x: 4.5d
+			y: -5.0d
+			subtitle: "Gatekeeper Houses can be found in most biomes"
+			id: "268A05DFD4D5427A"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				type: "item"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [
+				{
+					id: "14F327BA69B975BD"
+					type: "item"
+					item: "blue_skies:turquoise_stonebrick"
+					count: 12
+				}
+				{
+					id: "2D05266B3F98B211"
+					type: "item"
+					item: "blue_skies:lunar_stonebrick"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Craft a &aTraveler's Backpack"
+			x: 1.5d
+			y: -5.0d
+			subtitle: "Comes in many different varieties with different abilities. Press B to open."
+			id: "6A12B1FE7B703F9D"
+			tasks: [{
+				id: "6E60F7DD6E41D4DC"
+				type: "item"
+				title: "Any #travelersbackpack:custom_travelers_backpack"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "travelersbackpack:custom_travelers_backpack"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A895400AD53AB63"
+				type: "item"
+				item: {
+					id: "minecolonies:supplycampdeployer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Defeat the &8Conjurer"
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Found in Dark Oak Forests"
+			id: "3DAB175493B08089"
+			tasks: [{
+				id: "10911C878598A90F"
+				type: "kill"
+				title: "Kill the Conjurer"
+				icon: {
+					id: "conjurer_illager:conjurer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+			rewards: [{
+				id: "29B13597289089F3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Defend a Village from a &4Raid"
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Raids are started by killing Illager Captains, the same way as normal"
+			id: "26EA75D177BC496B"
+			tasks: [{
+				id: "7362BF4629FAD929"
+				type: "advancement"
+				title: "Defend a Village"
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2F1EFCBC72F69624"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "6DA1A2B30558A913"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat &6Dead Beard"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Found very rarely on beaches"
+			id: "6CCC207D1B1A29FF"
+			tasks: [{
+				id: "3CF050DB14D4A6D8"
+				type: "kill"
+				title: "Kill Dead Beard"
+				icon: "rottencreatures:treasure_chest"
+				entity: "rottencreatures:dead_beard"
+				value: 1L
+			}]
+			rewards: [{
+				id: "656F412439474F84"
+				type: "item"
+				item: "upgradednetherite_items:netherite_apple"
+			}]
+		}
+		{
+			title: "Defeat &6Barako, The Sun Chief"
+			x: 1.5d
+			y: -3.5d
+			subtitle: "Found in Savannas"
+			id: "1086AD36F0C9B2F6"
+			tasks: [{
+				id: "52B29011A13F1898"
+				type: "kill"
+				title: "Defeat Barako, the Sun Chief"
+				icon: "mowziesmobs:barako_mask"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "14222D837E54648A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "17FA20F3D410D86F"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+			]
+		}
+		{
+			title: "Defeat &7The Ferrous Wroughtnauht"
+			x: 4.5d
+			y: -3.5d
+			subtitle: "Found underground"
+			id: "74C11DA5BD2A6106"
+			tasks: [{
+				id: "61B79B2E03BED9DE"
+				type: "kill"
+				title: "Defeat the Ferrous Wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1BD3214C4F0627E6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "Defeat &bThe Frostmaw"
+			x: 3.0d
+			y: -3.5d
+			subtitle: "Found in Snowy Biomes"
+			id: "48E745C260E0049E"
+			tasks: [{
+				id: "04056C49A0F7F88D"
+				type: "kill"
+				title: "Defeat the Frostmaw"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "37748EFD76379058"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1FDC99C92E6D9B70"
+					type: "item"
+					item: {
+						id: "savage_and_ravage:wand_of_freezing"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Summon and Defeat the &5Wilden Chimera"
+			x: 4.5d
+			y: -2.0d
+			subtitle: "To summon the &5Wilden Chimera&r, you need to make a tablet of &dSummon Wilden&r and use it on a &6Ritual Brazier &rto start the ritual. You must then toss a &9Wilden Horn&r, a &7Wilden Wing&r, and a &3Wilden Spike&r into the flame before finalizing the ritual"
+			id: "3103E4D021218865"
+			tasks: [{
+				id: "5354C5374F2E5CB8"
+				type: "kill"
+				title: "Summon and Kill the Wilden Chimera"
+				icon: "ars_nouveau:wilden_tribute"
+				entity: "ars_nouveau:wilden_boss"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5662C8EBD4F14F31"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "26E1E86CC63D9BAB"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:persephone"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Create a &aTetra Workbench"
+			x: 3.0d
+			y: -5.0d
+			subtitle: "Used to modify tools via the &aTetra&r mod. Created by clicking a normal Crafting Table using the Hammer from the &aTetra &rmod."
+			id: "24905967EEF452E3"
+			tasks: [{
+				id: "5B53ED8C9C73F89E"
+				type: "observation"
+				icon: "tetra:basic_workbench"
+				timer: 0L
+				observe_type: 0
+				to_observe: "tetra:basic_workbench"
+			}]
+			rewards: [{
+				id: "1F5A78FE2C16B432"
+				type: "item"
+				item: {
+					id: "tetra:rack"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Defeat the &4Corrupted Champion"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Can be spawned in the &7Lich Prison &rstructure, a large floating island above &9Ocean biomes&r. Once it is night time, place the fragments on the Corrupted Deepslate Center blocks. Then, pour the &4blood&r onto the altar in the middle."
+			dependencies: [
+				"549E6DA855C4841D"
+				"0DC0BA327BF0F380"
+			]
+			id: "605E16E5BF912DF6"
+			tasks: [{
+				id: "622F0FFD23C74D62"
+				type: "kill"
+				icon: "sons_of_sins:bloody_bone"
+				entity: "graveyard:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "714C14FD049C54A9"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:ares"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7B8B31B93A4EDE3F"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:hades"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0B1264785C36474D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			title: "Fill a &4Vial of Blood"
+			x: -1.5d
+			y: -4.5d
+			subtitle: "Obtained by killing 8 villagers with a &fbone dagger&r and a glass bottle in your offhand."
+			id: "0DC0BA327BF0F380"
+			tasks: [{
+				id: "390A85A3037E4BDA"
+				type: "item"
+				item: {
+					id: "graveyard:vial_of_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "59B83348B0A7E062"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Collect all three &fBone Staff Fragments"
+			x: -1.5d
+			y: -3.0d
+			subtitle: "Found in Ruins. Each Ruin will only have one Fragment."
+			id: "549E6DA855C4841D"
+			tasks: [
+				{
+					id: "4AB0D5DAFDF79AEC"
+					type: "item"
+					item: {
+						id: "graveyard:lower_bone_staff"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5265169354E2E1B9"
+					type: "item"
+					item: {
+						id: "graveyard:upper_bone_staff"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "07D839E9B4C27A0B"
+					type: "item"
+					item: {
+						id: "graveyard:middle_bone_staff"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "323C207F46ACFCD9"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:hecate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5EB0561D592931FE"
+					type: "item"
+					item: {
+						id: "graveyard:bone_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Found in &9Ocean &rbiomes"
+			id: "4812C6183963A059"
+			tasks: [{
+				id: "7E6E7D95DBBC4D0C"
+				type: "kill"
+				title: "Defeat &fScylla"
+				icon: "greekfantasy:scylla_bone"
+				entity: "greekfantasy:scylla"
+				value: 1L
+			}]
+			rewards: [{
+				id: "550848FE9867AC2B"
+				type: "item"
+				item: {
+					id: "rpggods:altar"
+					Count: 1b
+					tag: {
+						altar: "greek:poseidon"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "greekfantasy:textures/item/heart_of_talos.png"
+				}
+			}
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Summoned by placing a 2 high, 3 wide wall of &6copper blocks&r, and placing a &ebronze&r block on top of the middle column."
+			id: "103D7210BC36CDF2"
+			tasks: [{
+				id: "6BBB238BFF8296A3"
+				type: "kill"
+				title: "Defeat &cTalos"
+				entity: "greekfantasy:talos"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "69ACA73536FB3C06"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:zeus"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "251FACD6987775CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Defeat &5Geryon"
+			x: 3.0d
+			y: -0.5d
+			subtitle: "Summoned by placing three Gigante heads and killing a cow in close proximity."
+			id: "643B50BD6E4ADC97"
+			tasks: [{
+				id: "47AB8C228027E47D"
+				type: "kill"
+				icon: "greekfantasy:gigante_head"
+				entity: "greekfantasy:geryon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3E92B53B3FAD6860"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:hera"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00157ED8D6EF2469"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Craft a &2Large Zombie Gate Pearl"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "When a &9Gate Pearl &ris placed, waves of mobs will start to spawn. Completing waves will give rewards. Make sure to open portals in an open area."
+			id: "291743CC7DFC7119"
+			tasks: [{
+				id: "0925500D1B2A4A6C"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:zombie_gate_large"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39EA2A414D6CDA8D"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "apotheosis:boss_gate_small"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Defeat &3Captain Cornelia"
+			icon: {
+				id: "aquamirae:three_bolt_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: -0.5d
+			subtitle: "Summoned in the &bIce Maze &rwith the &fShell Horn&r"
+			id: "744616737BA8EDB3"
+			tasks: [{
+				id: "71FB1AD8EADBAD53"
+				type: "kill"
+				entity: "aquamirae:captain_cornelia"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "65146C506FB8702D"
+					type: "item"
+					item: {
+						id: "aquamirae:dead_sea_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1F272021365963F7"
+					type: "item"
+					item: {
+						id: "aquamirae:maze_rose"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Find the &3Wise Oak"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "Has over 300 lines of dialogue. Gain his trust by talking to him enough. If you make him angry, you will face &4consequences."
+			id: "1FED0D708ECA7E84"
+			tasks: [{
+				id: "69FBE28A1E2BC07A"
+				type: "observation"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "mysticaloaktree:textures/block/wise_oak.png"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "mysticaloaktree:wise_oak"
+			}]
+			rewards: [{
+				id: "4454A5556F1C3B8B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "Defeat &2Charbydis"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Summoned by dropping a &9Heart of the Sea &rnear a Whirl"
+			id: "5ECCBE8F9617EFC1"
+			tasks: [{
+				id: "15E5AB26DE189C64"
+				type: "kill"
+				icon: "minecraft:heart_of_the_sea"
+				entity: "greekfantasy:charybdis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "539496562EFA2945"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "674674C064D322E2"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:apollo"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Defeat the &eBronze Bull"
+			icon: "greekfantasy:ichor_infused_gear"
+			x: 1.5d
+			y: 1.0d
+			subtitle: "To summon the &eBronze Bull&r, build a 2x2 of &6copper &rblocks with 2 &ebronze &rblocks on the sides."
+			id: "7C8294DBB35B37F3"
+			tasks: [{
+				id: "42CD9D94FDA32FDC"
+				type: "kill"
+				entity: "greekfantasy:bronze_bull"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "330FA54EC090F0FC"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:artemis"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "14A5A6A5E2429DD5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Defeat &9Cereberus"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "To summon &9Cerebrus&r, first build a 4x4 hollow frame of &7Blackstone &rblocks, with a 2x2 area of &4lava &rinside the middle. Then, throw an Orthus Head into the &4lava&r."
+			id: "2EFF8794F7219BB3"
+			tasks: [{
+				id: "61AD213C0A050081"
+				type: "kill"
+				icon: "greekfantasy:orthus_head"
+				entity: "greekfantasy:cerberus"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "742635D37BF2FCE6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "509A42F06243EC92"
+					type: "item"
+					item: {
+						id: "rpggods:altar"
+						Count: 1b
+						tag: {
+							altar: "greek:athena"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

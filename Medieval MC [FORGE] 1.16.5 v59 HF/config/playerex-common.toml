@@ -1,0 +1,71 @@
+
+#These only have an affect when a player is first joining the world.
+[attributes]
+	#Starting Constitution (also starting hp in half hearts) - cannot and should not be set to 0 or less than 0.
+	#Range: 1 ~ 20
+	constitution = 20
+	#Starting Strength - cannot and should not be set to less than 0.
+	#Range: 0 ~ 20
+	strength = 0
+	#Starting Dexterity - cannot and should not be set to less than 0.
+	#Range: 0 ~ 20
+	dexterity = 0
+	#Starting Intelligence - cannot and should not be set to less than 0.
+	#Range: 0 ~ 20
+	intelligence = 0
+	#Starting Luckiness - cannot and should not be set to less than 0.
+	#Range: 0 ~ 20
+	luckiness = 0
+
+#These are adder/modifier functions implemented by default. This is a stopgap config option to disable some until datadriven mechanics are released.
+[functions]
+	#Added on Constitution
+	addMaxHealth = true
+	#Added on Constitution
+	addKnockbackRes = true
+	#Added on Strength
+	addHealthRegen = true
+	#Added on Strength
+	addMeleeDamage = true
+	#Added on Strength
+	addArmor = true
+	#Added on Dexterity
+	addRangedDamage = true
+	#Added on Dexterity
+	addAttackSpeed = true
+	#Added on Dexterity
+	addMovementSpeed = true
+	#Added on Dexterity
+	addMeleeCritDamage = true
+	#Added on Intelligence
+	addHealthRegenAmp = true
+	#Added on Intelligence
+	addRangedCritDamage = true
+	#Added on Intelligence
+	addLifesteal = true
+	#Added on Luckiness
+	addLuck = true
+	#Added on Luckiness
+	addMeleeCritChance = true
+	#Added on Luckiness
+	addRangedCritChance = true
+	#Added on Luckiness
+	addEvasion = true
+
+[misc]
+	#If true, resets all attributes to their defaults on death.
+	resetOnDeath = false
+
+[experienceSplit]
+	#The percentage of experience that contributes to PlayerEx levels.
+	#Range: 1.0 ~ 99.0
+	experienceSplit = 50.0
+
+[expcoeff]
+	#ExpCoeff offset - cannot and should not be set to 0 or less than 0.
+	#Range: 1.0 ~ 20.0
+	offset = 3.0
+	#ExpCoeff scaling - cannot and should not be set to 0 or less than 0.
+	#Range: 1.0 ~ 20.0
+	scale = 1.0
+

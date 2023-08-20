@@ -1,0 +1,100 @@
+
+[general]
+	#Set to true to have only Vanilla-based shields enabled. Note that this removes mod-based Shield recipes from the game!
+	vanillaOnly = false
+	#Will force the uncraftable shield tooltip (highlighted in red) that show on some shields to not appear. Useful for modpack makers who wish to change recipes
+	forceDisableUncraftableTooltips = false
+	#Cooldown period for Shield Bashes
+	#Range: 1 ~ 1000
+	cooldownShieldBash = 30
+	#Set to true to disable the Shield Bash feature
+	disableShieldBash = false
+
+[vanilla]
+	#Crude Wooden Shield Durability
+	#Range: 0 ~ 100000
+	durabilityWoodShield = 104
+	#Stone Braced Shield Durability
+	#Range: 0 ~ 100000
+	durabilityStoneShield = 230
+	#Iron Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityIronShield = 538
+	#Gold Gilded Shield Durability
+	#Range: 0 ~ 100000
+	durabilityGoldShield = 192
+	#Diamond Reinforced Shield Durability
+	#Range: 0 ~ 100000
+	durabilityDiamondShield = 2560
+	#Netherite Strengthened Shield Durability
+	#Range: 0 ~ 100000
+	durabilityNetheriteShield = 3554
+	#Bulky Obsidian Shield Durability
+	#Range: 0 ~ 100000
+	durabilityObsidianShield = 1600
+
+[moddedCommon]
+	#Copper Braced Shield Durability
+	#Range: 0 ~ 100000
+	durabilityCopperShield = 400
+	#Tin Braced Shield Durability
+	#Range: 0 ~ 100000
+	durabilityTinShield = 320
+	#Bronze Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityBronzeShield = 680
+	#Steel Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilitySteelShield = 800
+	#Silver Gilded Shield Durability
+	#Range: 0 ~ 100000
+	durabilitySilverShield = 216
+	#Lead Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityLeadShield = 480
+	#Nickel Braced Shield Durability
+	#Range: 0 ~ 100000
+	durabilityNickelShield = 420
+	#Invar Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityInvarShield = 720
+	#Constantan Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityConstantanShield = 640
+	#Platinum Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityPlatinumShield = 1536
+	#Electrum Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityElectrumShield = 320
+
+[moddedBotania]
+	#Manasteel Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityManasteelShield = 450
+	#Terrasteel Strengthened Shield Durability
+	#Range: 0 ~ 100000
+	durabilityTerrasteelShield = 2920
+	#Elementium Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityElementiumShield = 1080
+
+[moddedMekanism]
+	#Osmium Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityOsmiumShield = 750
+	#Lapis Lazuli Gilded Shield Durability
+	#Range: 0 ~ 100000
+	durabilityLapisLazuliShield = 300
+	#Refined Glowstone Plated Shield Durability
+	#Range: 0 ~ 100000
+	durabilityRefinedGlowstoneShield = 450
+	#Refined Obsidian Refined Shield Durability
+	#Range: 0 ~ 100000
+	durabilityRefinedObsidianShield = 3750
+
+[moddedPowered]
+	#Damage to FE Multiplier
+	#Range: 0 ~ 1000000
+	damageToFEMultpier = 50
+

@@ -1,0 +1,1248 @@
+{
+  "meta": {
+    "comment": "Note: Each difficulty type (just below) is multiplied by that areas difficulty level (found at the bottom of the config). Parent means everything from that difficulty type is included. In MMC Fabric, most mob scaling is actually handled by RPGDifficulty, via config and datapack.",
+    "allow_customization": true,
+    "sanitize_config": true,
+    "rounding_unit": 0.5
+  },
+  "perPlayerDifficulty": {
+    "enabled": true,
+    "counting": "EVERYWHERE",
+    "entities": [
+      {
+        "entity_matches": {
+          "attitude": "ANY",
+          "entity_id_regex": "^(?!.*(player)).*?"
+        },
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADDITION",
+            "randomness": 0.0,
+            "value": 0.02
+          },
+          {
+            "attribute": "projectile_damage:generic",
+            "operation": "ADDITION",
+            "randomness": 0.0,
+            "value": 0.02
+          },
+          {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.0,
+            "value": 0.02
+          }
+        ],
+        "experience_multiplier": 0.0
+      }
+    ]
+  },
+  "difficulty_types": [
+    {
+      "name": "normal",
+      "parent": "bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(obsidilith|twilightforest:naga|twilightforest:lich|player)).*?"
+          },
+          "attributes": [],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.05,
+            "max_nearby_entities_multiplier": 0.05,
+            "min_spawn_delay_multiplier": 0.0,
+            "max_spawn_delay_multiplier": 0.0,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.6
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(twilightforest):.*(naga|lich|alpha_yeti|minoshroom|snow_queen|knight_phantom|hydra).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.5
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.4
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.33
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.017
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!relicex).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.06,
+                "value": 0.46
+              },
+              {
+                "attribute": "additionalentityattributes:magic_protection",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.13
+              },
+              {
+                "attribute": "minecraft:generic.luck",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.035
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!relicex).*(helmet|hat|head).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "additionalentityattributes:dropped_experience",
+                "operation": "ADDITION",
+                "randomness": 0.29,
+                "value": 0.05
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(leggings|legs).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "combatroll:distance",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.24
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(boots|feet).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "ADDITION",
+                "randomness": 0.22,
+                "value": 0.025
+              },
+              {
+                "attribute": "stepheightentityattribute:stepheight",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.07
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!.*(mcdw|minecells|simplyswords|spellbladenext|farmersdelight.*):)(.*?:.*(hammer|mace|gauntlet|whip|sword|claymore|axe|blade|ninjato|nutcracker|tentacle|sickle|rapier|dagger|knife|spear|crowbar|scythe))(?!.*(pick|shovel)).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.12
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 0.012
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(spellbladenext):.*(hammer|gauntlet|staff|whip|sword|claymore|axe|blade|ninjato|sickle|rapier|dagger|knife|spear|scythe).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.12
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 0.01
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "simplyswords",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.13
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(mcdw|minecells):.*(hammer|mace|gauntlet|whip|sword|claymore|axe|blade|ninjato|nutcracker|tentacle|sickle|rapier|dagger|knife|spear|crowbar|scythe).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.16
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 0.025
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(farmersdelight):.*(knife).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.13
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*:.*((pick|shovel).*)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "reach-entity-attributes:reach",
+                "operation": "ADDITION",
+                "randomness": 0.2,
+                "value": 0.17
+              },
+              {
+                "attribute": "playerex:breaking_speed",
+                "operation": "ADDITION",
+                "randomness": 0.2,
+                "value": 0.17
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*:.*((bow).*)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.15
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "crystal_cannon",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.6
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(wizards|spellbladenext|paladins):.*(orb|staff|sword|blade|hammer|mace|claymore|wand|dagger).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "^.*:.*((arcane|frost|fire|healing).*)$",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "nether_end",
+      "parent": "harder_dims_bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(obsidilith|twilightforest:naga|twilightforest:lich|player)).*?"
+          },
+          "attributes": [],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.05,
+            "max_nearby_entities_multiplier": 0.05,
+            "min_spawn_delay_multiplier": 0.0,
+            "max_spawn_delay_multiplier": 0.0,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.6
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!relicex).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.06,
+                "value": 0.46
+              },
+              {
+                "attribute": "additionalentityattributes:magic_protection",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.13
+              },
+              {
+                "attribute": "minecraft:generic.luck",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.035
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!relicex).*(helmet|hat|head).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "additionalentityattributes:dropped_experience",
+                "operation": "ADDITION",
+                "randomness": 0.29,
+                "value": 0.05
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(leggings|legs).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "combatroll:distance",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.24
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(boots|feet).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "ADDITION",
+                "randomness": 0.22,
+                "value": 0.025
+              },
+              {
+                "attribute": "stepheightentityattribute:stepheight",
+                "operation": "ADDITION",
+                "randomness": 0.3,
+                "value": 0.07
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!.*(mcdw|minecells|simplyswords|spellbladenext|farmersdelight.*):)(.*?:.*(hammer|mace|gauntlet|whip|sword|claymore|axe|blade|ninjato|nutcracker|tentacle|sickle|rapier|dagger|knife|spear|crowbar|scythe))(?!.*(pick|shovel)).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.12
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 0.012
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(spellbladenext):.*(hammer|gauntlet|staff|whip|sword|claymore|axe|blade|ninjato|sickle|rapier|dagger|knife|spear|scythe).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.12
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 0.01
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "simplyswords",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.13
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(mcdw|minecells):.*(hammer|mace|gauntlet|whip|sword|claymore|axe|blade|ninjato|nutcracker|tentacle|sickle|rapier|dagger|knife|spear|crowbar|scythe).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.16
+              },
+              {
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 0.025
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(farmersdelight):.*(knife).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.13
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*:.*((pick|shovel).*)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "reach-entity-attributes:reach",
+                "operation": "ADDITION",
+                "randomness": 0.2,
+                "value": 0.17
+              },
+              {
+                "attribute": "playerex:breaking_speed",
+                "operation": "ADDITION",
+                "randomness": 0.2,
+                "value": 0.17
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*:.*((bow).*)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.15
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "crystal_cannon",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.6
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^(wizards|spellbladenext|paladins):.*(orb|staff|sword|blade|hammer|mace|claymore|wand|dagger).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "^.*:.*((arcane|frost|fire|healing).*)$",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.15
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "overworld_specific",
+      "parent": "bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(mutant|magus).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.2
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.4
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.02
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(twilightforest|wither_skeleton|soulmass|remnant|forlorn|sorcerer|skelt|leech)).*?(minecells:conjunctivius|bosses_of_mass_destruction|minecraft:wither|minecraft:warden|lich|hidebehind|hirschgeist|soulsweapons|archon).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 1.0
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 1.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.75
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "harder_dims_bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(bosses_of_mass_destruction:gauntlet).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 1.25
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(bosses_of_mass_destruction:obsidilith).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.06
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(twilightforest|wither_skeleton|soulmass|remnant|forlorn|sorcerer|skelt|leech)).*?(bosses_of_mass_destruction|ender_dragon|wither|warden|lich|hidebehind|hirschgeist|soulsweapons|archon).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.375
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "dungeon_special",
+      "parent": "normal",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(player)).*?"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 0.9
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 0.9
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.armor_toughness",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 1.0
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.005
+            }
+          ],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.05,
+            "max_nearby_entities_multiplier": 0.05,
+            "min_spawn_delay_multiplier": 0.0,
+            "max_spawn_delay_multiplier": 0.0,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.6
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "arch_magussy",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "magus"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 1.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 3.0
+            }
+          ],
+          "experience_multiplier": 5.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(magus|player)).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 1.0
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": "^(?!unused_excluded_armor).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.06,
+                "value": 0.46
+              },
+              {
+                "attribute": "additionalentityattributes:magic_protection",
+                "operation": "ADDITION",
+                "randomness": 0.4,
+                "value": 0.12
+              },
+              {
+                "attribute": "minecraft:generic.luck",
+                "operation": "ADDITION",
+                "randomness": 0.4,
+                "value": 0.035
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(helmet|hat|head)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "additionalentityattributes:dropped_experience",
+                "operation": "ADDITION",
+                "randomness": 0.4,
+                "value": 0.03
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(leggings|legs)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "combatroll:distance",
+                "operation": "ADDITION",
+                "randomness": 1.0,
+                "value": 0.17
+              }
+            ]
+          },
+          {
+            "item_matches": {
+              "item_id_regex": "^.*(boots|feet)$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "ADDITION",
+                "randomness": 0.35,
+                "value": 0.025
+              },
+              {
+                "attribute": "stepheightentityattribute:stepheight",
+                "operation": "ADDITION",
+                "randomness": 0.35,
+                "value": 0.05
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": "^(spellbladenext):.*(orb|staff|sword|blade|claymore|wand|dagger).*$",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.attack_damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.25
+              },
+              {
+                "attribute": "^.*:.*((arcane|frost|fire|healing).*)$",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.1,
+                "value": 0.25
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:overworld|edenring|paradise_lost"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*",
+            "structure_id": "dungeons_arise:mushroom_mines"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*",
+            "structure_id": "dungeons_arise:coliseum"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 10
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "overworld_specific",
+            "level": 4
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "twilightforest|bumblezone"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 4
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecells:prison"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecells:promenade|minecells:insufferable_crypt"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 6
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_nether|deeperdarker"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "nether_end",
+            "level": 8
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_end"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*",
+            "structure_id": "dungeons_arise:heavenly_rider"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 15
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*",
+            "structure_id": "dungeons_arise:heavenly_challenger"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 18
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*",
+            "structure_id": "dungeons_arise:heavenly_conqueror"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 18
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*",
+            "structure_id": "dungeons_arise:aviary"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 21
+          }
+        },
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "nether_end",
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "voidz:void"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "spellbladenext:glassocean"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome_regex": ".*",
+            "biome_tag_regex": ".*"
+          },
+          "difficulty": {
+            "name": "arch_magussy",
+            "level": 6
+          }
+        }
+      ]
+    }
+  ]
+}

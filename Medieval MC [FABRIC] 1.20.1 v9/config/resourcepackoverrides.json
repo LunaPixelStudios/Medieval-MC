@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "Suppsquared Generated Pack",
+    "Supplementaries Generated Pack",
+    "file/NoBushyLeaves.zip",
+    "seasons:seasonal_lush_caves",
+    "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
+    "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
+    "file/Excalibur_V1.19.4.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
+      "hidden": true
+    },
+    "file/ctov-villager-plus-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "file/ctov-friends-and-foes-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "continuity:default": {
+      "hidden": true
+    },
+    "file/FarmersDelight_ToolFix_1.0+1.20.x.zip": {
+      "hidden": true
+    },
+    "file/ctov-farmers-delight-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
+      "hidden": true
+    },
+    "file/Origins_Expanded_Foods_v2.1+1.20.1.zip": {
+      "hidden": true
+    },
+    "file/Trinkets_GloveFix_1.1+1.20.1.zip": {
+      "hidden": true
+    },
+    "file/AdventureZ_NetheriteFix_1.0+1.20.1.zip": {
+      "hidden": true
+    },
+    "file/Dehydration_Expanded_Drinks_1.3.2+1.20.1.zip": {
+      "hidden": true
+    },
+    "file/Origins_EnvironmentZ_Dehydration_v1.6+1.20.1.zip": {
+      "hidden": true
+    },
+    "file/ctov-gazebos-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "file/ctov-paladins-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "file/ctov-wizards-add-on-v2-0a.zip": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    }
+  }
+}
+
+
+
+

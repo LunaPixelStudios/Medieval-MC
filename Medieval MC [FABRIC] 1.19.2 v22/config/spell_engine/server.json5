@@ -1,0 +1,40 @@
+{
+	// Spell caster items in the offhand can be used
+	"offhand_casting_allowed": false,
+	// Allow spells to bypass invulnerability frames. This is required in order for high attack frequency spells (such as beams) to work.
+	"bypass_iframes": true,
+	// Spell haste reduces the cooldown time of abilities
+	"haste_affects_cooldown": true,
+	// Spell costs exhausts (hunger) will be multiplied with this value. Set `0` for no exhaust.
+	"spell_cost_exhaust_multiplier": 1.0,
+	// Spells should cost items. Set `false` to remove rune (or other item) cost from all spells.
+	"spell_cost_item_allowed": true,
+	// Spells should damage items on use. Set `false` to disable.
+	"spell_cost_durability_allowed": true,
+	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
+	"projectiles_pass_thru_irrelevant_targets": true,
+	"spell_book_binding_level_requirement": 3,
+	"spell_book_binding_level_cost": 1,
+	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
+	"add_spell_casting_to_swords": true,
+	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"add_spell_casting_regex": "",
+	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"blacklist_spell_casting_regex": "mcdar|simplyswords:storms_edge|simplyswords:stormbringer|simplyswords:emberblade|simplyswords:hearthflame|simplyswords:soulkeeper|simplyswords:twisted_blade|simplyswords:soulstealer|simplyswords:soulrender|simplyswords:soul_pyre|simplyswords:frostfall|simplyswords:molten_edge|simplyswords:livyatan|simplyswords:icewhisper|simplyswords:arcanethyst|simplyswords:thunderbrand|simplyswords:waking_lichblade|simplyswords:awakened_lichblade|simplyswords:shadowsting|soulsweapons:darkin_blade|soulsweapons:whirligig_sawblade|soulsweapons:dragonslayer_swordspear|soulsweapons:nightfall|soulsweapons:comet_spear|soulsweapons:mjolnir|soulsweapons:holy_moonlight_greatsword|soulsweapons:moonlight_shortsword|soulsweapons:moonlight_greatsword|soulsweapons:holy_moonlight_sword|soulsweapons:pure_moonlight_greatsword|soulsweapons:draupnir_spear|soulsweapons:freyr_sword|soulsweapons:skofnung|soulsweapons:dragon_staff|soulsweapons:withered_wabbajack|soulsweapons:guts_sword|soulsweapons:soul_reaper|soulsweapons:forlorn_scythe|soulsweapons:darkin_scythe|soulsweapons:shadow_assassin_scythe|archon:ender_blade|archon:void_scepter|archon:terrain_mace|archon:wither_stave|archon:thunder_bolt|archon:water_staff|archon:vacuum_cleaver|archon:fist_of_fury|archon:frost_sword|archon:terranean_axe|archon:soul_crusher|minecells:hattoris_katana|techreborn:nanosaber|harvest_scythes:wooden_machete|harvest_scythes:stone_machete|harvest_scythes:iron_machete|harvest_scythes:golden_machete|harvest_scythes:diamond_machete|harvest_scythes:netherite_machete|harvest_scythes:creative_machete|harvest_scythes:peridot_machete|harvest_scythes:sapphire_machete|harvest_scythes:ruby_machete|harvest_scythes:bronze_machete|harvest_scythes:dragon_machete|harvest_scythes:cryomarble_machete|minecells:hattoris_katana|minecells:frost_blast|minecells:phaser|medievalweapons:wooden_healing_staff|medievalweapons:stone_healing_staff|medievalweapons:iron_healing_staff|medievalweapons:golden_healing_staff|medievalweapons:diamond_healing_staff|medievalweapons:netherite_healing_staff|medievalweapons:terminite_healing_staff|medievalweapons:aeternium_healing_staff|medievalweapons:thallasium_healing_staff|medievalweapons:cincinnasite_healing_staff|medievalweapons:dragon_healing_staff|medievalweapons:adamantite_healing_staff|medievalweapons:pendorite_healing_staff|medievalweapons:ruby_netherite_healing_staff|medievalweapons:sapphire_netherite_healing_staff",
+	/* Allow actions based on relations:
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   |                | FRIENDLY  | SEMI_FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   | DIRECT DAMAGE  | 🚫        | ✅            | ✅       | ✅       | ✅    |
+	   | AREA DAMAGE    | 🚫        | 🚫            | 🚫       | ✅       | ✅    |
+	   | DIRECT HEALING | ✅        | ✅            | ✅       | 🚫       | ✅    |
+	   | AREA HEALING   | ✅        | ✅            | 🚫       | 🚫       | ✅    |
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   Any entities within the same team are considered FRIENDLY for each other.
+	*/
+	"player_relation_to_teamless_players": "SEMI_FRIENDLY",
+	"player_relation_to_villagers": "SEMI_FRIENDLY",
+	"player_relation_to_passives": "HOSTILE",
+	"player_relation_to_hostiles": "HOSTILE",
+	"player_relation_to_other": "HOSTILE"
+}

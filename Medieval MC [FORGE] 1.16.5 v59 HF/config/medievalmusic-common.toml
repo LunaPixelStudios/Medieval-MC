@@ -1,0 +1,5 @@
+
+["Config category"]
+	#Prints the dragon phase in chat if enabled: default:false
+	printDragonPhases = false
+

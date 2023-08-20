@@ -1,0 +1,19 @@
+
+["Config category"]
+	#Set the clients minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
+	#Range: 2500 ~ 25000
+	minimumClient = 5000
+	#Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
+	#Range: 2500 ~ 60000
+	maximumClient = 12000
+	#Set the servers minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
+	#Range: 2500 ~ 25000
+	minimumServer = 3000
+	#Set the servers maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
+	#Range: 2500 ~ 600000
+	maximumServer = 100000
+	#Disable the memory warnings, default = false
+	disableWarnings = false
+	#Set the link used to guide players to a website with instructions to change memory allocation
+	howtolink = "https://www.youtube.com/watch?v=GFFRJ9RcrG8"
+

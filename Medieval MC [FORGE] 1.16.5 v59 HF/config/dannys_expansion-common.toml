@@ -1,0 +1,235 @@
+
+[General]
+	#Allowed mod biomes where the mobs can spawn, by ID like: minecraft, biomesoplenty, etc.
+	modIDs = ["minecraft", "biomesoplenty", "byg"]
+	#Sporers should only spawn in rain?
+	sporerOnlySpawnInRain = true
+
+["dannys_expansion:black_scorpion_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 25
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["SANDY"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:cursed_skull_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["SWAMP:OVERWORLD"]
+	BlacklistDictionaries = ["MUSHROOM"]
+
+["dannys_expansion:ender_beast_archer_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = ["minecraft:the_end"]
+	Dictionaries = ["END"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:ender_beast_lancer_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = ["minecraft:the_end"]
+	Dictionaries = ["END"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:frozen_ghoul_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 45
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["SNOWY:OVERWORLD"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:frozen_slime_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 0
+	#Range: 0 ~ 32
+	MaxGroupSize = 0
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["SNOWY:OVERWORLD"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:grand_rammer_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 0
+	#Range: 0 ~ 32
+	MaxGroupSize = 0
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["FOREST"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:ghoul_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 3
+	#Range: 0 ~ 500
+	Weight = 20
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["OVERWORLD"]
+	BlacklistDictionaries = ["MUSHROOM"]
+
+["dannys_expansion:ice_elemental_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 20
+	Biomes = ["minecraft:ice_spikes"]
+	BlacklistBiomes = []
+	Dictionaries = []
+	BlacklistDictionaries = []
+
+["dannys_expansion:jungle_golem_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 14
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["JUNGLE"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:jungle_slime_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 0
+	#Range: 0 ~ 32
+	MaxGroupSize = 0
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["JUNGLE"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:magma_gulper_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 10
+	Biomes = []
+	BlacklistBiomes = ["minecraft:warped_forest"]
+	Dictionaries = ["NETHER"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:magma_slime_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 0
+	#Range: 0 ~ 32
+	MaxGroupSize = 0
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = ["minecraft:warped_forest"]
+	Dictionaries = ["NETHER"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:mummy_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 15
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["SANDY"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:mundane_slime_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 0
+	#Range: 0 ~ 32
+	MaxGroupSize = 0
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["FOREST", "PLAINS"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:nyctoid_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["OVERWORLD"]
+	BlacklistDictionaries = ["MUSHROOM"]
+
+["dannys_expansion:possessed_armor_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 7
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["OVERWORLD"]
+	BlacklistDictionaries = ["MUSHROOM"]
+
+["dannys_expansion:rammer_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 0
+	#Range: 0 ~ 32
+	MaxGroupSize = 0
+	#Range: 0 ~ 500
+	Weight = 0
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["FOREST", "PLAINS"]
+	BlacklistDictionaries = []
+
+["dannys_expansion:sporer_spawn_parameters"]
+	#Range: 0 ~ 32
+	MinGroupSize = 1
+	#Range: 0 ~ 32
+	MaxGroupSize = 1
+	#Range: 0 ~ 500
+	Weight = 4
+	Biomes = []
+	BlacklistBiomes = []
+	Dictionaries = ["OVERWORLD"]
+	BlacklistDictionaries = ["MUSHROOM"]
+

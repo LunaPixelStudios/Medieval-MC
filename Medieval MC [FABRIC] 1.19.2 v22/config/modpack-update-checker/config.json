@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "currentVersion": "v22",
+  "modpackName": "Medieval MC [1.19.2] MMC1",
+  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/mmc1/",
+  "advanced": {
+    "bccEnabled": true,
+    "expandButton": true,
+    "updateCheckerType": 2
+  }
+}

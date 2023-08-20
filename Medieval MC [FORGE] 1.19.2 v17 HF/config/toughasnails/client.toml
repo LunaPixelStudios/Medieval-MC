@@ -1,0 +1,9 @@
+
+[gui]
+	#The offset of the left of the thirst overlay from its default position.
+	#Range: > -2147483648
+	thirst_left_offset = 0
+	#The offset of the top of the thirst overlay from its default position.
+	#Range: > -2147483648
+	thirst_top_offset = 0
+

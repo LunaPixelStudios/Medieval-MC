@@ -1,0 +1,48 @@
+
+[endrem]
+	#Toggle Vanilla Minecraft Strongholds
+	strongholds = false
+	#Toggle Ender Eyes Actions (Throwing and Placing in Portal Frames)
+	ender_eyes = false
+	#Sets the quantity of mobs in End Remastered Structures: "peaceful", "easy", "normal", "hard" or "hardcore"
+	monster_difficulty = "normal"
+	#Comma-separated list of whitelisted dimensions for End Remastered Structures
+	whitelisted_dimensions = "[minecraft:overworld]"
+	#Comma-separated list of blacklisted biomes for the End Gate
+	end_gate_blacklisted_biomes = "[minecraft:ocean, minecraft:deep_ocean]"
+	#Comma-separated list of whitelisted biome categories for the End Gate
+	end_gate_whitelisted_biome_categories = "[plains, jungle, taiga, forest, plains, extreme_hills, mesa, savanna, icy, desert, swamp, mushroom, none]"
+	#Comma-separated list of blacklisted biomes for the End Castle
+	end_castle_blacklisted_biomes = "[minecraft:bamboo_jungle_hills, minecraft:birch_forest_hills, minecraft:dark_forest_hills, minecraft:giant_spruce_taiga_hills, minecraft:giant_tree_taiga_hills, minecraft:gravelly_mountains, minecraft:jungle_edge, minecraft:jungle_hills, minecraft:modified_gravelly_mountains, minecraft:modified_jungle_edge, minecraft:mountain_edge, minecraft:mountains, minecraft:snowy_mountains, minecraft:snowy_taiga_hills, minecraft:snowy_taiga_mountains, minecraft:taiga_hills, minecraft:taiga_mountains, minecraft:tall_birch_hills, minecraft:wooded_hills, minecraft:wooded_mountains, minecraft:savanna_plateau, minecraft:shattered_savanna_plateau]"
+	#Comma-separated list of whitelisted biome categories for the End Castle
+	end_castle_whitelisted_biome_categories = "[jungle, taiga, forest, none, plains, icy]"
+	#Comma-separated list of structures to locate with End Remastered eyes
+	eye_structure_list = "[endrem:end_gate]"
+	#Percentage chance of eyes breaking when thrown
+	eye_break_chance = 0
+	#Comma-separated list of structures to locate with the End Remastered map
+	map_structure_list = "[endrem:end_castle]"
+	#Values for the End Remastered map trade: [minPrice, maxPrice, expGiven]
+	map_trade_values = "[30, 40, 12]"
+	#Stats for End Remastered's End Crystal armor: [durability factor, defense factor, toughness, knockback resistance, makes piglins neutrals, regen duration (in ticks)]
+	end_crystal_armor_stats = "[33, 1, 2, 0.1, true, 20]"
+	#Stats for End Remastered's End Crystal tools: [durability, speed, damage bonus]
+	end_crystal_tools_stats = "[1325, 10, 3]"
+	#Average distance in chunks between End Gates (Set to 0 to disable)
+	end_gate_distance = 85
+	#Y-Coordinate of the starting piece of the End Gate
+	end_gate_height = 15
+	#Minimum distance in chunks between End Gates and the spawn
+	end_gate_spawn_distance = 130
+	#Number of pieces generated in End Gates
+	end_gate_size = 20
+	#Average distance in chunks between End Castles (Set to 0 to disable)
+	end_castle_distance = 100
+	#Minimum distance in chunks between End Castles and the spawn
+	end_castle_spawn_distance = 188
+	#Toggle Whether surrounding land will be modified to conform to the bottom of the structure. 
+	# If set to false, the bottom of the structure will be modified to conform to the surrounding land
+	end_castle_terraforming = true
+	#Average distance in chunks between Ancient Witch Huts (Set to 0 to disable)
+	ancient_witch_hut_distance = 25
+

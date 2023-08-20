@@ -1,0 +1,33 @@
+{
+	id: "7D5A1346D0D84B9B"
+	order_index: 0
+	title: "End Reward"
+	icon: "unusualend:infested_end_stone"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:red_bed"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:spectral_arrow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+	]
+}

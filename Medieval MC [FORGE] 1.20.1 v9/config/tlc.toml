@@ -1,0 +1,5 @@
+
+[tlc]
+	#Disable/Enable the stronghold
+	generate_stronghold = true
+

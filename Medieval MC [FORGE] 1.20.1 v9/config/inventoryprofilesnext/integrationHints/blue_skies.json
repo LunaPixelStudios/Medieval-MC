@@ -1,0 +1,21 @@
+{
+    "com.legacy.blue_skies.client.gui.screen.HorizoniteForgeScreen": {
+        "playerSideOnly": true
+    },
+    "com.legacy.blue_skies.client.gui.screen.SummoningTableScreen": {
+        "playerSideOnly": true
+    },
+    "com.legacy.blue_skies.client.gui.screen.AlchemyTableScreen": {
+        "playerSideOnly": true
+    },
+    "com.legacy.blue_skies.client.gui.screen.FoodPrepScreen": {
+        "playerSideOnly": true
+    },
+    "com.legacy.blue_skies.client.gui.screen.ArcsScreen": {
+        "ignore": true,
+        "playerSideOnly": true
+    },
+    "com.legacy.blue_skies.client.gui.menu.ArcsMenu": {
+        "ignore": true
+    }
+}

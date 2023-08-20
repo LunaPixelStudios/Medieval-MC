@@ -1,0 +1,247 @@
+{
+  "item_groups": {
+    "wands_tier_1_enchanted": {
+      "ids": [
+        "wizards:wand_arcane",
+        "wizards:wand_fire",
+        "wizards:wand_frost"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.6,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
+    "staves_tier_1_enchanted": {
+      "ids": [
+        "wizards:staff_arcane",
+        "wizards:staff_fire",
+        "wizards:staff_frost"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.8,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
+    "staves_tier_1": {
+      "ids": [
+        "wizards:staff_arcane",
+        "wizards:staff_fire",
+        "wizards:staff_frost"
+      ],
+      "chance": 0.13,
+      "bonus_roll_chance": 0.5,
+      "weight": 1
+    },
+    "robes_tier_1": {
+      "ids": [
+        "wizards:wizard_robe_head",
+        "wizards:wizard_robe_chest",
+        "wizards:wizard_robe_legs",
+        "wizards:wizard_robe_feet"
+      ],
+      "chance": 0.15,
+      "bonus_roll_chance": 0.0,
+      "weight": 1
+    },
+    "robes_tier_2": {
+      "ids": [
+        "wizards:arcane_robe_head",
+        "wizards:arcane_robe_chest",
+        "wizards:arcane_robe_legs",
+        "wizards:arcane_robe_feet",
+        "wizards:fire_robe_head",
+        "wizards:fire_robe_chest",
+        "wizards:fire_robe_legs",
+        "wizards:fire_robe_feet",
+        "wizards:frost_robe_head",
+        "wizards:frost_robe_chest",
+        "wizards:frost_robe_legs",
+        "wizards:frost_robe_feet"
+      ],
+      "chance": 0.15,
+      "bonus_roll_chance": 0.5,
+      "weight": 1
+    },
+    "wands_tier_1": {
+      "ids": [
+        "wizards:wand_arcane",
+        "wizards:wand_fire",
+        "wizards:wand_frost"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.0,
+      "weight": 1
+    },
+    "staves_tier_2_enchanted": {
+      "ids": [
+        "wizards:staff_netherite_arcane",
+        "wizards:staff_netherite_fire",
+        "wizards:staff_netherite_frost"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.6,
+      "weight": 1,
+      "enchant": {
+        "min_power": 10.0,
+        "max_power": 60.0,
+        "allow_treasure": true
+      }
+    },
+    "robes_tier_1_enchanted": {
+      "ids": [
+        "wizards:wizard_robe_head",
+        "wizards:wizard_robe_chest",
+        "wizards:wizard_robe_legs",
+        "wizards:wizard_robe_feet"
+      ],
+      "chance": 0.15,
+      "bonus_roll_chance": 0.3,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
+    "staves_tier_3_enchanted": {
+      "ids": [
+        "wizards:staff_crystal_arcane",
+        "wizards:staff_ruby_fire",
+        "wizards:staff_smaragdant_frost"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.7,
+      "weight": 1,
+      "enchant": {
+        "min_power": 25.0,
+        "max_power": 100.0,
+        "allow_treasure": true
+      }
+    },
+    "wands_tier_0": {
+      "ids": [
+        "wizards:wand_novice"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.0,
+      "weight": 1
+    },
+    "robes_tier_2_enchanted": {
+      "ids": [
+        "wizards:arcane_robe_head",
+        "wizards:arcane_robe_chest",
+        "wizards:arcane_robe_legs",
+        "wizards:arcane_robe_feet",
+        "wizards:fire_robe_head",
+        "wizards:fire_robe_chest",
+        "wizards:fire_robe_legs",
+        "wizards:fire_robe_feet",
+        "wizards:frost_robe_head",
+        "wizards:frost_robe_chest",
+        "wizards:frost_robe_legs",
+        "wizards:frost_robe_feet"
+      ],
+      "chance": 0.2,
+      "bonus_roll_chance": 0.8,
+      "weight": 1,
+      "enchant": {
+        "min_power": 10.0,
+        "max_power": 40.0,
+        "allow_treasure": true
+      }
+    },
+    "staves_tier_2": {
+      "ids": [
+        "wizards:staff_netherite_arcane",
+        "wizards:staff_netherite_fire",
+        "wizards:staff_netherite_frost"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.6,
+      "weight": 1
+    }
+  },
+  "loot_tables": {
+    "minecraft:chests/bastion_treasure": [
+      "staves_tier_2_enchanted",
+      "robes_tier_2_enchanted"
+    ],
+    "minecraft:chests/underwater_ruin_small": [
+      "staves_tier_1"
+    ],
+    "minecraft:chests/woodland_mansion": [
+      "staves_tier_1_enchanted",
+      "robes_tier_2_enchanted"
+    ],
+    "minecraft:chests/end_city_treasure": [
+      "staves_tier_3_enchanted",
+      "robes_tier_2_enchanted"
+    ],
+    "minecraft:chests/abandoned_mineshaft": [
+      "wands_tier_0"
+    ],
+    "minecraft:chests/shipwreck_supply": [
+      "wands_tier_0"
+    ],
+    "minecraft:chests/nether_bridge": [
+      "staves_tier_1"
+    ],
+    "minecraft:chests/underwater_ruin_big": [
+      "staves_tier_1_enchanted",
+      "robes_tier_1_enchanted"
+    ],
+    "minecraft:chests/pillager_outpost": [
+      "staves_tier_1_enchanted",
+      "wands_tier_1_enchanted"
+    ],
+    "minecraft:chests/simple_dungeon": [
+      "staves_tier_1_enchanted",
+      "wands_tier_1_enchanted"
+    ],
+    "minecraft:chests/desert_pyramid": [
+      "staves_tier_1_enchanted",
+      "wands_tier_1_enchanted"
+    ],
+    "minecraft:chests/bastion_bridge": [
+      "staves_tier_2",
+      "wands_tier_1"
+    ],
+    "minecraft:chests/shipwreck_treasure": [
+      "robes_tier_2",
+      "staves_tier_1_enchanted",
+      "wands_tier_1_enchanted"
+    ],
+    "minecraft:chests/jungle_temple": [
+      "staves_tier_1_enchanted",
+      "wands_tier_1_enchanted"
+    ],
+    "minecraft:chests/ancient_city": [
+      "staves_tier_1_enchanted",
+      "robes_tier_2"
+    ],
+    "minecraft:chests/stronghold_crossing": [
+      "staves_tier_1",
+      "wands_tier_1"
+    ],
+    "minecraft:chests/igloo_chest": [
+      "staves_tier_1",
+      "wands_tier_1"
+    ],
+    "minecraft:chests/bastion_other": [
+      "staves_tier_1_enchanted",
+      "wands_tier_1_enchanted"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "staves_tier_1_enchanted",
+      "robes_tier_2"
+    ]
+  }
+}

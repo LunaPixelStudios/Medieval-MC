@@ -1,0 +1,22 @@
+
+#Spawn Configs (higher number means the mob is rarer, set to 0 or less to disable a mob's spawning):
+[spawn_config]
+	#
+	#Controls how rarely a Husk gets replaced with a Mutant Husk when spawning, usually set to 100
+	"Mutant Husk Spawn Chance" = 100
+	#
+	#Controls how rarely a Blaze gets replaced with a Mutant Blaze when spawning, usually set to 75
+	"Mutant Blaze Spawn Chance" = 75
+	#
+	#Controls how rarely a Hoglin gets replaced with a Mutant Hoglin when spawning, usually set to 75
+	"Mutant Hoglin Spawn Chance" = 75
+	#
+	#Controls how rarely a Wither Skeleton gets replaced with a Mutant Wither Skeleton when spawning, usually set to 75
+	"Mutant Wither Skeleton Spawn Chance" = 75
+
+#Appearance Configs:
+[look_config]
+	#
+	#Controls whether the Mutant Husk has cacti on its back to match its drop, usually set to false (to keep the Husk feel)
+	"Mutant Husk Cacti" = false
+

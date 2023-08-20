@@ -1,0 +1,11 @@
+{
+	id: "18B80C0A168F80C3"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 6, item: "minecraft:snowball" }
+		{ count: 3, item: "minecraft:amethyst_shard" }
+		{ count: 5, item: "minecraft:coal" }
+	]
+	title: "Rune Ingredients"
+}

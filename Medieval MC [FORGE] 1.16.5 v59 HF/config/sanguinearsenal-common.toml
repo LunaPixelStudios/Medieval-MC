@@ -1,0 +1,73 @@
+
+#I recommend changing the values from this file while the game isn't launched, you can still change some of these while the game is launched but it could cause issues!
+#If you see a 'sanguinearsenal-common-<number>.toml.bak' file it means that something went wrong. If you think that what you did was right and it was supposed to work, contact me.
+["Blood System"]
+	#Set the amount of blood that the player receives when he kills an aggressive entity.
+	#Range: 0 ~ 20
+	aggressiveEntitiesBloodValue = 5
+	#Set the amount of blood that the player receives when he kills a passive entity.
+	#Range: 0 ~ 20
+	passiveEntitiesBloodValue = 5
+	#Set the amount of blood that the player receives when he kills an entity that doesn't have compatibily with the mod.
+	#Range: 0 ~ 20
+	otherEntitiesBloodValue = 5
+
+["Blood Aura"]
+	#If this value is 'true', when a player activates his 'Blood Aura' he will be followed by 2 particles moving in a circle around him.
+	bloodAuraParticles = true
+	#If this value is 'true', when a player activates his 'Blood Aura' effects will be applied to him depending of the dimension he's in.
+	bloodAuraEffects = true
+	#Set the multiplier of the effects that a player receives when he's wearing the full set of Praetor Armor. 
+	#Range: 0 ~ 100000
+	praetorEffectMultiplier = 0
+	#Set the multiplier of the effects that a player receives when he's wearing the full set of Praetor Armor and a Blood Flask.
+	#Range: 0 ~ 100000
+	bloodFlaskEffectMultiplier = 1
+	#Set the multiplier of the effects that a player receives when he has activated his 'Blood Aura'.
+	#Range: 0 ~ 100000
+	bloodAuraEffectMultiplier = 2
+	#Set how quickly the blood amount that the player has in his Sanguine Praetor Armor while wearing a Blood Flask goes down when he activates his 'Blood Aura'.
+	#This value represents ticks, 20 ticks = 1 second.
+	#Range: 20 ~ 100000000
+	bloodDrainSpeed = 20
+	#Set by how much should the blood consumption of the player should by multiplied when he doesn't wear a Blood Flask.
+	#Range: 0 ~ 20
+	bloodUsageMultiplier = 2
+	#Set how much blood will be removed from the player's Sanguine Praetor Armor  when he has his 'Blood Aura' activated, and a Blood Flask equipped.
+	#This amount will be removed from the player's Blood Flask every 'bloodDrainSpeed'.
+	#Range: 1 ~ 20
+	bloodDrainAmount = 1
+
+["Praetor's Armor"]
+	#If this value is 'true', when a player has blood in his Praetor Armor he will receive the regen effect.
+	praetorArmorRegen = true
+	#If this value is 'false', the Sanguine Praetor's will have a different texture that will get rid of the red eyes.
+	praetorEyes = true
+
+["Scepter of Blood"]
+	#Set how much melee damage the Scepter of Blood has.
+	#Range: 0 ~ 100
+	scepterOfBloodMeleeDamage = 7
+	#Set how much magic damage the Scepter of Blood has.
+	#Range: 0.0 ~ 100.0
+	scepterOfBloodMagicDamage = 5.0
+	#Note that the melee damage and attack speed values don't represent vanilla tools values, for example to get attack speed 1.3 vanilla you would need to set the attack speed to -2.4.
+	#Set the attack speed of the Scepter of Blood.
+	#Range: -3.5 ~ 15.0
+	scepterOfBloodAttackSpeed = 1.3
+	#Set the amount of blood that the player needs to use the Scepter of Blood ability.
+	#Range: 0 ~ 20
+	scepterOfBloodUseValue = 2
+
+["Sanguine Scythe"]
+	#Set how much melee damage the Praetor's Scythe has.
+	#Range: 0 ~ 100
+	praetorScytheMeleeDamage = 9
+	#Note that the melee damage and attack speed values don't represent vanilla tools values, for example to get attack speed 1.3 vanilla you would need to set the attack speed to -2.4.
+	#Set the attack speed of the Praetor's Scythe.
+	#Range: -3.5 ~ 15.0
+	praetorScytheAttackSpeed = 0.85
+	#Set the amount of blood that the player needs to throw the Praetor's Scythe using right click..
+	#Range: 0 ~ 20
+	praetorScytheThrowValue = 5
+

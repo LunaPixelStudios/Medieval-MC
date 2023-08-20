@@ -1,0 +1,158 @@
+
+[gencontrol]
+	#Controls whether to add Anemones and their associated items to oceans.
+	anemone = true
+	#Controls whether to spawn Reeds in River/Swamp biomes
+	reeds = true
+	#Controls whether to spawn random Flora in the world
+	bush = true
+	#Controls whether to add Tree Orchids (NOT YET IMPLEMENTED)
+	tree_orchid = true
+	#Controls whether to spawn Amazon Sword in Swamp/Jungle biomes
+	algae = true
+	#Controls whether to use Burrows to spawn Critters, instead of having them clog up the Spawns
+	burrows = true
+	#Prevent spawns of Reeds in these biomes
+	reed_blacklist = []
+	#Frequency of Reeds, 1 in N chunks will generate Reeds (0 to disable)
+	#Range: > 0
+	freqreeds = 4
+	#Prevent spawns of Flora in these biomes
+	flora_blacklist = []
+	#Frequency of Flora, 1 in N chunks will generate random Flora (0 to disable)
+	#Range: > 0
+	freqflora = 4
+	#Prevent spawns of Algae in these biomes
+	algae_blacklist = []
+	#Frequency of Algae, abstract value (0 to disable)
+	#Range: > 0
+	freqalgae = 1
+	#Frequency of Critters, 1 in N chunks will generate with Critters (0 to disable)
+	#Range: > 0
+	freqcritter = 3
+	#Frequency of Sessile Ocean Mobs, 1 in N chunks will generate with Sessile Mobs (0 to disable)
+	#Range: > 0
+	freqsessile = 8
+	#Frequency of Ocean Mobs, 1 in N chunks will generate with Ocean Mobs (0 to disable)
+	#Range: > 0
+	freqocean = 16
+	#Frequency of Apex Predators, 1 in N chunks will generate with an Apex Predator (0 to disable)
+	#Range: > 0
+	freqapex = 24
+	#Frequency of Freshwater Mobs, 1 in N chunks will generate with Freshwater Mobs (0 to disable)
+	#Range: > 0
+	freqwater = 3
+	#Probability that an Underground block in a cave will attempt to spawn a mob (0 to disable). If YUNG's Better Caves is installed, this value is further reduced to 0.33x
+	#Range: 0.0 ~ 1.0
+	probunderground = 4.0E-4
+
+[gamerules]
+	#Defines whether animals should breed without Player intervention.
+	natural_breeding = true
+	#Adds additional restrictions to mob breeding, including Biome/Temperature requirements and Overcrowding.
+	hardcore_breeding = false
+	#Pregnancy time is only used as a cooldown, babies pop out instantly like in Vanilla.
+	easy_breeding = false
+	#Whether breeding requires a Male and a Female to produce offspring/eggs. (Warning: may lead to uncontrolled spawns of eggs)
+	gendered_breeding = true
+	#Disable this option to have tamed mobs respawn in their home with half a Heart if they were to 'die' (IMPORTANT: This gamerule is NOT fully functional and using it as a free get-out-of-jail card is bound to be disappointing, use at your own risk).
+	hardcore_death = true
+	#Defines whether players can trigger breeding by feeding a creature's favourite item, like in vanilla.
+	player_breeding = false
+	#Allows mobs to spawn as fully random species, ignoring Biomes and Rarity.
+	random_species = false
+	#Features scientific names in various descriptions (eg. for mobs inside Cage Traps).
+	scientific_names = true
+	#Should extinct mobs spawn naturally in the world?.
+	extinct_mobs = true
+	#Should fantasy mobs spawn naturally in the world?.
+	fantasy_mobs = true
+	#Should 'Grazing' mobs destroy Tall Grass and/or turn Grass into dirt blocks (like Vanilla Sheep do).
+	grazer_griefing = true
+	#Should mobs potentially destroy the terrain? Keep in mind 'mobGriefing' is still required
+	mob_griefing = false
+	#Defines whether certain large predators will be angered if a player approaches them while they are sleeping.
+	angry_sleepers = true
+	#Defines whether certain critters will become angry if a mob/player 'steps' on them, by coming too close.
+	contact_agression = true
+	#Should the 'Sleeping' behaviour run? Disabling this option also disables the activity
+	mob_sleeping = true
+	#If set to false, makes mobs a lot harder to catch by preventing the capture of hostile mobs
+	easy_mob_capture = true
+	#Defines how long a cycle should last, cycles are used to scale the gestation and breeding periods
+	#Example values: 24000 - Day, 168000 - Week, 720000 - Month, 8760000 - Year
+	#Range: 0 ~ 8760000
+	cycle_length = 24000
+	#Chance for a mob, out of 1, to have it's Skin replaced by a Rare skin (if any are defined through assets)
+	#Range: 0.0 ~ 1.0
+	rare_skin_chance = 0.05
+	#Should mobs with Rare skins generate in the wild (if defined through assets)
+	wild_rare_skins = true
+
+[mobcontrol]
+	#This toggle can used to fully disable the spawning of all UntamedWilds entities, giving flexibility if somebody chooses to use alternative mob spawning methods.
+	masterspawner = true
+	#Controls whether to add Bears and their associated items.
+	bear = true
+	#Controls whether to add Big Cats and their associated items.
+	bigcat = true
+	#Controls whether to add Hippos and their associated items.
+	hippo = true
+	#Controls whether to add Aardvarks and their associated items.
+	aardvark = true
+	#Controls whether to add Rhinoceros and their associated items.
+	rhino = true
+	#Controls whether to add Hyenas and their associated items.
+	hyena = true
+	#Controls whether to add Boars and their associated items.
+	boar = true
+	#Controls whether to add Bison and their associated items.
+	bison = true
+	#Controls whether to add Snakes and their associated items.
+	snake = true
+	#Controls whether to add Softshell Turtles and their associated items.
+	softshell_turtle = true
+	#Controls whether to add Tortoises and their associated items.
+	tortoise = true
+	#Controls whether to add Large Snakes and their associated items.
+	large_snake = true
+	#Controls whether to add Sunfish and their associated items.
+	sunfish = true
+	#Controls whether to add Trevally and their associated items.
+	trevally = true
+	#Controls whether to add Arowana and their associated items.
+	arowana = true
+	#Controls whether to add Sharks and their associated items.
+	shark = true
+	#Controls whether to add Whale Sharks and their associated items.
+	whale_shark = true
+	#Controls whether to add Triggerfish and their associated items.
+	triggerfish = true
+	#Controls whether to add Football Fish and their associated items.
+	football_fish = true
+	#Controls whether to add Tarantulas and their associated items.
+	tarantula = true
+	#Controls whether to add Giant Clams and their associated items.
+	giant_clam = true
+	#Controls whether to add Giant Salamanders and their associated items.
+	giant_salamander = true
+	#Controls whether to add Salamanders/Newts and their associated items.
+	newt = true
+	#Controls whether to add Camel and their associated items.
+	camel = true
+	#Controls whether to add Manatee and their associated items.
+	manatee = true
+	#Controls whether to add Catfish and their associated items.
+	catfish = true
+	#Critters further than this value from any Player will despawn into their Burrow (only if they have a Burrow assigned).
+	#Range: > 0
+	critterSpawnRange = 40
+
+[modcompat]
+	#Controls whether to check for Serene Seasons for compatibility (Mobs will only breed during specific seasons).
+	serene_seasons = true
+	#Controls whether to check for YUNG's Better Caves (Reduces the rate at which Underground mobs are placed).
+	better_caves = true
+	#Controls whether to check for Caves and Cliffs backport (Reduces the rate at which Underground mobs are placed).
+	caves_and_cliffs = true
+

@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "pool": "minecraft:village/desert/houses",
+      "structure": "paladins:village/desert/sanctuary",
+      "weight": 6
+    },
+    {
+      "pool": "minecraft:village/savanna/houses",
+      "structure": "paladins:village/savanna/sanctuary",
+      "weight": 6
+    },
+    {
+      "pool": "minecraft:village/plains/houses",
+      "structure": "paladins:village/plains/sanctuary",
+      "weight": 6
+    },
+    {
+      "pool": "minecraft:village/taiga/houses",
+      "structure": "paladins:village/taiga/sanctuary",
+      "weight": 6
+    },
+    {
+      "pool": "minecraft:village/snowy/houses",
+      "structure": "paladins:village/snowy/sanctuary",
+      "weight": 6
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resourcepacks/Graphics/loadin.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 199
+  width = 456
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = fdaed930-63ef-4333-b891-dd6c38ddc4841689668384000
+  y = 171
+  height = 114
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 07a084f6-5125-4f50-b062-840c4e0744ef1689668384007
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 199
+  width = 456
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 723b81a3-a691-4057-882c-06395451ad981689668384007
+  y = 375
+  height = 10
+}
+
+customization {
+  path = resourcepacks/Graphics/mojang.png
+  orientation = mid-centered
+  x = -213
+  width = 426
+  action = addtexture
+  actionid = e049c065-7209-4e51-b975-4416569230b31689668403259
+  y = -50
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/lunapixel.png
+  orientation = bottom-centered
+  x = -101
+  width = 203
+  action = addtexture
+  actionid = 4ce6fcfa-2135-47d4-b02c-bc3ea18819781689668411603
+  y = -35
+  height = 35
+}
+

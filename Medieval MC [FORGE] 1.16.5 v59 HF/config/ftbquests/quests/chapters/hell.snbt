@@ -1,0 +1,306 @@
+{
+	id: "41ABF114AF030084"
+	group: "3EE558C2597954C8"
+	order_index: 2
+	filename: "hell"
+	title: " &cThe Nether"
+	icon: "minecraft:obsidian"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Enter &cThe Nether"
+			x: 3.0d
+			y: 0.0d
+			size: 2.0d
+			id: "5C13EA90D50CD574"
+			tasks: [{
+				id: "71CAB6D988A5B31C"
+				type: "dimension"
+				title: "Enter the Nether"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "4B61EC531B9EF5D6"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			title: "Kill the &4Nether Keeper"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "Found in &8Keeping Castles &rin &cNether Waste &rand &4Crimson Forest &rbiomes. Right click the altar with a &fNether Star &rto summon."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "13247698A9E98C61"
+			tasks: [{
+				id: "3702E4C32FE0F698"
+				type: "kill"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				entity: "stalwart_dungeons:nether_keeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77F83375B1CF985C"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "423B1622FCADD4C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat the &9Awful Ghast"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Found in Awful Dungeons, which spawn in Soul Sand Valleys and Warped Forests. Right click the altar with a &fNether Star &rto summon."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "68D7F63EAA0FE3E4"
+			tasks: [{
+				id: "320E04AD2AD28E79"
+				type: "kill"
+				title: "Kill an Awful Ghast"
+				icon: "stalwart_dungeons:awful_dungeon_spawner"
+				entity: "stalwart_dungeons:awful_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "25D03449F1A59CF6"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+				}
+				{
+					id: "62D4D1064470D0AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat the &8Netherite Monstrosity"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "1DEBE563E5673B95"
+			tasks: [{
+				id: "4DBC642134268AE7"
+				type: "kill"
+				title: "Kill the Netherite Monstrosity"
+				icon: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3F53BE78EC264653"
+					type: "item"
+					item: "upgradednetherite_items:netherite_totem"
+				}
+				{
+					id: "6FB8202CD5C7DF9A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat &8&lThe Wither"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "4BE6497EB34F8C47"
+			tasks: [{
+				id: "366E68A0D8CB2326"
+				type: "kill"
+				title: "Kill The Wither"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3ED3213296662E73"
+					type: "item"
+					item: "upgradednetherite_items:wither_upgraded_netherite_totem"
+				}
+				{
+					id: "5181BC449058BE2A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Kill a &6Ignited Revenant"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Found in the Burning Arena"
+			dependencies: ["5C13EA90D50CD574"]
+			id: "6CD3F5FFA15ACC81"
+			tasks: [{
+				id: "4CE4CD701A07CA04"
+				type: "kill"
+				title: "Kill a Ignited Revenant"
+				icon: "cataclysm:burning_ashes"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "26B4EDC38A0A6C90"
+					type: "item"
+					item: "cataclysm:burning_ashes"
+				}
+				{
+					id: "718EDF2257D4FA95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat &2Ignis"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Found at the Top of the Burning Arena. Place Burning Ashes in the Altar to Summon &2Ignis"
+			dependencies: ["5C13EA90D50CD574"]
+			id: "4D2923365DB9C4C0"
+			tasks: [{
+				id: "3363067332FD6A6A"
+				type: "kill"
+				title: "Kill Ignis"
+				icon: "cataclysm:altar_of_fire"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "27679B02D6879E83"
+					type: "item"
+					item: "cataclysm:bulwark_of_the_flame"
+				}
+				{
+					id: "4138040678ED15A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat a &cMutant Hoglin"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "Normal hoglins have a small chance of being replaced by a &cMutant Hoglin&r when spawned."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "1F8FD0645FFBAD58"
+			tasks: [{
+				id: "57E0CAD018608DF1"
+				type: "kill"
+				title: "Kill a Mutant Hoglin"
+				icon: "nethers_delight:hoglin_hide"
+				entity: "mutantmore:mutant_hoglin"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0DB5B8B0A20321EA"
+					type: "item"
+					item: "nethers_delight:hoglin_mount"
+				}
+				{
+					id: "605FD043B2944240"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat a &6Mutant Blaze"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Normal blazes have a small chance of being replaced by a &6Mutant Blaze&r when spawned."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "2137B31F9406AFD4"
+			tasks: [{
+				id: "1B2D6555346CC8FD"
+				type: "kill"
+				title: "Kill a Mutant Blaze"
+				icon: "mutantmore:mutant_blaze_core"
+				entity: "mutantmore:mutant_blaze"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2194682A498FD2D2"
+					type: "item"
+					item: "upgradednetherite:fire_upgraded_netherite_ingot"
+				}
+				{
+					id: "68784454A3305448"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Defeat a &8Mutant Wither Skeleton"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Normal wither skeletons have a small chance of being replaced by a &8Mutant Wither Skeleton&r when spawned."
+			dependencies: ["5C13EA90D50CD574"]
+			id: "21E20CEFE7E42B03"
+			tasks: [{
+				id: "5AA9ED7534A11624"
+				type: "kill"
+				title: "Kill a Mutant Wither Skeletom"
+				icon: {
+					id: "mutantmore:mutant_wither_skeleton_skull"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mutantmore:mutant_wither_skeleton"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0BFC8A68EBD48533"
+					type: "item"
+					item: {
+						id: "mutantmore:withered_claymore"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70DC4B028AB7F346"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

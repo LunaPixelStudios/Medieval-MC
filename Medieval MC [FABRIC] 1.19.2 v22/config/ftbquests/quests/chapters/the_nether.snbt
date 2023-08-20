@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "59C90AA1B128306B"
+	icon: "minecraft:obsidian"
+	id: "0D7FF8F037EFF568"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [{
+				id: "75D2953DAEB9AFC1"
+				item: {
+					Count: 1b
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "7FC5892104C0744C"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Enter &cThe Nether"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "5B11DB2289D4F66C"
+			rewards: [
+				{
+					id: "10BF4D22339FEF9E"
+					item: "bosses_of_mass_destruction:brimstone_nectar"
+					type: "item"
+				}
+				{
+					id: "01EDE0BD9B2A8077"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found near &6blaze &rspawners."
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: "minecraft:blaze_rod"
+				id: "4DBABAE3AE00C903"
+				title: "Kill a Blaze Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &6Blaze Guardian"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "69872C1F1CCBDEBD"
+			rewards: [{
+				id: "5EDD80F5723D41C3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found in &4Nether Fortresses&r."
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "745C505DC4DF253C"
+				title: "Kill a Necromancer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &8Necromancer"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4E14675B45B7DD15"
+			rewards: [
+				{
+					id: "70D68C0AB105C4B9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "6D4212F74805D47A"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			subtitle: "Spawns when &6Nether Gold Ore &ris mined."
+			tasks: [{
+				entity: "adventurez:piglin_beast"
+				icon: "adventurez:piglin_flag_block"
+				id: "6F13475E767FB83F"
+				title: "Kill a Piglin Beast"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &cPiglin Beast"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "6B37BF7003BA0AAA"
+			rewards: [
+				{
+					count: 2
+					id: "0C0C3887E73B90A9"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+				{
+					id: "3FC4260BB6CFB724"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Found in Soul Sand Valleys&r."
+			tasks: [{
+				entity: "adventurez:soul_reaper"
+				icon: "biomemakeover:soul_embers"
+				id: "52A14E87246F74C8"
+				title: "Kill a the Soul Reaper"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &bSoul Reaper"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "6FE3E409F3305431"
+			rewards: [
+				{
+					count: 8
+					id: "2B282156DB9B62E5"
+					item: "adventurez:gilded_stone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "64619092A38B29F6"
+					item: "minecraft:chiseled_polished_blackstone"
+					type: "item"
+				}
+				{
+					id: "74CF217D7EDA67AA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Found in &cNether &rstructures."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "746282A3B3D28D48"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cNether &6Gauntlet"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "3963B69A10D95565"
+			rewards: [
+				{
+					count: 6
+					id: "516AD08EEACEE00B"
+					item: "adventurez:gilded_netherite_fragment"
+					type: "item"
+				}
+				{
+					id: "4D0709A5A9E38D45"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "21C3119630E9CA1D"
+					item: "gofish:gilded_blackstone_crate"
+					type: "item"
+				}
+				{
+					id: "4BAC4832C5CACB7E"
+					item: "gofish:gilded_blackstone_carp"
+					type: "item"
+				}
+			]
+			subtitle: "Summoned at a Golem Altar. Find more information in the (craftable) AdventureZ Handbook."
+			tasks: [{
+				entity: "adventurez:stone_golem"
+				icon: "adventurez:stone_golem_heart"
+				id: "3CCB99D30F004CC1"
+				title: "Kill the Blackstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Blackstone Golem"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4BCD1F2BA84D70D7"
+			rewards: [{
+				id: "6BCC05B45A7AD981"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Spawns in Crimson Forests in the &4Nether&r."
+			tasks: [{
+				entity: "soulsweapons:withered_demon"
+				icon: "soulsweapons:withered_demon_heart"
+				id: "239ACDE3872515BB"
+				title: "Kill a Withered Demon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &8Withered Demon"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F25DD96B716376D"
+				"46D0AAEEB69E28B3"
+			]
+			id: "5F2EA3DC197AB27D"
+			rewards: [{
+				id: "6BA23D45A31548AB"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Spawns in the Decaying Kingdom, which can be found using the &bMoonstone Compass&r."
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: {
+					Count: 1b
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1B5A98D064C1B811"
+				title: "Kill the Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &4The Decaying King"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: " &cNether"
+}

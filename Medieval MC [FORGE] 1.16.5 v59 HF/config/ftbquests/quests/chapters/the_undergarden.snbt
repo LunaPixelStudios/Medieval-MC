@@ -1,0 +1,130 @@
+{
+	id: "744FB47D1500561A"
+	group: "3EE558C2597954C8"
+	order_index: 4
+	filename: "the_undergarden"
+	title: " &7The Undergarden"
+	icon: "minecraft:stone_bricks"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Enter &7The Undergarden"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "To enter &7The Undergarden&r, craft a Catalyst and create a Nether Portal shaped portal using Stone Bricks. Then, click the Catalyst onto the portal frame."
+			size: 1.5d
+			id: "63183329FCECAB43"
+			tasks: [{
+				id: "237356226B413DBB"
+				type: "dimension"
+				title: "Enter the Undergarden"
+				icon: "minecraft:stone_bricks"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [{
+				id: "7C6F114A750BD5AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["63183329FCECAB43"]
+			optional: true
+			id: "571D0197D432A3BB"
+			tasks: [{
+				id: "31E3B830BF959DD0"
+				type: "kill"
+				title: "Kill a Stoneborn"
+				icon: "undergarden:depthrock_pebble"
+				entity: "undergarden:stoneborn"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "41A42AC13A78DC02"
+					type: "item"
+					item: {
+						id: "undergarden:slingshot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4012CCA85053BA23"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["63183329FCECAB43"]
+			optional: true
+			id: "41196539DF4CC0E7"
+			tasks: [{
+				id: "605588A719BF905C"
+				type: "kill"
+				title: "Kill a Rotbeast"
+				icon: "undergarden:utheric_shard"
+				entity: "undergarden:rotbeast"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7932766C98506482"
+				type: "item"
+				item: {
+					id: "undergarden:utheric_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["63183329FCECAB43"]
+			id: "30C280A698BF1C9F"
+			tasks: [{
+				id: "70B986266C5A2041"
+				type: "kill"
+				title: "Kill the Forgotten Guardian"
+				icon: "undergarden:forgotten_nugget"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5C336F9FF543FEBC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["63183329FCECAB43"]
+			dependency_requirement: "one_completed"
+			id: "7793464B93856F3E"
+			tasks: [{
+				id: "5D106CF8AB2ADF1B"
+				type: "kill"
+				title: "Spawn and Kill the Masticator"
+				icon: "undergarden:masticator_scales"
+				entity: "undergarden:masticator"
+				value: 1L
+			}]
+			rewards: [{
+				id: "74DBF78F32B0CF7F"
+				type: "item"
+				item: "atum:scarab"
+			}]
+		}
+	]
+}

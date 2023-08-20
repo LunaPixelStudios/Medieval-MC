@@ -1,0 +1,21 @@
+{
+  "time": false,
+  "timeDate": "HH:mm:ss",
+  "timeFormat": "[$]",
+  "timeColor": 16733695,
+  "hover": true,
+  "hoverDate": "MM/dd/yyyy",
+  "hoverFormat": "$",
+  "hoverColor": 16777215,
+  "counter": true,
+  "counterFormat": "\u00268(\u00267x\u0026e$\u00268)",
+  "counterColor": 16777045,
+  "boundary": true,
+  "boundaryFormat": "\u00268[\u0026b$\u00268]",
+  "boundaryColor": 5636095,
+  "saveChat": true,
+  "shiftChat": 10,
+  "chatWidth": 0,
+  "nameFormat": "\u003c$\u003e",
+  "maxMsgs": 16384
+}

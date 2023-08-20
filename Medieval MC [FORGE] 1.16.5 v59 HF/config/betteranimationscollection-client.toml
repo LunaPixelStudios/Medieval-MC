@@ -1,0 +1,278 @@
+
+[general]
+	#A very subtle animation, makes a pig's snout move when it oinks.
+	#It only moves up and down ever so slightly, but it's there. Just a little bit more life for your livestock.
+	#And don't you forget about the floaty ears! Pretty big for such a small animal.
+	"Oinky Pig" = true
+	#This one makes the knees of zombie-like and piglin-like mobs bend when they walk around.
+	#Looks pretty fluid and nice. You'll like it, trust me.
+	"Bending Humanoid Knees" = true
+	#This one makes chicken beaks open and close when they cluck.
+	#When they strut their heads move back and forth, the red thing under their beak swings around and their wings flap a little. Just like the real deal!
+	"Bucka Bucka Chicken" = true
+	#This one makes llamas open their mouth when spitting. How have they been doing that before?!
+	"Spitful Llama" = true
+	#A truly stunning visual addition. Spiders now finally have the knees they've always dreamed of.
+	"Spider Knees" = true
+	#Gives a jellyfish-like effect to the swimming animation of squids.
+	#Also makes their tentacles flow more while moving.
+	"Squiggly Squid Tentacles" = true
+	#A pleasing visual change; this makes the insides of slimes flow around like liquid.
+	#They splish-splosh about even more when they jump. The eyes, the mouth, and the core itself all move independently.
+	"Jiggly Liquidy Slime" = true
+	#Remember that one very popular "TNT" music video by CaptainSparklez with the really cute wobbly Creeper?
+	#Well, it's in the game now. The full thing, the real deal, exactly like the video.
+	"Wobbly Creeper" = true
+	#This makes the udders on cows wobble around when they walk.
+	#Also makes their udders have nipples.
+	"Wobbly Cow Udder" = true
+	#Changes wolf tails to be fluffier and flowier, wagging realistically while they stand and run.
+	#Also makes tamed wolves lie down instead of sitting. Hold up some meat and they'll roll over, too.
+	"Playful Doggy" = true
+	#If an enderman is angry it will wave its arms around wildly while chasing its target.
+	#Suits their twisted nature very well.
+	"Arm Flailing Enderman" = true
+	#This one is pretty kneat. It makes sheep actually bend down to eat grass.
+	#It's no longer just their head lowering, their whole body lowers down to get a sweet sample of that succulent cellulose.
+	#Did you notice their KNEES bend too when they kneel?
+	"Kneeling Sheep" = true
+	#Takes away the stick tails of the current cats and gives them something nicer instead.
+	#Fully animated flowing tails that move while they stand or run, and even curl around their bodies when they sit.
+	"Curly Cat Tail" = true
+	#This makes a snowman's arm swing when it throws a snowball.
+	"Animated Snow Man Stick" = true
+	#Divides ghast tentacles into parts and makes them wiggle realistically, like those tentacle monsters you always see at the movies.
+	#Makes them a little more scary, but ultimately nicer to look at.
+	"Wiggly Ghast Tentacles" = true
+	#A collection of small animations for the player.
+	"Animated Player" = true
+	#Takes away the stick tails of the current ocelots and gives them something nicer instead.
+	#Fully animated flowing tails that move while they stand or run.
+	"Flowy Ocelot Tail" = true
+	#Adds a custom death animation to magma cubes, which causes their bodies to form into a pile of steamy, delicious hamburger patties when they die.
+	#Unfortunately, you can't eat them because they're way too hot.
+	"Magma Cube Burger" = true
+	#A subtle change; this makes iron golems wiggle their big noses whenever they're hurt.
+	#Exactly the same animation as for villagers, except for iron golems!
+	"Wiggly Iron Golem Nose" = true
+	#A subtle change; this makes villagers wiggle their big noses whenever they make their iconic sound.
+	#It's a small change, but who doesn't get a kick out of it?
+	"Wiggly Villager Nose" = true
+	#Makes horses more lively again, just like they used to be in older versions.
+	#Does this by adding back their mouth and knees while staying true to the vanilla model style.
+	"Familiar Horse" = true
+
+[oinky_pig]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Sounds" = ["minecraft:entity.pig.ambient"]
+	#Fancy ears for pigs, just like piglins have them.
+	"Floaty Ears" = true
+	#Animation swing speed for ear floatiness.
+	#Range: 1 ~ 20
+	"Ear Animation Speed" = 10
+
+[bending_humanoid_knees]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+
+[bucka_bucka_chicken]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Sounds" = ["minecraft:entity.chicken.ambient"]
+	#Make bill a lot slimmer so chickens look less like ducks.
+	#This option will only change after the game has been restarted.
+	"Slim Bill" = true
+	#Move head back and forth when chicken is walking.
+	"Move Head" = true
+	#Wiggle chin when chicken is walking.
+	"Wiggle Wattles" = true
+	#Flap wings when chicken is walking.
+	"Flap Wings" = true
+	#Animation swing speed for head movement.
+	#Range: 1 ~ 20
+	"Head Animation Speed" = 4
+	#Animation swing speed for wattles movement.
+	#Range: 1 ~ 20
+	"Wattles Animation Speed" = 5
+	#Animation swing speed of wing flapping.
+	#Range: 1 ~ 20
+	"Wing Animation Speed" = 3
+
+[spitful_llama]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Sounds" = ["minecraft:entity.llama.spit"]
+
+[spider_knees]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+
+[squiggly_squid_tentacles]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Define length for tentacles.
+	#This option will only change after the game has been restarted.
+	#Range: 1 ~ 8
+	"Tentacles Length" = 8
+
+[jiggly_liquidy_slime]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Animation swing speed of inner slime parts.
+	#Range: 1 ~ 20
+	"Animation Speed" = 5
+
+[wobbly_creeper]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Different directional behaviour modes for the walking animation.
+	#Allowed Values: SIDE, FRONT, CIRCLE, RANDOM
+	"Wobble Direction" = "SIDE"
+
+[wobbly_cow_udder]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Animation swing speed of utter when the cow is walking.
+	#This option will only change after the game has been restarted.
+	#Range: 1 ~ 20
+	"Animation Speed" = 5
+	#Render tiny nipples on a cow's utter.
+	"Show Nipples" = true
+	#Should calves show an utter.
+	"Calf Utter" = false
+
+[playful_doggy]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Define tail length.
+	#This option will only change after the game has been restarted.
+	#Range: 1 ~ 7
+	"Tail Length" = 7
+	#Make wolf tail fluffy.
+	#This option will only change after the game has been restarted.
+	"Fluffy Tail" = true
+	#Animation swing speed for tail.
+	#Range: 1 ~ 20
+	"Animation Speed" = 5
+	#Pose and behaviour when sitting.
+	#By default makes wolves lie down instead, and roll over when a nearby player is holding a piece meat.
+	#Allowed Values: DEFAULT, LIE_DOWN, ROLL_OVER, LIE_DOWN_AND_BEG_FOR_MEAT
+	"Sitting Behaviour" = "LIE_DOWN_AND_BEG_FOR_MEAT"
+
+[arm_flailing_enderman]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Animation swing speed for arms.
+	#Range: 1 ~ 20
+	"Animation Speed" = 5
+
+[kneeling_sheep]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+
+[curly_cat_tail]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Define tail length.
+	#This option will only change after the game has been restarted.
+	#Range: 1 ~ 15
+	"Tail Length" = 15
+	#Animation swing speed for tail.
+	#Range: 1 ~ 20
+	"Animation Speed" = 7
+
+[animated_snow_man_stick]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Sounds" = ["minecraft:entity.snow_golem.shoot"]
+
+[wiggly_ghast_tentacles]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Define the max length of tentacles.
+	#This option will only change after the game has been restarted.
+	#Range: 2 ~ 14
+	"Max Tentacles Length" = 14
+	#Animation swing speed of tentacles.
+	#Range: 1 ~ 20
+	"Animation Speed" = 5
+
+[animated_player]
+	#Animate eating in third-person view.
+	"Eating Animation" = true
+	#The player's arms actually move when rowing in a boat.
+	"Rowing Animation" = true
+	#Make the player hold on to a horse's reins.
+	"Riding Animation" = true
+	#Unique items the player should take a closer look at when holding.
+	"Inspectable Items" = ["minecraft:compass", "minecraft:clock"]
+
+[flowy_ocelot_tail]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Define tail length.
+	#This option will only change after the game has been restarted.
+	#Range: 1 ~ 15
+	"Tail Length" = 15
+	#Animation swing speed for tail.
+	#Range: 1 ~ 20
+	"Animation Speed" = 7
+
+[magma_cube_burger]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+
+[sound_detection]
+	#Block range for sound detection system to look for a mob that made a certain sound on the server, so the client may play an animation.
+	#Range: 0.5 ~ 8.0
+	"Sound Detection Range" = 1.5
+
+[wiggly_iron_golem_nose]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+
+[wiggly_villager_nose]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+	#Mob sounds to play a unique animation for.
+	#Useful for adding support for modded mob variants which have different sounds from their vanilla counterparts.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Sounds" = ["minecraft:entity.villager.ambient", "minecraft:entity.villager.trade", "minecraft:entity.wandering_trader.ambient", "minecraft:entity.wandering_trader.trade"]
+
+[familiar_horse]
+	#Mob variants these model changes shouldn't be applied to.
+	#Format for every entry is "<namespace>:<path>". Path may use asterisk as wildcard parameter. Tags are not supported.
+	"Mob Blacklist" = []
+

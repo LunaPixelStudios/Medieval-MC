@@ -1,0 +1,212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:end_portal_frame"
+	id: "50EEC609E833AB5F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D36AAFE17F5CD9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E61114AC8389AF6"
+				table_id: 6935663685294125539L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "444AC080F3243355"
+				title: "Enter The End Dimension"
+				type: "dimension"
+			}]
+			title: "Enter &8The End"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			dependency_requirement: "all_started"
+			icon: "minecraft:dragon_head"
+			id: "2A51F2BA00FCA9DF"
+			rewards: [
+				{
+					id: "03D5DEF13126F18F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7914F51272FBFEAE"
+					item: "unusualend:void_totem"
+					type: "item"
+				}
+			]
+			subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "412B85684482E982"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8&lEnder Dragon"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "43E0AD91C15669D8"
+			rewards: [
+				{
+					id: "7F9FB286E02FC06D"
+					item: "upgradednetherite_items:ultimate_upgraded_netherite_totem"
+					type: "item"
+				}
+				{
+					id: "431401C91D175B2C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Put the Crimson Mosquito Larva into the Capsid, then throw the Mysterious Lava into the void of The End."
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				id: "679295C74DF4AA03"
+				title: "Summon and Kill The Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Summon and Kill the &9Void Worm"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "66E7CB465F845A15"
+			rewards: [
+				{
+					id: "52F190738B4D81C2"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "54B860B89029F1EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Found in Ruined Citadels in &5The End &rislands."
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "60D9ED81B17CAE0F"
+				title: "Kill a Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &6Ender Golem"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "355ABBA15B609961"
+			rewards: [
+				{
+					id: "6FA06FCC2870331E"
+					item: "upgradednetherite:corrupt_upgraded_netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "0303343E7736CC11"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Found at the bottom of Ruined Citadels."
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "2A41742198B4693C"
+				title: "Kill the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &3Ender Guardian"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "36B77024E67E279C"
+			rewards: [
+				{
+					id: "608A75E04FED4206"
+					item: "alexsmobs:capsid"
+					type: "item"
+				}
+				{
+					id: "25D8FBF0CF5434F3"
+					item: "alexsmobs:mosquito_larva"
+					type: "item"
+				}
+				{
+					id: "64A788283FBBDA3D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use TNT to defeat the boss"
+			tasks: [{
+				id: "7B37F3A22D97E75F"
+				item: "stalwart_dungeons:void_crystal"
+				type: "item"
+			}]
+			title: "Defeat &3The Shelterer &rand obtain a Void Crystal"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "197BBE3D29EE8216"
+			rewards: [
+				{
+					id: "7C0CFA01B5420FF8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "107E4BE899CDF48F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": { }
+						}
+						id: "undead_unleashed:tome_of_reflection"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Found on top of a Ancient End City and summoned with right clicking Dragons Breath on the Altar"
+			tasks: [{
+				entity: "unusualend:endstone_golem"
+				icon: "unusualend:shulker_orb"
+				id: "2844F9CBD107B1A7"
+				title: "Kill the Endstone Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dEndstone Golem"
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: " &5The End"
+}

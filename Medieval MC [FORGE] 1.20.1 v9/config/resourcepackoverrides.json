@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/NoBushyLeaves.zip",
+    "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
+    "file/Clarent_FFE_v3.5.zip",
+    "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
+    "file/Excalibur_V1.19.4.zip"
+
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
+      "hidden": true
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "Supplementaries Generated Pack": {
+      "hidden": true
+    },
+    "file/ctov-friends-and-foes-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "file/ctov-villager-plus-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "file/BWM_Rebalanced.zip": {
+      "hidden": true
+    },
+    "file/FarmersDelight_ToolFix_1.0+1.20.x.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v1.zip": {
+      "hidden": true
+    },
+    "file/ctov-farmers-delight-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+      "hidden": true
+    }
+  }
+}

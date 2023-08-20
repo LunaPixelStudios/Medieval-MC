@@ -1,0 +1,10 @@
+{
+  "clientId": {
+    "value": 1119563411559292948,
+    "comment": "Your Discord App ID"
+  },
+  "enabled": {
+    "value": true,
+    "comment": "If you wish to disable Discord Rich Presence, set this to false."
+  }
+}

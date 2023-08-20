@@ -1,0 +1,19 @@
+
+["General Settings -- Negative values are ignored"]
+	#The minimum possible distance between Land Towers measured in chunks. Default: 24 chunks
+	"Land minimum separation" = 24
+	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 48 chunks 
+	"First Tower Distance" = 48
+
+["Advanced Settings -- take note of the range for each value, values outside the ranges will be discarded"]
+	#The total health of the Land Golem, divide by two per heart. I.E a value of 300 is 150 hearts
+	#Range: 200.0 ~ 1800.0
+	"Total health of the Land Golem" = 250.0
+	#How much of the tower is destroyed after defeating the Golem. Default: 83% of tower.
+	#Range: 0.0 ~ 1.0
+	"Percent of Land Tower to destroy" = 0.83
+	#This value is added to the Land Tower minimum separation above to get the average separation between Land Towers for spawning measured in chunks.
+	#I.E. if you leave the minimum separation at 24, and change this value to 10 then Land Towers would spawn on average 34 chunks apart and a minimum of 24 chunks apart.
+	#Range: 1 ~ 100
+	"Land average separation modifier" = 16
+

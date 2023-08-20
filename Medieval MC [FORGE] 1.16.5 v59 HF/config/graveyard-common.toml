@@ -1,0 +1,139 @@
+
+["Structure Generation"]
+	#Enable Large Birch Tree Structure:
+	large_birch_tree = true
+	#Large Birch Tree Separation:
+	large_birch_tree_separation = 12
+	#Large Birch Tree Spacing:
+	large_birch_tree_spacing = 14
+	#Large Birch Tree Salt:
+	large_birch_tree_salt = 304812394
+	#Enable Medium Graveyard Structure:
+	medium_walled_graveyard = false
+	#Medium Graveyard Separation:
+	medium_walled_graveyard_separation = 14
+	#Medium Graveyard Spacing:
+	medium_walled_graveyard_spacing = 16
+	#Medium Graveyard Salt:
+	medium_walled_graveyard_salt = 379123039
+	#Enable Large Graveyard Structure:
+	large_walled_graveyard = false
+	#Large Graveyard Separation:
+	large_walled_graveyard_separation = 9
+	#Large Graveyard Spacing:
+	large_walled_graveyard_spacing = 11
+	#Large Graveyard Salt:
+	large_walled_graveyard_salt = 739017628
+	#Enable Small Graveyard Structure:
+	small_walled_graveyard = false
+	#Small Graveyard Separation:
+	small_walled_graveyard_separation = 18
+	#Small Graveyard Spacing:
+	small_walled_graveyard_spacing = 20
+	#Small Graveyard Salt:
+	small_walled_graveyard_salt = 1690192399
+	#Enable Small Graveyard Desert Structure:
+	small_walled_graveyard_desert = false
+	#Small Graveyard Desert Separation:
+	small_walled_graveyard_desert_separation = 28
+	#Small Graveyard Desert Spacing:
+	small_walled_graveyard_desert_spacing = 32
+	#Small Graveyard Desert Salt:
+	small_walled_graveyard_desert_salt = 661903018
+	#Enable Small Graveyard Savanna Structure:
+	small_walled_graveyard_savanna = false
+	#Small Graveyard Savanna Separation:
+	small_walled_graveyard_savanna_separation = 12
+	#Small Graveyard Savanna Spacing:
+	small_walled_graveyard_savanna_spacing = 14
+	#Small Graveyard Savanna Salt:
+	small_walled_graveyard_savanna_salt = 451235912
+	#Enable Small Grave Structure:
+	small_grave = false
+	#Small Grave Separation:
+	small_grave_separation = 8
+	#Small Grave Spacing:
+	small_grave_spacing = 12
+	#Small Grave Salt:
+	small_grave_salt = 240451934
+	#Enable Small Desert Grave Structure:
+	small_desert_grave = false
+	#Small Desert Grave Separation:
+	small_desert_grave_separation = 20
+	#Small Desert Grave Spacing:
+	small_desert_grave_spacing = 22
+	#Small Desert Grave Salt:
+	small_desert_grave_salt = 240451934
+	#Enable Small Savanna Grave Structure:
+	small_savanna_grave = false
+	#Small Savanna Grave Separation:
+	small_savanna_grave_separation = 20
+	#Small Savanna Grave Spacing:
+	small_savanna_grave_spacing = 22
+	#Small Savanna Grave Salt:
+	small_savanna_grave_salt = 240451934
+	#Enable Small Mountain Grave Structure:
+	small_mountain_grave = false
+	#Small Mountain Grave Separation:
+	small_mountain_grave_separation = 8
+	#Small Mountain Grave Spacing:
+	small_mountain_grave_spacing = 12
+	#Small Mountain Grave Salt:
+	small_mountain_grave_salt = 240451934
+	#Enable Mushroom Grave Structure:
+	mushroom_grave = true
+	#Mushroom Grave Separation:
+	mushroom_grave_separation = 18
+	#Mushroom Grave Spacing:
+	mushroom_grave_spacing = 24
+	#Mushroom Grave Salt:
+	mushroom_grave_salt = 598017285
+	#Enable Haunted House Structure:
+	haunted_house = true
+	#Haunted House Separation:
+	haunted_house_separation = 20
+	#Haunted House Spacing:
+	haunted_house_spacing = 25
+	#Haunted House Salt:
+	haunted_house_salt = 529239621
+
+["World Generation"]
+
+	["World Generation".haunted_forest]
+		#Weight of the biome. Set to 0 to disable generation.
+		weight = 3.0
+
+	["World Generation".haunted_lakes]
+		#Weight of the biome. Set to 0 to disable generation.
+		weight = 3.0
+
+	["World Generation".eroded_haunted_forest]
+		#Weight of the biome. Set to 0 to disable generation.
+		weight = 2.0
+
+["Fog Generation in Graveyards"]
+	#Enable fog rising from moss in graveyards
+	fog_particle = true
+	#Particle chance 1 in ...:
+	fog_particle_chance = 50
+
+["Fog Generation in Biomes"]
+	#Enable fog in Haunted Forest biome
+	haunted_forest_fog = true
+	haunted_forest_fogMaxY = 256
+	haunted_forest_fogMinY = 62
+	#Fog densitiy
+	haunted_forest_fog_density = 0.02
+	#Enable fog in Haunted Lakes biome
+	haunted_lakes_fog = true
+	haunted_lakes_fogMaxY = 256
+	haunted_lakes_fogMinY = 62
+	#Fog densitiy
+	haunted_lakes_fog_density = 0.015
+	#Enable fog in Eroded Haunted Forest biome
+	eroded_haunted_forest_fog = true
+	eroded_haunted_forest_fogMaxY = 256
+	eroded_haunted_forest_fogMinY = 62
+	#Fog densitiy
+	eroded_haunted_forest_fog_density = 0.01
+
