@@ -26,7 +26,7 @@
 #Default: 0.1125
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Idle Thirst Exhaustion" = 0.1125
+"Float: Idle Thirst Exhaustion" = 0.05
 #
 ############################################
 #The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable

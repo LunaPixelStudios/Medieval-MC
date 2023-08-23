@@ -68,15 +68,7 @@ customization {
   orientation = mid-centered
   x = -102
   action = movebutton
-  y = 33
-}
-
-customization {
-  identifier = %id=398318%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -17
+  y = 32
 }
 
 customization {
@@ -121,5 +113,13 @@ customization {
   x = 4
   action = movebutton
   y = 8
+}
+
+customization {
+  identifier = %id=398318%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -16
 }
 

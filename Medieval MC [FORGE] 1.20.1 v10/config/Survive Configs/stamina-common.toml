@@ -21,7 +21,7 @@
 #Default: 1.0
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Interacting With Blocks" = 1.0
+"Float: Stamina Exhaustion From Interacting With Blocks" = 0.05
 #
 ############################################
 #Adds stamina exhaustion from interacting with items
@@ -31,7 +31,7 @@
 #Default: 1.0
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Interacting With Items" = 1.0
+"Float: Stamina Exhaustion From Interacting With Items" = 0.05
 #
 ############################################
 #Adds stamina exhaustion from breaking harvestable blocks
@@ -41,7 +41,7 @@
 #Default: 1.5
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 1.5
+"Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 0.05
 #
 ############################################
 #Adds stamina exhaustion from breaking non harvestable blocks
@@ -51,7 +51,7 @@
 #Default: 0.125
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.125
+"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.05
 #
 ############################################
 #How often in ticks does the player recover stamina
