@@ -5,7 +5,7 @@
 	group: "59C90AA1B128306B"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "3DAC62F9CB57DD77"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -289,6 +289,22 @@
 			}]
 			title: "Find and use the &6Lamp of Cinders"
 			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EDB1E145CB2D26F"]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "73C54E703A15980B"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "1308ECEBA890187F"
+				title: "Give the &fQuest Ram&r whatever it's looking for."
+				type: "advancement"
+			}]
+			x: 9.5d
 			y: 0.5d
 		}
 	]

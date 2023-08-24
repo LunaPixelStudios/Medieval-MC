@@ -27,8 +27,8 @@ customization {
   width = 642
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 676cfd52-f1ae-41b4-88c9-af71a1d699811675059896271
-  y = -23
+  y = -33
   alignment = centered
-  height = 46
+  height = 67
 }
 

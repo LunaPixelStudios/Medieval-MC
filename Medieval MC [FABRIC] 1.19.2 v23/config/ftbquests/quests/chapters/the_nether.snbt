@@ -5,7 +5,7 @@
 	group: "59C90AA1B128306B"
 	icon: "minecraft:obsidian"
 	id: "0D7FF8F037EFF568"
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -36,19 +36,12 @@
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
 			id: "5B11DB2289D4F66C"
-			rewards: [
-				{
-					id: "10BF4D22339FEF9E"
-					item: "bosses_of_mass_destruction:brimstone_nectar"
-					type: "item"
-				}
-				{
-					id: "01EDE0BD9B2A8077"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Found near &6blaze &rspawners."
+			rewards: [{
+				id: "10BF4D22339FEF9E"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "Found randomly throughout the Nether and near &6blaze &rspawners."
 			tasks: [{
 				entity: "adventurez:blaze_guardian"
 				icon: "minecraft:blaze_rod"
@@ -57,7 +50,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &6Blaze Guardian"
+			title: "Defeat a &6Blaze Guardian"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -78,9 +71,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &8Necromancer"
-			x: 3.0d
-			y: -2.0d
+			title: "Defeat a &8Necromancer"
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -107,8 +100,8 @@
 				value: 1L
 			}]
 			title: "Defeat a &cPiglin Beast"
-			x: 5.0d
-			y: 0.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -121,9 +114,9 @@
 					type: "item"
 				}
 				{
-					id: "3FC4260BB6CFB724"
-					type: "xp"
-					xp: 100
+					id: "7CBB6F88E9417CAE"
+					type: "xp_levels"
+					xp_levels: 7
 				}
 			]
 			subtitle: "Found in Soul Sand Valleys&r."
@@ -135,44 +128,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the &bSoul Reaper"
+			title: "Defeat a &bSoul Reaper"
 			x: 3.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "6FE3E409F3305431"
-			rewards: [
-				{
-					count: 8
-					id: "2B282156DB9B62E5"
-					item: "adventurez:gilded_stone"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "64619092A38B29F6"
-					item: "minecraft:chiseled_polished_blackstone"
-					type: "item"
-				}
-				{
-					id: "74CF217D7EDA67AA"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			subtitle: "Found in &cNether &rstructures."
-			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: "bosses_of_mass_destruction:blazing_eye"
-				id: "746282A3B3D28D48"
-				title: "Kill the Nether Gauntlet"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat the &cNether &6Gauntlet"
-			x: 4.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -210,8 +168,8 @@
 				value: 1L
 			}]
 			title: "Defeat the &8Blackstone Golem"
-			x: 1.5d
-			y: -1.5d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -230,40 +188,58 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &8Withered Demon"
-			x: 4.5d
+			title: "Defeat a &8Withered Demon"
+			x: 1.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"5F25DD96B716376D"
-				"46D0AAEEB69E28B3"
-			]
-			id: "5F2EA3DC197AB27D"
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "277A0F5BB5027FA5"
 			rewards: [{
-				id: "6BA23D45A31548AB"
+				id: "6197D5559D7F9FB5"
 				type: "xp_levels"
-				xp_levels: 20
+				xp_levels: 5
 			}]
-			subtitle: "Spawns in the Decaying Kingdom, which can be found using the &bMoonstone Compass&r."
+			subtitle: "Found in &8Citadels"
 			tasks: [{
-				entity: "soulsweapons:accursed_lord_boss"
+				entity: "friendsandfoes:wildfire"
 				icon: {
 					Count: 1b
-					id: "soulsweapons:darkin_blade"
+					id: "friendsandfoes:wildfire_crown"
 					tag: {
 						Damage: 0
 					}
 				}
-				id: "1B5A98D064C1B811"
-				title: "Kill the Decaying King"
+				id: "3C02A17229E78D78"
+				title: "Kill a &4Wildfire"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat &4The Decaying King"
-			x: 1.5d
-			y: 1.5d
+			title: "Defeat a &6Wildfire"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "0B6179470FCEC8D4"
+			rewards: [{
+				id: "595527F29751D8E7"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			subtitle: "A flying mount that spawns in the nether. Tame as you would any other mount."
+			tasks: [{
+				icon: "biomemakeover:bat_wing"
+				id: "1DA8D71FB9B68822"
+				observe_type: 0
+				timer: 0L
+				title: "Find a &0Nether Bat"
+				to_observe: "mythicmounts:netherbat"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 0.0d
 		}
 	]
-	title: " &cNether"
+	title: " &cThe Nether"
 }

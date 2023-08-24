@@ -11,7 +11,7 @@
 		}
 	}
 	id: "4D71D04257FC6CC7"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -43,14 +43,14 @@
 			id: "2D3B4D3B83178C68"
 			rewards: [
 				{
-					id: "66B0DC13574798CA"
-					item: "minecraft:bamboo"
-					type: "item"
-				}
-				{
 					id: "5470FACF2B6C8D87"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					id: "3146B47C0C3CDC39"
+					item: "minecraft:bamboo"
+					type: "item"
 				}
 			]
 			subtitle: "Can be hung over a campfire to boil impure buckets of water. &bPurified Water &ris extracted with glass bottles."
@@ -67,9 +67,9 @@
 			dependencies: ["2D3B4D3B83178C68"]
 			id: "3D7D3E6E77B52951"
 			rewards: [{
-				id: "7A8956BDDC001E50"
-				item: "dehydration:iron_leather_flask"
-				type: "item"
+				id: "78BB4AD99A8617F9"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: " Place an empty bucket on a &2Bamboo Pump&r, then right-click the Pump a few times until it stops pumping. Shift left click the Pump with an empty hand to take off the Bucket of &bPurified Water&r."
 			tasks: [{
@@ -78,8 +78,82 @@
 				type: "item"
 			}]
 			title: "Craft a &2Bamboo Pump"
-			x: 0.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "747A584BA1CF69EA"
+			rewards: [{
+				id: "68455DE50E0DE631"
+				item: "dehydration:purified_water_bucket"
+				type: "item"
+			}]
+			subtitle: "Has a &ecapacity &7of 3. You can fill flasks from &9River&r biomes to get clean water without purifying it first."
+			tasks: [{
+				id: "3EE263718515FCBD"
+				item: "dehydration:iron_leather_flask"
+				type: "item"
+			}]
+			title: "Craft an &8Iron Leather Flask"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["747A584BA1CF69EA"]
+			id: "2B4B28A34BCCE2B1"
+			rewards: [{
+				id: "3787C90F25474D2D"
+				item: "minecraft:gold_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Has a &ecapacity &7of 4."
+			tasks: [{
+				id: "59605D9E578955F6"
+				item: "dehydration:golden_leather_flask"
+				type: "item"
+			}]
+			title: "Craft a &6Golden Leather Flask"
+			x: 0.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["2B4B28A34BCCE2B1"]
+			id: "3410D8B3D7124EC3"
+			rewards: [{
+				id: "07B2CC963057C29D"
+				item: "minecraft:golden_apple"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Has a &ecapacity &7of 5."
+			tasks: [{
+				id: "42D18027034AEDB5"
+				item: "dehydration:diamond_leather_flask"
+				type: "item"
+			}]
+			title: "Craft a &3Diamond Leather Flask"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3410D8B3D7124EC3"]
+			id: "35FC5E4F0EEA04C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F2C1AD8D6785B7B"
+				table_id: 2389103562160301838L
+				type: "choice"
+			}]
+			subtitle: "Has a &ecapacity &7of 6. You can also restore large amounts of thirst with certain rare foods."
+			tasks: [{
+				id: "240DB08E0102ACEE"
+				item: "dehydration:netherite_leather_flask"
+				type: "item"
+			}]
+			title: "Craft a &9Netherite Leather Flask"
+			x: 0.5d
+			y: 3.5d
 		}
 	]
 	title: " &9Dehydration"

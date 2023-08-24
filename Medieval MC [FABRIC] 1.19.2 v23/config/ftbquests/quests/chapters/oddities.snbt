@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "4E33D80DA11F2414"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -90,7 +90,7 @@
 				item: "biomemakeover:cooked_crab"
 				type: "item"
 			}]
-			subtitle: "Used to increase an &5enchantment &rlevel on an item in return for a &4curse&r. Most of it's crafting ingredients can be found underground in some biomes&r."
+			subtitle: "Used to increase an &5enchantment &rlevel on an item in return for a &4curse&r. The materials to craft one can be found in &2Dark Forests"
 			tasks: [{
 				id: "74E388214A93A9E7"
 				item: "biomemakeover:altar"
@@ -249,7 +249,7 @@
 				item: "farmersdelight:noodle_soup"
 				type: "item"
 			}]
-			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
+			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 64 block radius."
 			tasks: [{
 				id: "435BC24FB0CA106A"
 				item: "magnumtorch:diamond_magnum_torch"
@@ -300,7 +300,7 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "An easy way to test how much damage your weapons do."
+			subtitle: "Displays damage dealt when hit. Can be equipped with armor to test its resistance, without damaging the armor when hit. "
 			tasks: [{
 				id: "1793F59502AD538A"
 				item: "dummmmmmy:target_dummy"
@@ -369,34 +369,54 @@
 			y: -3.5d
 		}
 		{
+			description: [
+				"&5Anvils&r can be used to retrieve half of the enchantments from an item using &bTomes of Scrapping. "
+				""
+				"&rThese &btomes&r also have upgraded variants. For details, read the &4Chronicle of Shadows &r "
+				""
+				"&5Anvils&r can also be used to reroll the rarity of full durability gear using amethyst shards."
+			]
 			id: "5AFB6DF49711402E"
-			rewards: [{
-				id: "5EE037645A013600"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 49
-						Enchantments: [{
-							id: "looting"
-							lvl: 1
-						}]
-						HideFlags: 2
-						display: {
-							Lore: ["[{\"text\":\"This looks very... disenchantable.\",\"italic\":false}]"]
-							Name: "[{\"text\":\"Well-worn Sword\",\"italic\":false}]"
+			rewards: [
+				{
+					id: "5EE037645A013600"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 49
+							Enchantments: [{
+								id: "looting"
+								lvl: 1
+							}]
+							HideFlags: 2
+							display: {
+								Lore: ["[{\"text\":\"This looks very... disenchantable.\",\"italic\":false}]"]
+								Name: "[{\"text\":\"Well-worn Sword\",\"italic\":false}]"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			subtitle: "To &5disenchant &ritems using a &8Grindstone&r, simply put an &5enchanted &ritem into one part of the &8Grindstone &rand a normal book in the other. You can also reforge items in &8Grindstones&r using &dAmethyst Shards&r and an item that is at full durability."
+				{
+					id: "1EC7CBC131D18D6C"
+					item: "zenith:scrap_tome"
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "6C468AC884051B97"
-				item: "minecraft:grindstone"
+				id: "4FDB8434828FD955"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+				title: "Any #minecraft:anvil"
 				type: "item"
 			}]
-			title: "Craft a &8Grindstone"
+			title: "Craft an &5Anvil"
 			x: 2.5d
 			y: -2.0d
 		}
@@ -629,7 +649,7 @@
 				item: "minecraft:fermented_spider_eye"
 				type: "item"
 			}]
-			subtitle: "By putting 3 of the same potion in the middle row of a crafting table and filling the other two rows with &6Blaze Powder&r, you can craft a &2Charm&r for that potion effect."
+			subtitle: "Craftable with 6 blaze powder and 3 of almost any potion, this charm repeatedly applies a potion effect when equipped into a &9Trinkets&r charm slot"
 			tasks: [{
 				id: "56E7D0666C92DF8C"
 				item: {
@@ -639,10 +659,10 @@
 						value: "trinkets:hand/charm"
 					}
 				}
-				title: "Any #trinkets:hand/charm"
+				title: "Any Potion Charm"
 				type: "item"
 			}]
-			title: "Craft a &2Charm"
+			title: "Craft a &2Potion Charm"
 			x: -3.5d
 			y: 4.0d
 		}
@@ -653,7 +673,7 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Used to skip the night without setting your spawn."
+			subtitle: "Used to make a backpack. You can then place a backpack and sleep in the sleeping bag to skip the night without setting your spawn."
 			tasks: [{
 				id: "4776525216009D16"
 				item: {
@@ -787,6 +807,35 @@
 			}]
 			title: "Craft a &6Crop Heater"
 			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "4AE0F77E11A498FF"
+			subtitle: "An &5infinite &9water &7source"
+			tasks: [{
+				id: "3B443473BFAD7D35"
+				item: "things:bater_wucket"
+				type: "item"
+			}]
+			title: "Craft a &9Bater Wucket"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "0E27D2D0DA258DA8"
+			rewards: [{
+				id: "00B48803449C2EA8"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			subtitle: "Collects on top of silt in swamps when it rains. You can probably do something with it..."
+			tasks: [{
+				id: "641F4554178DFAB3"
+				item: "immersive_weathering:pond_water"
+				type: "item"
+			}]
+			title: "Bottle some &2Pond Water"
+			x: 1.0d
 			y: 5.5d
 		}
 	]

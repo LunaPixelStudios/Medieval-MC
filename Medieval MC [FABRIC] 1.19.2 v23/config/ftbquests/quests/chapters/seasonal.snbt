@@ -5,7 +5,7 @@
 	group: "799D8360B26E9792"
 	icon: "seasonsextras:season_calendar"
 	id: "712EEC29E9F58AEC"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -250,15 +250,8 @@
 			]
 			subtitle: "&cSanta&c &7needs his hat&7"
 			tasks: [{
-				id: "7DA51930611C8B55"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "trinkets:head/hat"
-					}
-				}
-				title: "Any #trinkets:head/hat"
+				id: "04C3EFEF82309465"
+				item: "winterly:red_santa_hat"
 				type: "item"
 			}]
 			title: "Craft a &cSanta Hat&c"
@@ -294,6 +287,48 @@
 			}]
 			title: "Craft a Snow Backpack"
 			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "4D98042048EC9498"
+			rewards: [{
+				id: "56E3CBB076091A41"
+				item: {
+					Count: 1b
+					id: "vinery:glowing_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Place anywhere, then right click with a bowl to get a serving. One dish is 4 plates, leave some for everyone!"
+			tasks: [{
+				id: "17427F99D0DEB431"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "Cook &6Roast Chicken"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "0168ED8E0442FF97"
+			rewards: [{
+				id: "07D8F9556AE84C20"
+				item: "brewinandchewin:cocoa_fudge"
+				type: "item"
+			}]
+			subtitle: "Who could say no to a cup?"
+			tasks: [{
+				id: "1070143D497FA4F9"
+				item: "adorn:hot_chocolate"
+				type: "item"
+			}]
+			title: "Brew some &eHot Chocolate"
+			x: -0.5d
 			y: 3.0d
 		}
 	]

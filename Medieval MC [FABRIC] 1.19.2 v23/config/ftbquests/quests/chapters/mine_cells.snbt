@@ -11,7 +11,7 @@
 		}
 	}
 	id: "1CF65D6371AA2203"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,23 +24,23 @@
 			subtitle: "The portal to the &8Prison &rdimension spawns randomly throughout the &aOverworld&r. If you have, at any point, been in possession of a &bdiamond&r, the portal will already be activated."
 			tasks: [{
 				dimension: "minecells:prison"
-				icon: "minecraft:cobblestone"
+				icon: "minecells:prison_bricks"
 				id: "1B45ED7E7358543E"
 				type: "dimension"
 			}]
-			title: "Visit the &8Prison &rDimension"
+			title: "Enter the &8Prisoner's Quarters"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["79FA9140695A02C0"]
+			dependencies: ["1106E8573D7BE257"]
 			id: "678B2562584E24EF"
 			rewards: [{
 				id: "4148F0D9C8D784F4"
 				item: "alloy_forgery:prismarine_bricks_forge_controller"
 				type: "item"
 			}]
-			subtitle: "Spawns in &1The Lair&r, which can be found underground in the &8Prison &rdimension. To deal damage to the &dConjunctivius&r, you must first kill the tentacles. Can drop the &4&lCursed Sword&r, which gives you the &4Cursed &reffect when held. Don't use this sword in Hardcore ;)"
+			subtitle: "Spawns in the &1Insufferable Crypt&r. To deal damage to &dConjunctivius&r, you must first kill the tentacles. Can drop the &4&lCursed Sword&r, which gives you the &4Cursed &reffect when held. Don't use this sword in Hardcore ;)"
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: {
@@ -56,8 +56,8 @@
 				value: 1L
 			}]
 			title: "Defeat &dConjunctivius"
-			x: 2.0d
-			y: 0.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["79FA9140695A02C0"]
@@ -76,27 +76,60 @@
 				type: "item"
 			}]
 			title: "Craft 2 &7Elevator Assemblers"
-			x: 0.5d
-			y: 2.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["79FA9140695A02C0"]
 			id: "3DB65504F570A378"
-			rewards: [{
-				id: "7076959FE658CEA3"
-				item: "minecells:king_statue"
-				type: "item"
-			}]
-			subtitle: "The Prison has a barrier wall in the spawn room, and the Insufferable Crypt portal room now also leads to the &3Promenade of the Condemned"
+			rewards: [
+				{
+					id: "7076959FE658CEA3"
+					item: "minecells:king_statue"
+					type: "item"
+				}
+				{
+					id: "2F5C58D389AC319A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Prison has a portal which leads to the &3Promenade of the Condemned&r. Somewhere in the Promenade is an elevator to an &8Underground Dungeon&r where you can find a &3Vine Rune"
 			tasks: [{
 				dimension: "minecells:promenade"
 				icon: "minecells:wilted_grass_block"
 				id: "0097AFBF80EDB74E"
-				title: "Visit &3Promenade of the Condemned"
+				title: "Enter the &3Promenade of the Condemned"
 				type: "dimension"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DB65504F570A378"]
+			id: "1106E8573D7BE257"
+			rewards: [
+				{
+					id: "44D41FE1EB970978"
+					item: "minecells:ancient_sewage_bucket"
+					type: "item"
+				}
+				{
+					id: "5E01135CBDCC93F8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Once you've found a &2Vine Rune&r, head back to the &8Prison&r and find a &2Runic Vine&r to use the rune on, which will open the door to the Crypt."
+			tasks: [{
+				dimension: "minecells:insufferable_crypt"
+				icon: "minecells:hardstone"
+				id: "05CF67002095E98F"
+				title: "Enter the &4Insufferable Crypt&r"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -2.5d
 		}
 	]
 	title: " &4Mine Cells"

@@ -156,7 +156,7 @@
 				""
 				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
 				""
-				"Press &bH &rto Activate Origin Ability"
+				"Press &bG &rto Activate Origin Ability"
 				""
 				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
 				""
@@ -287,9 +287,14 @@
 			description: [
 				"The tutorial is now &afinished&r! "
 				""
+				"Check out &bTips and Tricks&r and &bGetting Stronger&r for a more in-depth tips."
+				""
 				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is."
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+				""
+				"You may want to claim these quest rewards later, once you have storage available!"
+				"{@pagebreak}"
 			]
 			hide: true
 			icon: {
@@ -317,11 +322,6 @@
 					type: "item"
 				}
 				{
-					id: "190BB0741BC3B873"
-					item: "zenith:book"
-					type: "item"
-				}
-				{
 					id: "3462D5D6E9AB1156"
 					item: {
 						Count: 1b
@@ -340,6 +340,39 @@
 					item: "seasonsextras:seasonal_compendium"
 					type: "item"
 				}
+				{
+					id: "06C7B40D5203309A"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmobs:mythical_guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3631078E0D5277CD"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmounts:mythical_mounts"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69F36920E9B9B445"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "Read my description!"
 			tasks: [{
@@ -347,6 +380,7 @@
 				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]
+			title: "&aTutorial Complete!"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -391,7 +425,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6A4CB4700F0082C6"]
+			dependencies: ["41A362D23E3CC2C6"]
 			description: [
 				"&fItems can be trashed by dragging them on top of &4lava buckets &fand then right clicking!"
 				""
@@ -401,14 +435,14 @@
 				""
 				"Every &e5,000&r blocks you move away from spawn, mobs will get &b75%&r stronger. They will also drop more &aExperience Points&r!"
 				""
-				"Depending on the dimension or biome you are in, mobs will be more difficult and drop better gear / more &aExperience Points&r. In order of increasing difficulty: "
-				"&d1&r. Normal Overworld biomes"
-				"&d2&r. &bCold&r/&cHot&r biomes"
-				"&d3&r. Modded dimensions"
+				"Depending on the dimension you are in, mobs will be more difficult and drop better gear / more &aExperience Points&r. In order of increasing difficulty: "
+				"&d1&r. Overworld/&bParadise Lost&r/&9Eden Ring"
+				"&d2&r. &2Twilight Forest&r/&eThe Bumblezone"
+				"&d3&r. &cMine Cells&r/&0The Otherside&r"
 				"&d4&r. The &4Nether"
 				"&d5&r. The &5End"
 				""
-				"&cApples&r can be equipped in the Helmet slot to instantly eat them when hungry."
+				"&cApples&r can be equipped in the Face trinket slot to instantly eat them when hungry."
 				""
 				"More &4difficult&r structures have better loot."
 				""
@@ -430,7 +464,6 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			size: 1.2d
 			subtitle: "Read my description! Make sure to scroll down."
 			tasks: [{
 				id: "64F70B833581A586"
@@ -438,8 +471,53 @@
 				type: "checkmark"
 			}]
 			title: "&cTips \\& Tricks"
-			x: 1.5d
-			y: -4.210714285714289d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41A362D23E3CC2C6"]
+			description: [
+				"In addition to crafting and looting stronger gear, your 3 most reliable ways of fighting stronger mobs will be:"
+				""
+				"&o1.&r &l&6Leveling Up&r: "
+				" - Access the &aPlayerEx&r Menu from your inventory"
+				" - &4Strength&r is a useful stat for any melee user, &2Dexterity&r for ranged, and magic users have their own tab for &9Specialization&r. "
+				" - &eLuckiness&r and &6Constitution&r are useful for everyone"
+				""
+				"&o2.&r &l&2Relics&r: "
+				" - These &aRelicEx Trinkets&r can provide incredibly strong attribute bonuses, with &6Immortal&r tier relics providing up to 5 high-level attribute bonuses"
+				" - Relics drop from any &4hostile mob&r, and their drop chance increases based on your &2Luck&r."
+				""
+				"&o3.&r &l&dEnchantments&r: "
+				" - Be on the lookout for rare and powerful &cdamage enchants&r, like &cVoid Strike&r, &cVoid Shot&r, and &cEnigma Resonator&r, or potent &bXP Boosting&r enchants like &bSoul Devourer&r or &bBag of Souls"
+				" - Exploring structures, trading with villagers, obtaining a &eCrystalline Flower&r from &eThe Bumblezone&r, and &9enchanting&r with &9Zenith&r are all useful ways to obtain enchantments."
+				""
+				"If you're still struggling, or you want to beat all your friends, there is an extremely in-depth and up to date &6build guide&r, including optional videos for different playstyles, on the &9Discord&r: https://lunapixel.studio/discord"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "379DABC87CCEC09A"
+			rewards: [{
+				count: 3
+				id: "70471328AD7DB8ED"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "How to fight more difficult mobs."
+			tasks: [{
+				id: "64E74CDAB34C194A"
+				title: "&cGetting Stronger"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
 		}
 	]
 	title: " &dTutorial"

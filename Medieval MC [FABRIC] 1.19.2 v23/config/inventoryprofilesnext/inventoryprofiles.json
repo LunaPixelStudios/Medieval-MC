@@ -33,6 +33,12 @@
         "refill_armor": {
             "value": false
         },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "visual_durability_notification": {
+            "value": false
+        },
         "audio_durability_notification": {
             "value": false
         },

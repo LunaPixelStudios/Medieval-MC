@@ -2,12 +2,16 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "file/Environmental Water 1.19.0-1.19.2.zip",
+    "Immersive Weathering Generated Pack",
+    "Seasonal Lush Caves",
+    "file/create_inventory_by_mei.zip",
     "file/EmbellishedStone-1.19-1.0.0.zip",
     "file/EclecticTrove-noconfig-1.19-1.2.0.zip",
+    "file/STONEBORN - 1.2-1.19 MeiAdditions.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/STONEBORN - 1.19 - V3.2.1.zip",
-    "file/STONEBORN - 1.1-1.19 MeiAdditions.zip",
-    "file/Clarent_FFE_v3.5.zip",
+    "file/MMC_Excal.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
     "file/Excalibur_V1.19.4.zip"
   ],
@@ -33,10 +37,10 @@
     "file/AdventureZ_NetheriteFix_1.0+1.19.2.zip": {
       "hidden": true
     },
-    "file/ArchonEx.zip": {
+    "file/ArchonEx_1.1.zip": {
       "hidden": true
     },
-    "file/BalanceEx_1.4+1.19.2.zip": {
+    "file/BalanceEx_1.6+1.19.2.zip": {
       "hidden": true
     },
     "file/Repurposed_Structures-Bountiful_v2.zip": {
@@ -60,7 +64,7 @@
     "file/ctov-waystone-add-on-v1-0.zip": {
       "hidden": true
     },
-    "file/BalanceEx_Magic_1.3+1.19.2.zip": {
+    "file/BalanceEx_Magic_1.5.1+1.19.2.zip": {
       "hidden": true
     },
     "file/Repurposed_Structures-Wizards_v2.zip": {
@@ -84,10 +88,10 @@
     "Everycomp Generated Pack": {
       "hidden": true
     },
-    "file/Origins_EnvironmentZ_Dehydration_v1.5+1.19.2.zip": {
+    "file/Origins_EnvironmentZ_Dehydration_v1.6+1.19.2.zip": {
       "hidden": true
     },
-    "file/Origins_Expanded_Foods_v1.9+1.19.2.zip": {
+    "file/Origins_Expanded_Foods_v2.1+1.19.2.zip": {
       "hidden": true
     },
     "Supplementaries Generated Pack": {
@@ -117,7 +121,7 @@
     "file/Repurposed_Structures-Better_Nether_Fortress_v4.zip": {
       "hidden": true
     },
-    "file/Dehydration_Expanded_Drinks_1.2.1+1.19.2.zip": {
+    "file/Dehydration_Expanded_Drinks_1.3.2+1.19.2.zip": {
       "hidden": true    
     },
     "file/Repurposed_Structures-Bygone_Nether_v1.zip": {
@@ -175,6 +179,18 @@
       "hidden": true
     },
     "meadow/optifine_support": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Paladins_v1.zip": {
+      "hidden": true
+    },
+    "file/ctov-wizards-add-on-v1-0b.zip": {
+      "hidden": true
+    },
+    "file/smitealot.zip": {
       "hidden": true
     },
     "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {

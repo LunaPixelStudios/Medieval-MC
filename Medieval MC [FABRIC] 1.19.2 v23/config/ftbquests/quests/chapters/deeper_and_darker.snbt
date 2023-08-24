@@ -27,7 +27,7 @@
 				value: 1L
 			}]
 			title: "Kill a &3Warden"
-			x: 7.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -52,7 +52,7 @@
 			}]
 			title: "Craft a &9Warden Helmet"
 			x: 5.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["731C3214BB61FDAE"]
@@ -71,7 +71,7 @@
 				type: "dimension"
 			}]
 			title: "Enter The &8&lOtherside"
-			x: 9.0d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
@@ -133,42 +133,61 @@
 				value: 1L
 			}]
 			title: "Kill a &7Shriek Worm"
-			x: 10.0d
-			y: 5.5d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["704CCA2CEAB23B4D"]
-			icon: {
-				Count: 1b
-				id: "minecraft:netherite_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "0FF69526C1DC1593"
+			dependencies: ["731C3214BB61FDAE"]
+			id: "505973CBB20E92ED"
 			rewards: [{
-				id: "67FB94C359F4DC55"
+				id: "563D0E8ACB1FEAD7"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "
+			subtitle: "The user gets pernament &3speed"
 			tasks: [{
-				icon: {
+				id: "56FDFD3E7BD7EE03"
+				item: {
 					Count: 1b
-					id: "minecraft:netherite_chestplate"
+					id: "deeperdarker:warden_leggings"
 					tag: {
 						Damage: 0
 					}
 				}
-				id: "1D6626E5E7609F88"
-				observe_type: 5
-				timer: 0L
-				to_observe: "deeperdarker:sculk_snapper"
-				type: "observation"
+				type: "item"
 			}]
-			title: "Find a &2Sculk Snapper"
-			x: 11.0d
-			y: 4.0d
+			title: "Craft &3Warden Leggings"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C83144CCAFC3E29"
+				"6E7D3242496F4501"
+				"192EE909C57F390A"
+			]
+			dependency_requirement: "one_completed"
+			id: "759A9CF262C2D265"
+			rewards: [{
+				id: "0FBD98AC6DA2B25D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "An armored &6Elytra which allows you to boost without rockets."
+			tasks: [{
+				id: "7B6C04B363259D20"
+				item: {
+					Count: 1b
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft the &1Soul Elytra"
+			x: 8.5d
+			y: 7.0d
 		}
 	]
 	title: " &1&lThe Otherside"

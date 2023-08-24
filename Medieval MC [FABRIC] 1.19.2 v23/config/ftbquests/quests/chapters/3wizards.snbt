@@ -11,7 +11,7 @@
 		}
 	}
 	id: "068230998A94FC59"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,15 +24,15 @@
 				type: "choice"
 			}]
 			size: 1.2d
-			subtitle: "Using the &cRune Crafting Altar&r gives more &cRunes&r than a Crafting Table does."
+			subtitle: "Using the &cRune Crafting Altar&r yields more &cRunes&r than a Crafting Table does."
 			tasks: [{
 				id: "4024ECFFCC18A48C"
 				item: "runes:crafting_altar"
 				type: "item"
 			}]
 			title: "Create a &cRune Crafting Altar"
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.2000000000000002d
 		}
 		{
 			dependencies: ["3C03A3084AD4503A"]
@@ -42,7 +42,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Used as ammo for &aWands&r."
+			subtitle: "Used as ammo for &aSpells&r. &bSpell Infinity&r will let you cast spells without runes, but is incompatible with &bMending."
 			tasks: [{
 				id: "546892239C517A0A"
 				item: {
@@ -57,10 +57,9 @@
 			}]
 			title: "Craft a &cRune"
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["52F3A430CA1161F4"]
 			id: "5DD91A2BE7C75259"
 			rewards: [
 				{
@@ -108,9 +107,9 @@
 					type: "item"
 				}
 			]
-			subtitle: "Used to cast spells."
+			subtitle: "Wands always have one spell built-in, so you can use them even without a tome."
 			tasks: [{
-				id: "3661C48446CC9A43"
+				id: "3A09D43B0B303B47"
 				item: {
 					Count: 1b
 					id: "wizards:wand_novice"
@@ -122,10 +121,17 @@
 			}]
 			title: "Craft a &aNovice Wand"
 			x: 0.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5DD91A2BE7C75259"]
+			description: [
+				"To get more spells, place books into the &dSpell Binding Table&r to turn them into &bSpell Tomes&r."
+				""
+				"After selecting a &bSpell Tome&r, place it back into the &dSpell Binding Table&r to select spells using lapis lazuli and XP"
+				""
+				"Adding bookshelves around the table gives access to stronger spells. "
+			]
 			id: "1F63CB475EC9E7D3"
 			rewards: [
 				{
@@ -140,7 +146,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Used to bind spells to a &aWand&r. Adding bookshelves gives better spells. &aWands&r can be given enchants with a regular &5Enchantment Table&r."
+			size: 1.25d
+			subtitle: "Used to get more spells. Read the quest description for details."
 			tasks: [{
 				id: "4C5003A828CA3E5B"
 				item: "spell_engine:spell_binding"
@@ -148,7 +155,7 @@
 			}]
 			title: "Create a &6Spell Binding Table"
 			x: 0.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			id: "6B0A9F014D9985F3"
@@ -174,7 +181,7 @@
 			}]
 			title: "Find a &3Wizard Merchant"
 			x: 1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1F63CB475EC9E7D3"]
@@ -193,7 +200,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Different &aWand &rtypes have different spells."
+			subtitle: "Different &aStaff &rtypes grant different bonuses to spell power."
 			tasks: [
 				{
 					id: "0FAEE43890CC3808"
@@ -228,13 +235,24 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0BDE1085B72F3DB7"
+					item: {
+						Count: 1b
+						id: "paladins:ruby_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "Craft all three of the most powerful &aWands"
-			x: -1.5d
-			y: -3.0d
+			title: "Find or craft the four most powerful &aStaff&r variants"
+			x: 0.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["1F63CB475EC9E7D3"]
+			dependencies: ["0C0AC243A78F1D49"]
 			id: "54885F1A5D622F0E"
 			rewards: [
 				{
@@ -288,7 +306,7 @@
 			]
 			title: "Craft all three &bSpellblades"
 			x: 1.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			id: "0C0AC243A78F1D49"
@@ -309,7 +327,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Used to create Spellblade armor that increases the power of &bSpellblades&r."
+			subtitle: "Used to create &bSpellblades&r and &9Spellblade armor&r. "
 			tasks: [
 				{
 					id: "52C15828671E1DF3"
@@ -329,7 +347,7 @@
 			]
 			title: "Craft all three &bSpellblade Ingots"
 			x: 1.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "65C4BF29F49AB821"
@@ -384,9 +402,177 @@
 				}
 			]
 			title: "Craft the hat for all three &3Wizard&r gearsets"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "6C3BBFF5849AF261"
+			rewards: [{
+				count: 2
+				id: "7FE59E8CA66A0703"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "A Villager jobsite block for &6Monks&r. They can sell useful Healing equipment."
+			tasks: [{
+				id: "1864630F9E28FB5A"
+				item: "paladins:monk_workbench"
+				type: "item"
+			}]
+			title: "Craft a &eMonk Workbench"
 			x: -1.5d
-			y: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "6A6B6A02E7D94DC9"
+			rewards: [{
+				count: 4
+				id: "4149C5FE5A0816C7"
+				item: "runes:healing_stone"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Paladin weapons have a built-in &6Smite&r spell, high &4attack damage&r and some innate &ehealing power&r."
+			tasks: [{
+				id: "61212B3F2533378C"
+				item: {
+					Count: 1b
+					id: "paladins:iron_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an &fIron Mace"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54885F1A5D622F0E"]
+			id: "0DEECDD5A0D2B480"
+			rewards: [{
+				id: "181CB2AF0DB72C59"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Right click with it to summon a &4Spirit Sword&r. There are many other powerful weapons from Spellblades, many of which are only obtainable from a &3boss."
+			tasks: [{
+				id: "50EDE62743FFBC7C"
+				item: "spellbladenext:firestarter"
+				type: "item"
+			}]
+			title: "Make a &4Spirit Stick."
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A6B6A02E7D94DC9"]
+			id: "537E78C7BCB59903"
+			rewards: [{
+				id: "71F0FE4937DCFE29"
+				item: {
+					Count: 1b
+					id: "paladins:crusader_armor_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This unique long-ranged weapon doesn't have any &ehealing power&r of it's own, so you'll need to get some from &6armor&r or &6relics&r."
+			tasks: [{
+				id: "381FBD57F90F56B0"
+				item: {
+					Count: 1b
+					id: "spellbladenext:holysymbol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &eHoly Symbol"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "30CC2E34826B66B2"
+			rewards: [{
+				id: "35AEFDD611C83344"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "This swaggy hat gives no boost to spell power, but instead boosts your &3critical chance&r and &4critical damage&r."
+			tasks: [{
+				id: "3E98256AF8235F31"
+				item: {
+					Count: 1b
+					id: "spellbladenext:deathchill_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &4Mageseeker Hat"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "197223EB501352B7"
+			rewards: [{
+				id: "67D15EBB72CA28AA"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "Orbs are weaker, but do not have a movement speed penalty when casting and have massively increased &aSpell Haste&r."
+			tasks: [
+				{
+					id: "0937E23CA380B8A0"
+					item: {
+						Count: 1b
+						id: "spellbladenext:orb_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "118B5B74503FA470"
+					item: {
+						Count: 1b
+						id: "spellbladenext:orb_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69BB5C6877A492C7"
+					item: {
+						Count: 1b
+						id: "spellbladenext:orb_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft all three &bSpell Orbs"
+			x: -1.5d
+			y: -0.5d
 		}
 	]
-	title: " &3Wizards"
+	title: " &3Magic"
 }

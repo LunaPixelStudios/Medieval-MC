@@ -5,7 +5,7 @@
 	group: "799D8360B26E9792"
 	icon: "adorn:oak_chair"
 	id: "3B95E66C126DBBEF"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

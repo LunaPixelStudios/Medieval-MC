@@ -38,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","Snowyspirit Generated Pack","Supplementaries Generated Pack","lambdabettergrass/default","charmonium/journeyman","file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/Clarent_FFE_v3.5.zip","file/STONEBORN - 1.19 - V3.2.1.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.1-1.19 MeiAdditions.zip","file/EmbellishedStone-1.19-1.0.0.zip","file/EclecticTrove-noconfig-1.19-1.2.0.zip","Seasonal Lush Caves"]
+resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","Snowyspirit Generated Pack","Supplementaries Generated Pack","lambdabettergrass/default","charmonium/journeyman","file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/MMC_Excal.zip","file/STONEBORN - 1.19 - V3.2.1.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.2-1.19 MeiAdditions.zip","file/EclecticTrove-noconfig-1.19-1.2.0.zip","file/EmbellishedStone-1.19-1.0.0.zip","file/create_inventory_by_mei.zip","Seasonal Lush Caves","Immersive Weathering Generated Pack","file/Environmental Water 1.19.0-1.19.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost
 lang:en_us
@@ -112,6 +112,7 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.fabrishot.screenshot:key.keyboard.f2
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.unknown
@@ -169,7 +170,7 @@ key_mapfrontiers.key.open_settings:key.keyboard.unknown
 key_key.mcda.firetrail.toggle:key.keyboard.semicolon
 key_merchantmarkers.key.showMarkers:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_key.origins.primary_active:key.keyboard.h
+key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.comma
 key_key.origins.view_origin:key.keyboard.o
 key_ping-wheel.key.mark-location:key.keyboard.r
@@ -202,6 +203,7 @@ key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
+key_key.category.vinery:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_iris.keybind.reload:key.keyboard.unknown

@@ -282,6 +282,7 @@
         }
     },
     "com.tiviacz.travelersbackpack.client.screen.TravelersBackpackHandledScreen": {
+        "ignore": true,
         "buttonHints": {
             "MOVE_TO_CONTAINER": {
                 "horizontalOffset": 7,
@@ -292,7 +293,7 @@
                 "top": 79
             },
             "SORT": {
-                "horizontalOffset": -29,
+                "horizontalOffset": -50,
                 "top": 51
             },
             "SORT_COLUMNS": {
@@ -370,5 +371,8 @@
                 "horizontalOffset": -2
             }
         }
+    },
+    "com.tiviacz.travelersbackpack.inventory.screen.TravelersBackpackItemScreenHandler": {
+        "ignore": true
     }
 }

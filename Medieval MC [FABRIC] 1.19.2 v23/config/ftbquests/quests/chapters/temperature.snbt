@@ -11,7 +11,7 @@
 		}
 	}
 	id: "120708FA79485814"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,7 +21,7 @@
 				item: "environmentz:polar_bear_fur"
 				type: "item"
 			}]
-			subtitle: "Cools you down when inside of your inventory."
+			subtitle: "Cools you down when held. You can also hold a frost weapon, like a wand or spellblade. Standing near snow or ice blocks also lowers your temperature."
 			tasks: [{
 				id: "18AEAB7630DB72BA"
 				item: {
@@ -44,7 +44,7 @@
 				item: "adventurez:mammoth_fur"
 				type: "item"
 			}]
-			subtitle: "Warms you up when inside of your inventory."
+			subtitle: "Warms you up when held. You can also hold a torch or lava bucket, or fire weapon like a wand or spellblade. Standing near fires, lava, or multiple torches also raises your temperature."
 			tasks: [{
 				id: "1CF5A47273CAB23F"
 				item: {
