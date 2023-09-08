@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Supplementaries Generated Pack"]
+resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -120,6 +120,18 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_vivecraft.key.rotateLeft:key.keyboard.unknown
+key_vivecraft.key.rotateRight:key.keyboard.unknown
+key_vivecraft.key.teleport:key.keyboard.unknown
+key_vivecraft.key.teleportFallback:key.keyboard.unknown
+key_vivecraft.key.toggleMovement:key.keyboard.unknown
+key_vivecraft.key.quickTorch:key.keyboard.unknown
+key_vivecraft.key.swapMirrorView:key.keyboard.unknown
+key_vivecraft.key.exportWorld:key.keyboard.unknown
+key_vivecraft.key.moveThirdPersonCam:key.keyboard.unknown
+key_vivecraft.key.togglePlayerList:key.keyboard.unknown
+key_vivecraft.key.toggleHandheldCam:key.keyboard.unknown
+key_vivecraft.key.quickHandheldCam:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.unknown
@@ -132,6 +144,7 @@ key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.adventurez.dragonflydown:key.keyboard.left.alt
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
 key_key.archon.infernal_coat:key.keyboard.period
+key_autothirdperson.toggle:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.bewitchment.transformation_ability:key.keyboard.caps.lock
@@ -178,9 +191,11 @@ key_key.origins.view_origin:key.keyboard.o
 key_ping-wheel.key.mark-location:key.keyboard.v
 key_ping-wheel.key.open-settings:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
+key_key.puffish_skills.open:key.keyboard.k
 key_options.narrator:key.keyboard.b
 key_key.showmeyourskin.open_settings:key.keyboard.k
 key_key.showmeyourskin.global_toggle:key.keyboard.unknown
+key_key.simplyskills.ability1:key.keyboard.v
 key_key.soulsweapons.return_freyr_sword:key.keyboard.p
 key_key.soulsweapons.freyr_sword_stationary:key.keyboard.z
 key_key.soulsweapons.collect_summons_soul_reaper:key.keyboard.comma

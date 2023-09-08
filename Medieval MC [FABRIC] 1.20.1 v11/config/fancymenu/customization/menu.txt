@@ -50,14 +50,6 @@ customization {
 }
 
 customization {
-  identifier = %id=40%
-  orientation = top-centered
-  x = -427
-  action = movebutton
-  y = 9
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
   orientation = mid-centered
   x = -102
@@ -110,22 +102,10 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  hoverlabel = [UNTESTED]
-  restartbackgroundanimations = true
-  buttonaction = opengui;net.minecraft.class_436%btnaction_splitter_fm%
-  x = 4
-  width = 98
-  action = addbutton
-  actionid = 0979fde0-a299-4eeb-99d5-62f072ba0ce71687407883252
-  y = -10
-  label = Open to LAN
-  height = 20
-}
-
-customization {
   identifier = %id=504330%
-  action = hidebutton
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -10
 }
 

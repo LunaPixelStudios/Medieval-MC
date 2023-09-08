@@ -215,3 +215,19 @@ customization {
   height = 167
 }
 
+customization {
+  identifier = %id=604346%
+  orientation = top-right
+  x = -61
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=604310%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 5
+}
+
