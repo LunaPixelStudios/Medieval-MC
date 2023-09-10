@@ -1,4 +1,13 @@
 {
+	/* Default (0): Everything other than self
+	   Next Permission (1): Not self and not teammates or pets of self
+	   Next Permission (2): Not self and not teammates or pets of self or AnimalEntities (not hitting farm animals is not present in permission 3)
+	   Next Permission (3): Not self and not Potential allies (pets of any player, iron golems, villagers, players)
+	   Final Permission (4): Only hostile mobs
+	   WARNING: LOOKS AT HOSTILE ENTITY CLASS WHICH DOES NOT INCLUDE ENDER DRAGON AND OTHERS.
+	   If anything else is put, it will be treated as default
+	*/
+	"aoePermission": 1,
 	"ENABLE_ENCHANTMENT_SETTINGS": {
 		"ENABLE_OP_ENCHANTMENT_MIXING": false,
 		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
@@ -45,6 +54,13 @@
 		"WEAKENING": 30,
 		"WILD_RAGE": 10
 	},
-	// Overall Enchantment Strength Slider
-	"enchantmentStrength": 0.9
+	/* A slider value for damage modifying enchantments: Ambush, Critical Hit, Void Strike, Pain Cycle,
+	   Enigma Resonator, Dynamo, Shadow Form, Enigma Shot, Growing, Void Shot, Overcharge, Committed,
+	   Hunter's Promise.
+	*/
+	"directDamageEnchantmentMultiplier": 1.0,
+	// Healing Factor Slider. Percentage of healing -> 1.0 = 100%. Default value = 1.0.
+	"HEALING_FACTOR": {
+		"HEALING_FACTOR": 1.0
+	}
 }
