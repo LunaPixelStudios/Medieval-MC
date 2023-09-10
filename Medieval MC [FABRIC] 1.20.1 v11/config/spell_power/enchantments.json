@@ -38,7 +38,7 @@
     "max_level": 5,
     "min_cost": 10,
     "step_cost": 12,
-    "bonus_per_level": 0.01
+    "bonus_per_level": 0.02
   },
   "critical_damage": {
     "requires": "MAGICAL_ARMOR",
@@ -46,7 +46,7 @@
     "max_level": 5,
     "min_cost": 10,
     "step_cost": 12,
-    "bonus_per_level": 0.025
+    "bonus_per_level": 0.05
   },
   "haste": {
     "requires": "MAGICAL_WEAPON",
