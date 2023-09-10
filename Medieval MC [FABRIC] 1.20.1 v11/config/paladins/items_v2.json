@@ -61,7 +61,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 6.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
@@ -148,6 +148,17 @@
         }
       ]
     },
+    "diamond_holy_staff": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "healing",
+          "value": 4.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
     "golden_claymore": {
       "attack_damage": 5.0,
       "attack_speed": -3.0,
@@ -165,7 +176,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 6.0,
+          "value": 3.0,
           "operation": "ADDITION"
         }
       ]
@@ -176,7 +187,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 2.0,
+          "value": 1.0,
           "operation": "ADDITION"
         },
         {
@@ -192,7 +203,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 10.0,
+          "value": 8.0,
           "operation": "ADDITION"
         }
       ]
@@ -225,7 +236,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 8.0,
+          "value": 6.0,
           "operation": "ADDITION"
         }
       ]
@@ -236,7 +247,7 @@
       "spell_attributes": [
         {
           "name": "healing",
-          "value": 4.0,
+          "value": 2.0,
           "operation": "ADDITION"
         },
         {
@@ -271,7 +282,7 @@
   },
   "armor_sets": {
     "crusader_armor": {
-      "armor_toughness": 2.0,
+      "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
         "armor": 2,
@@ -423,7 +434,7 @@
       }
     },
     "paladin_armor": {
-      "armor_toughness": 1.0,
+      "armor_toughness": 0.0,
       "knockback_resistance": 0.0,
       "head": {
         "armor": 2,

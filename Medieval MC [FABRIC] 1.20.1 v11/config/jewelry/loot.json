@@ -1,0 +1,90 @@
+{
+  "loot_tables": {
+    "minecraft:chests/simple_dungeon": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/bastion_treasure": [
+      "jewelry_tier_2"
+    ],
+    "minecraft:chests/desert_pyramid": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/woodland_mansion": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/end_city_treasure": [
+      "jewelry_tier_2"
+    ],
+    "minecraft:chests/abandoned_mineshaft": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/shipwreck_supply": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/jungle_temple": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/ancient_city": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/underwater_ruin_big": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/igloo_chest": [
+      "jewelry_tier_0"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "jewelry_tier_1"
+    ]
+  },
+  "item_groups": {
+    "jewelry_tier_2": {
+      "ids": [
+        "jewelry:netherite_ruby_ring",
+        "jewelry:netherite_topaz_ring",
+        "jewelry:netherite_citrine_ring",
+        "jewelry:netherite_jade_ring",
+        "jewelry:netherite_sapphire_ring",
+        "jewelry:netherite_tanzanite_ring",
+        "jewelry:netherite_ruby_necklace",
+        "jewelry:netherite_topaz_necklace",
+        "jewelry:netherite_citrine_necklace",
+        "jewelry:netherite_jade_necklace",
+        "jewelry:netherite_sapphire_necklace",
+        "jewelry:netherite_tanzanite_necklace"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.6,
+      "weight": 1
+    },
+    "jewelry_tier_0": {
+      "ids": [
+        "jewelry:copper_ring",
+        "jewelry:iron_ring",
+        "jewelry:gold_ring"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.0,
+      "weight": 1
+    },
+    "jewelry_tier_1": {
+      "ids": [
+        "jewelry:ruby_ring",
+        "jewelry:topaz_ring",
+        "jewelry:citrine_ring",
+        "jewelry:jade_ring",
+        "jewelry:sapphire_ring",
+        "jewelry:tanzanite_ring",
+        "jewelry:ruby_necklace",
+        "jewelry:topaz_necklace",
+        "jewelry:citrine_necklace",
+        "jewelry:jade_necklace",
+        "jewelry:sapphire_necklace",
+        "jewelry:tanzanite_necklace"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.3,
+      "weight": 1
+    }
+  }
+}
