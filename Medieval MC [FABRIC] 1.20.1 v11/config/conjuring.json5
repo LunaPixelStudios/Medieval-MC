@@ -5,11 +5,11 @@
 		// Whether Conjuration Essence should only drop from spawners that were mined without Silk Touch
 		"respectSilkTouch": false,
 		// How many extra mobs to spawn per abundance charm
-		"abundance_multiplier": 1,
+		"abundance_multiplier": 2,
 		// How many ticks of waiting to remove per haste charm
-		"haste_multiplier": 20.0,
+		"haste_multiplier": 50.0,
 		// How many blocks of range to add per scope charm
-		"scope_multiplier": 6,
+		"scope_multiplier": 3,
 		// How many extra mobs are allowed close to the conjurer per ignorance charm
 		"ignorance_multiplier": 1,
 		// Which mob types you shouldn't be able to create a conjuring focus for
@@ -25,15 +25,17 @@
 			"soulsweapons:draugr_boss",
 			"soulsweapons:night_prowler",
 			"soulsweapons:night_shade",
-			"soulsweapons:returning_night",
+			"soulsweapons:moonknight",
 			"soulsweapons:remnant",
+			"soulsweapons:returning_knight",
 			"soulsweapons:withered_demon",
 			"soulsweapons:accursed_lord_boss",
-			"bossesofmassdestruction:gauntlet",
-			"bossesofmassdestruction:obsidilith",
-			"bossesofmassdestruction:void_blossom",
-			"bossesofmassdestruction:lich",
+			"bosses_of_mass_destruction:gauntlet",
+			"bosses_of_mass_destruction:obsidilith",
+			"bosses_of_mass_destruction:void_blossom",
+			"bosses_of_mass_destruction:lich",
 			"adventurez:dragon",
+			"adventurez:stone_golem",
 			"adventurez:the_eye",
 			"adventurez:tiny_eye",
 			"adventurez:void_shadow"
@@ -47,7 +49,7 @@
 		// What percentage (additive) of the original damage to make armor piercing per ignorance level
 		"sword_ignorance_multiplier": 0.10000000149011612,
 		// Exponent for the haste level, attack speed calculation goes like this: -2.4f + haste_level^exponent
-		"sword_haste_exponent": 1.5,
+		"sword_haste_exponent": 1.35,
 		// How much durability firing a projectile with sword costs
 		"sword_secondary_durability_cost": 20,
 		// Cooldown for firing projectiles with the sword, in ticks
