@@ -20,8 +20,8 @@
 	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
 	"add_spell_casting_regex": "",
 	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
-	"blacklist_spell_casting_regex": "simplyswords:storms_edge|simplyswords:stormbringer|simplyswords:emberblade|simplyswords:hearthflame|simplyswords:soulkeeper|simplyswords:twisted_blade|simplyswords:soulstealer|simplyswords:soulrender|simplyswords:soul_pyre|simplyswords:frostfall|simplyswords:molten_edge|simplyswords:livyatan|simplyswords:icewhisper|simplyswords:arcanethyst|simplyswords:thunderbrand|simplyswords:waking_lichblade|simplyswords:awakened_lichblade|simplyswords:shadowsting|soulsweapons:darkin_blade|soulsweapons:whirligig_sawblade|soulsweapons:dragonslayer_swordspear|soulsweapons:nightfall|soulsweapons:comet_spear|soulsweapons:mjolnir|soulsweapons:holy_moonlight_greatsword|soulsweapons:dragon_staff|soulsweapons:withered_wabbajack|soulsweapons:guts_sword|soulsweapons:soul_reaper|soulsweapons:forlorn_scythe|soulsweapons:darkin_scythe|soulsweapons:shadow_assassin_scythe|archon:ember_blade|archon:void_scepter|archon:terrain_mace|archon:wither_stave|archon:thunder_bolt|archon:water_staff|archon:vacuum_cleaver|archon:fist_of_fury|archon:frost_sword|archon:terranean_axe|archon:soul_crusher|minecells:hattoris_katana|techreborn:nanosaber|harvest_scythes:wooden_machete|harvest_scythes:stone_machete|harvest_scythes:iron_machete|harvest_scythes:golden_machete|harvest_scythes:diamond_machete|harvest_scythes:netherite_machete|harvest_scythes:creative_machete|harvest_scythes:peridot_machete|harvest_scythes:sapphire_machete|harvest_scythes:ruby_machete|harvest_scythes:bronze_machete|harvest_scythes:dragon_machete|harvest_scythes:cryomarble_machete|minecells:frost_blast|minecells:phaser",
-	/* Allow actions based on relations:
+	"blacklist_spell_casting_regex": "simplyswords:storms_edge|simplyswords:stormbringer|simplyswords:emberblade|simplyswords:hearthflame|simplyswords:soulkeeper|simplyswords:twisted_blade|simplyswords:soulstealer|simplyswords:soulrender|simplyswords:soul_pyre|simplyswords:frostfall|simplyswords:molten_edge|simplyswords:livyatan|simplyswords:icewhisper|simplyswords:arcanethyst|simplyswords:thunderbrand|simplyswords:waking_lichblade|simplyswords:awakened_lichblade|simplyswords:shadowsting|soulsweapons:darkin_blade|soulsweapons:whirligig_sawblade|soulsweapons:dragonslayer_swordspear|soulsweapons:nightfall|soulsweapons:comet_spear|soulsweapons:mjolnir|soulsweapons:holy_moonlight_greatsword|soulsweapons:dragon_staff|soulsweapons:withered_wabbajack|soulsweapons:guts_sword|soulsweapons:soul_reaper|soulsweapons:forlorn_scythe|soulsweapons:darkin_scythe|soulsweapons:shadow_assassin_scythe|archon:ember_blade|archon:void_scepter|archon:terrain_mace|archon:wither_stave|archon:thunder_bolt|archon:water_staff|archon:vacuum_cleaver|archon:fist_of_fury|archon:frost_sword|archon:terranean_axe|archon:soul_crusher|minecells:hattoris_katana|minecells:frost_blast|minecells:phaser|conjuring:soul_alloy_sword",
+	/* Relations determine which cases the effect of a player casted spell can effect a target.
 	   +----------------+-----------+---------------+----------+----------+--------+
 	   |                | FRIENDLY  | SEMI_FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
 	   +----------------+-----------+---------------+----------+----------+--------+
@@ -30,11 +30,24 @@
 	   | DIRECT HEALING | ✅        | ✅            | ✅       | 🚫       | ✅    |
 	   | AREA HEALING   | ✅        | ✅            | 🚫       | 🚫       | ✅    |
 	   +----------------+-----------+---------------+----------+----------+--------+
-	   Any entities within the same team are considered FRIENDLY for each other.
+	   
+	   The various relation related configs are being checked in the following order:
+	   - `player_relations`
+	   - `player_relation_to_passives`
+	   - `player_relation_to_hostiles`
+	   - `player_relation_to_other`
+	   (The first relation to be found for the target will be applied.)
 	*/
-	"player_relation_to_teamless_players": "SEMI_FRIENDLY",
-	"player_relation_to_villagers": "SEMI_FRIENDLY",
-	"player_relation_to_passives": "HOSTILE",
+	"player_relations": {
+		"minecraft:iron_golem": "NEUTRAL",
+		"minecraft:villager": "SEMI_FRIENDLY",
+		"guardvillagers:guard": "SEMI_FRIENDLY",
+		"minecraft:player": "SEMI_FRIENDLY"
+	},
+	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
+	"player_relation_to_passives": "MIXED",
+	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
 	"player_relation_to_hostiles": "HOSTILE",
+	// Fallback relation
 	"player_relation_to_other": "HOSTILE"
 }
