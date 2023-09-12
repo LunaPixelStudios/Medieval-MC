@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/EmbellishedStone-1.19-1.0.0.zip",
+    "file/EclecticTrove-noconfig-1.19-1.2.0.zip",
+    "file/STONEBORN - 1.2-1.19 MeiAdditions.zip",
+    "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
+    "file/STONEBORN - 1.19 - V3.2.1.zip",
+    "file/MMC_Excal.zip",
+    "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
+    "file/Excalibur_V1.19.4.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "file/MoreStructures-SpacingTweaks-1.19.2-2.1.54.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Dungeons_v4.zip": {
+      "hidden": true
+    },
+    "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Nether_Fortress_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Monuments_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Strongholds_v4.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Witch_Huts_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Bygone_Nether_v1.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Chef's_Delight_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Farmers_Delight_v5.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Friends_And_Foes_v3.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Incubation_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Oh_The_Biomes_Youll_Go_v2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Savage_And_Ravage_v6.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-VillagersPlus_v1.zip": {
+      "hidden": true
+    },
+    "file/ctov-waystone-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "file/ctov-irons-add-on-v1-1.zip": {
+      "hidden": true
+    },
+    "file/ctov-farmers-delight-compat-v1-2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Hexerei_v5.zip": {
+      "hidden": true
+    },
+    "Snowyspirit Generated Pack": {
+      "hidden": true
+    },
+    "V Slab Compat Generated Pack": {
+      "hidden": true
+    },
+    "Immersive Weathering Generated Pack": {
+      "hidden": true
+    },
+    "defaultresources": {
+      "hidden": true
+    },
+    "quark:emote_resources": {
+      "hidden": true
+    },
+    "dynamic_asset_generator:assets": {
+      "hidden": true
+    },
+    "Everycomp Generated Pack": {
+      "hidden": true
+    },
+    "Supplementaries Generated Pack": {
+      "hidden": true
+    },
+    "file/ctov-chefs-delight-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "builtin/builtin_resource_packs/legacy_dead_king_resource_pack": {
+      "hidden": true
+    },
+    "blue_skies:legacy_pack": {
+      "hidden": true
+    },
+    "builtin/glass_pane_fix_resources": {
+      "hidden": true
+    },
+    "builtin/twilight_forest_legacy_resources": {
+      "hidden": true
+    },
+    "file/Quark Programmer Art.zip": {
+      "hidden": true
+    },
+    "file/RarerStructures-SpacingTweaks-1.19.2-2.1.54.zip": {
+      "hidden": true
+    },
+    "file/WDA-NoFlyingStructures-1.18.2-1.19.2.zip": {
+      "hidden": true
+    },
+    "immersive_weathering:better_brick_blocks": {
+      "hidden": true
+    },
+    "immersive_weathering:better_brick_items": {
+      "hidden": true
+    },
+    "file/ctov-friends-and-foes-add-on.zip": {
+      "hidden": true
+    },
+    "immersive_weathering:biome_tinted_mossy_blocks": {
+      "hidden": true
+    },
+    "immersive_weathering:visual_waxed_iron_items": {
+      "hidden": true
+    },
+    "programer_art": {
+      "hidden": true
+    },
+    "simplyswords:classic": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "file/Origins_Expanded_Foods_v2.1+1.19.2.zip": {
+      "hidden": true
+    },
+    "file/ctov-byg-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "file/ctov-savage-and-ravage-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "file/ctov-villager-plus-add-on-v1-0.zip": {
+      "hidden": true
+    },
+    "file/enemy_expansion_modded.zip": {
+      "hidden": true
+    }
+  }
+}

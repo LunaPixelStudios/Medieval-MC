@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "currentVersion": "v18",
+  "modpackName": "Medieval MC [FORGE] 1.19.2",
+  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/mmc3forge/",
+  "advanced": {
+    "bccEnabled": true,
+    "expandButton": true,
+    "updateCheckerType": 2
+  }
+}
