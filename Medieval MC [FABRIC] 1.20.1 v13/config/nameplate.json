@@ -10,7 +10,9 @@
   "showHostileOnly": false,
   "squaredDistance": 128.0,
   "showNameplateIfObstructed": false,
+  "useRpgDifficultyLvl": false,
   "levelTitle": true,
+  "healthBar": false,
   "excludedEntities": [
     "minecraft:ender_dragon",
     "minecraft:wither",
