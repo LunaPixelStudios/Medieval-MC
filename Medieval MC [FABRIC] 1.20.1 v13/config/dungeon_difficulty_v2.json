@@ -1,6 +1,6 @@
 {
   "meta": {
-    "comment": "Note: Each difficulty type (just below) is multiplied by that areas difficulty level (found at the bottom of the config). Parent means everything from that difficulty type is included. In MMC Fabric, most mob scaling is actually handled by RPGDifficulty, via config and datapack.",
+    "comment": "Note: Each difficulty type (just below) is multiplied by that areas difficulty level (found at the bottom of the config). In MMC Fabric, Dungeon Difficulty is used mostly for scaling item loot, bosses, and a few structures. All other mob leveling is handled by RPGDifficulty, via config and datapack.",
     "allow_customization": true,
     "sanitize_config": true,
     "rounding_unit": 0.5
@@ -634,31 +634,31 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 0.5
+              "value": 0.0
             },
             {
               "attribute": "projectile_damage:generic",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 0.5
+              "value": 0.0
             },
             {
               "attribute": "generic.armor",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 0.2
+              "value": 0.0
             },
             {
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.4
+              "value": 0.0
             },
             {
               "attribute": "generic.movement_speed",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.02
+              "value": 0.0
             }
           ],
           "experience_multiplier": 1.5
@@ -714,72 +714,6 @@
     {
       "name": "harder_dims_bosses_only",
       "entities": [
-        {
-          "entity_matches": {
-            "attitude": "ANY",
-            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(bosses_of_mass_destruction:gauntlet).*$"
-          },
-          "attributes": [
-            {
-              "attribute": "generic.attack_damage",
-              "operation": "ADDITION",
-              "randomness": 0.0,
-              "value": 0.5
-            },
-            {
-              "attribute": "projectile_damage:generic",
-              "operation": "ADDITION",
-              "randomness": 0.0,
-              "value": 0.5
-            },
-            {
-              "attribute": "generic.max_health",
-              "operation": "MULTIPLY_BASE",
-              "randomness": 0.0,
-              "value": 1.25
-            },
-            {
-              "attribute": "generic.movement_speed",
-              "operation": "MULTIPLY_BASE",
-              "randomness": 0.0,
-              "value": 0.04
-            }
-          ],
-          "experience_multiplier": 1.5
-        },
-        {
-          "entity_matches": {
-            "attitude": "ANY",
-            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(bosses_of_mass_destruction:obsidilith).*$"
-          },
-          "attributes": [
-            {
-              "attribute": "generic.attack_damage",
-              "operation": "ADDITION",
-              "randomness": 0.0,
-              "value": 0.5
-            },
-            {
-              "attribute": "projectile_damage:generic",
-              "operation": "ADDITION",
-              "randomness": 0.0,
-              "value": 0.5
-            },
-            {
-              "attribute": "generic.max_health",
-              "operation": "MULTIPLY_BASE",
-              "randomness": 0.0,
-              "value": 0.06
-            },
-            {
-              "attribute": "generic.movement_speed",
-              "operation": "MULTIPLY_BASE",
-              "randomness": 0.0,
-              "value": 0.04
-            }
-          ],
-          "experience_multiplier": 1.5
-        },
         {
           "entity_matches": {
             "attitude": "ANY",
