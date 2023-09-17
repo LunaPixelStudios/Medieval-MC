@@ -194,7 +194,9 @@
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
-      "minecraft:horse"
+      "minecraft:horse",
+      "mythicmounts:*",
+      "adventurez:dragon"
     ]
   },
   "customPickupConditions": {
