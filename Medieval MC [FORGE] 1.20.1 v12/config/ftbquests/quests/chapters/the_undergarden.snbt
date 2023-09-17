@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:stone_bricks"
+	id: "744FB47D1500561A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To access the Undergarden, the player must construct an Undergarden portal in the Overworld (portals created in other dimensions such as the Nether and the End do not activate). To create the portal, the player must first build a rectangular frame made out of any arrangement of Stone Bricks, Deepslate Bricks, Depthrock Bricks, and Shiverstone Bricks in the shape of a Nether portal. To activate the portal, right click on the inner bottom face of the frame while holding the Catalyst."]
+			id: "63183329FCECAB43"
+			rewards: [
+				{
+					id: "51AFADB818384136"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							RepairCost: 0
+							author: "xSharkieTV"
+							display: {
+								Name: "{\"text\":\"What is that smell?\"}"
+							}
+							pages: ["{\"text\":\"What is this Rotten place. It smells so bad. I don't even want to imagine what creatures live here!\"}"]
+							title: "Undergarden"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55597E811E717D0E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "minecraft:stone_bricks"
+				id: "237356226B413DBB"
+				title: "Enter the Undergarden"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "571D0197D432A3BB"
+			rewards: [
+				{
+					id: "41A42AC13A78DC02"
+					item: {
+						Count: 1b
+						id: "undergarden:slingshot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4012CCA85053BA23"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Stoneborn can spawn anywhere in Dense Forests, Forgotten Fields, Smogstem Forests, and Wigglewood Forests."
+			tasks: [{
+				entity: "undergarden:stoneborn"
+				icon: "undergarden:depthrock_pebble"
+				id: "31E3B830BF959DD0"
+				title: "Kill a Stoneborn"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "41196539DF4CC0E7"
+			rewards: [
+				{
+					id: "7B7FFE4C3A6E5AEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3FE539920A6475BC"
+					item: {
+						Count: 1b
+						id: "undergarden:utherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32955F85E1C8F0DE"
+					item: {
+						Count: 1b
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Spawns on any solid block with a light level below 7 in the Undergarden."
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				icon: "undergarden:utheric_shard"
+				id: "605588A719BF905C"
+				title: "Kill a Rotbeast"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			id: "30C280A698BF1C9F"
+			rewards: [
+				{
+					id: "7C46DFA37BCD531D"
+					item: "undergarden:masticator_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3D850E5F4609526C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Forgotten Guardian can only be found naturally in the catacombs, spawning with the generation of the world."
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "undergarden:forgotten_nugget"
+				id: "70B986266C5A2041"
+				title: "Kill the Forgotten Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30C280A698BF1C9F"]
+			id: "7793464B93856F3E"
+			rewards: [
+				{
+					id: "61D18401A17E4870"
+					item: "upgradednetherite_items:echo_upgraded_netherite_totem"
+					type: "item"
+				}
+				{
+					id: "7E9E4B626410C0B4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Spawned with the spawn egg from the previous quest."
+			tasks: [{
+				entity: "undergarden:masticator"
+				icon: "undergarden:masticator_scales"
+				id: "5D106CF8AB2ADF1B"
+				title: "Spawn and Kill the Masticator"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	title: " &7The Undergarden"
+}

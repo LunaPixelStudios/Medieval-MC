@@ -19,14 +19,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -5
-}
-
-customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = 105
@@ -56,11 +48,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
+  identifier = %id=604334%
+  orientation = top-right
+  x = -61
   action = movebutton
-  y = -29
+  y = 5
 }
 
 customization {
@@ -82,6 +74,30 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = 47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -29
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 2
@@ -90,11 +106,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = -125
+  identifier = %id=604310%
+  orientation = top-left
+  x = 5
   action = movebutton
-  y = 47
+  y = 5
 }
 
 customization {
@@ -145,7 +161,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 293
   width = 268
   action = deep_customization_element:title_screen_forge_top
@@ -254,18 +270,7 @@ customization {
 }
 
 customization {
-  identifier = %id=604334%
-  orientation = top-right
-  x = -61
-  action = movebutton
-  y = 5
-}
-
-customization {
-  identifier = %id=604310%
-  orientation = top-left
-  x = 5
-  action = movebutton
-  y = 5
+  identifier = %id=6043341%
+  action = hidebutton
 }
 

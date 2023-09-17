@@ -1,0 +1,426 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chips"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:grass_block"
+	id: "1D2E5CDD57FFB4A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "268A05DFD4D5427A"
+			rewards: [
+				{
+					count: 12
+					id: "14F327BA69B975BD"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2D05266B3F98B211"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+			]
+			subtitle: "&3Gatekeeper Houses &rspawn in most biomes."
+			tasks: [{
+				id: "08CA723FD16E3030"
+				item: "blue_skies:blue_journal"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				type: "item"
+			}]
+			title: "Obtain a &9Blue Journal&r from a &3Gatekeeper"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "12022ECF40340A66"
+			rewards: [
+				{
+					id: "221CE60B83CCB2DC"
+					item: "minecolonies:supplycampdeployer"
+					type: "item"
+				}
+				{
+					id: "2131F8A066BB02DB"
+					item: "magnumtorch:diamond_magnum_torch"
+					type: "item"
+				}
+			]
+			subtitle: "Comes in many different varieties with different abilities. Press B to open."
+			tasks: [{
+				id: "4B917B890DD1D76D"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				title: "Craft a Standard Travelers Backpack"
+				type: "item"
+			}]
+			title: "Craft a &aStandard Traveler's Backpack"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "7051257F7989BC96"
+			rewards: [{
+				id: "763DD6CB263B6A04"
+				item: "handcrafted:pillager_trophy"
+				type: "item"
+			}]
+			subtitle: "Found in Dark Forests."
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					id: "conjurer_illager:conjurer_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3615D8F9CED4CC5D"
+				title: "Defeat the Conjurer"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2The Conjurer"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "1007183E889319C0"
+			rewards: [{
+				id: "4CE0A57FABFADA65"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:villager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "There are many new mobs in raids, so be careful!"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "77ABCB1D575B92A1"
+				title: "Protect a Village from a Raid"
+				type: "advancement"
+			}]
+			title: "Protect a Village from a &cRaid"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "3103E4D021218865"
+			rewards: [{
+				id: "5662C8EBD4F14F31"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "To summon the &5Wilden Chimera&r, you need to make a tablet of &dSummon Wilden&r and use it on a &6Ritual Brazier &rto start the ritual. You must then toss a &9Wilden Horn&r, a &7Wilden Wing&r, and a &3Wilden Spike&r into the flame before finalizing the ritual."
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "5354C5374F2E5CB8"
+				title: "Summon and Kill the Wilden Chimera"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Summon and Defeat the &5Wilden Chimera"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "3A24797147057C3A"
+			rewards: [{
+				id: "0DE1F1A3B4C17853"
+				item: {
+					Count: 1b
+					id: "graveyard:bone_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Ruins. Each Ruin will only have one Fragment."
+			tasks: [
+				{
+					id: "21147AF3B3C6CF70"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "7824962F2F44F8E6"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "7FC3427C9BECD420"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+			]
+			title: "Collect all three &fBone Staff Fragments"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			id: "70656413B15CF152"
+			rewards: [{
+				id: "52F790C76E31D643"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Obtained by killing 8 villagers with a &fbone dagger&r and a glass bottle in your offhand. "
+			tasks: [{
+				id: "34170B7ED8AFB032"
+				item: {
+					Count: 1b
+					id: "graveyard:vial_of_blood"
+					tag: {
+						Blood: 0.8000001f
+					}
+				}
+				type: "item"
+			}]
+			title: "Fill a &4Vial of Blood "
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["425ABB8C4D44968E"]
+			id: "7B3ED587398E9F62"
+			rewards: [
+				{
+					id: "3BA91EC6C1BA87D9"
+					item: "aquamirae:dead_sea_scroll"
+					type: "item"
+				}
+				{
+					id: "0E254848E2683A38"
+					item: {
+						Count: 1b
+						id: "aquamirae:maze_rose"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Summoned in the &bIce Maze &rwith the &fShell Horn&r"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1b
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "21B54E613B0A33D4"
+				title: "Kill Captain Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &3Captain Cornelia"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "425ABB8C4D44968E"
+			rewards: [{
+				id: "34601B52DB0976A8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Used to Summon &4Captain Cornelia"
+			tasks: [{
+				id: "5DCE6EFC90FEA1E1"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			title: "Obtain a &fShell Horn"
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mysticaloaktree:textures/block/wise_oak.png"
+				}
+			}
+			id: "1F52448DBE15332E"
+			rewards: [{
+				id: "2B15735176989D14"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Has over 300 lines of dialogue. Gain his trust by talking to him enough. If you make him angry, you will face &4consequences. "
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mysticaloaktree:textures/block/wise_oak_butt.png"
+					}
+				}
+				id: "16684EBCA640DC0E"
+				observe_type: 0
+				timer: 0L
+				title: "Observe the Wise Oak"
+				to_observe: "mysticaloaktree:wise_oak"
+				type: "observation"
+			}]
+			title: "Find the &3Wise Oak"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "12EF8DC0ED882E26"
+			rewards: [{
+				id: "50FDDE69610B1347"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Summoned by dropping a &9Heart of the Sea &rnear a Whirl"
+			tasks: [{
+				entity: "greekfantasy:charybdis"
+				icon: "minecraft:heart_of_the_sea"
+				id: "166ED6D3B4512363"
+				title: "Defeat Charybdis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Charbydis"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "3E9BEC82776505CA"
+			rewards: [{
+				count: 3
+				id: "25C62049D43A6B12"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Used to modify tools via the &aTetra&r mod."
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "727B590FDC0F6E58"
+				title: "Right click the crafting table with a hammer to create the workbench"
+				type: "advancement"
+			}]
+			title: "Craft a &aTetra Workbench"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "1A878EB6FEC31A26"
+			rewards: [{
+				count: 3
+				id: "4794A29BDF3A8992"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &bOceanographer"
+			tasks: [{
+				id: "76FC0860F717FB35"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &bAquarium"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "6280E25813EA2805"
+			rewards: [{
+				count: 3
+				id: "020B040C4D079A06"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "3594A94ECDBC14FB"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			id: "32C4134E67E71063"
+			rewards: [{
+				count: 3
+				id: "7DD343C14E49B4ED"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "72527896BB77CECD"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			id: "3EA4CB4D9C90B767"
+			rewards: [{
+				id: "0EF5197E4E7ED8F3"
+				item: "conjurer_illager:throwable_ball"
+				type: "item"
+			}]
+			subtitle: "Found in &eIllusioner Towers&r"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "illagerinvasion:illusionary_dust"
+				id: "39A27C60C2775BD5"
+				title: "Defeat the &cIllusioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			id: "7CCAA3A7BC9D0208"
+			rewards: [{
+				id: "1EC587841A6725A9"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Over time, you will slowly collect a mix of seafood and junk. Putting fish in the trap will lure different creatures."
+			tasks: [{
+				id: "3AC626B22AD475A5"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "Craft a &3Crab Trap"
+			x: 8.0d
+			y: -5.5d
+		}
+	]
+	title: " &aOverworld"
+}
