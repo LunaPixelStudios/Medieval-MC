@@ -1,0 +1,93 @@
+{
+  "item_groups": {
+    "weapons": {
+      "ids": [
+        "spellbladenext:frost_blade",
+        "spellbladenext:frost_claymore",
+        "spellbladenext:frost_orb",
+        "spellbladenext:arcane_blade",
+        "spellbladenext:arcane_claymore",
+        "spellbladenext:arcane_orb",
+        "spellbladenext:fire_blade",
+        "spellbladenext:fire_claymore",
+        "spellbladenext:fire_orb",
+        "spellblades:whirlwindoil",
+        "spellblades:spelloil",
+        "spellblades:smiteoil"
+      ],
+      "chance": 0.15,
+      "bonus_roll_chance": 0.4,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    }
+  },
+  "loot_tables": {
+    "minecraft:chests/bastion_treasure": [
+      "weapons"
+    ],
+    "minecraft:chests/underwater_ruin_small": [
+      "weapons"
+    ],
+    "minecraft:chests/woodland_mansion": [
+      "weapons"
+    ],
+    "minecraft:chests/end_city_treasure": [
+      "weapons"
+    ],
+    "minecraft:chests/shipwreck_supply": [
+      "weapons"
+    ],
+    "minecraft:chests/nether_bridge": [
+      "weapons"
+    ],
+    "minecraft:chests/underwater_ruin_big": [
+      "weapons"
+    ],
+    "minecraft:chests/pillager_outpost": [
+      "weapons"
+    ],
+    "minecraft:chests/simple_dungeon": [
+      "weapons"
+    ],
+    "minecraft:chests/ruined_portal": [
+      "weapons"
+    ],
+    "minecraft:chests/desert_pyramid": [
+      "weapons"
+    ],
+    "minecraft:chests/underwater_ruin_big.json": [
+      "weapons"
+    ],
+    "minecraft:chests/bastion_bridge": [
+      "weapons"
+    ],
+    "minecraft:chests/jungle_temple": [
+      "weapons"
+    ],
+    "minecraft:chests/ancient_city": [
+      "weapons"
+    ],
+    "minecraft:chests/stronghold_corridor": [
+      "weapons"
+    ],
+    "minecraft:chests/stronghold_crossing": [
+      "weapons"
+    ],
+    "minecraft:chests/spawn_bonus_chest": [
+      "weapons"
+    ],
+    "minecraft:chests/igloo_chest": [
+      "weapons"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "weapons"
+    ],
+    "minecraft:chests/bastion_other": [
+      "weapons"
+    ]
+  }
+}
