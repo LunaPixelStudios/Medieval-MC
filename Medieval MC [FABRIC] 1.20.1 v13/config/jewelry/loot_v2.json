@@ -1,19 +1,22 @@
 {
   "loot_tables": {
-    "minecraft:chests/simple_dungeon": [
-      "jewelry_tier_0"
-    ],
     "minecraft:chests/bastion_treasure": [
       "jewelry_tier_2"
     ],
-    "minecraft:chests/desert_pyramid": [
-      "jewelry_tier_0"
-    ],
     "minecraft:chests/woodland_mansion": [
-      "jewelry_tier_1"
+      "jewelry_tier_2"
+    ],
+    "bosses_of_mass_destruction:entities/lich": [
+      "jewelry_tier_3"
     ],
     "minecraft:chests/end_city_treasure": [
-      "jewelry_tier_2"
+      "jewelry_tier_3"
+    ],
+    "bosses_of_mass_destruction:chests/gauntlet": [
+      "jewelry_tier_3"
+    ],
+    "bosses_of_mass_destruction:entities/void_blossom": [
+      "jewelry_tier_3"
     ],
     "minecraft:chests/abandoned_mineshaft": [
       "jewelry_tier_0"
@@ -21,20 +24,29 @@
     "minecraft:chests/shipwreck_supply": [
       "jewelry_tier_0"
     ],
-    "minecraft:chests/jungle_temple": [
-      "jewelry_tier_0"
-    ],
-    "minecraft:chests/ancient_city": [
-      "jewelry_tier_1"
-    ],
     "minecraft:chests/underwater_ruin_big": [
       "jewelry_tier_1"
     ],
-    "minecraft:chests/igloo_chest": [
+    "minecraft:chests/buried_treasure": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/simple_dungeon": [
       "jewelry_tier_0"
     ],
-    "minecraft:chests/stronghold_library": [
+    "minecraft:chests/desert_pyramid": [
       "jewelry_tier_1"
+    ],
+    "minecraft:chests/jungle_temple": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/ancient_city": [
+      "jewelry_tier_2"
+    ],
+    "minecraft:chests/igloo_chest": [
+      "jewelry_tier_1"
+    ],
+    "minecraft:chests/stronghold_library": [
+      "jewelry_tier_2"
     ]
   },
   "item_groups": {
@@ -53,8 +65,31 @@
         "jewelry:netherite_sapphire_necklace",
         "jewelry:netherite_tanzanite_necklace"
       ],
-      "chance": 0.1,
+      "chance": 0.15,
       "bonus_roll_chance": 0.6,
+      "weight": 1
+    },
+    "jewelry_tier_3": {
+      "ids": [
+        "jewelry:unique_attack_ring",
+        "jewelry:unique_attack_necklace",
+        "jewelry:unique_dex_ring",
+        "jewelry:unique_dex_necklace",
+        "jewelry:unique_tank_ring",
+        "jewelry:unique_tank_necklace",
+        "jewelry:unique_archer_ring",
+        "jewelry:unique_archer_necklace",
+        "jewelry:unique_arcane_ring",
+        "jewelry:unique_arcane_necklace",
+        "jewelry:unique_fire_ring",
+        "jewelry:unique_fire_necklace",
+        "jewelry:unique_frost_ring",
+        "jewelry:unique_frost_necklace",
+        "jewelry:unique_healing_ring",
+        "jewelry:unique_healing_necklace"
+      ],
+      "chance": 0.3,
+      "bonus_roll_chance": 0.8,
       "weight": 1
     },
     "jewelry_tier_0": {
