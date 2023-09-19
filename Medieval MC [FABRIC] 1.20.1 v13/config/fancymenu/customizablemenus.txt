@@ -60,3 +60,6 @@ com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerS
 net.minecraft.class_436 {
 }
 
+net.minecraft.class_500 {
+}
+
