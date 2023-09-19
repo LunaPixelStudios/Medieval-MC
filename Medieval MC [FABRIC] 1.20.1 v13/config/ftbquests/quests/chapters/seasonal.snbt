@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "seasonal"
+	group: "799D8360B26E9792"
+	icon: "seasonsextras:season_calendar"
+	id: "712EEC29E9F58AEC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40131BFC98F5E03C"
+			rewards: [{
+				id: "7AFDC02B44BA64D8"
+				item: "winterly:snowguy"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "A great way to get into the Holiday spirit!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/block/carved_pumpkin.png"
+					}
+				}
+				id: "3927319239703553"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:snow_golem"
+				type: "observation"
+			}]
+			title: "Build a &bSnowman"
+			x: -1.2d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "40BA61DBF53991AA"
+			rewards: [{
+				id: "4862E1F5C4567209"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "A great way to give gifts to friends (or yourself)"
+			tasks: [{
+				id: "108C9F26C2870B30"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:presents"
+					}
+				}
+				title: "Any #supplementaries:presents"
+				type: "item"
+			}]
+			title: "Craft a &dPresent"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "1E694E1B42888383"
+			rewards: [{
+				count: 8
+				id: "17F0B84F4CF004B7"
+				item: "winterly:rainy_garland_lights"
+				type: "item"
+			}]
+			subtitle: "Perfect way to decorate your home and christmas tree"
+			tasks: [{
+				id: "4998D0E09CCD2774"
+				item: "winterly:garland_lights"
+				type: "item"
+			}]
+			title: "Craft &9G&aa&cr&9l&aa&cn&9d &9L&ai&cg&9h&at&cs"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "351B97A1E0BA9814"
+			rewards: [
+				{
+					id: "384D1F21A85D6119"
+					item: {
+						Count: 1b
+						id: "winterly:cryomarble_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E24ABFF9734F138"
+					item: {
+						Count: 1b
+						id: "winterly:cryomarble_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E25F3BCFBD6FEE"
+					item: {
+						Count: 1b
+						id: "winterly:cryomarble_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&cSanta&c &7needs his hat&7"
+			tasks: [{
+				id: "04C3EFEF82309465"
+				item: "winterly:red_santa_hat"
+				type: "item"
+			}]
+			title: "Craft a &cSanta Hat&c"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "7AE0B5BE527DAB5B"
+			rewards: [
+				{
+					count: 16
+					id: "7F61BCC65FF6CC6D"
+					item: "winterly:snowball_wall"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "49ACEBC58D217C09"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			subtitle: "Fill it with snowballs and fight your friends! (or mobs)"
+			tasks: [{
+				id: "1BCEA6E925ABA401"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:snow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a Snow Backpack"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "4D98042048EC9498"
+			rewards: [{
+				id: "6063103D1A5458C4"
+				item: "brewinandchewin:rice_wine"
+				type: "item"
+			}]
+			subtitle: "Place anywhere, then right click with a bowl to get a serving. One dish is 4 plates, leave some for everyone!"
+			tasks: [{
+				id: "17427F99D0DEB431"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "Cook &6Roast Chicken"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40131BFC98F5E03C"]
+			id: "0168ED8E0442FF97"
+			rewards: [{
+				id: "07D8F9556AE84C20"
+				item: "brewinandchewin:cocoa_fudge"
+				type: "item"
+			}]
+			subtitle: "Who could say no to a cup?"
+			tasks: [{
+				id: "1070143D497FA4F9"
+				item: "adorn:hot_chocolate"
+				type: "item"
+			}]
+			title: "Brew some &eHot Chocolate"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: " &fSeasonal"
+}
