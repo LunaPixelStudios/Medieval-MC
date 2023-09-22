@@ -43,6 +43,39 @@
     },
     "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
       "hidden": true
+    },
+    "file/ctov-irons-add-on-v1-2.zip": {
+      "hidden": true
+    },
+    "file/ctov-chefs-delight-add-on-v2-0.zip": {
+      "hidden": true
+    },
+    "builtin/menu_panorama": {
+      "hidden": true
+    },
+    "builtin/aether_125_art": {
+      "hidden": true
+    },
+    "builtin/builtin_resource_packs/legacy_dead_king_resource_pack": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    },
+    "builtin/DAGoldenSwetBallFixClient": {
+      "hidden": true
+    },
+    "blue_skies:legacy_pack": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "hidden": true
+    },
+    "builtin/towntalk": {
+      "hidden": true
+    },
+    "builtin/deep_aether_additional_assets": {
+      "hidden": true
     }
   }
 }
