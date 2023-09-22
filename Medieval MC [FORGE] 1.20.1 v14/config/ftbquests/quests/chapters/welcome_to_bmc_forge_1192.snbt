@@ -202,8 +202,8 @@
 			id: "2165E80C52C79992"
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "3B11CCACEEBA0E58"
-				item: "byg:holly_sapling"
+				id: "16AAA30873B1D1F1"
+				item: "biomesoplenty:rainbow_birch_sapling"
 				type: "item"
 			}]
 			subtitle: "Read my description!"
