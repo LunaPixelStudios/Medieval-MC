@@ -9,7 +9,7 @@
 3 : '',
 4 : '',
 5 : '',
-6 : '',
+6 : '{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"survive:survival_guide"}}',
 7 : '{Count:16b,id:"minecraft:bread"}',
 8 : '{Count:12b,id:"alexsmobs:shark_tooth_arrow"}',
 9 : '',
