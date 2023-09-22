@@ -294,12 +294,6 @@
 			id: "6A4CB4700F0082C6"
 			rewards: [
 				{
-					count: 3
-					id: "41A9DE72F193E603"
-					item: "buzzier_bees:honey_bread"
-					type: "item"
-				}
-				{
 					id: "53680199E84036F9"
 					item: "alexsmobs:animal_dictionary"
 					type: "item"
