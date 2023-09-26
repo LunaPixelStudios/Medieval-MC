@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets","autoslabs:distinct_slabs","lambdabettergrass:default"]
+resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -184,6 +184,7 @@ key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_mapfrontiers.key.open_settings:key.keyboard.f8
 key_key.mcda.firetrail.toggle:key.keyboard.semicolon
+key_merchantmarkers.key.showMarkers:key.keyboard.left.alt
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.i
 key_key.origins.primary_active:key.keyboard.g
@@ -205,6 +206,8 @@ key_key.soulsweapons.keybind_ability:key.keyboard.u
 key_key.soulsweapons.parry:key.keyboard.right.alt
 key_keybindings.spell_engine.hotbar_modifier:key.keyboard.unknown
 key_keybindings.spell_engine.hotbar_lock:key.keyboard.z
+key_key.the_bumblezone.beehemoth_up:key.keyboard.space
+key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.things.place_item:key.keyboard.h
 key_key.things.openenderchest:key.keyboard.unknown
 key_key.toms_storage.open_terminal:key.keyboard.unknown
