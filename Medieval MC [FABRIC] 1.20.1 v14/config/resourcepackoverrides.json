@@ -5,10 +5,10 @@
     "Suppsquared Generated Pack",
     "Supplementaries Generated Pack",
     "file/NoBushyLeaves.zip",
-    "seasons:seasonal_lush_caves",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
-    "file/Excalibur_V1.20.zip"
+    "file/Excalibur_V1.20.zip",
+    "seasons:seasonal_lush_caves"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -41,7 +41,7 @@
     "file/Origins_Expanded_Foods_v2.1+1.20.1.zip": {
       "hidden": true
     },
-    "file/Trinkets_GloveFix_1.1+1.20.1.zip": {
+    "file/Trinkets_OffhandFix_1.2+1.20.1.zip": {
       "hidden": true
     },
     "file/AdventureZ_NetheriteFix_1.0+1.20.1.zip": {
@@ -59,10 +59,34 @@
     "file/ctov-paladins-add-on-v1-0.zip": {
       "hidden": true
     },
-    "file/ctov-wizards-add-on-v2-0a.zip": {
+    "file/ctov-wizards-add-on-v2-1.zip": {
       "hidden": true
     },
     "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "$polymer-resources": {
+      "hidden": true
+    },
+    "autoslabs:distinct_slabs": {
+      "hidden": true
+    },
+    "lambdabettergrass:default": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    },
+    "soulsweapons:2d_weapons": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "the_bumblezone:ancient_luminescent_contrast_increase": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
       "hidden": true
     }
   }
