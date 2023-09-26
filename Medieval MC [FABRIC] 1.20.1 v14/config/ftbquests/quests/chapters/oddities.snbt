@@ -713,6 +713,25 @@
 			x: 4.0d
 			y: 2.5d
 		}
+		{
+			id: "4374FB8D41ABFAEB"
+			rewards: [{
+				count: 8
+				id: "061B665226C2CF48"
+				item: "adorn:stone_torch"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Used to find special dungeons that regenerate over time."
+			tasks: [{
+				id: "098F51063F03B6CE"
+				item: "dungeonz:dungeon_compass"
+				type: "item"
+			}]
+			title: "Craft a &3Dungeon Compass"
+			x: 0.2678571428571388d
+			y: 5.25d
+		}
 	]
 	title: " &7Miscellaneous"
 }
