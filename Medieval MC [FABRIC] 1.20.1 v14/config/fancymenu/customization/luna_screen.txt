@@ -14,11 +14,32 @@ customization {
 }
 
 customization {
+  identifier = %id=345100%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = -75
+}
+
+customization {
+  identifier = %id=505100%
+  orientation = mid-centered
+  x = -151
+  action = movebutton
+  y = -75
+}
+
+customization {
+  identifier = %id=425160%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=345972%
   orientation = mid-centered
   x = 3
   action = movebutton
-  y = 25
+  y = 35
 }
 
 customization {
@@ -32,28 +53,7 @@ customization {
   orientation = mid-centered
   x = -151
   action = movebutton
-  y = 25
-}
-
-customization {
-  identifier = %id=345100%
-  orientation = mid-centered
-  x = 3
-  action = movebutton
-  y = -70
-}
-
-customization {
-  identifier = %id=505100%
-  orientation = mid-centered
-  x = -151
-  action = movebutton
-  y = -70
-}
-
-customization {
-  identifier = %id=425160%
-  action = hidebutton
+  y = 35
 }
 
 customization {
@@ -61,19 +61,19 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Keep in mind that sharing your world will have more latency %n%and potential performance issues than using a server.%n%%n%So we still recommend to use Bisect Hosting.
+  source = Keep in mind that sharing your world will have more latency %n%and potential performance issues than using a server.%n%LAN hosted worlds are also very unreliable and inconsitent %n%with mods as they are not meant to be used for LAN.%n%%n%So we still recommend to use Server Hosted Worlds.
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
   x = -150
-  width = 307
+  width = 309
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 47fd05ed-32e9-4d60-8c32-e2af7c2102551692901379583
-  y = -46
+  y = -52
   alignment = centered
   base_color = f08181
-  height = 43
+  height = 62
 }
 
 customization {
@@ -85,7 +85,7 @@ customization {
   width = 170
   action = addbutton
   actionid = 6b9620e1-3a16-449d-93ab-e44940d57dc41692901824606
-  y = 0
+  y = 12
   label = Get 25% OFF with Bisect Hosting
   height = 19
 }
