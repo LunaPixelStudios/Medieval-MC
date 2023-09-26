@@ -43,8 +43,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
-incompatibleResourcePacks:["file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/NoBushyLeaves.zip"]
+resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/NoBushyLeaves.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 soundDevice:""
