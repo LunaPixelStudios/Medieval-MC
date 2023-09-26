@@ -3,9 +3,9 @@
 	#Range: 1 ~ 1000
 	"Maximum skill points" = 100
 	#Range: > 0
-	"First skill point cost" = 15
+	"First skill point cost" = 25
 	#Range: > 0
-	"Last skill point cost" = 50000
+	"Last skill point cost" = 108000
 	#You can set cost for each skill point instead
 	"Use skill points costs array" = false
 	#This list's size must be equal to maximum skill points.
@@ -21,21 +21,21 @@
 
 [Equipment]
 	#Range: 0 ~ 4
-	"Default Helmets Sockets" = 0
+	"Default Helmets Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Chestplates Sockets" = 0
+	"Default Chestplates Sockets" = 1
 	#Range: 0 ~ 4
 	"Default Leggings Sockets" = 0
 	#Range: 0 ~ 4
-	"Default Boots Sockets" = 0
+	"Default Boots Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Weapons Sockets" = 0
+	"Default Weapons Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Shields Sockets" = 0
+	"Default Shields Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Rings Sockets" = 0
+	"Default Rings Sockets" = 1
 	#Range: 0 ~ 4
-	"Default Necklaces Sockets" = 0
+	"Default Necklaces Sockets" = 1
 	#You can remove sockets from items here
 	#Example: Blacklisting specific items: ["minecraft:diamond_hoe", "minecraft:golden_hoe"]
 	#Example: Blacklisting whole mod: ["<mod_id>:*"]
