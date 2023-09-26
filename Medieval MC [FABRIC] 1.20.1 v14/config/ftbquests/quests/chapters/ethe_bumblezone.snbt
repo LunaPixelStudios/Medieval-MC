@@ -5,7 +5,7 @@
 	group: "59C90AA1B128306B"
 	icon: "the_bumblezone:glistering_honey_crystal"
 	id: "5E108F66F3EF0B77"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
