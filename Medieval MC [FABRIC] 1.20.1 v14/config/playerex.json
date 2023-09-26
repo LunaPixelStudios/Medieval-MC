@@ -1,0 +1,16 @@
+{
+  "resetOnDeath": false,
+  "disableAttributesGui": false,
+  "showLevelNameplates": true,
+  "skillPointsPerLevelUp": 1,
+  "levelFormula": "1+0.05*x^2",
+  "restorativeForceTicks": 100,
+  "restorativeForceMultiplier": 128,
+  "expNegationFactor": 94,
+  "levelUpVolume": 100,
+  "skillUpVolume": 100,
+  "textScaleX": 50,
+  "textScaleY": 50,
+  "levelNameplateHeight": 0.3,
+  "tooltip": "PLAYEREX"
+}
