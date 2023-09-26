@@ -351,6 +351,183 @@
 			x: -1.5d
 			y: -0.5d
 		}
+		{
+			id: "3A9A6C898DD9FB57"
+			rewards: [
+				{
+					id: "27722CBA291AFE22"
+					item: "spellbladenext:runeblaze_ingot"
+					type: "item"
+				}
+				{
+					id: "678B968DF8F04BDD"
+					item: "spellbladenext:runegleam_ingot"
+					type: "item"
+				}
+				{
+					id: "3F566F6D8FD31195"
+					item: "spellbladenext:runefrost_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Used to create &bSpellblades&r and &9Spellblade armor&r"
+			tasks: [
+				{
+					id: "278F028884AA6EA3"
+					item: "spellbladenext:runeblaze_ingot"
+					type: "item"
+				}
+				{
+					id: "08A7300C73872274"
+					item: "spellbladenext:runegleam_ingot"
+					type: "item"
+				}
+				{
+					id: "3077E1ED06605BAB"
+					item: "spellbladenext:runefrost_ingot"
+					type: "item"
+				}
+			]
+			title: "Craft all three &bSpellblade Ingots"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "57DB2C2BE51EF01B"
+			rewards: [{
+				id: "24E5F383D55C05CE"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Its like a &aWand&r, but instead of a &aWand&r, its a &bBlade!"
+			tasks: [
+				{
+					id: "00400B01DA04520C"
+					item: {
+						Count: 1b
+						id: "spellbladenext:arcane_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA38621D746A5E4"
+					item: {
+						Count: 1b
+						id: "spellbladenext:flaming_falchion"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B4CABFECE0BD534"
+					item: {
+						Count: 1b
+						id: "spellbladenext:frost_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft all three &bSpellblades"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "036DB8DE0B398DAF"
+			rewards: [{
+				id: "658D7360C7561543"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "This swaggy hat gives no boost to spell power, but instead boosts your &3critical chance&r and &4critical damage&r."
+			tasks: [{
+				id: "6A9BD8F688BE25D1"
+				item: {
+					Count: 1b
+					id: "spellbladenext:frozen_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &4Mageseeker Hat"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "30E91B5EC41C94E4"
+			rewards: [{
+				id: "4915D317E5204253"
+				item: "spellbladenext:fire_battlemage_spell_book"
+				type: "item"
+			}]
+			subtitle: "Orbs are weaker, but do not have a movement speed penalty when casting and have massively increased &aSpell Haste&r."
+			tasks: [
+				{
+					id: "439A294704897715"
+					item: {
+						Count: 1b
+						id: "spellbladenext:arcane_orb"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66865B9C2C44E984"
+					item: {
+						Count: 1b
+						id: "spellbladenext:fire_orb"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77BD9B1BBB12B362"
+					item: {
+						Count: 1b
+						id: "spellbladenext:frost_orb"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft all three &bSpell Orbs"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "63C51F5CD368EC65"
+			rewards: [{
+				count: 5
+				id: "794187E7572F8457"
+				item: "minecraft:amethyst_shard"
+				random_bonus: 10
+				type: "item"
+			}]
+			subtitle: "A book that allows you to shuffle through various &5invocations&r. To put it simply - you combine lesser spells to invoke something more powerful."
+			tasks: [{
+				id: "4FF392E0FB7A8F85"
+				item: "invoke:wildinvoker_spell_book"
+				type: "item"
+			}]
+			title: "Craft &6Unbound Invocations"
+			x: 0.0d
+			y: -6.5d
+		}
 	]
 	title: " &3Magic"
 }
