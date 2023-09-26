@@ -2,9 +2,7 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "Moonlight Mods Dynamic Assets",
     "file/NoBushyLeaves.zip",
-    "seasons:seasonal_lush_caves",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
     "file/Excalibur_V1.20.zip"
@@ -23,9 +21,6 @@
       "hidden": true
     },
     "continuity:glass_pane_culling_fix": {
-      "hidden": true
-    },
-    "continuity:default": {
       "hidden": true
     },
     "file/AdventureZ_NetheriteFix_1.0+1.20.1.zip": {
@@ -87,7 +82,3 @@
     }
   }
 }
-
-
-
-
