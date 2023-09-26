@@ -64,6 +64,30 @@
     },
     "continuity:glass_pane_culling_fix": {
       "hidden": true
+    },
+    "$polymer-resources": {
+      "hidden": true
+    },
+    "autoslabs:distinct_slabs": {
+      "hidden": true
+    },
+    "lambdabettergrass:default": {
+      "hidden": true
+    },
+    "programmer_art": {
+      "hidden": true
+    },
+    "soulsweapons:2d_weapons": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "the_bumblezone:ancient_luminescent_contrast_increase": {
+      "hidden": true
+    },
+    "Moonlight Mods Dynamic Assets": {
+      "hidden": true
     }
   }
 }
