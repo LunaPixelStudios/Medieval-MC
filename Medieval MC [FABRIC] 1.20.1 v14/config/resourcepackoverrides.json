@@ -79,6 +79,15 @@
     },
     "Moonlight Mods Dynamic Assets": {
       "hidden": true
+    },
+    "$polymer-resources": {
+      "hidden": true
+    },
+    "high_contrast": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
     }
   }
 }
