@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4bosses"
+	group: "3C993182D3E6754B"
+	icon: {
+		Count: 1b
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0AD594F6E12A4FB2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C7E9580565509D2"
+			rewards: [{
+				id: "2B74B30060206BF0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found in &bcold &rbiomes."
+			tasks: [{
+				entity: "adventurez:mammoth"
+				icon: "adventurez:mammoth_tusk"
+				id: "01C2EFC344021C4C"
+				title: "Kill a Mammoth"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &6Mammoth"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "128D2885B2B4AE7E"
+			rewards: [{
+				id: "602A9DF87C22C59D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found in &edeserts&r."
+			tasks: [{
+				entity: "adventurez:desert_rhino"
+				icon: "adventurez:rhino_leather"
+				id: "1841F40D9B6D5AD6"
+				title: "Kill a Desert Rhino"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &eDesert Rhino"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "79E0B6FA628D02E0"
+			rewards: [{
+				id: "5389BDF4AFFB0EC1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "&3Mandrake Seeds&r, which drops from destroying grass, grows into &3Mandrake Roots &rwhen planted."
+			tasks: [{
+				id: "770A2015CA927C85"
+				item: "bewitchment:book_of_shadows"
+				type: "item"
+			}]
+			title: "Craft the &8&lBook of Shadows"
+			x: 4.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["79E0B6FA628D02E0"]
+			id: "48B7753F178E8B98"
+			rewards: [{
+				id: "622F9B7F2B8D8C08"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Read the &8&lBook of Shadows &rfor more info"
+			tasks: [{
+				entity: "bewitchment:demon"
+				icon: "bewitchment:demon_heart"
+				id: "73DB0F0E633B71DC"
+				title: "Kill a Demon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a Demon"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79E0B6FA628D02E0"]
+			id: "5B60E2F23ABB67B4"
+			rewards: [{
+				id: "4CC4D714E21ABB2F"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Read the &8&lBook of Shadows &rfor more info"
+			tasks: [{
+				entity: "besmirchment:beelzebub"
+				icon: "bewitchment:demon_heart"
+				id: "36B04C139BE46322"
+				title: "Kill Beelzebub"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Beezlebub"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79E0B6FA628D02E0"]
+			id: "06F68A7AF4C03524"
+			rewards: [{
+				id: "452197CFB214C920"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Read the &8&lBook of Shadows &rfor more info"
+			tasks: [{
+				entity: "bewitchment:baphomet"
+				icon: "bewitchment:demon_heart"
+				id: "654E4AAE49D53B2A"
+				title: "Kill Baphomet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Baphomet"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79E0B6FA628D02E0"]
+			id: "2807C094857B8A91"
+			rewards: [{
+				id: "6B14AFD183E140CD"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Read the &8&lBook of Shadows &rfor more info"
+			tasks: [{
+				entity: "bewitchment:lilith"
+				icon: "bewitchment:demon_heart"
+				id: "7F5279B4634C50A5"
+				title: "Kill Lilith"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Lilith"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79E0B6FA628D02E0"]
+			id: "4A763DA6B96789BC"
+			rewards: [{
+				id: "6FB8C8614A0A9B2D"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Read the &8&lBook of Shadows &rfor more info"
+			tasks: [{
+				entity: "bewitchment:herne"
+				icon: "bewitchment:demon_heart"
+				id: "4194434FB9904BCD"
+				title: "Kill Herne"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Herne"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "2D3BD496319AD33C"
+			rewards: [{
+				id: "0F805DDA1A099685"
+				item: "aquamirae:abyssal_amethyst"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Found underground in &damethyst geodes&r."
+			tasks: [{
+				entity: "adventurez:amethyst_golem"
+				icon: "minecraft:amethyst_cluster"
+				id: "64CB4ECC614E2DC9"
+				title: "Kill a Amethyst Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &dAmethyst Golem"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mysticaloaktree:textures/block/wise_oak.png"
+				}
+			}
+			id: "009062C8DCDF2FCC"
+			rewards: [{
+				id: "541075951585637A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Has over &l300 &rlines of dialogue. Gain his trust by talking to him enough. If you make him &cangry&r, you will face &4consequences&r. "
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "mysticaloaktree:textures/block/wise_oak_butt.png"
+					}
+				}
+				id: "68E72F99E8828F14"
+				observe_type: 0
+				timer: 0L
+				to_observe: "mysticaloaktree:wise_oak"
+				type: "observation"
+			}]
+			title: "Observe the &6Wise Oak"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "2D7566077CD34EBF"
+			rewards: [{
+				id: "6A04D444C65B7A00"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			subtitle: "Found inside of structures in &2Swamps&r. "
+			tasks: [{
+				advancement: "wetlands:eternal_guardian"
+				criterion: ""
+				id: "500D9764E475F2C7"
+				type: "advancement"
+			}]
+			title: "Defeat the &6Elder Copper Golem "
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "6B2017E49D279C20"
+			rewards: [{
+				id: "52DBB6D00B672B4F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found during &9thunderstorms&r."
+			tasks: [{
+				entity: "adventurez:summoner"
+				icon: "minecraft:skeleton_skull"
+				id: "6DC174BE40170E18"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat a &bSummoner"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "21BBC2B36580E236"
+			rewards: [{
+				count: 20
+				id: "2F284D491605A462"
+				item: "minecraft:emerald"
+				random_bonus: 10
+				type: "item"
+			}]
+			subtitle: "The &bEvoker&r, &3Illusioner&r, and &9Frostologer&r are found in &8Illager&r structures. They can also sometimes spawn during raids."
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				icon: "friendsandfoes:totem_of_illusion"
+				id: "15D53F3294C6D247"
+				type: "advancement"
+			}]
+			title: "Defeat all 3 &bIllager Magicians"
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: " &4Mobs"
+}

@@ -129,7 +129,7 @@
       "attempts_per_patch": 35
     },
     "cave_urns": {
-      "enabled": false,
+      "enabled": true,
       "attempts_per_patch": 4,
       "spawn_attempts": 7
     },

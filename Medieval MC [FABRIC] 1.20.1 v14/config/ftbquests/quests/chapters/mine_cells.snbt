@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mine_cells"
+	group: "59C90AA1B128306B"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecells:textures/mob_effect/cursed.png"
+		}
+	}
+	id: "1CF65D6371AA2203"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79FA9140695A02C0"
+			rewards: [{
+				id: "034A43F3D26FDDD4"
+				item: "minecells:health_flask"
+				type: "item"
+			}]
+			subtitle: "The portal to the &8Prison &rdimension spawns randomly throughout the &aOverworld&r. If you have, at any point, been in possession of a &bdiamond&r, the portal will already be activated."
+			tasks: [{
+				dimension: "minecells:prison"
+				icon: "minecells:prison_bricks"
+				id: "1B45ED7E7358543E"
+				type: "dimension"
+			}]
+			title: "Enter the &8Prisoner's Quarters"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1106E8573D7BE257"]
+			id: "678B2562584E24EF"
+			rewards: [{
+				id: "4148F0D9C8D784F4"
+				item: "alloy_forgery:prismarine_bricks_forge_controller"
+				type: "item"
+			}]
+			subtitle: "Spawns in the &1Insufferable Crypt&r. To deal damage to &dConjunctivius&r, you must first kill the tentacles. Can drop the &4&lCursed Sword&r, which gives you the &4Cursed &reffect when held. Don't use this sword in Hardcore ;)"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "34A86CD084A8B298"
+				title: "Defeat Conjunctivius"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &dConjunctivius"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79FA9140695A02C0"]
+			id: "4EE0E9381F12E9E1"
+			rewards: [{
+				count: 16
+				id: "719FAB3F9EE90599"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			subtitle: "To create an &8Elevator&r, first clear out a 3x3 area of any height. Then, place chains on either side of the shaft. Place the &8Elevator Assemblers &ron at the heights you want the &8Elevator &rto go to. The &8Elevator &rcan be activated via &4redstone &ror by right clicking. Make sure the chain goes above the top &8Elevator &rand chains surround both sides."
+			tasks: [{
+				count: 2L
+				id: "40F83D5C1C42CF08"
+				item: "minecells:elevator_assembler"
+				type: "item"
+			}]
+			title: "Craft 2 &7Elevator Assemblers"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79FA9140695A02C0"]
+			id: "3DB65504F570A378"
+			rewards: [
+				{
+					id: "7076959FE658CEA3"
+					item: "minecells:king_statue"
+					type: "item"
+				}
+				{
+					id: "2F5C58D389AC319A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Prison has a portal which leads to the &3Promenade of the Condemned&r. Somewhere in the Promenade is an elevator to an &8Underground Dungeon&r where you can find a &3Vine Rune"
+			tasks: [{
+				dimension: "minecells:promenade"
+				icon: "minecells:wilted_grass_block"
+				id: "0097AFBF80EDB74E"
+				title: "Enter the &3Promenade of the Condemned"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DB65504F570A378"]
+			id: "1106E8573D7BE257"
+			rewards: [
+				{
+					id: "44D41FE1EB970978"
+					item: "minecells:ancient_sewage_bucket"
+					type: "item"
+				}
+				{
+					id: "5E01135CBDCC93F8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Once you've found a &2Vine Rune&r, head back to the &8Prison&r and find a &2Runic Vine&r to use the rune on, which will open the door to the Crypt."
+			tasks: [{
+				dimension: "minecells:insufferable_crypt"
+				icon: "minecells:hardstone"
+				id: "05CF67002095E98F"
+				title: "Enter the &4Insufferable Crypt&r"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: " &4Mine Cells"
+}

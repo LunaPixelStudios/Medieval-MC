@@ -1,15 +1,11 @@
 {
 	"basics": {
-		"favorites": [
-			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}"
-		],
-		"hiddenFavorites": [
-			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
-		],
+		"favorites": [],
+		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
 		"cheating": false,
-		"favoritesEnabled": false,
+		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
 				"keyCode": "key.keyboard.r",
@@ -63,10 +59,8 @@
 		"filtering": {
 			"shouldFilterDisplays": true,
 			"filteringRules": [
-				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:manual\",rule:{}}"
 			],
-			"filteringQuickCraftCategories": { },
 			"filteredStacks": []
 		},
 		"enableJeiCompatibilityLayer": true,
@@ -108,7 +102,6 @@
 			"asyncSearch": false,
 			// Declares how many entries should be grouped one async search.
 			"asyncSearchPartitionSize": 100,
-			"patchAsyncThreadCrash": true,
 			"tooltipSearch": "ALWAYS",
 			"tagSearch": "PREFIX",
 			"identifierSearch": "ALWAYS",

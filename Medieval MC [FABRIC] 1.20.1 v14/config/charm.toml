@@ -83,7 +83,7 @@
 #Adds decoration and more ores to mineshafts.
 "ImprovedMineshafts Enabled" = true
 #Button to automatically tidy inventories.
-"InventoryTidying Enabled" = true
+"InventoryTidying Enabled" = false
 #A functional block that speeds up cooking of clay, glass, bricks and terracotta.
 "Kilns Enabled" = true
 #Drop an item onto a lava bucket item to destroy it.
@@ -129,7 +129,7 @@
 #Player-only pressure plates crafted using gilded blackstone.
 "PlayerPressurePlates Enabled" = true
 #Allows crafting from inventory if the player has a crafting table in their inventory.
-"PortableCrafting Enabled" = true
+"PortableCrafting Enabled" = false
 #Right-click with a hoe to quickly harvest and replant a fully-grown crop.
 "QuickReplant Enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.

@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Better MC [FABRIC] 1.20.1';
+S:customwindowtitle = 'Medieval MC [FABRIC] 1.20.1';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 

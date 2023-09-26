@@ -375,6 +375,11 @@ mode = "fast"
 			[light_sources.settings.entities.steves_vanilla]
 				boggord = true
 
+			[light_sources.settings.entities.graveyard]
+				ghoul = true
+				skeleton_creeper = true
+				revenant = true
+
 		[light_sources.settings.block_entities]
 
 			[light_sources.settings.block_entities.minecraft]

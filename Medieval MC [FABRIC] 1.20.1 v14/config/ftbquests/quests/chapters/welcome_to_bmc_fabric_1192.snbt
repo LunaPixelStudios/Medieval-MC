@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "welcome_to_bmc_fabric_1192"
 	group: ""
-	icon: "minecraft:book"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "patchouli:textures/items/book_blue.png"
+		}
+	}
 	id: "3E34934F09B08365"
 	order_index: 0
 	quest_links: [ ]
@@ -29,7 +35,7 @@
 			id: "6A52090D6BC064D7"
 			rewards: [{
 				count: 3
-				id: "78B2C19A7C655588"
+				id: "57BF2196D5016192"
 				item: "minecraft:bread"
 				type: "item"
 			}]
@@ -40,7 +46,7 @@
 				title: "Click me!"
 				type: "checkmark"
 			}]
-			title: "&eWelcome to Better MC!"
+			title: "&eWelcome to Medieval MC!"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -51,7 +57,11 @@
 				""
 				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
 				""
-				"When you hover over your armor slots, your &8Trinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here. Slots with an eye icon at the top are cosmetic slots, which are purely visual."
+				"To the right of the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
+				""
+				"At the top of your inventory is a Book icon. By clicking this book, you can review and upgrade &9Attributes&r. Skill points are gained by obtaining &aExperience Points&r. "
+				""
+				"When you hover over your armor slots, your &8Trinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
 				""
 				"Try equipping the &cQuiver &rfrom the quest reward in your Quiver slot!"
 			]
@@ -66,7 +76,7 @@
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "07BC9C25214D6AFB"
+				id: "720DCC1EC474A18E"
 				item: {
 					Count: 1b
 					id: "supplementaries:quiver"
@@ -76,11 +86,11 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Read my description!"
+			subtitle: "Read my description! Make sure to scroll down."
 			tasks: [
 				{
 					id: "0DD3C1416FC34FA1"
-					title: "Click me!"
+					title: "Inventory"
 					type: "checkmark"
 				}
 				{
@@ -123,7 +133,7 @@
 			tasks: [
 				{
 					id: "21428FE253D34D4E"
-					title: "Click me!"
+					title: "Quests"
 					type: "checkmark"
 				}
 				{
@@ -140,21 +150,29 @@
 		{
 			dependencies: ["6A52090D6BC064D7"]
 			description: [
-				"Press &bR&r while hovering over an item to view its Recipe"
+				"Press &bR &rwhile hovering over an item to view its Recipe"
 				""
-				"Press &bU&r while hovering over an item to view its Uses"
+				"Press &bU &rwhile hovering over an item to view its Uses"
 				""
-				"Press &bLeft Alt&r to Crawl"
+				"Press &bLeft Alt &rto Crawl"
 				""
-				"Press &bB&r while a Backpack is on your Back Slot to open it"
-				""
-				"Press &bC &rto Zoom"
-				""
-				"Press &bM &rto open the World Map"
+				"Press &bR &rto Roll"
 				""
 				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
 				""
-				"Hold &b~&r while using a tool with the Vein Mining enchant to activate Vein Mining"
+				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
+				""
+				"Press &bG &rto Activate Origin Ability"
+				""
+				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bO &rto view Origin Information"
+				""
+				"Press &b, &rto activate Secondary Origin Ability, if you have one"
+				""
+				"Press &bJ&r to open the ShowMeYourSkin armor overlay editor"
 			]
 			icon: {
 				Count: 1b
@@ -167,8 +185,14 @@
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "4127900982A91789"
-				item: "natures_spirit:aspen_sapling"
+				id: "1F8F06B03E3FCB30"
+				item: {
+					Count: 1b
+					id: "wizards:wand_novice"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "Read my description! Make sure to scroll down."
@@ -190,17 +214,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2958CA7FA6FD3E4F"]
+			dependencies: [
+				"2958CA7FA6FD3E4F"
+				"175099CF5696829E"
+				"2165E80C52C79992"
+			]
 			description: [
 				"At the bottom of the inventory, you may have noticed a search bar."
 				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
-				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				"If you type Wood, for example, the &dREI &ritem list at the right of the screen will show all items with Wood in the name."
 				""
-				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @handcrafted or @hand"
+				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Adorn"
 				""
-				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
+				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #logs"
 				""
-				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen."
+				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen, or press A while hovering over it."
 				""
 				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
 				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
@@ -215,7 +243,7 @@
 			}
 			id: "139DAA6E8CF4267A"
 			rewards: [{
-				id: "0094E694BCFF6481"
+				id: "1AE5746200C26691"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
@@ -226,18 +254,24 @@
 				type: "checkmark"
 			}]
 			title: "&bRoughly Enough Items (REI)"
-			x: 0.5d
+			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["139DAA6E8CF4267A"]
 			description: [
-				"The tutorial is now &afinished&r!"
+				"The tutorial is now &afinished&r! "
 				""
-				"&l&aMORE QUESTS!&a&l &f&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is."
+				"Check out &bTips and Tricks&r and &bGetting Stronger&r for a more in-depth tips."
+				""
+				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is."
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
+				""
+				"You may want to claim these quest rewards later, once you have storage available!"
+				"{@pagebreak}"
 			]
+			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -245,28 +279,122 @@
 					Icon: "ftblibrary:textures/icons/check.png"
 				}
 			}
-			id: "580EC3AF4A150A98"
+			id: "6A4CB4700F0082C6"
 			rewards: [
 				{
-					id: "6E2AA09930D67535"
+					id: "0CEA429A4EFA92FE"
+					item: "archon:grimoire"
+					type: "item"
+				}
+				{
+					id: "2808585D0EE745EB"
 					item: "adventurez:handbook"
 					type: "item"
 				}
 				{
-					id: "5A9388634495AC44"
+					id: "18A2D4062EBC2799"
+					item: "dehydration:handbook"
+					type: "item"
+				}
+				{
+					id: "3462D5D6E9AB1156"
+					item: {
+						Count: 1b
+						id: "conjuring:enchiridion"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DE3F7CB7E410B7D"
 					item: "seasonsextras:seasonal_compendium"
+					type: "item"
+				}
+				{
+					id: "06C7B40D5203309A"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmobs:mythical_guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3631078E0D5277CD"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "mythicmounts:mythical_mounts"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69F36920E9B9B445"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
 					type: "item"
 				}
 			]
 			subtitle: "Read my description!"
 			tasks: [{
-				id: "5372E5D8527E4994"
-				title: "Click me!"
+				id: "3B2CC7DEE30E3AB8"
+				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]
 			title: "&aTutorial Complete!"
 			x: 1.5d
-			y: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A4CB4700F0082C6"]
+			description: [
+				"Items can be reforged in an &7Anvil&r. The item needs to be full durability, and you need &dAmethyst Shards&r."
+				""
+				"Every &e5,000&r blocks you move away from spawn, mobs will get &b75%&r stronger. They will also drop more &aExperience Points&r!"
+				""
+				"Depending on the dimension you are in, mobs will be more difficult and drop better gear / more &aExperience Points&r. In order of increasing difficulty: "
+				"&d1&r. Overworld/&bParadise Lost&r/&9Eden Ring"
+				"&d2&r. &2Twilight Forest&r/&eThe Bumblezone"
+				"&d3&r. &cMine Cells&r/&0The Otherside&r"
+				"&d4&r. The &4Nether"
+				"&d5&r. The &5End"
+				""
+				"More &4difficult&r structures have better loot."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/diamond.png"
+				}
+			}
+			id: "1272952B43DFA218"
+			rewards: [{
+				count: 3
+				id: "3C507F5DAEB57D2F"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "64F70B833581A586"
+				title: "&cTips \\& Tricks"
+				type: "checkmark"
+			}]
+			title: "&cTips \\& Tricks"
+			x: 1.5d
+			y: -4.5d
 		}
 	]
 	title: " &dTutorial"

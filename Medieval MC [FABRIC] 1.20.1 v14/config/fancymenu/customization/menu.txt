@@ -14,32 +14,16 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=606306%
-  orientation = top-right
-  x = -24
-  action = movebutton
-  y = 4
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -82
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
   x = -102
   action = movebutton
   y = -106
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
 }
 
 customization {
@@ -63,6 +47,14 @@ customization {
   width = 204
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -82
 }
 
 customization {
@@ -99,7 +91,7 @@ customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC/issues%btnaction_splitter_fm%
+  buttonaction = openlink;https://github.com/LunaPixelStudios/Medieval-MC/issues%btnaction_splitter_fm%
   x = 4
   width = 98
   action = addbutton

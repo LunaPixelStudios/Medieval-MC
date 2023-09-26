@@ -9,58 +9,24 @@
 		tag: { }
 	}
 	id: "4E33D80DA11F2414"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5C797A855DD3A665"
-			rewards: [{
-				id: "320AB3B627C0A946"
-				item: {
-					Count: 1b
-					id: "bountiful:decree"
-					tag: {
-						"bountiful:decree_data": "{}"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Bounties have varying levels of rewards. You can craft decrees to get new bounties."
-			tasks: [{
-				id: "6836555BDE4256E6"
-				item: "bountiful:bountyboard"
-				type: "item"
-			}]
-			title: "Craft a &6Bounty Board"
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			id: "0A9E44CE37CA44CF"
-			rewards: [{
-				count: 3
-				id: "34FF59DDC6CABDBD"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			subtitle: "Used to barter with several nearby piglins at once."
-			tasks: [{
-				id: "1289FB70EFF02AFB"
-				item: "barteringstation:bartering_station"
-				type: "item"
-			}]
-			title: "Craft a &6Bartering Station"
-			x: -0.5d
-			y: -3.5d
-		}
-		{
 			id: "4185D9740B80E39D"
-			rewards: [{
-				count: 3
-				id: "2FFB4275C1B23EB0"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "2FFB4275C1B23EB0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6A9AC271C6593169"
+					item: "adorn:traders_manual"
+					type: "item"
+				}
+			]
 			subtitle: "Used to trade with several nearby villagers at once."
 			tasks: [{
 				id: "0405A07D7EBAB67C"
@@ -75,8 +41,8 @@
 			id: "5F0FC5A5035E29B0"
 			rewards: [{
 				count: 8
-				id: "3FDD4E6F4F1832C0"
-				item: "supplementaries:rope"
+				id: "66DC1A3116737C3F"
+				item: "adorn:stone_torch"
 				type: "item"
 			}]
 			subtitle: "Used to locate biomes."
@@ -94,27 +60,27 @@
 			y: -2.0d
 		}
 		{
-			id: "22135D7A4301D684"
+			id: "6B470812378B8254"
 			rewards: [{
-				id: "6635A80C76852EE7"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Stores up to &a30 &rlevels. Can be upgraded up to Tier 3."
-			tasks: [{
-				id: "410B726B778B0E9E"
+				id: "6819762A22074A86"
 				item: {
 					Count: 1b
-					id: "xp_storage:xp_book"
+					id: "minecraft:splash_potion"
 					tag: {
-						Damage: 0
+						Potion: "goblintraders:powerful_instant_health"
 					}
 				}
 				type: "item"
 			}]
-			title: "Craft an &aXP Book"
-			x: 2.5d
-			y: 0.5d
+			subtitle: "Only useful in multiplayer. Allows for easy trading with other players."
+			tasks: [{
+				id: "408DBB64EE534461"
+				item: "adorn:trading_station"
+				type: "item"
+			}]
+			title: "Craft a &3Trading Station"
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			id: "22D9C9224D94E1AF"
@@ -131,12 +97,12 @@
 			}]
 			title: "Craft a &f&lSmooth Quartz Elevator"
 			x: 1.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			id: "554FCDBDC9485FA2"
 			rewards: [{
-				id: "685027608A463B83"
+				id: "12583035D8981827"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
@@ -147,7 +113,7 @@
 				type: "item"
 			}]
 			title: "Craft a &8Waystone"
-			x: 1.0d
+			x: -0.5d
 			y: -2.0d
 		}
 		{
@@ -160,31 +126,31 @@
 			}]
 			subtitle: "Tells you the current season. Seasons affect many things - especially crop growth and weather."
 			tasks: [{
-				id: "475C1AAB4DD5C30A"
+				id: "135BBBD3F433C606"
 				item: "seasonsextras:season_calendar"
 				type: "item"
 			}]
 			title: "Craft a &eSeason Calendar"
-			x: -2.0d
-			y: 2.5d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			id: "461958821F94D6F8"
 			rewards: [{
-				count: 3
-				id: "14D3CEA48A90B387"
-				item: "farmersdelight:tomato_seeds"
+				count: 8
+				id: "6099B2E26A33A8C1"
+				item: "culturaldelights:cucumber_seeds"
 				type: "item"
 			}]
 			subtitle: "Lessens the effects of seasons when placed above crops."
 			tasks: [{
-				id: "6F17498EC3A51FE4"
+				id: "74F74C268842AB73"
 				item: "seasonsextras:white_greenhouse_glass"
 				type: "item"
 			}]
 			title: "Craft &2Greenhouse Glass"
-			x: -0.5d
-			y: -2.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			id: "12965C7AB98FA9C6"
@@ -200,8 +166,8 @@
 				type: "item"
 			}]
 			title: "Craft a &9Totem of Void Undying"
-			x: -2.0d
-			y: -0.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			id: "7236C066E7C894B3"
@@ -217,8 +183,8 @@
 				type: "item"
 			}]
 			title: "Craft &dSoap"
-			x: 1.0d
-			y: 1.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			id: "69A55664BC35DC41"
@@ -239,55 +205,7 @@
 			}]
 			title: "Make a &eStraw Golem"
 			x: -0.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["22135D7A4301D684"]
-			id: "6F10C7FC41EC0463"
-			rewards: [{
-				id: "296063B66EAE3F50"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "When worn in a Ring slot, 75% of the &aexperience &ryou get get will be transferred into your &aXP Book&r. Can be repaired with &1Cristalis Lazuli&r."
-			tasks: [{
-				id: "319822DAEDCDD1C7"
-				item: {
-					Count: 1b
-					id: "xp_storage_trinkets:xp_conduit"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Craft an &6XP Conduit"
-			x: 2.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["22135D7A4301D684"]
-			id: "5AAA1D8E90544F8A"
-			rewards: [{
-				id: "2713004902B5FCE9"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "When worn in the Necklace slot, 50% of the &aexperience &ryou die with will be transferred into your &aXP Book&r. Can be repaired with &1Cristalis Lazuli&r."
-			tasks: [{
-				id: "163BF25B796DA3B5"
-				item: {
-					Count: 1b
-					id: "xp_storage_trinkets:xp_saver"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Craft an &bXP Saver"
-			x: 2.5d
-			y: 4.0d
+			y: 1.0d
 		}
 		{
 			id: "0B23AB3C41A686EA"
@@ -296,406 +214,504 @@
 				item: "farmersdelight:noodle_soup"
 				type: "item"
 			}]
-			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
+			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 64 block radius."
 			tasks: [{
 				id: "435BC24FB0CA106A"
 				item: "magnumtorch:diamond_magnum_torch"
 				type: "item"
 			}]
 			title: "Craft a &bDiamond Magnum Torch"
-			x: -3.5d
-			y: -2.0d
-		}
-		{
-			id: "0A517B7CF048F76B"
-			rewards: [{
-				count: 5
-				id: "14A4DF21E2792BC3"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into an &bOceanographer"
-			tasks: [{
-				id: "44AEB4217BC762E1"
-				item: "villagersplus:oceanographer_table"
-				type: "item"
-			}]
-			title: "Craft an &bAquarium"
-			x: -3.5d
-			y: 1.0d
-		}
-		{
-			id: "02F6A828895D3393"
-			rewards: [{
-				count: 5
-				id: "4BE0478FE3AADAD3"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into a &5Alchemist"
-			tasks: [{
-				id: "58276AD4CA845079"
-				item: "villagersplus:alchemist_table"
-				type: "item"
-			}]
-			title: "Craft an &5Alchemist Table"
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			id: "326D966EF7E5B079"
-			rewards: [{
-				count: 5
-				id: "5C1A55CE5740A5F8"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into an &dOccultist"
-			tasks: [{
-				id: "4D2ADF0206ABF306"
-				item: "villagersplus:occultist_table"
-				type: "item"
-			}]
-			title: "Craft an &dEnchanted Basin"
 			x: -0.5d
-			y: 1.0d
-		}
-		{
-			id: "4D2619AE1CA96DCE"
-			rewards: [{
-				id: "796A97FF54909DE0"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "A reusable ender pearl which gives brief &6Resistance&r after being used."
-			tasks: [{
-				id: "339860FFA9F37CA3"
-				item: "bosses_of_mass_destruction:charged_ender_pearl"
-				type: "item"
-			}]
-			title: "Craft a &5Charged Ender Pearl"
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			id: "397F9BA226B867AC"
-			rewards: [{
-				id: "26CDB0329BBB2EA5"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Allows for easy access to your Ender Chest."
-			tasks: [{
-				id: "74D75AE99EF1BFBB"
-				item: "inmis:ender_pouch"
-				type: "item"
-			}]
-			title: "Craft an &9Ender Pouch"
-			x: -3.5d
 			y: -0.5d
 		}
 		{
-			id: "76C53A8D2CF93270"
+			id: "3851BFEF1D86D474"
 			rewards: [{
-				id: "671499D60792CE98"
+				id: "35B791031C361D60"
+				item: "supplementaries:relayer"
+				type: "item"
+			}]
+			subtitle: " Compact, vertical &4redstone &rsignaling."
+			tasks: [{
+				id: "6261485F53C82B8D"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			title: "Craft a &4Cog Block"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "024898B93AB09569"
+			rewards: [{
+				id: "04F8BE51A2A388FD"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Allows for remote teleportation to &8Waystones&r"
+			subtitle: "Allows for remote teleportation to &8Waystones&r."
 			tasks: [{
-				id: "5031E936CAD61B0E"
+				id: "1C81D0D0F9E83159"
 				item: "fwaystones:pocket_wormhole"
 				type: "item"
 			}]
-			title: "Craft a &5Pocket Waystone"
-			x: -3.5d
+			title: "Craft a &dPocket &5Waystone"
+			x: 2.5d
 			y: 2.5d
 		}
 		{
-			id: "588E2CE453549BF6"
+			id: "42080A0A9B1F1889"
+			rewards: [{
+				id: "2B3A0580C239E102"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Displays damage dealt when hit. Can be equipped with armor to test its resistance, without damaging the armor when hit. "
+			tasks: [{
+				id: "1793F59502AD538A"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "Craft a &6Target Dummy"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "0FE658EB75F6C66A"
 			rewards: [{
 				count: 3
-				id: "51C4E74F04AD868C"
+				id: "0CCDDBCCB5233AAC"
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
 			subtitle: "Calms nearby &6piglins&r."
 			tasks: [{
-				id: "63948E025E9FBF00"
+				id: "4765BDEC3CB0CD80"
 				item: "adventurez:piglin_flag_block"
 				type: "item"
 			}]
 			title: "Craft a &6Piglin Flag"
-			x: -0.5d
-			y: 2.5d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
-			id: "538E9CC52A007FBB"
+			id: "267E023B6485792D"
 			rewards: [{
-				id: "520C3C57A56D0E0B"
+				id: "730130696509286A"
+				item: "mythicmetals:durasteel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Can make an item unbreakable when applied in anvil. If a normal anvil isn't working, search \"Anvil\" in the REI Search Bar and use one of those instead."
+			tasks: [{
+				id: "574CD47849751164"
+				item: "things:hardening_catalyst"
+				type: "item"
+			}]
+			title: "Craft a &bHardening Catalyst"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "06270F36EC449E11"
+			rewards: [{
+				id: "0AD7FD96C06B0F10"
+				item: {
+					Count: 1b
+					id: "bountiful:decree"
+					tag: {
+						"bountiful:decree_data": "{}"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bounties have varying levels of rewards. You can craft decrees to get new bounties."
+			tasks: [{
+				id: "362D391C1B2F51F9"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "Craft a &6Bounty Board"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "5AFB6DF49711402E"
+			rewards: [{
+				count: 3
+				id: "09F3DCA706D4D51E"
+				item: "minecraft:amethyst_shard"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "&5Anvils&r can be used to reroll the rarity of full durability gear using amethyst shards."
+			tasks: [{
+				id: "4FDB8434828FD955"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+				title: "Any #minecraft:anvil"
+				type: "item"
+			}]
+			title: "Craft an &5Anvil"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "7EB6A2560F7BFCF7"
+			rewards: [{
+				count: 3
+				id: "7AB8D34F3512123C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Used to barter with several nearby piglins at once."
+			tasks: [{
+				id: "7EFE37C54551C427"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Craft a &6Bartering Station"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "24FA08E13512B7D1"
+			rewards: [{
+				id: "1E96930F461E2B01"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			subtitle: "Any medium sized entity can be put into a &8Cage&r. Right click to release, shift click on a block to place the &8Cage&r. Chickens that are inside of cages will produce eggs."
 			tasks: [{
-				id: "6BFD712681798FC9"
+				id: "09F0017452924E6B"
 				item: "supplementaries:cage"
 				type: "item"
 			}]
 			title: "Craft a &8Cage"
-			x: 1.0d
-			y: -3.5d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
-			id: "01341DA14974A33D"
+			id: "20DCF40C6CA4E4FF"
 			rewards: [{
-				id: "3704A6DB2317B6FF"
+				id: "0B709EE0454857FC"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
 			subtitle: "Any small entity can be put into a &fJar&r. Right click to release, shift click on a block to place the &fJar&r."
 			tasks: [{
-				id: "78C8623D09AB3F88"
+				id: "76038A2F0CF78FC0"
 				item: "supplementaries:jar"
 				type: "item"
 			}]
 			title: "Craft a &fJar"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "147D9946619AAD0E"
+			rewards: [{
+				id: "47C8826CD8EEC57D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Accelerates the growth of crops."
+			tasks: [{
+				id: "26B8E558C5F9292F"
+				item: {
+					Count: 1b
+					id: "archon:druid_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &5Druid Boots"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "07EE7789B880D2B8"
+			rewards: [{
+				id: "1F23B23F03F18378"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Allows for easy access to your Ender Chest."
+			tasks: [{
+				id: "3F9D725ABFB792AE"
+				item: "things:ender_pouch"
+				type: "item"
+			}]
+			title: "Craft an &9Ender Pouch"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "28974276564555ED"
+			rewards: [{
+				count: 5
+				id: "374DB3108D392AAF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &bOceanographer"
+			tasks: [{
+				id: "40F1E3F7A57CB147"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &bAquarium"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "5FEBDC31107660B3"
+			rewards: [{
+				count: 5
+				id: "707168219626AB24"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "0ED1781D7A65D371"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "0BC7C35295AD4A71"
+			rewards: [{
+				count: 5
+				id: "76A86E43C4464B88"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "2EE0823E5C389558"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "29DB0E117A09B132"
+			rewards: [{
+				id: "2F768ED8368A54E5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A reusable ender pearl which gives brief &6Resistance&r after being used."
+			tasks: [{
+				id: "0F876F4D5EE4EDF2"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
+			}]
+			title: "Craft a &5Charged Ender Pearl"
 			x: 1.0d
 			y: 4.0d
 		}
 		{
-			id: "440DEBFE3004F52C"
+			id: "4FB5786C1574EF9F"
 			rewards: [{
-				count: 3
-				id: "5CD23AF141EAC7EA"
-				item: "minecraft:leather"
+				id: "722E10678584FF96"
+				item: "bewitchment:black_coffin"
 				type: "item"
 			}]
-			subtitle: "Turns night into day. Will not set your spawnpoint."
+			subtitle: "Read the &8&lBook of Shadows &rfor more info"
 			tasks: [{
-				id: "4FEB370C608D1443"
+				id: "1C766C5F6146FFEB"
+				item: {
+					Count: 1b
+					id: "bewitchment:death_protection_poppet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Death Protection Poppet"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "76FF463436665FB9"
+			rewards: [{
+				id: "0AD90E61EF760C89"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Used to make a backpack. You can then place a backpack and sleep in the sleeping bag to skip the night without setting your spawn."
+			tasks: [{
+				id: "4776525216009D16"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "comforts:sleeping_bags"
+						value: "travelersbackpack:sleeping_bags"
 					}
 				}
-				title: "Any #comforts:sleeping_bags"
+				title: "Any #travelersbackpack:sleeping_bags"
 				type: "item"
 			}]
-			title: "Craft a &f&lSleeping Bag"
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			id: "4416D33801F5E4B3"
-			rewards: [
-				{
-					id: "3631C99270832C38"
-					item: {
-						Count: 1b
-						id: "minecraft:campfire"
-						tag: {
-							BlockEntityTag: {
-								CookingTimes: [I;
-									114
-									104
-									51
-									48
-								]
-								CookingTotalTimes: [I;
-									600
-									600
-									600
-									600
-								]
-								Items: [
-									{
-										Count: 1b
-										Slot: 0b
-										id: "minecraft:porkchop"
-									}
-									{
-										Count: 1b
-										Slot: 1b
-										id: "minecraft:porkchop"
-									}
-									{
-										Count: 1b
-										Slot: 2b
-										id: "minecraft:porkchop"
-									}
-									{
-										Count: 1b
-										Slot: 3b
-										id: "minecraft:porkchop"
-									}
-								]
-								id: "minecraft:campfire"
-							}
-							display: {
-								Lore: ["\"(+NBT)\""]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "29B0F12D818C8C89"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
-			subtitle: "To create a &fHammock&r, first craft the &fHammock Cloth&r. Then, craft two &2Rope and Nails&r. With a gap of four blocks, place the two &2Rope and Nails&r, with the &fHammock Cloth&r connected."
-			tasks: [{
-				id: "26D0784BF4A7E7C0"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "comforts:hammocks"
-					}
-				}
-				title: "Any #comforts:hammocks"
-				type: "item"
-			}]
-			title: "Craft a &f&lHammock"
-			x: -5.0d
-			y: -2.0d
-		}
-		{
-			id: "60F03B1670CB0764"
-			rewards: [{
-				count: 4
-				id: "1CE98D0801941CAB"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			subtitle: "Upgradeable, check the item's Uses. Press &bB&r to open. Narrator can be rebound in the Controls screen."
-			tasks: [{
-				id: "7827AA6A1C61A87C"
-				item: "inmis:frayed_backpack"
-				type: "item"
-			}]
-			title: "Craft a &6Frayed Backpack"
-			x: -5.0d
-			y: -3.5d
-		}
-		{
-			id: "100E510841C47D86"
-			rewards: [{
-				count: 8
-				id: "6AA0D6BE24311483"
-				item: "toms_storage:ts.inventory_cable"
-				type: "item"
-			}]
-			subtitle: "Capable of storing many items per slot. Great when paired with a storage network from the Tom's Simple Storage mod."
-			tasks: [{
-				id: "0D6040C3206F6109"
-				item: "netherchested:nether_chest"
-				type: "item"
-			}]
-			title: "Craft a &4Nether Chest"
-			x: -5.0d
+			title: "Craft a &9Sleeping Bag"
+			x: -2.0d
 			y: 1.0d
 		}
 		{
-			id: "2F5209E24F8DA712"
+			id: "6BD202DA3CB4D5D7"
+			rewards: [
+				{
+					count: 4
+					id: "01629D8062091CB7"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "46983E05BB41B93C"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			subtitle: "Placing the food that an animal is attracted to will make nearby animals eat the food and then subsequently breed. For example, placing seeds in the trough will make chickens eat from the trough. If two chickens both eat, they will make a baby chicken."
+			tasks: [{
+				id: "6204EAE7E3EFD3B5"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			title: "Craft a &6Feeding Trough"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "1325EB37EACF5E77"
+			rewards: [{
+				id: "14C26FA6E6B745FB"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			subtitle: "Lets you view the stats of llamas, horses, and other mounts by simply looking at them with the &6Monocle&r equipped."
+			tasks: [{
+				id: "60B483E7A5BCB4BF"
+				item: "horseexpert:monocle"
+				type: "item"
+			}]
+			title: "Craft a &6Monocle"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "313A0066D31C3F58"
 			rewards: [{
 				count: 2
-				id: "712184F48007F33A"
+				id: "51537D555F1350C8"
 				item: "minecraft:powder_snow_bucket"
 				type: "item"
 			}]
 			subtitle: "Makes nearby crops cold with the power of &fPowdered Snow&r."
 			tasks: [{
-				id: "41105864A48403B5"
+				id: "5FC2E387D549EF7D"
 				item: "seasonsextras:chiller"
 				type: "item"
 			}]
 			title: "Craft a &bCrop Chiller"
-			x: -0.5d
-			y: 4.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
-			id: "3469D5564560B552"
+			id: "2F6904167869A3C6"
 			rewards: [{
 				count: 4
-				id: "20D9E1620ACFF327"
+				id: "74CB7359659F4DC1"
 				item: "minecraft:coal_block"
 				type: "item"
 			}]
 			subtitle: "Makes nearby crops warm with the power of normal fuel sources such as coal or blaze rods."
 			tasks: [{
-				id: "2A1A944F8C82CC8F"
+				id: "0CC3190E4E736745"
 				item: "seasonsextras:heater"
 				type: "item"
 			}]
 			title: "Craft a &6Crop Heater"
-			x: -5.0d
-			y: 2.5d
-		}
-		{
-			id: "5EECC9893E56A5A1"
-			rewards: [{
-				count: 16
-				id: "43949DDF04750753"
-				item: "minecraft:stone"
-				type: "item"
-			}]
-			subtitle: "Many new recipes and stone types are available for decorative purposes, obtainable using the &7Stonecutter&r. Press &bU&r while hovering over a &7Stonecutter&r in your inventory to see the recipes."
-			tasks: [{
-				id: "72514D0908F74B2B"
-				item: "minecraft:stonecutter"
-				type: "item"
-			}]
-			title: "Obtain a &8Stonecutter"
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			id: "1E694E1B42888383"
-			rewards: [{
-				count: 20
-				id: "2C210ECFC9A7700C"
-				item: "supplementaries:candy"
-				type: "item"
-			}]
-			subtitle: "Perfect way to decorate your home during the Winter"
-			tasks: [{
-				id: "4998D0E09CCD2774"
-				item: "winterly:garland_lights"
-				type: "item"
-			}]
-			title: "Craft &9G&aa&cr&9l&aa&cn&9d &9L&ai&cg&9h&at&cs"
-			x: -3.5d
+			x: 2.5d
 			y: 4.0d
 		}
 		{
-			id: "4BBAB429C5402A23"
+			id: "4AE0F77E11A498FF"
 			rewards: [{
-				id: "2794EE43FCF95403"
-				item: "handcrafted:hammer"
+				id: "19C5BAC1B7FE0368"
+				item: {
+					Count: 1b
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "goblintraders:extended_water_breathing"
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "Can be used on furniture from the Handcrafted mod to change the furniture color."
+			subtitle: "An &5infinite &9water &7source"
 			tasks: [{
-				id: "61EF88FC45DE94F5"
+				id: "3B443473BFAD7D35"
+				item: "things:bater_wucket"
+				type: "item"
+			}]
+			title: "Craft a &9Bater Wucket"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "731AF96597BF5309"
+			rewards: [{
+				count: 3
+				id: "67FE2099D771BA47"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			subtitle: "3 block high door. Great for tall origins."
+			tasks: [{
+				id: "7ABFAF9A70390461"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "handcrafted:cushions"
+						value: "dramaticdoors:tall_doors"
 					}
 				}
-				title: "Any #handcrafted:cushions"
+				title: "Any #dramaticdoors:tall_doors"
 				type: "item"
 			}]
-			title: "Craft a &cCushion"
-			x: -2.0d
-			y: 4.0d
+			title: "Craft a &cDramatic Door"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "27CA0D18235360A1"
+			rewards: [{
+				id: "1229487121D0D6C7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "A detailed guidebook for the Adorn mod."
+			tasks: [{
+				id: "4E5C553A94290A8D"
+				item: "adorn:guide_book"
+				type: "item"
+			}]
+			title: "Craft &oDecorating Your Home"
+			x: 4.0d
+			y: 2.5d
 		}
 	]
 	title: " &7Miscellaneous"

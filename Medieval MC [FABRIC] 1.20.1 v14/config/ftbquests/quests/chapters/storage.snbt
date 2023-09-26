@@ -1,0 +1,321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "799D8360B26E9792"
+	icon: {
+		Count: 1b
+		id: "travelersbackpack:standard"
+		tag: { }
+	}
+	id: "791A53DBEED81142"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "toms_storage:block/inventory_cable"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.5d
+		y: -10.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D550243ED7A0A05"
+			rewards: [{
+				id: "6C79E618C2369247"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "&6Backpacks &7are a convenient way to carry many items while exploring. They can also be upgraded with special abilities."
+			tasks: [{
+				id: "7C819485FF0B8632"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &3Standard Traveler's Backpack"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			id: "51B189EBCC1751F1"
+			rewards: [{
+				count: 3
+				id: "5154DD1E9DFA2F35"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "&6Used for Backpack upgrades."
+			tasks: [{
+				id: "0216412132306713"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			title: "Craft a &3Blank Upgrade"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["51B189EBCC1751F1"]
+			id: "6F52BD5C68F0DAE7"
+			rewards: [{
+				count: 2
+				id: "6D29BC72E70B6757"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Combine it with a &9Standard Traveler's Backpack &7in a &6smithing table "
+			tasks: [{
+				id: "66F66529D2B2BA22"
+				item: "travelersbackpack:iron_tier_upgrade"
+				type: "item"
+			}]
+			title: "Craft an &7Iron Tier Upgrade"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F52BD5C68F0DAE7"]
+			id: "4304DFADCE0B404A"
+			rewards: [{
+				count: 2
+				id: "26220A11B1D2FB8D"
+				item: "minecraft:diamond"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Combine it with an &2Iron Traveler's Backpack &7in a &6smithing table"
+			tasks: [{
+				id: "0D9F4927EE11277B"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			title: "Craft a &6Gold Tier Upgrade"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4304DFADCE0B404A"]
+			id: "4F5DC50236046DB3"
+			rewards: [{
+				id: "1D4275EF84E16C39"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Combine it with a &3Gold Traveler's Backpack &7in a &6smithing table"
+			tasks: [{
+				id: "37C9A53347444B31"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			title: "Craft a &9Diamond Tier Upgrade"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F5DC50236046DB3"]
+			id: "2284576ACAFE8F7F"
+			rewards: [{
+				id: "01759FD987DFDD42"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Combine it with a &8Diamond Traveler's Backpack &7in a &6smithing table"
+			tasks: [{
+				id: "62425F75B0B0D2DA"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			title: "Craft a &8Netherite Tier Upgrade "
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "5BCF9D61C52EABCC"
+			rewards: [
+				{
+					id: "12E0E6D02CBDA6A1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "4841E24F7A688353"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+			]
+			subtitle: "Gives acces to your items. Place it on a storage block, or on an &3Inventory Connector&r to access all connected storage blocks"
+			tasks: [{
+				id: "2528750EFAB1927A"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Craft the &6Storage Terminal"
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			id: "2252ACBB97526BB2"
+			rewards: [{
+				id: "513A3A51470E7334"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Connects all of touching inventories into one, upto 16 blocks away. Use the &6Storage Terminal &7to acces all of your items."
+			tasks: [{
+				id: "1DBC99A784EB4C96"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Craft an &3Inventory Connector"
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"2252ACBB97526BB2"
+				"5BCF9D61C52EABCC"
+			]
+			id: "411FE795DBEB8033"
+			rewards: [{
+				id: "2B14496A4C61411B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Connects inventories across long distances"
+			tasks: [{
+				id: "043DE2D1704E4AF5"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "Craft some &6Inventory Cable"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["411FE795DBEB8033"]
+			id: "3F31C6C5D260B2DA"
+			rewards: [
+				{
+					id: "13DFCFA396606FA3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6FDE46CA0991D63B"
+					item: "minecraft:diamond"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Used to connect individual storage blocks to the Inventory Network. "
+			tasks: [{
+				id: "324C9EECB1BCFE3E"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			title: "Craft an &6Inventory Cable Connector"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5BCF9D61C52EABCC"]
+			id: "123097813B579C3E"
+			rewards: [
+				{
+					id: "2A71C93A6B21752E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "00556714F9697603"
+					item: "mythicmetals_decorations:steel_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Has the same functions as a &3Storage Terminal&7, but has a built-in crafting grid."
+			tasks: [{
+				id: "175314DBB0522137"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			title: "Craft the &6Crafting Terminal"
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2252ACBB97526BB2"]
+			id: "2A1BA4AAA2162ECE"
+			rewards: [{
+				id: "601FBE6676D65204"
+				item: "mythicmetals_decorations:silver_chest"
+				type: "item"
+			}]
+			subtitle: "Extends your reach for the &3terminal &7by 16 blocks."
+			tasks: [{
+				id: "13A52708E3511DFA"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "Craft a &1Wireless Terminal"
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2A1BA4AAA2162ECE"]
+			id: "42C47B7E819027E8"
+			rewards: [
+				{
+					id: "4A4D78B1A0964A9B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5B40C05749866F1A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Allows remote access to your storage. Hold shift on the &8Advanced Wireless Terminal &7for more info."
+			tasks: [{
+				id: "43C7E0A7140610A7"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "Craft an &8Advanced Wireless Terminal"
+			x: -2.0d
+			y: -8.0d
+		}
+	]
+	title: " &3Backpacks and Storage"
+}

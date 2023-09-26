@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  name = betterminecraftpanorama
+  name = medievalminecraftpanorama
   action = setbackgroundpanorama
 }
 
@@ -19,11 +19,19 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 16
+}
+
+customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
   x = 105
   action = movebutton
-  y = 19
+  y = 40
 }
 
 customization {
@@ -44,20 +52,15 @@ customization {
   orientation = mid-centered
   x = 105
   action = movebutton
-  y = 47
+  y = 68
 }
 
 customization {
-  identifier = %id=376358%
-  orientation = top-right
-  x = -25
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = 5
-}
-
-customization {
-  identifier = %id=2980%
-  action = hidebutton
+  y = -8
 }
 
 customization {
@@ -70,31 +73,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = 47
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = -125
-  action = movebutton
-  y = 47
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -5
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -29
+  y = 68
 }
 
 customization {
@@ -102,7 +81,15 @@ customization {
   orientation = mid-centered
   x = 2
   action = movebutton
-  y = 47
+  y = 68
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = 68
 }
 
 customization {
@@ -141,13 +128,13 @@ customization {
 customization {
   orientation = mid-centered
   splash_color = #ffff00
-  hidden = false
-  x = -90
+  hidden = true
+  x = -162
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = 1448d3ba-b3f4-46c7-80b7-7eb153fd79f51686808471727
-  y = -125
+  y = -112
   height = 30
 }
 
@@ -161,20 +148,9 @@ customization {
   width = 200
   action = addbutton
   actionid = 23545ded-3613-4fce-8855-819ac62455821686808542625
-  y = 19
+  y = 41
   label = Bisect Server Hosting
   height = 20
-}
-
-customization {
-  path = resourcepacks/Graphics/betterm.png
-  orientation = mid-centered
-  x = -152
-  width = 304
-  action = addtexture
-  actionid = ba1bf56a-052b-47f9-bc1d-1563eee671ac1686808638513
-  y = -129
-  height = 100
 }
 
 customization {
@@ -184,7 +160,7 @@ customization {
   width = 16
   action = addtexture
   actionid = c03be17b-5a17-4467-aeb2-9cfffe181c941686808672411
-  y = 21
+  y = 42
   height = 16
 }
 
@@ -197,7 +173,7 @@ customization {
   width = 20
   action = addbutton
   actionid = c2b90152-00d5-468b-933b-b628e8f9bf831686808689660
-  y = 19
+  y = 40
   label = 
   height = 20
 }
@@ -209,7 +185,7 @@ customization {
   width = 13
   action = addtexture
   actionid = 9f378eaa-0367-4c65-8f8a-4f83677009741686808713128
-  y = 22
+  y = 43
   height = 13
 }
 
@@ -217,7 +193,7 @@ customization {
   orientation = bottom-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/LunaPixelStudios/Better-MC/wiki/Performance-Guide%btnaction_splitter_fm%
+  buttonaction = openlink;https://github.com/LunaPixelStudios/Medieval-MC/wiki/Performance-Guide%btnaction_splitter_fm%
   x = 3
   width = 114
   action = addbutton
@@ -229,10 +205,29 @@ customization {
 }
 
 customization {
+  path = resourcepacks/Graphics/medieval.png
+  orientation = mid-centered
+  x = -152
+  width = 305
+  action = addtexture
+  actionid = 69c36021-aa37-43dc-a4ac-03286e988dda1686995319132
+  y = -175
+  height = 167
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = top-right
+  x = -61
+  action = movebutton
+  y = 5
+}
+
+customization {
   identifier = %id=604310%
   orientation = top-left
-  x = 4
+  x = 5
   action = movebutton
-  y = 4
+  y = 5
 }
 
