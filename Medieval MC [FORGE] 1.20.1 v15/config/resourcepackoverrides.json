@@ -76,6 +76,33 @@
     },
     "builtin/deep_aether_additional_assets": {
       "hidden": true
+    },
+    "builtin/aether_b173_art": {
+      "hidden": true
+    },
+    "builtin/ancient_aether_programmer_art": {
+      "hidden": true
+    },
+    "builtin/classic_blight": {
+      "hidden": true
+    },
+    "builtin/ozzified_textures": {
+      "hidden": true
+    },
+    "builtin/retro_dungeon": {
+      "hidden": true
+    },
+    "builtin/classic_moas": {
+      "hidden": true
+    },
+    "file/Origins_Expanded_Foods_v2.1+1.20.1.zip": {
+      "hidden": true
+    },
+    "lost_aether_content:classic_pack": {
+      "hidden": true
+    },
+    "supplementaries:darker_ropes": {
+      "hidden": true
     }
   }
 }
