@@ -103,6 +103,18 @@
     },
     "supplementaries:darker_ropes": {
       "hidden": true
+    },
+    "builtin/alternate_enchanted_grass": {
+      "hidden": true
+    },
+    "builtin/redux_nature": {
+      "hidden": true
+    },
+    "builtin/name_overrides": {
+      "hidden": true
+    },
+    "builtin/ancient_vaults": {
+      "hidden": true
     }
   }
 }
