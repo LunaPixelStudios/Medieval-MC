@@ -3,6 +3,7 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "file/NoBushyLeaves.zip",
+    "file/STONEBORN_MeiAdditions.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/Clarent_FFE_v3.5.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
