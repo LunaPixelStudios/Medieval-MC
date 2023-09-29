@@ -27,6 +27,10 @@
 [Audio]
 	#Enables a slamming sound for mimics. Disable if it gets too annoying XD
 	"Mimic Slam Sound Effect" = true
+	#Adds some nice night tracks to the Aether's music selection. Also disables the default music manager for the Aether, to prevent overlap
+	"Nighttime music tracks" = true
+	#Makes Blue Aerclouds have their wobbly sounds that play when bouncing on them
+	"Blue Aercloud bouncing sounds" = true
 
 [Internal]
 	#Internal value to decide if it is the first startup and the base Aether configs should be modified. DO NOT EDIT THIS VALUE, unless you want things to break!
@@ -34,5 +38,5 @@
 	#Internal value to decide if the game should open the first startup popup.
 	"First Startup Pop-up" = false
 	#DO NOT CHANGE. On startup, if this does not match the internal version value, it will be changed to it and resource packs will be reapplied.
-	"Version ID" = "1.0"
+	"Version ID" = "undefined"
 
