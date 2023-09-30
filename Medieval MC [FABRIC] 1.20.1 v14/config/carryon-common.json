@@ -158,7 +158,10 @@
       "spirit:*",
       "voidz:*",
       "vinery:*",
+      "conjuring:*",
       "minecraft:spawner",
+      "dehydration:*",
+      "meadow:*",
       "villagersplus:occultist_table",
       "toms_storage:ts.inventory_hopper_basic",
       "the_bumblezone:crystalline_flower"
