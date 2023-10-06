@@ -828,14 +828,14 @@
             {
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
-              "randomness": 0.1,
+              "randomness": 0.0,
               "value": 1.0
             },
             {
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 3.0
+              "value": 1.0
             }
           ],
           "experience_multiplier": 5.0
