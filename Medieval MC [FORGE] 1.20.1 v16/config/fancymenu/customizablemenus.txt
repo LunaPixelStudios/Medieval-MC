@@ -57,3 +57,6 @@ net.minecraft.client.gui.screens.TitleScreen {
 net.minecraft.client.gui.screens.ShareToLanScreen {
 }
 
+com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen {
+}
+
