@@ -1,0 +1,11 @@
+{
+	"passiveWayfarerSlenderArmorThreshold": 15,
+	"passiveWayfarerSlenderSlownessAmplifier": 0,
+	"passiveWayfarerSneakSpeedAmplifier": 2,
+	"passiveWayfarerReflexiveEvasionDuration": 100,
+	"passiveWayfarerReflexiveChance": 75,
+	"passiveWayfarerGuardingBarrierFrequency": 800,
+	"passiveWayfarerGuardingBarrierDuration": 3400,
+	"passiveWayfarerGuardingBarrierStacks": 1,
+	"passiveWayfarerGuardingBarrierMaxStacks": 3
+}
