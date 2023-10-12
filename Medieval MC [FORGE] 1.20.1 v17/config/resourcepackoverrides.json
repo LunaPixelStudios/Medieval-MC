@@ -116,6 +116,9 @@
     },
     "builtin/ancient_vaults": {
       "hidden": true
+    },
+    "file/origins_survive.zip": {
+      "hidden": true
     }
   }
 }
