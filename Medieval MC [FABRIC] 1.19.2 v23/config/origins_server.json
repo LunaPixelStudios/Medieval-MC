@@ -8,7 +8,8 @@
       "origins:pumpkin_hate": true,
       "origins:extra_reach": true,
       "origins:ender_particles": true,
-      "origins:damage_from_potions": true
+      "origins:damage_from_potions": true,
+      "origins_env_deh:thirst_resistance": true
     },
     "origins:feline": {
       "enabled": true,
@@ -16,7 +17,7 @@
       "origins:sprint_jump": true,
       "origins:velvet_paws": true,
       "origins:nine_lives": true,
-      "origins:weak_arms": true,
+      "origins:weak_arms": false,
       "origins:scare_creepers": true,
       "origins:cat_vision": true
     },
@@ -29,10 +30,12 @@
       "medievalorigins:dwarf/darkness_dweller": true,
       "medievalorigins:dwarf/dense": true,
       "medievalorigins:dwarf/photoallergic": true,
-      "medievalorigins:dwarf/pickaxeless_stone": true
+      "medievalorigins:dwarf/pickaxeless_stone": true,
+      "medievalorigins:dwarf/mythril_resonance": true,
+      "medievalorigins:dwarf/helmet_spawn": true
     },
     "origins:elytrian": {
-      "enabled": true,
+      "enabled": false,
       "origins:elytra": true,
       "origins:launch_into_air": true,
       "origins:aerial_combatant": true,
@@ -48,7 +51,8 @@
       "medievalorigins:necromancer/poor_reputation": true,
       "medievalorigins:necromancer/black_thumb": true,
       "medievalorigins:necromancer/disturbed": true,
-      "medievalorigins:necromancer/unguarded": true
+      "medievalorigins:necromancer/unguarded": true,
+      "medievalorigins:necromancer/siphon": true
     },
     "medievalorigins:pixie": {
       "enabled": true,
@@ -71,16 +75,6 @@
       "medievalorigins:plague_victim/sensitive_skin": true,
       "medievalorigins:plague_victim/skin_and_bones": true
     },
-    "medievalorigins:daemon": {
-      "enabled": true,
-      "medievalorigins:daemon/daemon_fire": true,
-      "medievalorigins:daemon/hellborne": true,
-      "medievalorigins:daemon/carnivore": true,
-      "medievalorigins:daemon/unholy_deal": true,
-      "medievalorigins:daemon/hydrophobe": true,
-      "medievalorigins:daemon/impure": true,
-      "medievalorigins:daemon/overworld_weakness": true
-    },
     "medievalorigins:banshee": {
       "enabled": true,
       "medievalorigins:banshee/ethereal": true,
@@ -88,7 +82,8 @@
       "medievalorigins:banshee/sonic_shriek": true,
       "medievalorigins:banshee/flesheater": true,
       "medievalorigins:banshee/iron_aversion": true,
-      "medievalorigins:banshee/immaterial": true
+      "medievalorigins:banshee/immaterial": true,
+      "medievalorigins:banshee/spectral": true
     },
     "medievalorigins:gorgon": {
       "enabled": true,
@@ -97,7 +92,12 @@
       "medievalorigins:gorgon/super_strength": true,
       "medievalorigins:gorgon/hydrophobe": true,
       "medievalorigins:gorgon/petrification": true,
-      "medievalorigins:gorgon/silver_aversion": true
+      "medievalorigins:gorgon/silver_aversion": true,
+      "medievalorigins:gorgon/petrifying_gaze": true,
+      "medievalorigins:gorgon/revenge": true,
+      "medievalorigins:gorgon/to_stone": true,
+      "medievalorigins:gorgon/poison_blood": true,
+      "origins_env_deh:thirst_resistance": true
     },
     "origins:phantom": {
       "enabled": true,
@@ -110,15 +110,6 @@
       "origins:fragile": true,
       "origins:phantomize_overlay": true
     },
-    "medievalorigins:knight": {
-      "enabled": true,
-      "medievalorigins:knight/for_honour_and_glory": true,
-      "medievalorigins:knight/skilled_swordsman": true,
-      "medievalorigins:knight/valour": true,
-      "medievalorigins:knight/burdened": true,
-      "medievalorigins:knight/magic_prone": true,
-      "medievalorigins:knight/melee4ever": true
-    },
     "origins:blazeborn": {
       "enabled": true,
       "origins:fire_immunity": true,
@@ -128,10 +119,11 @@
       "origins:water_vulnerability": true,
       "origins:flame_particles": true,
       "origins:damage_from_snowballs": true,
-      "origins:damage_from_potions": true
+      "origins:damage_from_potions": true,
+      "origins_env_deh:heat_resistance": true
     },
     "origins:avian": {
-      "enabled": true,
+      "enabled": false,
       "origins:slow_falling": true,
       "origins:fresh_air": true,
       "origins:like_air": true,
@@ -139,31 +131,14 @@
       "origins:lay_eggs": true,
       "origins:vegetarian": true
     },
-    "medievalorigins:werewolf": {
-      "enabled": false,
-      "medievalorigins:werewolf/lycanthropy": true,
-      "medievalorigins:werewolf/carnivore": true,
-      "medievalorigins:werewolf/silver_aversion": true,
-      "medievalorigins:werewolf/drained": true,
-      "medievalorigins:werewolf/insatiable_hunger": true
-    },
     "icarus:icarae": {
       "enabled": true,
       "icarus:powered_flight": true,
       "origins:aerial_combatant": true,
       "icarus:hollow_bones": true,
       "origins:no_shield": true,
-      "origins:carnivore": true
-    },
-    "medievalorigins:elf": {
-      "enabled": true,
-      "medievalorigins:elf/archer": true,
-      "medievalorigins:elf/forest_vision": true,
-      "medievalorigins:elf/hyper_sight": true,
-      "medievalorigins:elf/towering": true,
-      "medievalorigins:elf/steward": true,
-      "medievalorigins:elf/spindly": true,
-      "medievalorigins:elf/weak_melee": true
+      "origins:carnivore": true,
+      "icarus:wings": true
     },
     "medievalorigins:fae": {
       "enabled": true,
@@ -194,7 +169,8 @@
       "medievalorigins:yeti/unstoppable": true,
       "medievalorigins:yeti/winter_body": true,
       "medievalorigins:yeti/flammable": true,
-      "medievalorigins:yeti/thick_fur": true
+      "medievalorigins:yeti/thick_fur": true,
+      "origins_env_deh:cold_resistance": true
     },
     "medievalorigins:siren": {
       "enabled": true,
@@ -204,7 +180,9 @@
       "medievalorigins:siren/out_of_your_depth": true,
       "medievalorigins:siren/prone": true,
       "medievalorigins:siren/flammable": true,
-      "medievalorigins:siren/water_vision": true
+      "medievalorigins:siren/water_vision": true,
+      "medievalorigins:siren/seduce": true,
+      "origins_env_deh:water_dweller": true
     },
     "origins:shulk": {
       "enabled": true,
@@ -224,7 +202,8 @@
       "origins:like_water": true,
       "origins:aquatic": true,
       "origins:conduit_power_on_land": true,
-      "origins:air_from_potions": true
+      "origins:air_from_potions": true,
+      "origins_env_deh:water_dweller": true
     },
     "medievalorigins:ogre": {
       "enabled": true,
@@ -236,7 +215,12 @@
       "medievalorigins:ogre/sluggish": true,
       "medievalorigins:ogre/xxxl": true,
       "medievalorigins:ogre/unweildy": true,
-      "medievalorigins:ogre/ogre_properties": true
+      "medievalorigins:ogre/ogre_properties": true,
+      "medievalorigins:ogre/unwieldy": true,
+      "medievalorigins:ogre/ravager": true,
+      "medievalorigins:ogre/bloodlust": true,
+      "medievalorigins:ogre/bloodlust_camera": true,
+      "medievalorigins:ogre/orcish_pride": true
     },
     "origins:arachnid": {
       "enabled": true,
@@ -256,10 +240,11 @@
       "medievalorigins:troll/apex_predator": true,
       "medievalorigins:troll/lumbering": true,
       "medievalorigins:troll/old_blood": true,
-      "medievalorigins:troll/out_of_stock": true
+      "medievalorigins:troll/out_of_stock": true,
+      "origins_env_deh:cold_resistance": true
     },
     "medievalorigins:arachnae": {
-      "enabled": true,
+      "enabled": false,
       "medievalorigins:arachnae/climber": true,
       "medievalorigins:arachnae/many_eyes": true,
       "medievalorigins:arachnae/venomous_bite": true,
@@ -267,14 +252,6 @@
       "medievalorigins:arachnae/bottomless_stomach": true,
       "medievalorigins:arachnae/brittle": true,
       "medievalorigins:arachnae/fragile_exoskeleton": true
-    },
-    "medievalorigins:paladin": {
-      "enabled": true,
-      "medievalorigins:paladin/holy_fire": true,
-      "medievalorigins:paladin/holy_instruments": true,
-      "medievalorigins:paladin/leech": true,
-      "medievalorigins:paladin/holy_curse": true,
-      "medievalorigins:paladin/well_built": true
     },
     "rpg_origins:cleric": {
       "enabled": true,
@@ -284,13 +261,22 @@
       "rpg_origins:brewer_speed": true,
       "rpg_origins:brewer_strength": true,
       "rpg_origins:brewer_regeneration": true,
-      "rpg_origins:heal_pool": true
+      "rpg_origins:heal_pool": true,
+      "rpg_origins:untrained": true,
+      "rpg_origins:forgivable": true,
+      "rpg_origins:pure": true,
+      "rpg_origins:pure_color": true,
+      "rpg_origins:pure_shake": true,
+      "rpg_origins:one_with_the_world": true
     },
     "rpg_origins:knight": {
       "enabled": true,
       "rpg_origins:sword": true,
       "origins:more_exhaustion": true,
-      "rpg_origins:experienced": true
+      "rpg_origins:experienced": true,
+      "rpg_origins:durable": true,
+      "rpg_origins:prepared": true,
+      "rpg_origins:trained": true
     },
     "rpg_origins:brute": {
       "enabled": true,
@@ -308,22 +294,83 @@
       "rpg_origins:not_the_strongest": true,
       "rpg_origins:fireball": true,
       "rpg_origins:water_walk": true,
-      "rpg_origins:unwieldly": true
+      "rpg_origins:unwieldly": true,
+      "rpg_origins:untrained": true
     },
     "rpg_origins:thief": {
-      "enabled": true,
+      "enabled": false,
       "rpg_origins:speedy": true,
       "rpg_origins:stealthy": true,
       "origins:no_shield": true,
       "rpg_origins:better_unnoticed": true,
       "rpg_origins:uneasy_alliance": true,
-      "rpg_origins:thefty": true
+      "rpg_origins:thefty": true,
+      "rpg_origins:stealthy_damage": true,
+      "rpg_origins:weak": true
     },
     "rpg_origins:archer": {
-      "enabled": true,
+      "enabled": false,
       "rpg_origins:marksman": true,
       "rpg_origins:not_the_strongest": true,
-      "rpg_origins:inexperienced": true
+      "rpg_origins:inexperienced": true,
+      "rpg_origins:untrained": true,
+      "rpg_origins:resourceful": true,
+      "rpg_origins:quiver": true
+    },
+    "medievalorigins:wood_elf": {
+      "enabled": true,
+      "medievalorigins:wood_elf/archer": true,
+      "medievalorigins:wood_elf/forest_vision": true,
+      "medievalorigins:wood_elf/eagle_eyed": true,
+      "medievalorigins:wood_elf/towering": true,
+      "medievalorigins:wood_elf/steward": true,
+      "medievalorigins:wood_elf/elegant": true,
+      "medievalorigins:wood_elf/graceful": true,
+      "medievalorigins:wood_elf/empowered_shot": true,
+      "medievalorigins:wood_elf/gear_spawn": true
+    },
+    "rpg_origins:bard": {
+      "enabled": true,
+      "rpg_origins:horn_effects/ponder": true,
+      "rpg_origins:horn_effects/sing": true,
+      "rpg_origins:horn_effects/feel": true,
+      "rpg_origins:horn_effects/admire": true,
+      "rpg_origins:horn_effects/call": true,
+      "rpg_origins:horn_effects/dream": true,
+      "rpg_origins:horn_effects/seek": true,
+      "rpg_origins:horn_effects/yearn": true,
+      "rpg_origins:horn_effects/musical_talent": true,
+      "rpg_origins:musical_past": true,
+      "rpg_origins:decoy": true,
+      "origins:more_exhaustion": true,
+      "rpg_origins:not_the_smartest": true,
+      "rpg_origins:charismatic": true,
+      "rpg_origins:charismatic_toggle": true
+    },
+    "medievalorigins:moon_elf": {
+      "enabled": true,
+      "medievalorigins:moon_elf/moonlight_rogue": true,
+      "medievalorigins:moon_elf/stealth": true,
+      "medievalorigins:moon_elf/ethereal": true,
+      "medievalorigins:moon_elf/crazed": true,
+      "medievalorigins:moon_elf/elegant": true,
+      "medievalorigins:moon_elf/nimble": true,
+      "medievalorigins:moon_elf/fragile": true,
+      "medievalorigins:moon_elf/towering": true
+    },
+    "medievalorigins:incubus": {
+      "enabled": true,
+      "medievalorigins:incubus/demon_fire": true,
+      "medievalorigins:incubus/hellborne": true,
+      "medievalorigins:incubus/carnivore": true,
+      "medievalorigins:incubus/unholy_deal": true,
+      "medievalorigins:incubus/hydrophobe": true,
+      "medievalorigins:incubus/impure": true,
+      "medievalorigins:incubus/dimension_strength": true,
+      "medievalorigins:incubus/lava_swim": true,
+      "medievalorigins:incubus/red": true,
+      "origins_env_deh:heat_resistance": true,
+      "origins:nether_spawn": true
     }
   }
 }
