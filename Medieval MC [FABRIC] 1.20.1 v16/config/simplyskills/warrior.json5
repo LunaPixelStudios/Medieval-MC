@@ -17,10 +17,12 @@
 	"passiveWarriorSpellbreakerRadius": 4,
 	"passiveWarriorSpellbreakerFrequency": 5,
 	"passiveWarriorGoliathFallDistance": 3.0,
-	"passiveWarriorHeavyWeightDamageIncreasePerTick": 0.10000000149011612,
+	"passiveWarriorHeavyWeightDamageIncreasePerTick": 0.30000001192092896,
 	"passiveWarriorDeathDefyFrequency": 20,
 	"passiveWarriorDeathDefyHealthThreshold": 30,
 	"passiveWarriorDeathDefyAmplifierPerTenPercentHealth": 1,
 	"passiveWarriorFrenzyExhaustionDuration": 400,
-	"passiveWarriorFrenzyExhaustionStacks": 1
+	"passiveWarriorFrenzyExhaustionStacks": 1,
+	"passiveWarriorTwinstrikeChance": 15,
+	"passiveWarriorSwordfallChance": 8
 }

@@ -1,6 +1,9 @@
 {
 	"enablePlayerExCompatibility": false,
 	"treeResetOnDeath": false,
+	"disableDefaultPuffishTrees": true,
+	"enableBuildSharing": true,
+	"skillChronicleCooldown": 12000,
 	"removeUnlockRestrictions": false,
 	"spellHasteCooldownReductionModifier": 0.4000000059604645,
 	"minimumAchievableCooldown": 5,

@@ -1,6 +1,6 @@
 {
 	"enableWizardSpecialisation": true,
-	"passiveWizardSpellEchoChance": 35,
+	"passiveWizardSpellEchoChance": 15,
 	"signatureWizardMeteoricWrathDuration": 800,
 	"signatureWizardMeteoricWrathStacks": 10,
 	"signatureWizardMeteoricWrathFrequency": 15,
@@ -33,6 +33,9 @@
 	"signatureWizardStaticChargeWeaknessAmplifier": 0,
 	"signatureWizardStaticDischargeRange": 120,
 	"signatureWizardStaticDischargeCooldown": 35,
+	"signatureWizardLightningOrbBuffRadius": 15,
+	"signatureWizardLightningOrbBuffFrequency": 40,
+	"signatureWizardLightningOrbBuffChance": 35,
 	"signatureWizardArcaneBoltRange": 120,
 	"signatureWizardLesserArcaneBoltRadius": 12,
 	"signatureWizardArcaneBoltVolleyDuration": 400,

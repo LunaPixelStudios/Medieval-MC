@@ -40,7 +40,7 @@
 	"effectRangerElementalArrowsRadius": 4,
 	"effectRangerElementalArrowsRadiusIncreasePerTier": 2,
 	"effectRangerElementalArrowsTargetingRange": 120,
-	"effectRangerElementalArrowsCooldown": 45,
+	"effectRangerElementalArrowsCooldown": 40,
 	"effectRangerArrowRainDuration": 600,
 	"effectRangerArrowRainRadius": 3,
 	"effectRangerArrowRainRadiusIncreasePerTier": 1,
@@ -48,5 +48,5 @@
 	"effectRangerArrowRainVolleys": 2,
 	"effectRangerArrowRainVolleyIncreasePerTier": 1,
 	"effectRangerArrowRainRange": 64,
-	"effectRangerArrowRainCooldown": 20
+	"effectRangerArrowRainCooldown": 14
 }
