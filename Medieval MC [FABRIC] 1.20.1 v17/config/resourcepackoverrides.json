@@ -8,6 +8,7 @@
     "seasons:seasonal_lush_caves",
     "file/STONEBORN_MeiAdditions.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
+    "file/MMC_Excal.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
     "file/Excalibur_V1.20.zip"
   ],
@@ -33,7 +34,7 @@
     "file/FarmersDelight_ToolFix_1.0+1.20.x.zip": {
       "hidden": true
     },
-    "file/ctov-farmers-delight-add-on-v2-0.zip": {
+    "file/ctov-farmers-delight-add-on-v2-1a.zip": {
       "hidden": true
     },
     "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
@@ -85,6 +86,12 @@
       "hidden": true
     },
     "supplementaries:darker_ropes": {
+      "hidden": true
+    },
+    "natures_spirit:better_leaves_compatibility": {
+      "hidden": true
+    },
+    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
       "hidden": true
     }
   }
