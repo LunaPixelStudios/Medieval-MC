@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN_MeiAdditions.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/MMC_Excal.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN_MeiAdditions.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -145,6 +145,7 @@ key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.adventurez.dragonflydown:key.keyboard.z
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
 key_key.archon.infernal_coat:key.keyboard.period
+key_key.azurelib.reload:key.keyboard.r
 key_key.besmirchment.familiar_ability:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
@@ -203,8 +204,16 @@ key_key.soulsweapons.collect_summons_soul_reaper:key.keyboard.comma
 key_key.soulsweapons.switch_weapon:key.keyboard.b
 key_key.soulsweapons.keybind_ability:key.keyboard.u
 key_key.soulsweapons.parry:key.keyboard.right.alt
-key_keybindings.spell_engine.hotbar_modifier:key.keyboard.unknown
-key_keybindings.spell_engine.hotbar_lock:key.keyboard.z
+key_keybindings.spell_engine.bypass_spell_hotbar:key.keyboard.left.alt
+key_keybindings.spell_engine.spell_hotbar_1:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_2:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_3:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_4:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_5:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_6:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_7:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_8:key.keyboard.unknown
+key_keybindings.spell_engine.spell_hotbar_9:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.things.place_item:key.keyboard.h

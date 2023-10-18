@@ -48,6 +48,19 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 105
@@ -66,6 +79,21 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-right
+  x = -119
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=376286%
+  width = 114
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -156,7 +184,7 @@ customization {
   width = 200
   action = addbutton
   actionid = 23545ded-3613-4fce-8855-819ac62455821686808542625
-  y = 41
+  y = 40
   label = Bisect Server Hosting
   height = 20
 }
@@ -221,10 +249,5 @@ customization {
   actionid = 69c36021-aa37-43dc-a4ac-03286e988dda1686995319132
   y = -175
   height = 167
-}
-
-customization {
-  identifier = %id=604334%
-  action = hidebutton
 }
 
