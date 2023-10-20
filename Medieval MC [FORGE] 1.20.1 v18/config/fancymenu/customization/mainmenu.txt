@@ -40,11 +40,24 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 105
   action = movebutton
   y = 47
+}
+
+customization {
+  identifier = %id=914411%
+  action = hidebutton
 }
 
 customization {
@@ -62,6 +75,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9384%
   action = hidebutton
 }
 
@@ -95,6 +113,11 @@ customization {
 }
 
 customization {
+  identifier = %id=91441%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=6043341%
   action = hidebutton
 }
@@ -105,6 +128,26 @@ customization {
   x = -100
   action = movebutton
   y = -29
+}
+
+customization {
+  identifier = %id=9144%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-right
+  x = -119
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=376286%
+  width = 114
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -182,7 +225,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 625
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
@@ -277,25 +320,5 @@ customization {
   actionid = 3d16125f-679d-4a13-b179-34f9c3f477591687099146960
   y = 20
   height = 17
-}
-
-customization {
-  identifier = %id=914411%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=9384%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=91441%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=9144%
-  action = hidebutton
 }
 
