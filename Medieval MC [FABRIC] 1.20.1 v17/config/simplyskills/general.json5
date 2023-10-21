@@ -7,5 +7,11 @@
 	"removeUnlockRestrictions": false,
 	"spellHasteCooldownReductionModifier": 0.4000000059604645,
 	"minimumAchievableCooldown": 5,
-	"minimumTimeBetweenAbilityUse": 0.5
+	"minimumTimeBetweenAbilityUse": 0.5,
+	"enableDDR": false,
+	"enableDDRDebugLog": false,
+	"DDRHealthRequirement": 300,
+	"DDRHealthThreshold": 3,
+	"DDRAmount": 13,
+	"DDRAttackSpeedWeight": 20
 }
