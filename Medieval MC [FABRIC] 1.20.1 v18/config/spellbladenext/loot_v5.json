@@ -3,20 +3,24 @@
     "weapons": {
       "ids": [
         "spellbladenext:frost_blade",
+        "spellbladenext:glacial_gladius",
         "spellbladenext:frost_claymore",
         "spellbladenext:frost_orb",
         "spellbladenext:arcane_blade",
+        "spellbladenext:crystal_cutlass",
         "spellbladenext:arcane_claymore",
         "spellbladenext:arcane_orb",
         "spellbladenext:fire_blade",
+        "spellbladenext:flaming_falchion",
         "spellbladenext:fire_claymore",
         "spellbladenext:fire_orb",
         "spellblades:whirlwindoil",
         "spellblades:spelloil",
-        "spellblades:smiteoil"
+        "spellblades:smiteoil",
+        "spellblades:monkeystaff"
       ],
-      "chance": 0.15,
-      "bonus_roll_chance": 0.4,
+      "chance": 0.1,
+      "bonus_roll_chance": 0.6,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
