@@ -58,7 +58,7 @@
         "wizards:wand_frost"
       ],
       "chance": 0.15,
-      "bonus_roll_chance": 0.3,
+      "bonus_roll_chance": 0.2,
       "weight": 1
     },
     "staves_tier_2_enchanted": {
@@ -68,7 +68,7 @@
         "wizards:staff_frost"
       ],
       "chance": 0.15,
-      "bonus_roll_chance": 0.3,
+      "bonus_roll_chance": 0.2,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -84,7 +84,7 @@
         "wizards:wizard_robe_feet"
       ],
       "chance": 0.15,
-      "bonus_roll_chance": 0.6,
+      "bonus_roll_chance": 0.4,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -116,7 +116,7 @@
         "wizards:frost_robe_feet"
       ],
       "chance": 0.3,
-      "bonus_roll_chance": 0.8,
+      "bonus_roll_chance": 0.6,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -131,7 +131,7 @@
         "wizards:staff_frost"
       ],
       "chance": 0.2,
-      "bonus_roll_chance": 0.4,
+      "bonus_roll_chance": 0.2,
       "weight": 1
     }
   },

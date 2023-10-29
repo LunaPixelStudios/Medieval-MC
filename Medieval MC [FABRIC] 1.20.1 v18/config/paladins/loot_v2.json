@@ -16,26 +16,6 @@
         "allow_treasure": true
       }
     },
-    "armor_tier_2_enchanted": {
-      "ids": [
-        "paladins:crusader_armor_head",
-        "paladins:crusader_armor_chest",
-        "paladins:crusader_armor_legs",
-        "paladins:crusader_armor_feet",
-        "paladins:prior_robe_head",
-        "paladins:prior_robe_chest",
-        "paladins:prior_robe_legs",
-        "paladins:prior_robe_feet"
-      ],
-      "chance": 0.15,
-      "bonus_roll_chance": 0.4,
-      "weight": 1,
-      "enchant": {
-        "min_power": 15.0,
-        "max_power": 45.0,
-        "allow_treasure": true
-      }
-    },
     "weapons_tier_0": {
       "ids": [
         "paladins:acolyte_wand",
@@ -54,21 +34,7 @@
         "paladins:diamond_great_hammer"
       ],
       "chance": 0.13,
-      "bonus_roll_chance": 0.5,
-      "weight": 1,
-      "enchant": {
-        "min_power": 1.0,
-        "max_power": 30.0,
-        "allow_treasure": true
-      }
-    },
-    "weapons_one_handed_tier_2_enchanted": {
-      "ids": [
-        "paladins:netherite_holy_wand",
-        "paladins:diamond_mace"
-      ],
-      "chance": 0.1,
-      "bonus_roll_chance": 0.5,
+      "bonus_roll_chance": 0.3,
       "weight": 1,
       "enchant": {
         "min_power": 1.0,
@@ -91,6 +57,20 @@
       "bonus_roll_chance": 0.1,
       "weight": 1
     },
+    "weapons_one_handed_tier_2_enchanted": {
+      "ids": [
+        "paladins:netherite_holy_wand",
+        "paladins:diamond_mace"
+      ],
+      "chance": 0.1,
+      "bonus_roll_chance": 0.3,
+      "weight": 1,
+      "enchant": {
+        "min_power": 1.0,
+        "max_power": 30.0,
+        "allow_treasure": true
+      }
+    },
     "weapons_two_handed_tier_1": {
       "ids": [
         "paladins:holy_staff",
@@ -108,8 +88,28 @@
         "paladins:diamond_great_hammer"
       ],
       "chance": 0.15,
-      "bonus_roll_chance": 0.4,
+      "bonus_roll_chance": 0.2,
       "weight": 1
+    },
+    "armor_tier_2_enchanted": {
+      "ids": [
+        "paladins:crusader_armor_head",
+        "paladins:crusader_armor_chest",
+        "paladins:crusader_armor_legs",
+        "paladins:crusader_armor_feet",
+        "paladins:prior_robe_head",
+        "paladins:prior_robe_chest",
+        "paladins:prior_robe_legs",
+        "paladins:prior_robe_feet"
+      ],
+      "chance": 0.15,
+      "bonus_roll_chance": 0.3,
+      "weight": 1,
+      "enchant": {
+        "min_power": 15.0,
+        "max_power": 45.0,
+        "allow_treasure": true
+      }
     },
     "weapons_one_handed_tier_1": {
       "ids": [
