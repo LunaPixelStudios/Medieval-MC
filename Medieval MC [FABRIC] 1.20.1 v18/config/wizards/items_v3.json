@@ -3,9 +3,9 @@
     "staff_netherite_fire": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 6.0,
           "operation": "ADDITION"
         }
@@ -14,9 +14,9 @@
     "staff_netherite_frost": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "frost",
+          "id": "spell_power:frost",
           "value": 6.0,
           "operation": "ADDITION"
         }
@@ -25,9 +25,9 @@
     "staff_netherite_arcane": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "arcane",
+          "id": "spell_power:arcane",
           "value": 6.0,
           "operation": "ADDITION"
         }
@@ -36,9 +36,9 @@
     "wand_fire": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 2.0,
           "operation": "ADDITION"
         },
@@ -52,9 +52,9 @@
     "staff_arcane": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "arcane",
+          "id": "spell_power:arcane",
           "value": 4.0,
           "operation": "ADDITION"
         }
@@ -63,9 +63,9 @@
     "wand_novice": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 1.0,
           "operation": "ADDITION"
         },
@@ -79,9 +79,9 @@
     "wand_arcane": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "arcane",
+          "id": "spell_power:arcane",
           "value": 2.0,
           "operation": "ADDITION"
         },
@@ -95,9 +95,9 @@
     "staff_frost": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "frost",
+          "id": "spell_power:frost",
           "value": 4.0,
           "operation": "ADDITION"
         }
@@ -106,9 +106,9 @@
     "wand_netherite_arcane": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "arcane",
+          "id": "spell_power:arcane",
           "value": 4.0,
           "operation": "ADDITION"
         },
@@ -122,9 +122,9 @@
     "staff_fire": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 4.0,
           "operation": "ADDITION"
         }
@@ -133,9 +133,9 @@
     "staff_smaragdant_frost": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "frost",
+          "id": "spell_power:frost",
           "value": 8.0,
           "operation": "ADDITION"
         }
@@ -144,9 +144,9 @@
     "wand_frost": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "frost",
+          "id": "spell_power:frost",
           "value": 2.0,
           "operation": "ADDITION"
         },
@@ -160,9 +160,9 @@
     "staff_ruby_fire": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 8.0,
           "operation": "ADDITION"
         }
@@ -171,19 +171,19 @@
     "staff_wizard": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "arcane",
+          "id": "spell_power:arcane",
           "value": 3.0,
           "operation": "ADDITION"
         },
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 3.0,
           "operation": "ADDITION"
         },
         {
-          "name": "frost",
+          "id": "spell_power:frost",
           "value": 3.0,
           "operation": "ADDITION"
         }
@@ -192,9 +192,9 @@
     "staff_crystal_arcane": {
       "attack_damage": 4.0,
       "attack_speed": -3.0,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "arcane",
+          "id": "spell_power:arcane",
           "value": 8.0,
           "operation": "ADDITION"
         }
@@ -203,9 +203,9 @@
     "wand_netherite_fire": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "fire",
+          "id": "spell_power:fire",
           "value": 4.0,
           "operation": "ADDITION"
         },
@@ -219,9 +219,9 @@
     "wand_netherite_frost": {
       "attack_damage": 2.0,
       "attack_speed": -2.4,
-      "spell_attributes": [
+      "attributes": [
         {
-          "name": "frost",
+          "id": "spell_power:frost",
           "value": 4.0,
           "operation": "ADDITION"
         },
@@ -239,14 +239,14 @@
       "knockback_resistance": 0.0,
       "head": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_damage",
+            "id": "spell_power:critical_damage",
             "value": 0.1,
             "operation": "MULTIPLY_BASE"
           }
@@ -254,14 +254,14 @@
       },
       "chest": {
         "armor": 3,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_damage",
+            "id": "spell_power:critical_damage",
             "value": 0.1,
             "operation": "MULTIPLY_BASE"
           }
@@ -269,14 +269,14 @@
       },
       "legs": {
         "armor": 2,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_damage",
+            "id": "spell_power:critical_damage",
             "value": 0.1,
             "operation": "MULTIPLY_BASE"
           }
@@ -284,14 +284,14 @@
       },
       "feet": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_damage",
+            "id": "spell_power:critical_damage",
             "value": 0.1,
             "operation": "MULTIPLY_BASE"
           }
@@ -303,14 +303,14 @@
       "knockback_resistance": 0.0,
       "head": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_chance",
+            "id": "spell_power:critical_chance",
             "value": 0.02,
             "operation": "MULTIPLY_BASE"
           }
@@ -318,14 +318,14 @@
       },
       "chest": {
         "armor": 3,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_chance",
+            "id": "spell_power:critical_chance",
             "value": 0.02,
             "operation": "MULTIPLY_BASE"
           }
@@ -333,14 +333,14 @@
       },
       "legs": {
         "armor": 2,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_chance",
+            "id": "spell_power:critical_chance",
             "value": 0.02,
             "operation": "MULTIPLY_BASE"
           }
@@ -348,14 +348,14 @@
       },
       "feet": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "critical_chance",
+            "id": "spell_power:critical_chance",
             "value": 0.02,
             "operation": "MULTIPLY_BASE"
           }
@@ -367,14 +367,14 @@
       "knockback_resistance": 0.0,
       "head": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "haste",
+            "id": "spell_power:haste",
             "value": 0.03,
             "operation": "MULTIPLY_BASE"
           }
@@ -382,14 +382,14 @@
       },
       "chest": {
         "armor": 3,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "haste",
+            "id": "spell_power:haste",
             "value": 0.03,
             "operation": "MULTIPLY_BASE"
           }
@@ -397,14 +397,14 @@
       },
       "legs": {
         "armor": 2,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "haste",
+            "id": "spell_power:haste",
             "value": 0.03,
             "operation": "MULTIPLY_BASE"
           }
@@ -412,14 +412,14 @@
       },
       "feet": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 0.25,
             "operation": "MULTIPLY_BASE"
           },
           {
-            "name": "haste",
+            "id": "spell_power:haste",
             "value": 0.03,
             "operation": "MULTIPLY_BASE"
           }
@@ -431,19 +431,19 @@
       "knockback_resistance": 0.0,
       "head": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 1.0,
             "operation": "ADDITION"
           }
@@ -451,19 +451,19 @@
       },
       "chest": {
         "armor": 3,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 1.0,
             "operation": "ADDITION"
           }
@@ -471,19 +471,19 @@
       },
       "legs": {
         "armor": 2,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 1.0,
             "operation": "ADDITION"
           }
@@ -491,19 +491,19 @@
       },
       "feet": {
         "armor": 1,
-        "spell_attributes": [
+        "attributes": [
           {
-            "name": "arcane",
+            "id": "spell_power:arcane",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "fire",
+            "id": "spell_power:fire",
             "value": 1.0,
             "operation": "ADDITION"
           },
           {
-            "name": "frost",
+            "id": "spell_power:frost",
             "value": 1.0,
             "operation": "ADDITION"
           }
