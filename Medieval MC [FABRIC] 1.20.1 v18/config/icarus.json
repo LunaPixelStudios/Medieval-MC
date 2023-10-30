@@ -1,0 +1,10 @@
+{
+  "canLoopDeLoop": true,
+  "armourSlows": true,
+  "canSlowFall": false,
+  "maxSlowedMultiplier": 1.75,
+  "wingsSpeed": 0.02,
+  "wingsDurability": 0,
+  "exhaustionAmount": 0.03,
+  "rollAmount": 1.0
+}
