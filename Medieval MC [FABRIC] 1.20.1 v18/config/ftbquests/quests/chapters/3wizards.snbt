@@ -107,7 +107,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wands always have one spell built-in, so you can use them even without a tome."
+			subtitle: "Wands always have one spell built-in, but you can only use that spell - extra spells from a tome won't work."
 			tasks: [{
 				id: "3A09D43B0B303B47"
 				item: {
@@ -126,11 +126,11 @@
 		{
 			dependencies: ["5DD91A2BE7C75259"]
 			description: [
-				"To get more spells, place books into the &dSpell Binding Table&r to turn them into &bSpell Tomes&r."
+				"First, place a regular book into the &dSpell Binding Table&r to turn it into &bSpell Tome&r of your choice."
 				""
 				"After selecting a &bSpell Tome&r, place it back into the &dSpell Binding Table&r to select spells using lapis lazuli and XP"
 				""
-				"Adding bookshelves around the table gives access to stronger spells. "
+				"Adding bookshelves around the table, like an enchanting table, gives access to stronger spells. "
 			]
 			id: "1F63CB475EC9E7D3"
 			rewards: [
@@ -147,7 +147,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Used to get more spells. Read the quest description for details."
+			subtitle: "Used to use spells with staffs, or any other weapons besides wands. Click for more details!"
 			tasks: [{
 				id: "4C5003A828CA3E5B"
 				item: "spell_engine:spell_binding"
