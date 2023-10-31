@@ -289,6 +289,25 @@
 			x: -0.5d
 			y: 1.5d
 		}
+		{
+			id: "7537ABB01DC180CD"
+			rewards: [{
+				id: "462399906F9F913A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Located in the &3Ice Maze&r in &1Deep Frozen Ocean&r biomes"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:abyssal_amethyst"
+				id: "246986B31FB1F52C"
+				title: "Defeat the &dMother of the Maze"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
 	]
 	title: " &4Mobs"
 }

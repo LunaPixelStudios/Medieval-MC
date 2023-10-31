@@ -432,7 +432,7 @@
 				value: 1L
 			}]
 			title: "Defeat &6Ayla"
-			x: -7.5d
+			x: -8.0d
 			y: -1.5d
 		}
 		{
@@ -466,7 +466,7 @@
 				value: 1L
 			}]
 			title: "Defeat &2Tar"
-			x: -4.5d
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -499,7 +499,7 @@
 				value: 1L
 			}]
 			title: "Defeat &4The Lich"
-			x: -0.5d
+			x: -0.3125d
 			y: -3.0d
 		}
 		{
@@ -573,7 +573,7 @@
 				}
 			]
 			title: "Collect all three &fBone Staff Fragments"
-			x: -0.5d
+			x: -0.3125d
 			y: 0.125d
 		}
 		{
@@ -596,7 +596,7 @@
 				type: "item"
 			}]
 			title: "Fill a &4Vial of Blood"
-			x: -0.5d
+			x: -0.3125d
 			y: -1.375d
 		}
 		{
@@ -656,8 +656,8 @@
 				value: 1L
 			}]
 			title: "Defeat &k&4I&r&8&lThe Wither&k&4I"
-			x: -2.5d
-			y: -1.5d
+			x: -0.3125d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1C0DC1E4BF8FD1DC"]
@@ -689,7 +689,7 @@
 				value: 1L
 			}]
 			title: "Defeat &4Inigo"
-			x: -6.0d
+			x: -6.5d
 			y: 0.0d
 		}
 		{
@@ -722,7 +722,7 @@
 				value: 1L
 			}]
 			title: "Defeat &cLeven"
-			x: -6.0d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -740,8 +740,131 @@
 				type: "item"
 			}]
 			title: "Craft a &bSummoning Pedestal"
-			x: -6.0d
+			x: -6.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["312740B0689DBBF7"]
+			id: "2A439E31861A888F"
+			rewards: [
+				{
+					id: "5E942D96909B8275"
+					item: {
+						Count: 1b
+						id: "zenith:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:strong_warding"
+							charm_enabled: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA79C4CED681CDC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 1.25d
+			subtitle: "Summoned by using a &fPrismatic Effigy&r while in the &5Glass Ocean"
+			tasks: [{
+				entity: "spellbladenext:magus"
+				icon: "spellbladenext:hexbladeitem"
+				id: "7D90EA416236E74C"
+				title: "Defeat &4Magus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.125d
+			y: -3.125d
+		}
+		{
+			id: "552EEA2D27B23904"
+			rewards: [{
+				id: "646A21E5D4956CF6"
+				item: {
+					Count: 1b
+					id: "spellbladenext:blazing_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This spellblade-wielding cult is rumored to be hunting down all users of &dMagic"
+			tasks: [{
+				icon: "spellbladenext:prismatic"
+				id: "5F2FD0A30DC4DE1B"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter &3The Hexblades"
+				to_observe: "spellbladenext:magister"
+				type: "observation"
+			}]
+			x: -3.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["552EEA2D27B23904"]
+			id: "312740B0689DBBF7"
+			rewards: [
+				{
+					id: "66B431977828E0C3"
+					item: "spellbladenext:runegleam_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3B8479045751C43A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Open a &dHexblade Portal&r using a &3Hexblade Offering&r."
+			tasks: [{
+				dimension: "spellbladenext:glassocean"
+				id: "5EB3275DC0489A05"
+				title: "Enter the &5Glass Ocean"
+				type: "dimension"
+			}]
+			x: -3.125d
+			y: -1.5d
+		}
+		{
+			id: "6B91E665B4B18F60"
+			rewards: [
+				{
+					id: "4311A59EE0B0978E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "066B20294D1950AD"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1b
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "5751C9941672AA8E"
+				title: "Defeat the &1Ghost of Captain Cornelia&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 3.0d
 		}
 	]
 	title: " &4Bosses"
