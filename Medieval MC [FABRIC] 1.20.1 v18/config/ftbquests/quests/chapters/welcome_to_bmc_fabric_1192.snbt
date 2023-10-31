@@ -343,6 +343,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "50B4BEB896E2AC66"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "zenith:chronicle"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "Read my description!"
 			tasks: [{
@@ -355,9 +366,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6A4CB4700F0082C6"]
+			dependencies: ["139DAA6E8CF4267A"]
 			description: [
-				"Items can be reforged in an &7Anvil&r. The item needs to be full durability, and you need &dAmethyst Shards&r."
+				"Items with a rarity can be salvaged in a &7Salvaging Table&r, and any gear can be reforged in a &6Reforging Table&r. "
+				"To learn how, read the &3Chronicle of Shadows&r, which you can get from the previous tutorial quest."
 				""
 				"Every &e5,000&r blocks you move away from spawn, mobs will get &b75%&r stronger. They will also drop more &aExperience Points&r!"
 				""
@@ -368,7 +380,7 @@
 				"&d4&r. The &4Nether"
 				"&d5&r. The &5End"
 				""
-				"More &4difficult&r structures have better loot."
+				"Certain &4Bosses&r also have a higher chance to drop much rarer loot."
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -380,12 +392,18 @@
 				}
 			}
 			id: "1272952B43DFA218"
-			rewards: [{
-				count: 3
-				id: "3C507F5DAEB57D2F"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "30B23FCC24506AEC"
+					item: "zenith:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "76C952DDC66960BF"
+					item: "zenith:gem_dust"
+					type: "item"
+				}
+			]
 			subtitle: "Read my description! Make sure to scroll down."
 			tasks: [{
 				id: "64F70B833581A586"
