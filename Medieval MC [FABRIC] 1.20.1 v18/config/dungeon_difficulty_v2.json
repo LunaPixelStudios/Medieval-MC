@@ -185,7 +185,7 @@
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": "^(?!.*(twilightforest|wither_skeleton|soulmass|remnant|forlorn|sorcerer|skelt|leech)).*?(minecells:conjunctivius|bosses_of_mass_destruction|minecraft:wither|minecraft:warden|lich|hidebehind|hirschgeist|soulsweapons|archon).*$"
+            "entity_id_regex": "^(?!.*(twilightforest|wither_skeleton|soulmass|remnant|forlorn|sorcerer|skelt|leech)).*?(minecells:conjunctivius|bosses_of_mass_destruction|minecraft:wither|minecraft:warden|lich|hidebehind|hirschgeist|soulsweapons|archon|cornelia|maze_mother).*$"
           },
           "attributes": [
             {
