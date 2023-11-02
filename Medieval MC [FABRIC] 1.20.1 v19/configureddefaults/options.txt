@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/MMC_Excal.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN_MeiAdditions.zip","seasons:seasonal_lush_caves","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
+resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/MMC_Excal.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN_MeiAdditions.zip","seasons:seasonal_lush_caves","file/EclecticTrove-noconfig-1.20.1-1.2.0.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
