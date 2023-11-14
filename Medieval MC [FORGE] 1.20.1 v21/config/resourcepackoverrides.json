@@ -3,6 +3,8 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "file/NoBushyLeaves.zip",
+    "file/EmbellishedStone-1.20.1-1.0.0.zip",
+    "file/EclecticTrove-noconfig-1.20.1-1.2.0.zip",
     "file/STONEBORN_MeiAdditions.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/MMC_Excal.zip",
@@ -96,7 +98,7 @@
     "builtin/classic_moas": {
       "hidden": true
     },
-    "file/Origins_Expanded_Foods_v2.1+1.20.1.zip": {
+    "file/Origins_Expanded_Foods_v2.2+1.20.1.zip": {
       "hidden": true
     },
     "lost_aether_content:classic_pack": {
