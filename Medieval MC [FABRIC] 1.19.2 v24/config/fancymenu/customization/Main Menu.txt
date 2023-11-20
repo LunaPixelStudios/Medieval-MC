@@ -19,6 +19,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -6
+}
+
+customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
   x = 104
@@ -48,8 +56,31 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -30
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-right
+  x = -110
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=376286%
+  width = 107
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -61,48 +92,17 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = -124
+  x = 2
   action = movebutton
   y = 53
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -6
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -30
-}
-
-customization {
-  identifier = %id=376286%
-  orientation = bottom-left
-  x = 3
-  action = movebutton
-  y = -46
-}
-
-customization {
-  identifier = %id=376286%
-  width = 107
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = mid-centered
-  x = 2
+  x = -124
   action = movebutton
   y = 53
 }
@@ -227,6 +227,27 @@ customization {
   y = -24
   description = A guide on improving your FPS!%n%
   label = Performance Guide
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 3
+  width = 75
+  action = addbutton
+  actionid = bfda135c-5506-4a28-ae34-1b6b1e5d28cb1700441483897
+  y = 3
+  label = 1.20+ is out!
   height = 20
 }
 
