@@ -8,8 +8,9 @@
     "file/create_inventory_by_mei.zip",
     "file/EmbellishedStone-1.19-1.0.0.zip",
     "file/EclecticTrove-noconfig-1.19-1.2.0.zip",
+    "file/create_inventory_by_mei.zip",
     "file/STONEBORN - 1.2-1.19 MeiAdditions.zip",
-    "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
+    "file/STONEBORN - 1.3-1.19 MeiAdditions.zip",
     "file/STONEBORN - 1.19 - V3.2.1.zip",
     "file/MMC_Excal.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
@@ -55,7 +56,7 @@
     "file/Repurposed_Structures-Oh_The_Biomes_Youll_Go_v2.zip": {
       "hidden": true
     },
-    "file/ctov-farmers-delight-compat-v1-2.zip": {
+    "file/ctov-farmers-delight-add-on-v2-1a.zip": {
       "hidden": true
     },
     "file/ctov-friends-and-foes-add-on.zip": {
@@ -142,10 +143,10 @@
     "file/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip": {
       "hidden": true
     },
-    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.19.zip": {
+    "file/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1.zip": {
       "hidden": true
     },
-    "file/FarmersDelight_ToolFix_1.0+1.19.2.zip": {
+    "file/FarmersDelight_ToolFix_1.1+1.19.2.zip": {
       "hidden": true
     },
     "file/Trinkets_GloveFix_1.1+1.19.2.zip": {
@@ -190,13 +191,34 @@
     "file/Repurposed_Structures-Paladins_v1.zip": {
       "hidden": true
     },
-    "file/ctov-wizards-add-on-v1-0b.zip": {
+    "file/ctov-wizards-add-on-v2-1.zip": {
       "hidden": true
     },
     "file/smitealot.zip": {
       "hidden": true
     },
     "file/ichphilipp-s-endcity-better-end-1-18-1.zip": {
+      "hidden": true
+    },
+    "Darker Ropes": {
+      "hidden": true
+    },
+    "immersive_weathering/better_brick_blocks": {
+      "hidden": true
+    },
+    "immersive_weathering/better_brick_items": {
+      "hidden": true
+    },
+    "immersive_weathering/biome_tinted_mossy_blocks": {
+      "hidden": true
+    },
+    "immersive_weathering/visual_waxed_iron_items": {
+      "hidden": true
+    },
+    "vinery/bushy_leaves": {
+      "hidden": true
+    },
+    "Immersive Weathering Generated Pack": {
       "hidden": true
     }
   }
