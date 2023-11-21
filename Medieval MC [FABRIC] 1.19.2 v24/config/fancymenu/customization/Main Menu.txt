@@ -48,6 +48,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 104
@@ -231,17 +239,10 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  orientation = bottom-centered
-  x = -98
-  action = movebutton
-  y = -10
-}
-
-customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
+  buttonaction = openlink;https://legacy.curseforge.com/minecraft/modpacks/medieval-mc-fabric-mmc2%btnaction_splitter_fm%
   x = 3
   width = 75
   action = addbutton
