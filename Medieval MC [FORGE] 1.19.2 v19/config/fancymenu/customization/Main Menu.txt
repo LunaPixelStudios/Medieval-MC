@@ -19,14 +19,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -2
-}
-
-customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-centered
   x = 104
@@ -56,31 +48,13 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -25
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=376286%
-  orientation = bottom-left
-  x = 3
-  action = movebutton
-  y = -47
-}
-
-customization {
-  identifier = %id=376286%
-  width = 107
-  action = resizebutton
-  height = 20
+  identifier = %id=376334%
+  action = hidebutton
 }
 
 customization {
@@ -92,17 +66,48 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-centered
-  x = 2
+  x = -124
   action = movebutton
   y = 56
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = -124
+  x = -100
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=376286%
+  orientation = bottom-right
+  x = -112
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=376286%
+  width = 107
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
   action = movebutton
   y = 56
 }
@@ -131,7 +136,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 625
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
@@ -252,12 +257,39 @@ customization {
 }
 
 customization {
-  identifier = %id=604334%
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-centered
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=9764%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=376334%
+  identifier = %id=97641%
   action = hidebutton
+}
+
+customization {
+  identifier = %id=976411%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://legacy.curseforge.com/minecraft/modpacks/medieval-mc-forge-mmc3%btnaction_splitter_fm%
+  x = 4
+  width = 75
+  action = addbutton
+  actionid = 494b6fa3-8c99-42b5-8514-c882a82a9cac1700608083768
+  y = 4
+  label = 1.20+ is out!
+  height = 20
 }
 
