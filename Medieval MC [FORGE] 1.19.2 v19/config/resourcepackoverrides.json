@@ -63,10 +63,10 @@
     "file/ctov-waystone-add-on-v1-0.zip": {
       "hidden": true
     },
-    "file/ctov-irons-add-on-v1-1.zip": {
+    "file/ctov-irons-add-on-v1-2.zip": {
       "hidden": true
     },
-    "file/ctov-farmers-delight-compat-v1-2.zip": {
+    "file/ctov-farmers-delight-add-on-v2-1a.zip": {
       "hidden": true
     },
     "file/Repurposed_Structures-Hexerei_v5.zip": {
@@ -156,7 +156,25 @@
     "file/ctov-villager-plus-add-on-v1-0.zip": {
       "hidden": true
     },
-    "file/enemy_expansion_modded.zip": {
+    "builtin/1_19_2_resources": {
+      "hidden": true
+    },
+    "builtin/aether_125_art": {
+      "hidden": true
+    },
+    "builtin/aether_b173_art": {
+      "hidden": true
+    },
+    "builtin/default_ctm_resources": {
+      "hidden": true
+    },
+    "builtin/overrides_pack": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Jungle_Temples_v1_2.zip": {
+      "hidden": true
+    },
+    "file/Repurposed_Structures-Better_Nether_Fortress_v5.zip": {
       "hidden": true
     }
   }
