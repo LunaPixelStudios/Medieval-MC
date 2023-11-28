@@ -421,6 +421,50 @@
 			x: 8.0d
 			y: -5.5d
 		}
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "253A6D742C8CC11B"
+			rewards: [{
+				id: "5047CD44FEEA226F"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Found in the &9Sunken City&r, at the seas."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_baby_leviathan_bucket"
+				id: "7523457122179235"
+				title: "Defeat &dThe Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &dLeviathan"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			icon: "cataclysm:mech_eye"
+			id: "41C839F095E3EFD7"
+			rewards: [{
+				id: "4001332906B42EE4"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Found in the &6Ancient Factories&r, in the Overworld Caves."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:mech_eye"
+				id: "643B39DC94D866EE"
+				title: "Defeat &dThe Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &4Harbringer"
+			x: 7.5d
+			y: -4.0d
+		}
 	]
 	title: " &aOverworld"
 }
