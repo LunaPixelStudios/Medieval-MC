@@ -10,7 +10,7 @@
 			Icon: "patchouli:textures/items/book_blue.png"
 		}
 	}
-	id: "34A161D69E2A6DC3"
+	id: "3E34934F09B08365"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -32,7 +32,7 @@
 					}]
 				}
 			}
-			id: "291A164B2B90D5B6"
+			id: "6A52090D6BC064D7"
 			rewards: [
 				{
 					id: "336165C7AA58B03A"
@@ -49,7 +49,7 @@
 			size: 2.0d
 			subtitle: "To start the tutorial, click on this quest and read the description."
 			tasks: [{
-				id: "365D066073DA45CD"
+				id: "1B0800437C68C43A"
 				title: "Click me!"
 				type: "checkmark"
 			}]
@@ -58,6 +58,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["6A52090D6BC064D7"]
 			dependency_requirement: "one_completed"
 			description: [
 				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
@@ -82,11 +83,11 @@
 					Icon: "ftbteams:textures/teams.png"
 				}
 			}
-			id: "00A3F91F2A0EBCAE"
+			id: "2958CA7FA6FD3E4F"
 			invisible_until_tasks: 1
 			rewards: [
 				{
-					id: "5273B51A47B924B6"
+					id: "649C9C6CB3EB241E"
 					item: "twilightforest:charm_of_life_1"
 					type: "item"
 				}
@@ -107,7 +108,7 @@
 			subtitle: "Read my description!"
 			tasks: [
 				{
-					id: "1F720FCE546A4064"
+					id: "0DD3C1416FC34FA1"
 					title: "Click me!"
 					type: "checkmark"
 				}
@@ -123,6 +124,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6A52090D6BC064D7"]
 			description: [
 				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
 				""
@@ -138,24 +140,24 @@
 					Icon: "ftbquests:textures/item/book.png"
 				}
 			}
-			id: "51432A0B0781BEF8"
+			id: "175099CF5696829E"
 			invisible_until_tasks: 1
 			rewards: [{
 				count: 3
-				id: "53E97B48EC189615"
+				id: "34B145F40A6C1F3B"
 				item: "minecraft:torch"
 				type: "item"
 			}]
 			subtitle: "Read my description!"
 			tasks: [
 				{
-					id: "5B173EDC40520645"
+					id: "21428FE253D34D4E"
 					title: "Quests"
 					type: "checkmark"
 				}
 				{
 					disable_toast: true
-					id: "151EB4B82A76D716"
+					id: "08EDA62F0B406C49"
 					item: "minecraft:bread"
 					type: "item"
 				}
@@ -165,6 +167,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6A52090D6BC064D7"]
 			description: [
 				"Press &bR &rwhile hovering over an item to view its Recipe"
 				""
@@ -196,7 +199,7 @@
 					Icon: "ftblibrary:textures/icons/player.png"
 				}
 			}
-			id: "1076EC342851DA5A"
+			id: "2165E80C52C79992"
 			invisible_until_tasks: 1
 			rewards: [{
 				id: "16AAA30873B1D1F1"
@@ -206,13 +209,13 @@
 			subtitle: "Read my description!"
 			tasks: [
 				{
-					id: "5DAF5425395B375C"
+					id: "6A64112F92690241"
 					title: "Click me!"
 					type: "checkmark"
 				}
 				{
 					disable_toast: true
-					id: "106C7F7A993DCE18"
+					id: "2B23CADA52D45FA0"
 					item: "minecraft:bread"
 					type: "item"
 				}
@@ -222,6 +225,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2958CA7FA6FD3E4F"]
 			description: [
 				"At the bottom of the inventory, you may have noticed a search bar."
 				""
@@ -241,10 +245,10 @@
 					Icon: "jei:textures/gui/icons/config_button_cheat.png"
 				}
 			}
-			id: "1A0D7BB26AE99D71"
+			id: "139DAA6E8CF4267A"
 			rewards: [
 				{
-					id: "33D0647301C103DC"
+					id: "1AE5746200C26691"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -262,7 +266,7 @@
 			]
 			subtitle: "Read my description!"
 			tasks: [{
-				id: "44917DBF44CE1FF2"
+				id: "74C85348A8B837EB"
 				title: "Click me!"
 				type: "checkmark"
 			}]
@@ -271,6 +275,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["139DAA6E8CF4267A"]
 			description: [
 				"The tutorial is now &afinished&r! "
 				""
@@ -286,10 +291,10 @@
 					Icon: "ftblibrary:textures/icons/check.png"
 				}
 			}
-			id: "7498B556F283E7BE"
+			id: "6A4CB4700F0082C6"
 			rewards: [
 				{
-					id: "65BFA63699D7C6DA"
+					id: "53680199E84036F9"
 					item: "alexsmobs:animal_dictionary"
 					type: "item"
 				}
@@ -297,9 +302,6 @@
 					id: "788AAF95DEB79810"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "simplyswords:runic_grimoire"
@@ -311,9 +313,6 @@
 					id: "79B20657AE24D814"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "irons_spellbooks:iss_guide_book"
@@ -325,9 +324,6 @@
 					id: "04366C6BF03BF476"
 					item: {
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": { }
-						}
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "twilightdelight:twilight_guide"
@@ -335,10 +331,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "65EF7945C1C3546F"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
 			]
 			subtitle: "Read my description!"
 			tasks: [{
-				id: "086579804EF0BE85"
+				id: "3B2CC7DEE30E3AB8"
 				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]

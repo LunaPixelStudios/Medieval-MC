@@ -65,7 +65,7 @@
 				entity: "aether:slider"
 				icon: "aether:slider_spawn_egg"
 				id: "69F7F61602435663"
-				title: "Defeat &bSlider"
+				title: "Defeat the &bSlider"
 				type: "kill"
 				value: 1L
 			}]
@@ -76,9 +76,9 @@
 			dependencies: ["32226ED25E813908"]
 			id: "79A852D2B339DF57"
 			rewards: [{
-				id: "1E66C579D6665940"
-				type: "xp"
-				xp: 100
+				id: "1722F6AA9CD27DEA"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 			shape: "square"
 			size: 1.3d
@@ -118,9 +118,9 @@
 			dependencies: ["79A852D2B339DF57"]
 			id: "038B71E71E3C8213"
 			rewards: [{
-				id: "47BC5ABBCB492B64"
-				type: "xp"
-				xp: 100
+				id: "0966B4E6B93134AF"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 			subtitle: "&eValkyries&r are &eneutral mobs&r who prove themselves through battle. They will not attack unless provoked, and are found only in &8Silver Dungeons&r"
 			tasks: [{
@@ -155,7 +155,7 @@
 				entity: "aether:valkyrie_queen"
 				icon: "aether:valkyrie_queen_spawn_egg"
 				id: "0E561AF5890B4422"
-				title: "Defeat &6Valkyrie Queen"
+				title: "Defeat the &6Valkyrie Queen"
 				type: "kill"
 				value: 1L
 			}]

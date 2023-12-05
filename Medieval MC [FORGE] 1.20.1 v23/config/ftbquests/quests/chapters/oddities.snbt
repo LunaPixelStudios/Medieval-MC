@@ -688,8 +688,8 @@
 				type: "item"
 			}]
 			title: "Craft &athe Transmuation Table"
-			x: 8.5d
-			y: 1.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
 			id: "06F27C7F86FBC564"
@@ -872,8 +872,8 @@
 				type: "item"
 			}]
 			title: "Craft a &3Warp Scroll"
-			x: 2.5d
-			y: -0.5d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			id: "0A183F2B418EC8D5"
@@ -890,27 +890,6 @@
 				type: "item"
 			}]
 			title: "Craft a &eCalendar"
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			id: "39F07E0DA2B5BD53"
-			rewards: [{
-				count: 3
-				id: "3578917AB59CE3E6"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "To make a &eStraw Golem&r, place a Carved Pumpkin on top of a Hay Bale. &eStraw Golems &rwill harvest and replant crops, and then deposit to nearby containers. You can shift click the golem and then a container to specify which. Each golem will live for 7 days. This can be extended with wheat. If you have an apple in your hand, they will follow you. Every 2 days, they will want an apple to continue working. Iron Golems and farm animals love Straw Golems. Raiders don't."
-			tasks: [{
-				icon: "minecraft:hay_block"
-				id: "006B9B075CF9282F"
-				observe_type: 5
-				timer: 0L
-				to_observe: "strawgolem:strawgolem"
-				type: "observation"
-			}]
-			title: "Make a &eStraw Golem"
 			x: 8.5d
 			y: -0.5d
 		}
@@ -937,6 +916,29 @@
 			}]
 			title: "Craft a &4Cog Block"
 			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "66BF969195AD5E13"
+			rewards: [{
+				id: "27FBA6FB084EEF09"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Underground Cabins. Used to research Cave Tablets and gather information about biomes."
+			tasks: [{
+				id: "454BD4255B19B860"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			title: "Find a &7&lSpelunkery Table"
+			x: 2.5d
 			y: 1.5d
 		}
 	]

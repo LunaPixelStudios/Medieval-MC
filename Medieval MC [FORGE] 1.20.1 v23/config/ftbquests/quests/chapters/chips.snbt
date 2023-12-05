@@ -422,48 +422,69 @@
 			y: -5.5d
 		}
 		{
-			icon: "cataclysm:abyss_eye"
-			id: "253A6D742C8CC11B"
-			rewards: [{
-				id: "5047CD44FEEA226F"
-				item: "cataclysm:ignitium_ingot"
-				type: "item"
-			}]
-			size: 1.0d
-			subtitle: "Found in the &9Sunken City&r, at the seas."
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "2F4EF5FD085B5200"
+			rewards: [
+				{
+					count: 3
+					id: "2AD1B57BC8DC0CD3"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "6C96FB61C700F390"
+					item: "bosses_of_mass_destruction:brimstone_nectar"
+					type: "item"
+				}
+			]
+			subtitle: "Found in &3cold biomes&r. Use Soul Stars to find the boss structure, and to actiavte its pedestals."
 			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:the_baby_leviathan_bucket"
-				id: "7523457122179235"
-				title: "Defeat &dThe Leviathan"
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "5870B69B825AB1B0"
+				title: "Defeat the &bNight Lich"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the &dLeviathan"
-			x: 6.5d
-			y: -4.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
-			icon: "cataclysm:mech_eye"
-			id: "41C839F095E3EFD7"
-			rewards: [{
-				id: "4001332906B42EE4"
-				item: "cataclysm:ignitium_ingot"
-				type: "item"
-			}]
-			size: 1.0d
-			subtitle: "Found in the &6Ancient Factories&r, in the Overworld Caves."
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "0CC7A33E6C5E615F"
+			rewards: [
+				{
+					id: "1029362D204309FF"
+					item: {
+						Count: 1b
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "132A7A73A202E25D"
+					item: "friendsandfoes:totem_of_freezing"
+					type: "item"
+				}
+				{
+					id: "0B0752B2C5574A2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in rare caves at the bottom of the &aOverworld&r. &dVoid Lillies&r will point towards the &5Void Blossom&r."
 			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:mech_eye"
-				id: "643B39DC94D866EE"
-				title: "Defeat &dThe Leviathan"
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "7FDD1B088A69564F"
+				title: "Defeat the &5Void Blossom"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat the &4Harbringer"
-			x: 7.5d
-			y: -4.0d
+			x: 5.0d
+			y: -1.5d
 		}
 	]
 	title: " &aOverworld"

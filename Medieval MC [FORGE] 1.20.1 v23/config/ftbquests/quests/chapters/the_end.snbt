@@ -173,6 +173,38 @@
 			x: 2.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "10809B2BE927E89C"
+			rewards: [
+				{
+					id: "5D67EFE123250008"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "342A0BCF6E1D4671"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "5E2376C9814A8CEC"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			subtitle: "Found in rare structures. &4A very difficult boss&r."
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "4EB70815C61C3562"
+				title: "Defeat the &5Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
 	]
 	title: " &5The End"
 }
