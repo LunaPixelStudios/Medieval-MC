@@ -3,13 +3,11 @@
   "failed_reloads_per_session": 5,
   "default_packs": [
     "file/NoBushyLeaves.zip",
-    "file/EmbellishedStone-1.20.1-1.0.0.zip",
     "file/EclecticTrove-noconfig-1.20.1-1.2.0.zip",
-    "Suppsquared Generated Pack",
-    "Supplementaries Generated Pack",
-    "seasons:seasonal_lush_caves",
+    "file/EmbellishedStone-1.20.1-1.0.0.zip",
     "file/STONEBORN_MeiAdditions.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
+    "file/STONEBORN+-+1.20-1.20.1+-+V3.2.1.zip",
     "file/MMC_Excal.zip",
     "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
     "file/Excalibur_V1.20.zip"
