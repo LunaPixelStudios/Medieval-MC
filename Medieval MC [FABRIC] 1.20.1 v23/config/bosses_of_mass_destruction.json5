@@ -58,12 +58,12 @@
 	"gauntletConfig": {
 		"health": 500.0,
 		"armor": 2.5,
-		"attack": 35.0,
+		"attack": 40.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"spawnAncientDebrisOnDeath": true,
 		"energizedPunchExplosionSize": 6.0,
-		"normalPunchExplosionMultiplier": 3.0,
+		"normalPunchExplosionMultiplier": 4.0,
 		"arenaGeneration": {
 			"generationSpacing": 64,
 			"generationSeparation": 32,
