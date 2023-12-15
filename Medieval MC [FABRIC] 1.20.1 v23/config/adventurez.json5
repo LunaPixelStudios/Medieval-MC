@@ -1,5 +1,5 @@
 {
-	"necromancer_spawn_weight": 1,
+	"necromancer_spawn_weight": 3,
 	"nightmare_spawn_weight": 5,
 	// Chance for spawning when mining gold ore in nether; 1/Value
 	"piglin_beast_ore_spawn_chance": 15,
@@ -8,15 +8,15 @@
 	"small_stone_golem_spawn_weight": 5,
 	// Chance for spawning when thunder occurs; 1/Value
 	"summoner_thunder_spawn_chance": 4,
-	"blaze_guardian_spawn_weight": 1,
+	"blaze_guardian_spawn_weight": 3,
 	"fungus_spawn_weight": 8,
-	"orc_spawn_weight": 15,
-	"mammoth_spawn_weight": 1,
+	"orc_spawn_weight": 8,
+	"mammoth_spawn_weight": 3,
 	"ender_whale_spawn_weight": 5,
-	"iguana_spawn_weight": 10,
+	"iguana_spawn_weight": 8,
 	// Chance for spawning when geode generates; 1/Value
 	"amethyst_golem_spawn_chance": 5,
-	"desert_rhino_spawn_weight": 1,
+	"desert_rhino_spawn_weight": 3,
 	// Chance for spawning when desert well generates; 1/Value
 	"desert_rhino_well_spawn_chance": 1,
 	"shaman_spawn_weight": 4,
