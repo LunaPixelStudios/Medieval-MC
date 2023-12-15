@@ -184,7 +184,7 @@
         },
         {
           "id": "generic.attack_speed",
-          "value": 0.12,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -383,7 +383,7 @@
         },
         {
           "id": "generic.attack_speed",
-          "value": 0.15,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -525,7 +525,7 @@
       "attributes": [
         {
           "id": "minecraft:generic.attack_damage",
-          "value": 0.2,
+          "value": 0.25,
           "operation": "MULTIPLY_BASE"
         },
         {
@@ -539,7 +539,7 @@
       "attributes": [
         {
           "id": "minecraft:generic.attack_damage",
-          "value": 0.2,
+          "value": 0.25,
           "operation": "MULTIPLY_BASE"
         },
         {
@@ -558,7 +558,7 @@
         },
         {
           "id": "minecraft:generic.attack_speed",
-          "value": 0.2,
+          "value": 0.15,
           "operation": "MULTIPLY_BASE"
         },
         {
@@ -576,9 +576,9 @@
           "operation": "MULTIPLY_BASE"
         },
         {
-          "id": "minecraft:generic.attack_speed",
-          "value": 0.2,
-          "operation": "MULTIPLY_BASE"
+          "id": "zenith_attributes:dodge_chance",
+          "value": 0.1,
+          "operation": "ADDITION"
         },
         {
           "id": "combatroll:count",
@@ -633,6 +633,11 @@
           "operation": "MULTIPLY_BASE"
         },
         {
+          "id": "zenith_attributes:draw_speed",
+          "value": 0.15,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
           "id": "minecraft:generic.movement_speed",
           "value": 0.1,
           "operation": "MULTIPLY_BASE"
@@ -643,6 +648,11 @@
       "attributes": [
         {
           "id": "projectile_damage:generic",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "zenith_attributes:arrow_velocity",
           "value": 0.25,
           "operation": "MULTIPLY_BASE"
         },
