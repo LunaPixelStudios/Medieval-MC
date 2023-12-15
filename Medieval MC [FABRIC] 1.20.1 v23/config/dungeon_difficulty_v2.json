@@ -214,6 +214,39 @@
             }
           ],
           "experience_multiplier": 1.5
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "aquamirae"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 1.0
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 1.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.75
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
         }
       ],
       "rewards": {
@@ -246,7 +279,7 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.375
+              "value": 0.75
             },
             {
               "attribute": "generic.movement_speed",
@@ -277,13 +310,13 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 0.9
+              "value": 1.25
             },
             {
               "attribute": "projectile_damage:generic",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 0.9
+              "value": 1.25
             },
             {
               "attribute": "generic.armor",
@@ -339,7 +372,7 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 2.0
             },
             {
               "attribute": "generic.max_health",
@@ -360,7 +393,7 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 0.25
+              "value": 0.5
             },
             {
               "attribute": "generic.max_health",
