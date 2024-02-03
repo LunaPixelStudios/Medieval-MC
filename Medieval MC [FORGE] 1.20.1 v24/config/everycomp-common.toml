@@ -1,0 +1,310 @@
+
+[general]
+	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs
+	creative_tab = true
+	#Makes dynamic assets that are generated depend on loaded resource packs. Turn off to make them just use vanilla assets
+	assets_depend_on_loaded_packs = true
+	#Creates a debug folder inside your instance directory where all the dynamically generated resources will be saved
+	save_debug_resources = false
+	#Don't touch unless you are told to
+	debug_packet = false
+
+	[general.tooltips]
+		#Enabled tooltips showing which mod an EC item is from
+		mod_origin_enabled = true
+		#Only show on advanced settings
+		show_on_advanced_tooltips = false
+		#Enabled tooltips showing which block type an EC item is made from
+		block_type_enabled = true
+
+	[general.types]
+
+		[general.types.leaves_type]
+
+			[general.types.leaves_type.ars_nouveau]
+				blue_archwood = true
+				green_archwood = true
+				purple_archwood = true
+				red_archwood = true
+
+			[general.types.leaves_type.biomesoplenty]
+				origin = true
+				flowering_oak = true
+				maple = true
+				orange_autumn = true
+				yellow_autumn = true
+				rainbow_birch = true
+				snowblossom = true
+				fir = true
+				redwood = true
+				mahogany = true
+				jacaranda = true
+				palm = true
+				willow = true
+				dead = true
+				magic = true
+				umbran = true
+				hellbark = true
+
+			[general.types.leaves_type.blue_skies]
+				crystallized = true
+				crescent_fruit = true
+				bluebright = true
+				starlit = true
+				frostbright = true
+				lunar = true
+				dusk = true
+				maple = true
+				comet = true
+
+			[general.types.leaves_type.twilightforest]
+				beanstalk = true
+				thorn = true
+				twilight_oak = true
+				canopy = true
+				mangrove = true
+				dark = true
+				rainbow_oak = true
+				time = true
+				transformation = true
+				mining = true
+				sorting = true
+
+			[general.types.leaves_type.eldritch_end]
+				primordial = true
+
+			[general.types.leaves_type.twilightdelight]
+				ironwood = true
+
+			[general.types.leaves_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
+			[general.types.leaves_type.wizards_reborn]
+				arcane_wood = true
+
+			[general.types.leaves_type.aether]
+				skyroot = true
+				golden_oak = true
+				crystal = true
+				crystal_fruit = true
+				holiday = true
+				decorated_holiday = true
+
+			[general.types.leaves_type.deep_aether]
+				roseroot = true
+				flowering_roseroot = true
+				blue_roseroot = true
+				flowering_blue_roseroot = true
+				yagroot = true
+				cruderoot = true
+				conberry = true
+				sunroot = true
+
+			[general.types.leaves_type.ancient_aether]
+				highsproot = true
+				frosted_highsproot = true
+				sakura = true
+				divine_skyroot = true
+				skyroot_pine = true
+				crystal_skyroot = true
+
+			[general.types.leaves_type.aether_redux]
+				blightwillow = true
+				glacia = true
+				gilded_oak = true
+				blighted_skyroot = true
+				chromatic = true
+				chromatic_berry = true
+
+			[general.types.leaves_type.deeperdarker]
+				echo = true
+
+			[general.types.leaves_type.eidolon]
+				illwood = true
+
+			[general.types.leaves_type.alexscaves]
+				ancient = true
+
+			[general.types.leaves_type.forbidden_arcanus]
+				aurum = true
+				nuggety_aurum = true
+
+			[general.types.leaves_type.endlessbiomes]
+				penumbral = true
+				glowing_penumbral = true
+
+			[general.types.leaves_type.quark]
+				ancient = true
+				blue_blossom = true
+				lavender_blossom = true
+				orange_blossom = true
+				yellow_blossom = true
+				red_blossom = true
+
+		[general.types.wood_type]
+
+			[general.types.wood_type.domum_ornamentum]
+				cactus = true
+				cactus_extra = true
+
+			[general.types.wood_type.ars_nouveau]
+				archwood = true
+
+			[general.types.wood_type.blue_skies]
+				crystallized = true
+				bluebright = true
+				starlit = true
+				frostbright = true
+				lunar = true
+				dusk = true
+				maple = true
+				comet = true
+
+			[general.types.wood_type.gardens_of_the_dead]
+				soulblight = true
+				whistlecane = false
+
+			[general.types.wood_type.eldritch_end]
+				primordial = true
+
+			[general.types.wood_type.biomesoplenty]
+				fir = true
+				redwood = true
+				mahogany = true
+				jacaranda = true
+				palm = true
+				willow = true
+				dead = true
+				magic = true
+				umbran = true
+				hellbark = true
+
+			[general.types.wood_type.undergarden]
+				smogstem = true
+				wigglewood = true
+				grongle = true
+
+			[general.types.wood_type.betterarcheology]
+				rotten = true
+
+			[general.types.wood_type.wizards_reborn]
+				arcane_wood = true
+
+			[general.types.wood_type.aether]
+				skyroot = true
+
+			[general.types.wood_type.deep_aether]
+				roseroot = true
+				cruderoot = true
+				conberry = true
+				sunroot = true
+				yagroot = true
+
+			[general.types.wood_type.ancient_aether]
+				highsproot = true
+				sakura = true
+
+			[general.types.wood_type.aether_redux]
+				fieldsprout = true
+				blightwillow = true
+				cloudcap = true
+				springshroom = true
+				crystal = true
+				glacia = true
+
+			[general.types.wood_type.twilightforest]
+				twilight_oak = true
+				canopy = true
+				mangrove = true
+				dark = true
+				time = true
+				transformation = true
+				mining = true
+				sorting = true
+
+			[general.types.wood_type.deeperdarker]
+				echo = true
+
+			[general.types.wood_type.eidolon]
+				illwood = true
+
+			[general.types.wood_type.alexscaves]
+				pewen = true
+				thornwood = true
+
+			[general.types.wood_type.forbidden_arcanus]
+				aurum = true
+				edelwood = true
+
+			[general.types.wood_type.endlessbiomes]
+				penumbra = false
+				twisted = false
+
+			[general.types.wood_type.iceandfire]
+				dreadwood = true
+
+			[general.types.wood_type.quark]
+				azalea = true
+				ancient = true
+				blossom = true
+
+		[general.types.cake]
+
+			[general.types.cake.blue_skies]
+				comet_berry_pie = true
+
+	[general.entries]
+
+		[general.entries.wood_type]
+
+			[general.entries.wood_type.dramaticdoors]
+				short_door = true
+				tall_door = true
+
+			[general.entries.wood_type.twilightforest]
+				hollow_log_horizontal = true
+				hollow_log_vertical = true
+				banister = true
+				hollow_log_climbable = true
+
+			[general.entries.wood_type.friendsandfoes]
+				beehive = true
+
+			[general.entries.wood_type.mcwbridges]
+				log_bridge_stair = true
+				rail_bridge = true
+				bridge_pier = true
+				rope_bridge = true
+				rope_bridge_stair = true
+				log_bridge_middle = true
+
+			[general.entries.wood_type.decorative_blocks]
+				beam = true
+				support = true
+				seat = true
+				palisade = true
+
+			[general.entries.wood_type.farmersdelight]
+				cabinet = true
+
+			[general.entries.wood_type.twigs]
+				table = true
+
+			[general.entries.wood_type.quark]
+				hollow_log = true
+				vertical_planks = true
+				post = true
+				trapped_chest = true
+				bookshelf = false
+				chest = true
+				stripped_post = true
+				ladder = true
+
+		[general.entries.leaves_type]
+
+			[general.entries.leaves_type.quark]
+				hedge = true
+				leaf_carpet = true
+
