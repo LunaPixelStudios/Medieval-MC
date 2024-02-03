@@ -289,7 +289,7 @@ customization {
   orientation = bottom-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/LunaPixelStudios/Medieval-MC/wiki/Performance-Guide%btnaction_splitter_fm%
+  buttonaction = openlink;https://rpg.prominence.wiki/performance-guide%btnaction_splitter_fm%
   x = 3
   width = 114
   action = addbutton
