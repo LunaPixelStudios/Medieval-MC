@@ -169,27 +169,27 @@
 		{
 			dependencies: ["6A52090D6BC064D7"]
 			description: [
+				"Press &bK&r to open the Skill Tree"
+				""
+				"Press &bO&r to read your Origin"
+				""
 				"Press &bR &rwhile hovering over an item to view its Recipe"
 				""
 				"Press &bU &rwhile hovering over an item to view its Uses"
 				""
 				"Press &bALT &rto Crawl"
 				""
-				"Press &bRight Click &rwhile crouching to hold a block or mob (Useful for chests, doesn't work on all blocks)"
+				"&bRight Click &rwhile crouching to pick up a block or mob (Useful for chests, doesn't work on all blocks)"
 				""
 				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
 				""
 				"Press &bM &rto open the World Map"
 				""
-				"Press &bJ &rto open the Jobs menu"
-				""
-				"Press &bU &rto view your Player Death History"
+				"Press &bU &rto view your Waypoints, and &bN&r to make a new waypoint."
 				""
 				"Press &bG&r to activate your Origin Ability"
 				""
-				"Press &b,&r to activate your Secondary Origin Ability, if you have one"
-				""
-				"Press &bo&r to see Skill Tree"
+				"Press &bH&r to activate your Secondary Origin Ability, if you have one"
 			]
 			hide: true
 			icon: {
