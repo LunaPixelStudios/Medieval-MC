@@ -25,11 +25,6 @@
             "value": false
         }
     },
-    "LockedSlotsSettings": {
-        "locked_slots_empty_hotbar_as_semi_locked": {
-            "value": false
-        }
-    },
     "AutoRefillSettings": {
         "visual_durability_notification": {
             "value": false
@@ -56,6 +51,16 @@
             }
         },
         "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_all_items": {
             "main": {
                 "keys": ""
             }
