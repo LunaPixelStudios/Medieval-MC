@@ -91,7 +91,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Hollow Hills in swamps. Unlocks The Dark Forest."
+			subtitle: "Found in Hollow Hills in swamps."
 			tasks: [{
 				entity: "twilightforest:hydra"
 				icon: "twilightforest:hydra_trophy"
@@ -112,7 +112,7 @@
 				item: "twilightforest:charm_of_keeping_2"
 				type: "item"
 			}]
-			subtitle: "Found in Dark Towers in The Dark Forest."
+			subtitle: "Found in Dark Towers at the center of The Dark Forest."
 			tasks: [{
 				advancement: "twilightforest:progress_ur_ghast"
 				criterion: ""
@@ -152,7 +152,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			subtitle: "Found in Glaciers."
+			subtitle: "Found at the top of a luminescent tower in Glacier biomes."
 			tasks: [{
 				entity: "twilightforest:snow_queen"
 				icon: "twilightforest:snow_queen_trophy"
@@ -269,7 +269,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtained by killing a Minotaur, found in swamp Labyrinths. Unlocks Hollow Hills."
+			subtitle: "Obtained by killing the Minoshroom, found in the bottom floor of swamp Labyrinths. Unlocks Hollow Hills."
 			tasks: [{
 				id: "1837A3A7F85C4E8E"
 				item: "twilightforest:meef_stroganoff"

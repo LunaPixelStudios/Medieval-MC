@@ -125,9 +125,15 @@
 			subtitle: "&eValkyries&r are &eneutral mobs&r who prove themselves through battle. They will not attack unless provoked, and are found only in &8Silver Dungeons&r"
 			tasks: [{
 				entity: "aether:valkyrie"
-				icon: "aether:valkyrie_spawn_egg"
+				icon: {
+					Count: 1b
+					id: "aether:valkyrie_axe"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "121640BF259D479C"
-				title: "Defeat &eValkyrie"
+				title: "Defeat a &eValkyrie"
 				type: "kill"
 				value: 1L
 			}]
@@ -153,7 +159,13 @@
 			subtitle: "&6The Valkyrie Queen&r is a boss found in the &8Silver Dungeon&r. "
 			tasks: [{
 				entity: "aether:valkyrie_queen"
-				icon: "aether:valkyrie_queen_spawn_egg"
+				icon: {
+					Count: 1b
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "0E561AF5890B4422"
 				title: "Defeat the &6Valkyrie Queen"
 				type: "kill"

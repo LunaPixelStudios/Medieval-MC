@@ -90,8 +90,8 @@
 				value: 1L
 			}]
 			title: "Defeat the &9Awful Ghast"
-			x: 5.0d
-			y: -1.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -139,7 +139,7 @@
 			}]
 			title: "Defeat &8&lThe Wither"
 			x: 1.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -165,9 +165,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &6Ignited Revenant"
+			title: "Defeat an &6Ignited Revenant"
 			x: 5.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -194,8 +194,58 @@
 				value: 1L
 			}]
 			title: "Defeat &2Ignis"
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "3E5DEAC831670289"
+			rewards: [
+				{
+					count: 4
+					id: "373F6DF4F9B5CE92"
+					item: "minecraft:chiseled_polished_blackstone"
+					type: "item"
+				}
+				{
+					id: "3B0E0AE48B8DCDDF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Found in large &dBlackstone &rstructures in &4The Nether. &rA difficult boss."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "2BDD4CBB0FF497E7"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cNether &6Gauntlet"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "516F672D4F897320"
+			subtitle: "Found in &4Nether Citadels&r, a rare structure"
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					Count: 1b
+					id: "friendsandfoes:wildfire_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B514823894E1F27"
+				title: "Defeat a &cWildfire"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: " &cNether"

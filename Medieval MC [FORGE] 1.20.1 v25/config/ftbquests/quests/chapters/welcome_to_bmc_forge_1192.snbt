@@ -61,13 +61,13 @@
 			dependencies: ["6A52090D6BC064D7"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to team up with other players, as well as share quests and claimed chunks."
 				""
-				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				"Just to the right is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
 				""
-				"Under the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
+				"Under the &6Quest Book &ris the &9FTB Chunks &rmap. Claim a chunk by clicking it, preventing players and other mobs from destroying it. Shift click a chaimed chunk to forceload it. This will make crops, furnaces, and most other blocks behave as if a player was present."
 				""
-				"At the very bottom of the inventory, next to the Iron Pickaxe icon, is the &eArcs&r menu. Bosses in the Blue Skies dimension drop &eArcs&r, which can be placed here."
+				"At the bottom of the inventory, next to the Iron Pickaxe icon, is the &eArcs&r menu. Bosses in the Blue Skies dimension drop &eArcs&r, which can be placed here."
 				""
 				"At the bottom right of your player display is the &5Cosmetic Armor&r button. Here, you can give yourself the appearance of wearing armor without the benefits."
 				""
@@ -106,19 +106,11 @@
 				}
 			]
 			subtitle: "Read my description!"
-			tasks: [
-				{
-					id: "0DD3C1416FC34FA1"
-					title: "Click me!"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "380A99374727D6D8"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0DD3C1416FC34FA1"
+				title: "Click me!"
+				type: "checkmark"
+			}]
 			title: "&2Inventory"
 			x: 0.5d
 			y: 0.0d
@@ -275,9 +267,10 @@
 		{
 			dependencies: ["139DAA6E8CF4267A"]
 			description: [
-				"The tutorial is now &afinished&r! "
+				"The tutorial is now finished! "
+				"Welcome to &4&lMedieval MC.&r"
 				""
-				"To view the rest of the quests, put your cursor to the left of the screen and expand the &6Quest Groups&r. "
+				"To get started on the rest of quests, hover over the arrow on the left of the quests page to view the other &6Quest Groups&r. "
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
 			]
@@ -342,7 +335,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -2.5d
 		}
 	]
 	title: " &dTutorial"

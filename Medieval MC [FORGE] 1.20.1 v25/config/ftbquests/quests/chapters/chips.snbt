@@ -227,7 +227,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Defeat &3Captain Cornelia"
+			title: "Defeat &3The Ghost of Captain Cornelia"
 			x: 9.0d
 			y: -7.0d
 		}
@@ -245,7 +245,7 @@
 				type: "item"
 			}]
 			title: "Obtain a &fShell Horn"
-			x: 5.0d
+			x: 7.0d
 			y: -7.0d
 		}
 		{
@@ -422,7 +422,7 @@
 			y: -5.5d
 		}
 		{
-			icon: "bosses_of_mass_destruction:soul_star"
+			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "2F4EF5FD085B5200"
 			rewards: [
 				{
@@ -485,6 +485,97 @@
 			}]
 			x: 5.0d
 			y: -1.5d
+		}
+		{
+			id: "7537ABB01DC180CD"
+			rewards: [{
+				id: "462399906F9F913A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Located in the &3Ice Maze&r in &1Deep Frozen Ocean&r biomes"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:abyssal_amethyst"
+				id: "246986B31FB1F52C"
+				title: "Defeat the &dMother of the Maze"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&4Fire dragons&r can spawn in any biome that has a temperature above -0.5, save for Jungles, Savannas, and Badlands. "
+				""
+				"Younger dragons are found on small roosts on the surface (Stages 1-3), whereas older ones (Stage 4 and rarely Stage 5) lurk in caverns beneath the ground."
+			]
+			id: "06DE7C036F3E4248"
+			rewards: [{
+				id: "7899950BEF4619F8"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:dragonarmor_dragonsteel_fire_head"
+				id: "5DC73CE594C0318B"
+				title: "Slay a &4Fire Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&eLightning dragons&r can spawn in Jungle, Savanna, and Badlands biomes. "
+				""
+				"Younger dragons are found on small roosts on the surface (Stages 1-3), whereas older ones (Stage 4 and rarely Stage 5) lurk in caverns beneath the ground."
+			]
+			id: "65EB658172D9A9F9"
+			rewards: [{
+				id: "782EE02E994E3F1A"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:dragonarmor_dragonsteel_lightning_head"
+				id: "4A11BB26148B8E8D"
+				title: "Slay a &eLightning Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&bIce dragons&r can spawn in any biome that has a temperature of -0.5 or below. "
+				""
+				"Younger dragons (Stages 1-3) are found on small roosts on the surface, whereas older ones (Stage 4 and rarely Stage 5) lurk in subterranean caverns."
+			]
+			id: "0EA8A4D0CA5FC3CB"
+			rewards: [{
+				id: "7622DDFA1BF43CC0"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:dragonarmor_dragonsteel_ice_head"
+				id: "1545FCC9A8291941"
+				title: "Slay an &bIce Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -4.0d
 		}
 	]
 	title: " &aOverworld"

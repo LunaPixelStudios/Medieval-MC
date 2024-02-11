@@ -594,12 +594,20 @@
 		}
 		{
 			id: "74C48F69F0A35A85"
-			rewards: [{
-				count: 5
-				id: "1ADC16491447A030"
-				item: "minecraft:bone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "1ADC16491447A030"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "27F6486C14542F0E"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+			]
 			subtitle: "Armor for your pet &fWolves&r. Shift right click your tamed wolf with armor in hand to equip."
 			tasks: [{
 				id: "6BA9E9BF188D874E"
@@ -693,7 +701,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
-			subtitle: "Used to find &5End Portal Frames&r. &cIntegrated Structures&r overhauls the &8Stronghold&r, making them more vast. "
+			subtitle: "Used to find &5End Portal Frames&r. &cYUNG'S &r overhauls the &8Stronghold&r, making them more vast. "
 			tasks: [{
 				id: "092337026D40809E"
 				item: {
@@ -889,15 +897,13 @@
 		{
 			id: "32670B5A471E61F1"
 			rewards: [{
-				id: "77E5D71AE643EB0D"
+				id: "02F5494F24F5B3D3"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
 					}
-					id: "greekfantasy:panflute"
 				}
 				type: "item"
 			}]
