@@ -12,20 +12,20 @@
 
 [Attributes]
 	#Contains a list of pairs of attributes and their bonuses per one level
-	"Attributes bonuses per one level" = [["minecraft:generic.movement_speed", 0.001], ["minecraft:generic.flying_speed", 0.001], ["minecraft:generic.attack_damage", 0.1], ["minecraft:generic.armor", 0.05], ["minecraft:generic.max_health", 0.1], ["autoleveling:monster.projectile_damage_bonus", 0.1], ["autoleveling:monster.explosion_damage_bonus", 0.1]]
+	"Attributes bonuses per one level" = [["minecraft:generic.attack_damage", 0.1], ["minecraft:generic.armor", 0.05], ["minecraft:generic.max_health", 0.1], ["autoleveling:monster.projectile_damage_bonus", 0.1], ["autoleveling:monster.explosion_damage_bonus", 0.1]]
 
 ["Default levelling settings"]
 	"Starting level" = 1
 	#If this is equal to 0, there will be no maximum level
-	"Maximum level" = 50
-	"Level increase per one block distance from spawn" = 0.01
+	"Maximum level" = 0
+	"Level increase per one block distance from spawn" = 0.005
 	"Level increase per one block deepness below sea level" = 0.05
 	#If this is higher than 0, the level of monsters will be randomly increased by value between 0 and this value
 	"Random level bonus" = 0
 	#If this is higher than 0, mobs level will increase every day by specified amount
 	"Level bonus per day" = 0.0
 	#Exponential level increase with distance
-	level_power_per_distance = 0.003
+	level_power_per_distance = 0.0
 	#Exponential level increase with deepness
-	level_power_per_deepness = 0.006
+	level_power_per_deepness = 0.0
 
