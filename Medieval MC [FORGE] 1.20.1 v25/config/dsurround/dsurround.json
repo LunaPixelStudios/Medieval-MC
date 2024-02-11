@@ -39,9 +39,9 @@
     "waterRippleStyle": "PIXELATED_CIRCLE"
   },
   "entityEffects": {
-    "entityEffectRange": 24,
+    "entityEffectRange": 0,
     "enableBowPull": false,
-    "enableBreathEffect": true,
+    "enableBreathEffect": false,
     "enablePlayerToolbarEffect": false,
     "enableSwingEffect": false,
     "enableBrushStepEffect": false
