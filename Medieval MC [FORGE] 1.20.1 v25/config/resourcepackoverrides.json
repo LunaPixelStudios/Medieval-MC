@@ -128,6 +128,18 @@
     },
     "file/origins_survive_v2.zip": {
       "hidden": true
+    },
+    "continuity:default": {
+      "hidden": true
+    },
+    "continuity:glass_pane_culling_fix": {
+      "hidden": true
+    },
+    "file/Quark Programmer Art.zip": {
+      "hidden": true
+    },
+    "lambdabettergrass:default": {
+      "hidden": true
     }
   }
 }
