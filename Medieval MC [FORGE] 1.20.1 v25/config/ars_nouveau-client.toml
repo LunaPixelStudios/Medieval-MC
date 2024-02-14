@@ -2,7 +2,7 @@
 #Lighting
 [lights]
 	#If dynamic lights are enabled
-	lightsEnabled = true
+	lightsEnabled = false
 	#How bright the touch light is
 	#Range: 0 ~ 15
 	touchLightLuminance = 8
@@ -35,7 +35,7 @@
 	#If the Storage Lectern should show the recipe book icon
 	showRecipeBook = true
 	#Inform the player of Dynamic lights once.
-	informLights = false
+	informLights = true
 
 #Misc
 [misc]
