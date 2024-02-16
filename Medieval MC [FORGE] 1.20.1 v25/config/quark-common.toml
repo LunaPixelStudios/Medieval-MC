@@ -1530,12 +1530,12 @@
 	"Long Range Pick Block" = true
 
 	[client.variant_animal_textures]
-		"Enable Cow" = true
-		"Enable Pig" = true
-		"Enable Chicken" = true
-		"Enable Shiny Rabbit" = true
-		"Enable Shiny Llama" = true
-		"Enable Shiny Dolphin" = true
+		"Enable Cow" = false
+		"Enable Pig" = false
+		"Enable Chicken" = false
+		"Enable Shiny Rabbit" = false
+		"Enable Shiny Llama" = false
+		"Enable Shiny Dolphin" = false
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
