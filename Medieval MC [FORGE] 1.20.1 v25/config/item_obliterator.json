@@ -1,0 +1,21 @@
+{
+  "blacklisted_items": [
+    "//Items here will be unusable completely",
+    "celestisynth:rainfall_serenity",
+    "twilightforest:uncrafting_table",
+    "endermanoverhaul:summoner_pearl"
+  ],
+  "only_disable_interactions": [
+    "//Items here will not be able to be right-clicked (Interact)",
+    "examplemod:example_item"
+  ],
+  "only_disable_attacks": [
+    "//Items here will not be able to be used to attack",
+    "examplemod:example_item"
+  ],
+  "only_disable_recipes": [
+    "//Items here will get their recipes disabled",
+    "//Keep in mind this already is applied to blacklisted items",
+    "examplemod:example_item"
+  ]
+}
