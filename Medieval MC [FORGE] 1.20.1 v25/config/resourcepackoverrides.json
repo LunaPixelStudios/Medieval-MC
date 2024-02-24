@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "failed_reloads_per_session": 1,
+  "failed_reloads_per_session": 3,
   "default_packs": [
     "file/Excalibur_V1.20.zip",
-    "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip",
+    "file/Excal_ModSupport_Patched.zip",
     "file/MMC4_Excalibur.zip",
     "file/STONEBORN+-+1.20-1.20.1+-+V3.2.1.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
@@ -20,6 +20,9 @@
     "force_compatible": true
   },
   "pack_overrides": {
+    "file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip": {
+      "hidden": true
+    },
     "file/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip": {
       "hidden": true
     },
@@ -125,19 +128,7 @@
     "builtin/ancient_vaults": {
       "hidden": true
     },
-    "file/origins_survive_v2.zip": {
-      "hidden": true
-    },
-    "continuity:default": {
-      "hidden": true
-    },
-    "continuity:glass_pane_culling_fix": {
-      "hidden": true
-    },
-    "file/Quark Programmer Art.zip": {
-      "hidden": true
-    },
-    "lambdabettergrass:default": {
+    "file/origins_survive_v3.zip": {
       "hidden": true
     }
   }
