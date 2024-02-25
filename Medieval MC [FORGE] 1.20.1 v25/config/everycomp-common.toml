@@ -8,6 +8,8 @@
 	save_debug_resources = false
 	#Don't touch unless you are told to
 	debug_packet = false
+	#Sends a packet to verify all dependencies mod versions are the same on connect. DIsable if it causes issues
+	mod_version_check_packet = true
 
 	[general.tooltips]
 		#Enabled tooltips showing which mod an EC item is from
@@ -17,6 +19,7 @@
 		#Enabled tooltips showing which block type an EC item is made from
 		block_type_enabled = true
 
+	#Disables certain types
 	[general.types]
 
 		[general.types.leaves_type]
@@ -69,9 +72,6 @@
 				transformation = true
 				mining = true
 				sorting = true
-
-			[general.types.leaves_type.eldritch_end]
-				primordial = true
 
 			[general.types.leaves_type.twilightdelight]
 				ironwood = true
@@ -131,9 +131,18 @@
 				aurum = true
 				nuggety_aurum = true
 
-			[general.types.leaves_type.endlessbiomes]
-				penumbral = true
-				glowing_penumbral = true
+			[general.types.leaves_type.outer_end]
+				azure = true
+
+			[general.types.leaves_type.eldritch_end]
+				primordial = true
+
+			[general.types.leaves_type.betterend]
+				pythadendron = true
+				lacugrove = true
+				dragon_tree = true
+				tenanea = true
+				lucernia = true
 
 			[general.types.leaves_type.quark]
 				ancient = true
@@ -143,11 +152,15 @@
 				yellow_blossom = true
 				red_blossom = true
 
+			[general.types.leaves_type.endlessbiomes]
+				penumbral = true
+				glowing_penumbral = true
+
 		[general.types.wood_type]
 
 			[general.types.wood_type.domum_ornamentum]
-				cactus = true
-				cactus_extra = true
+				cactus = false
+				cactus_extra = false
 
 			[general.types.wood_type.ars_nouveau]
 				archwood = true
@@ -165,9 +178,6 @@
 			[general.types.wood_type.gardens_of_the_dead]
 				soulblight = true
 				whistlecane = false
-
-			[general.types.wood_type.eldritch_end]
-				primordial = true
 
 			[general.types.wood_type.biomesoplenty]
 				fir = true
@@ -238,9 +248,23 @@
 				aurum = true
 				edelwood = true
 
-			[general.types.wood_type.endlessbiomes]
-				penumbra = false
-				twisted = false
+			[general.types.wood_type.outer_end]
+				azure = true
+
+			[general.types.wood_type.eldritch_end]
+				primordial = true
+
+			[general.types.wood_type.betterend]
+				mossy_glowshroom = true
+				pythadendron = true
+				end_lotus = true
+				lacugrove = true
+				dragon_tree = true
+				tenanea = true
+				helix_tree = true
+				umbrella_tree = true
+				jellyshroom = true
+				lucernia = true
 
 			[general.types.wood_type.iceandfire]
 				dreadwood = true
@@ -250,11 +274,16 @@
 				ancient = true
 				blossom = true
 
+			[general.types.wood_type.endlessbiomes]
+				penumbra = false
+				twisted = false
+
 		[general.types.cake]
 
 			[general.types.cake.blue_skies]
 				comet_berry_pie = true
 
+	#Disables specific entries
 	[general.entries]
 
 		[general.entries.wood_type]
@@ -272,14 +301,6 @@
 			[general.entries.wood_type.friendsandfoes]
 				beehive = true
 
-			[general.entries.wood_type.mcwbridges]
-				log_bridge_stair = true
-				rail_bridge = true
-				bridge_pier = true
-				rope_bridge = true
-				rope_bridge_stair = true
-				log_bridge_middle = true
-
 			[general.entries.wood_type.decorative_blocks]
 				beam = true
 				support = true
@@ -293,7 +314,6 @@
 				table = true
 
 			[general.entries.wood_type.quark]
-				hollow_log = true
 				vertical_planks = true
 				post = true
 				trapped_chest = true
@@ -301,6 +321,7 @@
 				chest = true
 				stripped_post = true
 				ladder = true
+				hollow_log = true
 
 		[general.entries.leaves_type]
 
