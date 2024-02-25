@@ -104,7 +104,7 @@
 	"Variant Ladders" = true
 	"Variant Furnaces" = true
 	"Variant Chests" = true
-	"Variant Bookshelves" = true
+	"Variant Bookshelves" = false
 	Thatch = true
 	"Sturdy Stone" = true
 	Stools = true
@@ -171,8 +171,8 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -204,8 +204,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
