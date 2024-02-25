@@ -3,7 +3,8 @@
     "//Items here will be unusable completely",
     "celestisynth:rainfall_serenity",
     "twilightforest:uncrafting_table",
-    "endermanoverhaul:summoner_pearl"
+    "endermanoverhaul:summoner_pearl",
+    "endermanoverhaul:corrupted_pearl"
   ],
   "only_disable_interactions": [
     "//Items here will not be able to be right-clicked (Interact)",
