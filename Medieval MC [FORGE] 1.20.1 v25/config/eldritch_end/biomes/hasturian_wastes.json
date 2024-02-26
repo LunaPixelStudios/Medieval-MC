@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "biome_weight": 3.0,
+  "biome_weight": 2.0,
   "biome_temperature": 5.0,
   "enable_spike_generation": true,
   "spike_generation_chance": 100,
