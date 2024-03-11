@@ -21,10 +21,10 @@
 	whiteMoonWeight = 10
 	#Weight of the Tiny Moon Event [Default: 10]
 	#Range: 0 ~ 100
-	tinyMoonWeight = 5
+	tinyMoonWeight = 0
 	#Weight of the Big Moon Event [Default: 10]
 	#Range: 0 ~ 100
-	bigMoonWeight = 0
+	bigMoonWeight = 10
 	#Weight of the Big Moon Event [Default: 5]
 	#Range: 0 ~ 100
 	badOmenMoonWeight = 5
