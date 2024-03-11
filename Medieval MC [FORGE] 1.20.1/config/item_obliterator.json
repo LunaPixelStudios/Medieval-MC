@@ -6,7 +6,8 @@
     "endermanoverhaul:summoner_pearl",
     "endermanoverhaul:corrupted_pearl",
     "toms_storage:ts.inventory_proxy",
-    "toms_storage:ts.inventory_hopper_basic"
+    "toms_storage:ts.inventory_hopper_basic",
+    "aquamirae:terrible_sword"
   ],
   "only_disable_interactions": [
     "//Items here will not be able to be right-clicked (Interact)",
