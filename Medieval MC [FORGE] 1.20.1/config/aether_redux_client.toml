@@ -1,0 +1,51 @@
+
+[Rendering]
+
+	[Rendering."Mob Model Upgrades"]
+		#Makes Cockatrices look far better
+		"Cockatrice Model Upgrade" = true
+		#Improves the model for Sentries, giving them a new model and a springy jump animation
+		"Sentry Model Upgrade" = true
+		#Whether or not to use the upgraded Mimic model. Note that unless you use sync_with_server, there may be hitbox differences.
+		#Allowed Values: sync_with_server, modern_override, classic_override
+		"Mimic Model Upgrade" = "sync_with_server"
+		#Gives the Sheepuff's model some touchups and improvements
+		"Sheepuff Model Upgrade" = true
+		#Gives the Phyg's model some touchups and improvements
+		"Phyg Model Upgrade" = true
+		#Gives the Flying Cow's model some touchups and improvements
+		"Flying Cow Model Upgrade" = true
+
+		[Rendering."Mob Model Upgrades".Moa]
+			#Makes Moas resemble their Mutation models
+			"Moa Model Upgrade" = true
+			#Determines whether the updated Moa model should use more peaceful-appearing toes, or more aggressive talons
+			#Allowed Values: toes, talons
+			"Moa Foot Type" = "toes"
+
+	[Rendering."Shader FX"]
+		#Enables a post processing effect for the Shroom Ring's adrenaline ability. Only works with Fabulous graphics, and will cause issues when underwater (even when the ability is not active)
+		"Enable Adrenaline Post Processing Effect" = false
+
+	[Rendering.GUI]
+		#Cycles between Redux's menus.
+		"Cycle Menu" = false
+
+	[Rendering.Particles]
+		#Improves the leaf particles for Golden Oaks, Gilded Oaks, and Crystal Trees, based on Minecraft 1.20's new cherry tree particles.
+		"Better Leaf Particles" = true
+
+[Fixes]
+	#Fixes a forge/neoforge bug causing biome modifiers to not be able to change grass colors, so Redux can have vanilla grass use vanilla colors in the Aether
+	"Fix Biome Modifier Grass Bug" = true
+
+[Audio]
+	#Enables a slamming sound for mimics when using the new model. Disable if it gets too annoying XD
+	"Mimic Slam Sound Effect" = true
+
+[Internal]
+	#Internal value to decide if it is the first startup. DO NOT EDIT THIS VALUE, unless you want things to break!
+	"First Startup?" = false
+	#Value used to track the version of the Aether: Redux most recently used.
+	"Version ID" = "2.0.6"
+
