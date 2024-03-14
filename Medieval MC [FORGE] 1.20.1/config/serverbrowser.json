@@ -1,7 +1,12 @@
 {
-  "serverBrowserNotification": true,
+  "serverBrowserNotification": false,
   "bisectPackID": "19042",
   "modPackFilter": "MMC4 Forge",
-  "officialServers": [],
+  "officialServers": [
+    {
+    "name": "Duckpond",
+    "ipAddress": "forge.medievalmc.us"
+    }
+  ],
   "blacklistedServers": []
 }
