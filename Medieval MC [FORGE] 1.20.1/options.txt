@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","file/Aether Regenerated v1.1.2.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/Excalibur_V1.20.zip","file/Excal_ModSupport_Patched.zip","file/MMC4_Excalibur.zip","file/STONEBORN+-+1.20-1.20.1+-+V3.2.1.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/panorama_overrides.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets","builtin/DAGoldenSwetBallFixClient","fabric"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","builtin/ancient_aether_texture_tweaks","file/Aether Regenerated v1.1.2.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/Excalibur_V1.20.zip","file/Excal_ModSupport_Patched.zip","file/MMC4_Excalibur.zip","file/STONEBORN+-+1.20-1.20.1+-+V3.2.1.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/panorama_overrides.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/NoBushyLeaves.zip","Moonlight Mods Dynamic Assets","builtin/DAGoldenSwetBallFixClient","fabric","builtin/resource/overrides_pack"]
 incompatibleResourcePacks:["builtin/towntalk","builtin/DAGoldenSwetBallFixClient"]
 lastServer:
 lang:en_us
