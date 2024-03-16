@@ -2,6 +2,8 @@
   "schema_version": 1,
   "failed_reloads_per_session": 3,
   "default_packs": [
+    "builtin/ancient_aether_tweaks",
+    "file/Aether Regenerated v1.1.2.zip",
     "file/Excalibur_V1.20.zip",
     "file/Excal_ModSupport_Patched.zip",
     "file/MMC4_Excalibur.zip",
@@ -10,7 +12,6 @@
     "file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip",
     "file/panorama_overrides.zip",
     "builtin/overrides_pack",
-    "file/Aether Regenerated v1.1.2.zip",
     "file/EclecticTrove-1.20.1-1.3.0.zip",
     "file/EmbellishedStone-1.20.1-1.0.0.zip",
     "file/NoBushyLeaves.zip"
