@@ -810,18 +810,19 @@
 		{
 			id: "283303A94E452303"
 			rewards: [{
-				count: 3
-				id: "4CCA3743412D0DF4"
-				item: "storagenetwork:kabel"
+				count: 2
+				id: "4A519C1FE71D08F5"
+				item: "ars_nouveau:bookwyrm_charm"
+				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Read the Network Guide Book for more information."
+			subtitle: "Add &dBookwyrms&r to the lectern using a &dcharm&r, then connect it to chests by using a &5Dominion Wand&r. Read the &9Worn Notebook&r for more information. "
 			tasks: [{
 				id: "2BA4869E23D65B68"
-				item: "storagenetwork:request"
+				item: "ars_nouveau:storage_lectern"
 				type: "item"
 			}]
-			title: "Craft a &3Storage Request Table"
+			title: "Craft a &3Storage Lectern"
 			x: -3.5d
 			y: 1.5d
 		}
