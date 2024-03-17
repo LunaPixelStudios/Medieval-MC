@@ -63,3 +63,6 @@ com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen {
 com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
 }
 
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
