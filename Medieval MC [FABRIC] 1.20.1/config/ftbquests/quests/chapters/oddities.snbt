@@ -286,7 +286,7 @@
 			subtitle: "Calms nearby &6piglins&r."
 			tasks: [{
 				id: "4765BDEC3CB0CD80"
-				item: "adventurez:piglin_flag_block"
+				item: "adventurez:piglin_flag"
 				type: "item"
 			}]
 			title: "Craft a &6Piglin Flag"

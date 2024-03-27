@@ -93,7 +93,7 @@
 			subtitle: "Spawns when &6Nether Gold Ore &ris mined."
 			tasks: [{
 				entity: "adventurez:piglin_beast"
-				icon: "adventurez:piglin_flag_block"
+				icon: "adventurez:piglin_flag"
 				id: "6F13475E767FB83F"
 				title: "Kill a Piglin Beast"
 				type: "kill"
@@ -121,8 +121,8 @@
 			]
 			subtitle: "Summoned at a Golem Altar. Find more information in the (craftable) AdventureZ Handbook."
 			tasks: [{
-				entity: "adventurez:stone_golem"
-				icon: "adventurez:stone_golem_heart"
+				entity: "adventurez:blackstone_golem"
+				icon: "adventurez:blackstone_golem_heart"
 				id: "3CCB99D30F004CC1"
 				title: "Kill the Blackstone Golem"
 				type: "kill"

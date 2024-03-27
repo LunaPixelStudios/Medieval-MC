@@ -518,15 +518,25 @@
 				random_bonus: 10
 				type: "item"
 			}]
-			subtitle: "A book that allows you to shuffle through various &5invocations&r. To put it simply - you combine lesser spells to invoke something more powerful."
+			subtitle: "A book that allows you to shuffle through various &5invocations&r. Combine lesser spells in different orders to invoke something more powerful."
 			tasks: [{
 				id: "4FF392E0FB7A8F85"
-				item: "invoke:wildinvoker_spell_book"
+				item: "invoke:invoker_spell_book"
 				type: "item"
 			}]
-			title: "Craft &6Unbound Invocations"
+			title: "Craft &6Runic Invocations"
 			x: 0.0d
 			y: -6.5d
+		}
+		{
+			id: "19BB1617993AB968"
+			tasks: [{
+				id: "50F537C1A76E1267"
+				title: "TODO: Druids + Zephyr + Jewelry"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
 		}
 	]
 	title: " &3Magic"

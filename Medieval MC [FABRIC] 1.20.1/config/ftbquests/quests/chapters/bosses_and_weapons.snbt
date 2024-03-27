@@ -433,7 +433,7 @@
 			}]
 			title: "Defeat &6Ayla"
 			x: -8.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1C0DC1E4BF8FD1DC"]
@@ -467,7 +467,7 @@
 			}]
 			title: "Defeat &2Tar"
 			x: -5.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -689,8 +689,8 @@
 				value: 1L
 			}]
 			title: "Defeat &4Inigo"
-			x: -6.5d
-			y: 0.0d
+			x: -7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1C0DC1E4BF8FD1DC"]
@@ -845,6 +845,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Call her forth by blowing the Shell Horn in an Ice Maze."
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: {
@@ -865,6 +866,39 @@
 			}]
 			x: -6.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1C0DC1E4BF8FD1DC"]
+			id: "18CB30652B65BE08"
+			rewards: [
+				{
+					id: "0FE5D13C9C82FBE5"
+					item: {
+						Count: 1b
+						id: "archon:ender_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22EB97F4C485066D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Read the &3Grimoire&r for more information"
+			tasks: [{
+				entity: "archon:null"
+				icon: "archon:soulless_eye"
+				id: "5BD7D33A1DCF300D"
+				title: "Defeat &dNull"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -0.5d
 		}
 	]
 	title: " &4Bosses"
