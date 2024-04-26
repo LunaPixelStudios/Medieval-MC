@@ -1,6 +1,6 @@
 {
   "meta": {
-    "comment": "Note: Each difficulty type (just below) is multiplied by that areas difficulty level (found at the bottom of the config). In MMC Fabric, Dungeon Difficulty is used mostly for scaling item loot, bosses, and a few structures. All other mob leveling is handled by RPGDifficulty, via config and datapack.",
+    "comment": "Note: Each difficulty type (just below) is multiplied by that area\u0027s difficulty level (found at the bottom of the config). In MMC Fabric, Dungeon Difficulty is used primarly for bosses and a few structures. All other mob leveling is handled by RPGDifficulty, via config and datapack. Item scaling is now handled by Zenith.",
     "allow_customization": true,
     "sanitize_config": true,
     "rounding_unit": 0.5
@@ -310,13 +310,13 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 1.25
+              "value": 0.75
             },
             {
               "attribute": "projectile_damage:generic",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 1.25
+              "value": 0.75
             },
             {
               "attribute": "generic.armor",
