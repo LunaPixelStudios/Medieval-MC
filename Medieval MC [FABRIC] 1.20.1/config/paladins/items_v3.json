@@ -65,8 +65,8 @@
           "operation": "ADDITION"
         },
         {
-          "name": "haste",
-          "value": 0.10,
+          "id": "spell_power:haste",
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -246,8 +246,8 @@
           "operation": "ADDITION"
         },
         {
-          "name": "haste",
-          "value": 0.10,
+          "id": "spell_power:haste",
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -270,6 +270,17 @@
         {
           "id": "spell_power:healing",
           "value": 2.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "diamond_holy_wand": {
+      "attack_damage": 2.0,
+      "attack_speed": -2.4,
+      "attributes": [
+        {
+          "id": "spell_power:healing",
+          "value": 2.5,
           "operation": "ADDITION"
         }
       ]
