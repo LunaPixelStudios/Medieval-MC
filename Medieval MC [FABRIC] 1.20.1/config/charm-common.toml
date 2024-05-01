@@ -1,6 +1,6 @@
 [AerialAffinity]
 	#Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
-	"AerialAffinity enabled" = true
+	"AerialAffinity enabled" = false
 [AmethystNoteBlock]
 	#Place a block of amethyst under a note block to play its placement sound.
 	"AmethystNoteBlock enabled" = true
@@ -140,7 +140,7 @@
 	#Allows some unstackable items to stack.
 	"ExtraStackables enabled" = true
 	#Enchanted book maximum stack size.
-	"Enchanted book" = 16
+	"Enchanted book" = 1
 	#Potion maximum stack size.
 	Potion = 16
 	#Splash potion maximum stack size.
@@ -177,7 +177,7 @@
 	"Charm mod items" = true
 [ExtractableEnchantments]
 	#Extract enchantments from any enchanted item onto an empty book using the grindstone.
-	"ExtractableEnchantments enabled" = true
+	"ExtractableEnchantments enabled" = false
 	#Initial cost (in XP levels) of extraction before adding on the cost of the enchantment(s).
 	"Initial cost" = 5
 	#Adds extra cost (in XP levels) if the enchantment is a treasure enchantment such as Mending.
@@ -205,7 +205,7 @@
 	"Extra minecarts" = 0.2
 [InventoryTidying]
 	#Button to automatically tidy inventories.
-	"InventoryTidying enabled" = true
+	"InventoryTidying enabled" = false
 [Kilns]
 	#A functional block that speeds up cooking of clay, glass, bricks and terracotta.
 	"Kilns enabled" = true
@@ -229,7 +229,7 @@
 	"Mooblooms enabled" = true
 [NearbyWorkstations]
 	#Use workstations such as crafting tables when in range of the block.
-	"NearbyWorkstations enabled" = true
+	"NearbyWorkstations enabled" = false
 	#Range from which player can access a workstation.
 	Distance = 16
 [NoCropTrampling]
@@ -309,7 +309,7 @@
 	"Light level" = 8
 [TotemOfPreserving]
 	#Preserves your items on death.
-	"TotemOfPreserving enabled" = true
+	"TotemOfPreserving enabled" = false
 	#If true, a totem of preserving will always be created when you die.
 	#If false, you must be holding a totem of preserving to preserve your items on death.
 	"Grave mode" = false
@@ -328,7 +328,7 @@
 	"TotemsWorkFromInventory enabled" = true
 [UnlimitedRepairCost]
 	#Allows anvil repair of items with repair cost 39 or more.
-	"UnlimitedRepairCost enabled" = true
+	"UnlimitedRepairCost enabled" = false
 [VanillaWoodVariants]
 	#Barrels, bookcases, chests and ladders in all vanilla wood types.
 	"VanillaWoodVariants enabled" = true

@@ -44,7 +44,7 @@
         },
         {
           "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -71,7 +71,7 @@
         },
         {
           "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -87,7 +87,7 @@
         },
         {
           "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -114,7 +114,7 @@
         },
         {
           "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -152,7 +152,7 @@
         },
         {
           "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -210,8 +210,7 @@
           "operation": "ADDITION"
         },
         {
-          "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
@@ -227,7 +226,7 @@
         },
         {
           "name": "haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         }
       ]
