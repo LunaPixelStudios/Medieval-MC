@@ -1,78 +1,83 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1715521013859
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:23ee6f18-22ac-47dd-946c-808064e5222f-1715521013859] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]resourcepacks/Graphics/loading.png
+  slide = false
+  repeat_texture = false
+  background_type = image
 }
 
 customization {
-  path = resourcepacks/Graphics/loading.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  original_pos_size_calculation = true
-  x = 199
-  width = 456
-  action = deep_customization_element:drippy_overlay_logo
-  actionid = 71d207c5-9226-4c9d-be23-37e265f0382f1686812479074
-  y = 171
-  height = 114
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
-customization {
-  orientation = top-left
-  hidden = false
-  x = -1000000
-  width = 0
-  action = deep_customization_element:drippy_overlay_background
-  actionid = 4aab9780-5528-47f7-99b4-fefc6a22ff781686812479081
-  y = -1000000
-  height = 0
-}
-
-customization {
-  custom_color_hex = #60b4f3
-  orientation = top-left
-  hidden = false
-  original_pos_size_calculation = true
-  x = 199
-  width = 456
-  action = deep_customization_element:drippy_overlay_progress_bar
-  actionid = 3dd6c880-ce26-49af-bfc9-a8a75ae760241686812479081
-  y = 375
-  height = 10
-}
-
-customization {
-  path = resourcepacks/Graphics/mojang.png
-  orientation = mid-centered
+element {
+  source = [source:local]resourcepacks/Graphics/mojang.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 5d03824b-0dfd-43d8-9333-2ba711405fda1686812487423
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -213
-  width = 426
-  action = addtexture
-  actionid = 5d03824b-0dfd-43d8-9333-2ba711405fda1686812487423
   y = -50
+  width = 426
   height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = d82d4268-96c1-4538-9dca-f14c2d00c5ab-1715521013860
+  [loading_requirement_container_meta:d82d4268-96c1-4538-9dca-f14c2d00c5ab-1715521013860] = [groups:][instances:]
 }
 
-customization {
-  path = resourcepacks/Graphics/lunapixel.png
-  orientation = bottom-centered
+element {
+  source = [source:local]resourcepacks/Graphics/lunapixel.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = e603bf00-7b32-4009-823d-ade05c7cc5ff1686812502075
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-centered
   x = -88
-  width = 176
-  action = addtexture
-  actionid = e603bf00-7b32-4009-823d-ade05c7cc5ff1686812502075
   y = -32
+  width = 176
   height = 32
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ff5b59c8-d913-429f-994b-ed350c4a4c89-1715521013862
+  [loading_requirement_container_meta:ff5b59c8-d913-429f-994b-ed350c4a4c89-1715521013862] = [groups:][instances:]
 }
 
