@@ -140,17 +140,17 @@
 	#Allows some unstackable items to stack.
 	"ExtraStackables enabled" = true
 	#Enchanted book maximum stack size.
-	"Enchanted book" = 1
+	"Enchanted book" = 16
 	#Potion maximum stack size.
 	Potion = 16
 	#Splash potion maximum stack size.
-	"Splash potion" = 1
+	"Splash potion" = 16
 	#Lingering potion maximum stack size.
-	"Lingering potion" = 1
+	"Lingering potion" = 16
 	#Stew (and beetroot soup) maximum stack size.
 	Stew = 16
 	#Suspicious stew maximum stack size.
-	"Suspicious stew" = 1
+	"Suspicious stew" = 16
 [ExtraStews]
 	#Suspicious stews can be crafted from pitcher plants and sunflowers.
 	"ExtraStews enabled" = true
