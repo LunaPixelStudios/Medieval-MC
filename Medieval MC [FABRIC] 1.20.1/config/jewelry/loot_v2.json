@@ -7,7 +7,7 @@
       "jewelry_tier_2"
     ],
     "bosses_of_mass_destruction:entities/lich": [
-      "jewelry_tier_2"
+      "jewelry_tier_3"
     ],
     "minecraft:chests/end_city_treasure": [
       "jewelry_tier_3"
@@ -15,11 +15,8 @@
     "bosses_of_mass_destruction:chests/gauntlet": [
       "jewelry_tier_3"
     ],
-    "bosses_of_mass_destruction:chests/obsidilith": [
-      "jewelry_tier_3"
-    ],
     "bosses_of_mass_destruction:entities/void_blossom": [
-      "jewelry_tier_2"
+      "jewelry_tier_3"
     ],
     "minecraft:chests/abandoned_mineshaft": [
       "jewelry_tier_0"

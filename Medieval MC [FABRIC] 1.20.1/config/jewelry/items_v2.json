@@ -634,7 +634,7 @@
         },
         {
           "id": "ranged_weapon:haste",
-          "value": 0.10,
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         },
         {
