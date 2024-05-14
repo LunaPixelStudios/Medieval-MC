@@ -6,7 +6,7 @@
     "rounding_unit": 0.5
   },
   "perPlayerDifficulty": {
-    "enabled": true,
+    "enabled": false,
     "counting": "EVERYWHERE",
     "entities": [
       {
@@ -162,7 +162,7 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.0
+              "value": 0.125
             },
             {
               "attribute": "generic.movement_speed",
@@ -192,13 +192,13 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 0.75
             },
             {
               "attribute": "projectile_damage:generic",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 0.75
             },
             {
               "attribute": "generic.max_health",
@@ -225,19 +225,19 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 0.5
             },
             {
               "attribute": "projectile_damage:generic",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 0.5
             },
             {
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.75
+              "value": 0.33
             },
             {
               "attribute": "generic.movement_speed",
@@ -328,7 +328,7 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.5
+              "value": 1.25
             },
             {
               "attribute": "generic.armor_toughness",
@@ -372,7 +372,7 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 2.0
+              "value": 2.5
             },
             {
               "attribute": "generic.max_health",
@@ -393,7 +393,7 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 0.5
+              "value": 1.0
             },
             {
               "attribute": "generic.max_health",
