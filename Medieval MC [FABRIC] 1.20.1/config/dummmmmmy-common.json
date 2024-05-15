@@ -17,6 +17,6 @@
   },
   "mobs_damage_numbers": {
     "damage_mode": "ALL_PLAYERS",
-    "healing_mode": "ALL_ENTITIES"
+    "healing_mode": "ALL_PLAYERS"
   }
 }
