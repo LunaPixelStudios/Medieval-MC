@@ -158,11 +158,13 @@
 				""
 				"Press &bR &rto Roll"
 				""
-				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				"Press &bK&r to open the Skill Tree"
+				""
+				"Press &bRight Click &rwhile crouching to pick up a block or mob. Some mobs can be stacked on top of each other!"
 				""
 				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
 				""
-				"Press &bG &rto Activate Origin Ability"
+				"Press &bG &rto activate your Primary Origin Ability"
 				""
 				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
 				""
@@ -170,9 +172,7 @@
 				""
 				"Press &bO &rto view Origin Information"
 				""
-				"Press &b, &rto activate Secondary Origin Ability, if you have one"
-				""
-				"Press &bJ&r to open the ShowMeYourSkin armor overlay editor"
+				"Press &bH&rto activate your Secondary Origin Ability, if you have one"
 			]
 			icon: {
 				Count: 1b
@@ -369,18 +369,19 @@
 			dependencies: ["139DAA6E8CF4267A"]
 			description: [
 				"Items with a rarity can be salvaged in a &7Salvaging Table&r, and any gear can be reforged in a &6Reforging Table&r. "
-				"To learn how, read the &3Chronicle of Shadows&r, which you can get from the previous tutorial quest."
 				""
-				"Every &e5,000&r blocks you move away from spawn, mobs will get &b75%&r stronger. They will also drop more &aExperience Points&r!"
+				"For a guide, read the &3Chronicle of Shadows&r, which you can get from the previous tutorial quest."
 				""
-				"Depending on the dimension you are in, mobs will be more difficult and drop better gear / more &aExperience Points&r. In order of increasing difficulty: "
-				"&d1&r. Overworld/&bParadise Lost&r/&9Eden Ring"
+				"Mobs will become &dhigher level&r based on distance from spawn, and in certain structures that contain powerful loot. "
+				""
+				"Their health and damage will also increase gradually as you invest further into &2Skill Trees&r"
+				""
+				"&dMob level&r and the &6rarity of loot&r will also increase based on Dimension. In order of increasing difficulty: "
+				"&d1&r. Overworld"
 				"&d2&r. &2Twilight Forest&r/&eThe Bumblezone"
 				"&d3&r. &cMine Cells&r/&0The Otherside&r"
 				"&d4&r. The &4Nether"
 				"&d5&r. The &5End"
-				""
-				"Certain &4Bosses&r also have a higher chance to drop much rarer loot."
 			]
 			hide: true
 			hide_dependency_lines: true

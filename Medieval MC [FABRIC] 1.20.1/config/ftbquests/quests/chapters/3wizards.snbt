@@ -42,7 +42,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Used as ammo for &aSpells&r. &bSpell Infinity&r will let you cast spells without runes, but is incompatible with &bMending."
+			subtitle: "Used as ammo for spells, to let them be cast without using any &3Mana&r. \\n\\nThe &aSpell Infinity&r enchantment will let you cast spells without runes or mana, but is incompatible with &aMending."
 			tasks: [{
 				id: "546892239C517A0A"
 				item: {
@@ -61,65 +61,31 @@
 		}
 		{
 			id: "5DD91A2BE7C75259"
-			rewards: [
-				{
-					id: "71A95BCA4411BDBB"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_head"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3A948AFC1962E431"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_chest"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1B645CB6C90B322A"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_legs"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44F96EA3604DCCF5"
-					item: {
-						Count: 1b
-						id: "wizards:wizard_robe_feet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Wands always have one spell built-in, but you can only use that spell - extra spells from a tome won't work."
-			tasks: [{
-				id: "3A09D43B0B303B47"
+			rewards: [{
+				id: "71A95BCA4411BDBB"
 				item: {
 					Count: 1b
-					id: "wizards:wand_novice"
+					id: "wizards:wizard_robe_head"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "Craft a &aNovice Wand"
+			subtitle: "&dWands&r and &dStaves&r have one default spell built-in, which can be cast using mana or runes. \\n\\nNew spells can be added using a &aSpell Tome&r"
+			tasks: [{
+				id: "3A09D43B0B303B47"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "wizards:wands"
+					}
+				}
+				title: "Any #wizards:wands"
+				type: "item"
+			}]
+			title: "Obtain a &dWand&r"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -130,7 +96,7 @@
 				""
 				"After selecting a &bSpell Tome&r, place it back into the &dSpell Binding Table&r to select spells using lapis lazuli and XP"
 				""
-				"Adding bookshelves around the table, like an enchanting table, gives access to stronger spells. "
+				"Adding bookshelves around the table, just like an enchanting table, gives access to stronger spells. "
 			]
 			id: "1F63CB475EC9E7D3"
 			rewards: [
@@ -147,7 +113,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Used to use spells with staffs, or any other weapons besides wands. Click for more details!"
+			subtitle: "Used to create &aspell tomes&r, and add more spells to existing &atomes&r. Click for more details!"
 			tasks: [{
 				id: "4C5003A828CA3E5B"
 				item: "spell_engine:spell_binding"
@@ -155,7 +121,7 @@
 			}]
 			title: "Create a &6Spell Binding Table"
 			x: 0.0d
-			y: -3.5d
+			y: -3.75d
 		}
 		{
 			id: "6B0A9F014D9985F3"
@@ -184,7 +150,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1F63CB475EC9E7D3"]
 			id: "3632E8A6A992F1C5"
 			rewards: [
 				{
@@ -200,56 +165,22 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Different &aStaff &rtypes grant different bonuses to spell power."
-			tasks: [
-				{
-					id: "0FAEE43890CC3808"
-					item: {
-						Count: 1b
-						id: "wizards:staff_crystal_arcane"
-						tag: {
-							Damage: 0
-						}
+			subtitle: "These powerful weapons are made by upgrading their Netherite variants with rare materials from the Nether or End."
+			tasks: [{
+				id: "0FAEE43890CC3808"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rpg_series:tier_4_weapons"
 					}
-					type: "item"
 				}
-				{
-					id: "1FE7A4AF394A2763"
-					item: {
-						Count: 1b
-						id: "wizards:staff_ruby_fire"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "152B314C341DD0B6"
-					item: {
-						Count: 1b
-						id: "wizards:staff_smaragdant_frost"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0BDE1085B72F3DB7"
-					item: {
-						Count: 1b
-						id: "paladins:ruby_holy_staff"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Find or craft the four most powerful &aStaff&r variants"
-			x: 0.0d
-			y: -5.0d
+				title: "Any #rpg_series:tier_4_weapons"
+				type: "item"
+			}]
+			title: "Obtain any of the highest tier &aRPG Series&r weapon variants"
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			id: "65C4BF29F49AB821"
@@ -348,8 +279,8 @@
 				type: "item"
 			}]
 			title: "Craft an &fIron Mace"
-			x: -1.5d
-			y: -0.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			id: "3A9A6C898DD9FB57"
@@ -389,8 +320,8 @@
 				}
 			]
 			title: "Craft all three &bSpellblade Ingots"
-			x: 1.5d
-			y: -2.0d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			id: "57DB2C2BE51EF01B"
@@ -413,10 +344,10 @@
 					type: "item"
 				}
 				{
-					id: "2BA38621D746A5E4"
+					id: "6B4CABFECE0BD534"
 					item: {
 						Count: 1b
-						id: "spellbladenext:flaming_falchion"
+						id: "spellbladenext:frost_blade"
 						tag: {
 							Damage: 0
 						}
@@ -424,10 +355,10 @@
 					type: "item"
 				}
 				{
-					id: "6B4CABFECE0BD534"
+					id: "76C9B252A3D38D54"
 					item: {
 						Count: 1b
-						id: "spellbladenext:frost_blade"
+						id: "spellbladenext:fire_blade"
 						tag: {
 							Damage: 0
 						}
@@ -510,6 +441,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["1F63CB475EC9E7D3"]
 			id: "63C51F5CD368EC65"
 			rewards: [{
 				count: 5
@@ -518,7 +450,7 @@
 				random_bonus: 10
 				type: "item"
 			}]
-			subtitle: "A book that allows you to shuffle through various &5invocations&r. Combine lesser spells in different orders to invoke something more powerful."
+			subtitle: "A unique and complex spell tome that allows you to shuffle through various &5invocations&r. Combine lesser spells in different orders to invoke something more powerful."
 			tasks: [{
 				id: "4FF392E0FB7A8F85"
 				item: "invoke:invoker_spell_book"
@@ -526,16 +458,123 @@
 			}]
 			title: "Craft &6Runic Invocations"
 			x: 0.0d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
-			id: "19BB1617993AB968"
+			id: "5DA243783FFE1149"
+			rewards: [
+				{
+					id: "70FD5639E5BAFD7B"
+					item: "rpgmana:ceruleanring"
+					type: "item"
+				}
+				{
+					id: "239D74F04A13DDFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "These trinkets embedded with magical gemstones further enhance your &2Attributes&r\\n\\nSome rare &bJewelry&r can only be found from certain uncommon loot sources."
+			tasks: [
+				{
+					id: "75AF11FAA05C3D55"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "jewelry:rings"
+						}
+					}
+					title: "Any #jewelry:rings"
+					type: "item"
+				}
+				{
+					id: "081E4690BD001F87"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "jewelry:necklaces"
+						}
+					}
+					title: "Any #jewelry:necklaces"
+					type: "item"
+				}
+			]
+			title: "Find a piece of magical &bJewelry&r"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "3C94114224DDBE92"
 			tasks: [{
-				id: "50F537C1A76E1267"
-				title: "TODO: Druids + Zephyr + Jewelry"
-				type: "checkmark"
+				id: "5D7E0B5B03AF1D83"
+				item: "epicknightsnmages:magical_ingot"
+				type: "item"
 			}]
+			title: "Craft a &5Magical Ingot"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "791EC64DB9CB4D2C"
+			subtitle: "This crafting material can be found by shearing &bMagus'&r armor. It can be reused to craft more elementally focused armors."
+			tasks: [{
+				id: "210BD33162D89271"
+				item: "spellbladenext:thread"
+				type: "item"
+			}]
+			title: "Acquire a &3Thread of Hope"
 			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "1B37B26E3F42743A"
+			rewards: [{
+				id: "55ED3B2CB3F32FD8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Most other &3Extra RPG Attributes&r trinkets can only be found rarely in loot."
+			tasks: [{
+				id: "0C6E314467193DEB"
+				item: "extraspellattributes:arcanebracer"
+				type: "item"
+			}]
+			title: "Craft an &dAmethyst Bracer"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "1FF519095B59ED87"
+			rewards: [{
+				count: 4
+				id: "606C7D5FFD77BCAB"
+				item: "runes:soul_stone"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "&eShards&r can not be used to cast spells. Instead, hold them in the &6off-hand&r to amplify the power of your main weapon."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "druids:shard_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "48688CF4534417F5"
+				item: {
+					Count: 1b
+					id: "druids:shard_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Obtain a &eLightning Soul Shard"
+				type: "item"
+			}]
+			x: -3.5d
 			y: -0.5d
 		}
 	]

@@ -35,11 +35,25 @@
 		{
 			dependencies: ["1106E8573D7BE257"]
 			id: "678B2562584E24EF"
-			rewards: [{
-				id: "4148F0D9C8D784F4"
-				item: "alloy_forgery:prismarine_bricks_forge_controller"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "21A7C26F77C55EE8"
+					item: "minecells:cooked_sewer_calamari"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "58A72B146AE13898"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "18FA3F2E498B6FB2"
+					item: "minecells:conjunctivius_respawn_rune"
+					type: "item"
+				}
+			]
 			subtitle: "Spawns in the &1Insufferable Crypt&r. To deal damage to &dConjunctivius&r, you must first kill the tentacles. Can drop the &4&lCursed Sword&r, which gives you the &4Cursed &reffect when held. Don't use this sword in Hardcore ;)"
 			tasks: [{
 				entity: "minecells:conjunctivius"
@@ -56,7 +70,7 @@
 				value: 1L
 			}]
 			title: "Defeat &dConjunctivius"
-			x: 0.5d
+			x: -1.0d
 			y: -4.0d
 		}
 		{
@@ -77,10 +91,11 @@
 			}]
 			title: "Craft 2 &7Elevator Assemblers"
 			x: -1.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["79FA9140695A02C0"]
+			icon: "minecells:king_statue"
 			id: "3DB65504F570A378"
 			rewards: [
 				{
@@ -94,7 +109,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "The Prison has a portal which leads to the &3Promenade of the Condemned&r. Somewhere in the Promenade is an elevator to an &8Underground Dungeon&r where you can find a &3Vine Rune"
+			subtitle: "The Prison has a portal which leads to the &3Promenade of the Condemned&r.\\n\\nSomewhere in the Promenade is an elevator to an &8Underground Dungeon&r where you can find a &2Vine Rune"
 			tasks: [{
 				dimension: "minecells:promenade"
 				icon: "minecells:wilted_grass_block"
@@ -128,8 +143,112 @@
 				title: "Enter the &4Insufferable Crypt&r"
 				type: "dimension"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["319421467991BAC4"]
+			id: "01571694010807EE"
+			rewards: [
+				{
+					id: "6D0DF6033D2FB14B"
+					item: "minecells:cell_infused_steel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7035484C3E934AB7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2E2FBA49346325E5"
+					item: "extraspellattributes:goldquartzring"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecells:concierge"
+				icon: "minecells:concierge_respawn_rune"
+				id: "2249B6F22C59F427"
+				title: "Defeat the &4Concierge&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DB65504F570A378"]
+			id: "74B7AAFA185289C1"
+			rewards: [{
+				count: 5
+				id: "1D8965E975E2D49B"
+				item: "minecells:metal_shards"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "The entry to the &6Ramparts&r is in a tower near the start of the &3Promenade&r. Requires a &2Vine Rune&r."
+			tasks: [{
+				dimension: "minecells:ramparts"
+				icon: "minecells:ramparts_flag"
+				id: "5204FDC49B26D0DA"
+				type: "dimension"
+			}]
+			title: "Enter the &6Ramparts&r"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74B7AAFA185289C1"]
+			id: "319421467991BAC4"
+			rewards: [
+				{
+					id: "66760338AB3DEE26"
+					item: "minecells:black_bridge_flag"
+					type: "item"
+				}
+				{
+					id: "7EEA21F2B06DA3BC"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "illagerinvasion:strong_berserking"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Found at the end of the &6Ramparts&r - prepare for a fight."
+			tasks: [{
+				dimension: "minecells:black_bridge"
+				icon: "minecells:black_bridge_flag"
+				id: "761691D65282D4E7"
+				title: "Enter the &8Black Bridge"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79FA9140695A02C0"]
+			id: "03E8EED48FFC847D"
+			rewards: [{
+				id: "54C8798B08C7AAFC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A unique crafting device used to create weapons and much more. How it works is a mystery."
+			tasks: [{
+				advancement: "minecells:cell_crafter"
+				criterion: ""
+				id: "21A372DAE3215B8A"
+				type: "advancement"
+			}]
+			title: "Find and use a &eCell Crafter&r"
+			x: 2.0d
+			y: -0.5d
 		}
 	]
 	title: " &4Mine Cells"

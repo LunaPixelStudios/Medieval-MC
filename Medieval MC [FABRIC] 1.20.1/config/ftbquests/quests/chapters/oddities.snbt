@@ -571,31 +571,6 @@
 			y: 1.0d
 		}
 		{
-			id: "6BD202DA3CB4D5D7"
-			rewards: [
-				{
-					count: 4
-					id: "01629D8062091CB7"
-					item: "minecraft:wheat_seeds"
-					type: "item"
-				}
-				{
-					id: "46983E05BB41B93C"
-					item: "minecraft:carrot"
-					type: "item"
-				}
-			]
-			subtitle: "Placing the food that an animal is attracted to will make nearby animals eat the food and then subsequently breed. For example, placing seeds in the trough will make chickens eat from the trough. If two chickens both eat, they will make a baby chicken."
-			tasks: [{
-				id: "6204EAE7E3EFD3B5"
-				item: "animal_feeding_trough:feeding_trough"
-				type: "item"
-			}]
-			title: "Craft a &6Feeding Trough"
-			x: 1.0d
-			y: -2.0d
-		}
-		{
 			id: "1325EB37EACF5E77"
 			rewards: [{
 				id: "14C26FA6E6B745FB"
@@ -729,8 +704,8 @@
 				type: "item"
 			}]
 			title: "Craft a &3Dungeon Compass"
-			x: 0.2678571428571388d
-			y: 5.25d
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 	title: " &7Miscellaneous"

@@ -260,7 +260,7 @@
 				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
-			title: "Craft the &6Crafting Terminal"
+			title: "Craft a &6Crafting Terminal"
 			x: 3.0d
 			y: -9.5d
 		}
