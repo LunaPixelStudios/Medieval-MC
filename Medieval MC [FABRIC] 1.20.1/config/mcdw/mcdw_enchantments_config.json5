@@ -1,170 +1,538 @@
 {
-	"ENABLE_ENCHANTMENTS": {
-		"ACCELERATE": true,
-		"AMBUSH": true,
-		"ANIMA_CONDUIT": true,
-		"BONUS_SHOT": true,
-		"BURST_BOWSTRING": true,
-		"BUZZY_BEE": true,
-		"CHAIN_REACTION": true,
-		"CHAINS": true,
-		"CHARGE": true,
-		"COBWEB_SHOT": true,
-		"COMMITTED": true,
-		"CRITICAL_HIT": true,
-		"DIPPING_POISON": true,
-		"DYNAMO": true,
-		"ECHO": true,
-		"ENIGMA_RESONATOR": true,
-		"EXPLODING": true,
-		"FREEZING": true,
-		"FUSE_SHOT": true,
-		"GRAVITY": true,
-		"GROWING": true,
-		"GUARDING_STRIKE": true,
-		"ILLAGERS_BANE": true,
-		"POISONING": true,
-		"LEECHING": true,
-		"LEVITATION_SHOT": true,
-		"MULTI_SHOT": true,
-		"OVERCHARGE": true,
-		"PAIN_CYCLE": true,
-		"PHANTOMS_MARK": true,
-		"POISON_CLOUD": true,
-		"PROSPECTOR": true,
-		"RADIANCE": true,
-		"RADIANCE_SHOT": true,
-		"RAMPAGING": true,
-		"REPLENISH": true,
-		"REFRESHMENT": true,
-		"RICOCHET": true,
-		"RUSHDOWN": true,
-		"SHADOW_BARB": true,
-		"SHADOW_SHOT": true,
-		"SHARED_PAIN": true,
-		"SHOCKWAVE": true,
-		"SMITING": true,
-		"SOUL_DEVOURER": true,
-		"SOUL_SIPHON": false,
-		"STUNNING": true,
-		"SWIRLING": true,
-		"TEMPO_THEFT": true,
-		"THUNDERING": true,
-		"VOID_SHOT": true,
-		"VOID_STRIKE": true,
-		"WEAKENING": true,
-		"WILD_RAGE": true
-	},
-	"ENABLE_VILLAGER_TRADING": {
-		"ACCELERATE": true,
-		"AMBUSH": true,
-		"ANIMA_CONDUIT": true,
-		"BONUS_SHOT": true,
-		"BURST_BOWSTRING": false,
-		"BUZZY_BEE": true,
-		"CHAIN_REACTION": true,
-		"CHAINS": true,
-		"CHARGE": true,
-		"COBWEB_SHOT": true,
-		"COMMITTED": true,
-		"CRITICAL_HIT": true,
-		"DIPPING_POISON": true,
-		"DYNAMO": false,
-		"ECHO": true,
-		"ENIGMA_RESONATOR": true,
-		"EXPLODING": true,
-		"FREEZING": true,
-		"FUSE_SHOT": true,
-		"GRAVITY": true,
-		"GROWING": true,
-		"GUARDING_STRIKE": true,
-		"ILLAGERS_BANE": true,
-		"POISONING": true,
-		"LEECHING": true,
-		"LEVITATION_SHOT": true,
-		"MULTI_SHOT": true,
-		"OVERCHARGE": true,
-		"PAIN_CYCLE": true,
-		"PHANTOMS_MARK": true,
-		"POISON_CLOUD": true,
-		"PROSPECTOR": true,
-		"RADIANCE": true,
-		"RADIANCE_SHOT": true,
-		"RAMPAGING": true,
-		"REPLENISH": true,
-		"REFRESHMENT": true,
-		"RICOCHET": true,
-		"RUSHDOWN": true,
-		"SHADOW_BARB": true,
-		"SHADOW_SHOT": true,
-		"SHARED_PAIN": false,
-		"SHOCKWAVE": true,
-		"SMITING": true,
-		"SOUL_DEVOURER": true,
-		"SOUL_SIPHON": false,
-		"STUNNING": true,
-		"SWIRLING": true,
-		"TEMPO_THEFT": true,
-		"THUNDERING": true,
-		"VOID_SHOT": true,
-		"VOID_STRIKE": true,
-		"WEAKENING": true,
-		"WILD_RAGE": true
-	},
-	"ENABLE_RANDOM_SELECTION": {
-		"ACCELERATE": true,
-		"AMBUSH": true,
-		"ANIMA_CONDUIT": true,
-		"BONUS_SHOT": true,
-		"BURST_BOWSTRING": false,
-		"BUZZY_BEE": true,
-		"CHAIN_REACTION": true,
-		"CHAINS": true,
-		"CHARGE": true,
-		"COBWEB_SHOT": true,
-		"COMMITTED": true,
-		"CRITICAL_HIT": true,
-		"DIPPING_POISON": true,
-		"DYNAMO": false,
-		"ECHO": true,
-		"ENIGMA_RESONATOR": true,
-		"EXPLODING": true,
-		"FREEZING": true,
-		"FUSE_SHOT": true,
-		"GRAVITY": true,
-		"GROWING": true,
-		"GUARDING_STRIKE": true,
-		"ILLAGERS_BANE": true,
-		"POISONING": true,
-		"LEECHING": true,
-		"LEVITATION_SHOT": true,
-		"MULTI_SHOT": true,
-		"OVERCHARGE": true,
-		"PAIN_CYCLE": true,
-		"PHANTOMS_MARK": true,
-		"POISON_CLOUD": true,
-		"PROSPECTOR": true,
-		"RADIANCE": true,
-		"RADIANCE_SHOT": true,
-		"RAMPAGING": true,
-		"REPLENISH": true,
-		"REFRESHMENT": true,
-		"RICOCHET": true,
-		"RUSHDOWN": true,
-		"SHADOW_BARB": true,
-		"SHADOW_SHOT": true,
-		"SHARED_PAIN": false,
-		"SHOCKWAVE": true,
-		"SMITING": true,
-		"SOUL_DEVOURER": true,
-		"SOUL_SIPHON": false,
-		"STUNNING": true,
-		"SWIRLING": true,
-		"TEMPO_THEFT": true,
-		"THUNDERING": true,
-		"VOID_SHOT": true,
-		"VOID_STRIKE": true,
-		"WEAKENING": true,
-		"WILD_RAGE": true
+	/* 
+	   A slider value for damage modifying enchantments:
+	   Ambush, Critical Hit, Void Strike, Pain Cycle, Enigma Resonator, Dynamo, Shadow Form,
+	   Enigma Shot, Growing, Void Shot, Overcharge, Committed and Hunter's Promise.
+	*/
+	"directDamageEnchantmentMultiplier": 1.0,
+	/* 
+	   Some notes to make sense of the config, below:
+	   
+	   offset:     This is a value that is unique to certain enchantments. What it does will be
+	               explained in the "comment" section that is related to the enchantment.
+	   
+	   isEnabled:  Whether the enchantment is on or off. If set to "false", the enchantment
+	               will not be possible to obtain in any way.
+	   
+	   isAvailableForEnchantedBookOffer: Whether the enchantment can be sold by villagers.
+	               If set to "false", this means that Librarian villagers will not sell this
+	               enchantment.
+	   
+	   isAvailableForRandomSelection: Whether the enchantment can be found as random loot or
+	               obtained through the Enchanting Table. If set to "false", this means that the
+	               enchantment will not be available via the Enchanting Table nor will it
+	               generate as loot that is found in the world.
+	   
+	   maxLevel:   This is an integer (whole number) value that tells the game what the max
+	               level the enchantment can be. The value for most enchantments in Minecraft
+	               range from 1 to 5. Most MCDX enchantments are up to level 3 and whilst it
+	               is possible to set this value above 3, it can have some unexpected results.
+	   
+	   procChance: Some enchantments trigger on a chance. Whilst this number is not a percentage
+	               the higher the number, the more likely the enchantment is to trigger.
+	               Therefore, if the procChance is set to 20, it is more likely to trigger than
+	               if the procChance is set to 10. It is best to experiment with these values
+	               if you plan to change them to see what works best for you.
+	*/
+	"ENCHANTMENT_CONFIG": {
+		"ACCELERATE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"AMBUSH": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"ANIMA_CONDUIT": {
+			"comment": [
+				"Effect Offset:  Healing Percentage,",
+				"Offset Note:    higher offset = more health recovered,",
+				"Default:        100f"
+			],
+			"offset": 100.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"BONUS_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"BURST_BOWSTRING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": false,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"BUSY_BEE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": false,
+			"maxLevel": 1,
+			"procChance": null
+		},
+		"CHAIN_REACTION": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"CHAINS": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 20
+		},
+		"CHARGE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"COBWEB_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 1,
+			"procChance": null
+		},
+		"COMMITTED": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"CRITICAL_HIT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"DIPPING_POISON": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"DYNAMO": {
+			"comment": [
+				"Effect Offset:  Maximum Stacks,",
+				"Offset Note:    higher offset = more potential stacks,",
+				"Default:        20f"
+			],
+			"offset": 3.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": false,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"ECHO": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"ENIGMA_RESONATOR": {
+			"comment": [
+				"Effect Offset:  Damage Divisor,",
+				"Formula:        max((log_e(numSouls * level + 20) / offset) - 1, 0)",
+				"Offset Note:    higher offset = less damage,",
+				"Default:        3.25f"
+			],
+			"offset": 4.5,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"EXPLODING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 20
+		},
+		"FREEZING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 30
+		},
+		"FUSE_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 20
+		},
+		"GRAVITY": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 30
+		},
+		"GROWING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"GUARDING_STRIKE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"ILLAGERS_BANE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"JUNGLE_POISON": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 30
+		},
+		"LEECHING": {
+			"comment": [
+				"Effect Offset:  Healing Percentage,",
+				"Offset Note:    higher offset = more health recovered,",
+				"Default:        100f"
+			],
+			"offset": 100.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"LEVITATION_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"MULTI_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 1,
+			"procChance": null
+		},
+		"OVERCHARGE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"PAIN_CYCLE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"PHANTOMS_MARK": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"POISON_CLOUD": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 30
+		},
+		"PROSPECTOR": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 5
+		},
+		"RADIANCE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 20
+		},
+		"RAMPAGING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"REFRESHMENT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"REPLENISH": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 3
+		},
+		"RICOCHET": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"RUSHDOWN": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"SHADOW_BARB": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": false,
+			"maxLevel": 1,
+			"procChance": null
+		},
+		"SHADOW_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": false,
+			"maxLevel": 1,
+			"procChance": 10
+		},
+		"SHARED_PAIN": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": false,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"SHOCKWAVE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"SMITING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"SOUL_DEVOURER": {
+			"comment": [
+				"Effect Offset:  Additional XP,",
+				"Formula:        amount * (1 + (level / offset)),",
+				"Offset Note:    higher offset = less additional XP,",
+				"Default:        3.0f"
+			],
+			"offset": 3.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"SOUL_SIPHON": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"STUNNING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 20
+		},
+		"SWIRLING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		},
+		"TEMPO_THEFT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": null
+		},
+		"THUNDERING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 20
+		},
+		"VOID_SHOT": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 8
+		},
+		"VOID_STRIKE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 6
+		},
+		"WEAKENING": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 30
+		},
+		"WILD_RAGE": {
+			"comment": null,
+			"offset": 0.0,
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": false,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3,
+			"procChance": 10
+		}
 	}
 }
