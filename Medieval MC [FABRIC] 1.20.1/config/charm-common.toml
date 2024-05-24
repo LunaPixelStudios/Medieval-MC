@@ -189,7 +189,7 @@
 	"GrindableHorseArmor enabled" = true
 [HoverSorting]
 	#Scroll the mouse while hovering over a bundle or shulker box to cycle the order of its contents.
-	"HoverSorting enabled" = true
+	"HoverSorting enabled" = false
 [ImprovedMineshafts]
 	#Adds decoration and more ores to mineshafts.
 	"ImprovedMineshafts enabled" = true
