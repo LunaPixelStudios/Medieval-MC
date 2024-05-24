@@ -1,0 +1,18 @@
+{
+	// Maximum Mana Modifier (Default: 1)
+	"mana": 1.0,
+	// Additional Base Mana (Default: 0)
+	"basemana": 20.0,
+	// Mana Regen Modifier (Default: 1)
+	"manaregen": 1.0,
+	// Inspiration Bonus (Default: 10%)
+	"inspiration": 10.0,
+	// Lucidity Bonus (Default: 5%)
+	"lucidity": 5.0,
+	// Manafused Bonus (Default: 10)
+	"manafuse": 10.0,
+	// ManaStabilized Bonus (Default: 5%)
+	"manastabilized": 5.0,
+	// Resplendent Bonus (Default: 10%)
+	"resplendent": 10.0
+}
