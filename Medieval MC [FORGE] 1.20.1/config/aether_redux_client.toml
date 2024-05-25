@@ -15,17 +15,14 @@
 		"Phyg Model Upgrade" = true
 		#Gives the Flying Cow's model some touchups and improvements
 		"Flying Cow Model Upgrade" = true
-
-		[Rendering."Mob Model Upgrades".Moa]
-			#Makes Moas resemble their Mutation models
-			"Moa Model Upgrade" = true
-			#Determines whether the updated Moa model should use more peaceful-appearing toes, or more aggressive talons
-			#Allowed Values: toes, talons
-			"Moa Foot Type" = "toes"
-
-	[Rendering."Shader FX"]
-		#Enables a post processing effect for the Shroom Ring's adrenaline ability. Only works with Fabulous graphics, and will cause issues when underwater (even when the ability is not active)
-		"Enable Adrenaline Post Processing Effect" = false
+		#Makes Moas resemble their Mutation models
+		"Moa Model Upgrade" = true
+		#Determines which model variation to use for the Moa. Refreshed is sort of a preview for a future design that will be used, the two legacy ones are from the old Moa Foot Type config to change between peaceful-appearing toes and menacing talons for the feet.
+		#Allowed Values: refreshed, legacy_toes, legacy_talons
+		"Moa Model Type" = "refreshed"
+		#Determines which model variation to use for the Cockatrice. Refreshed is sort of a preview for a future design that will be used, the legacy one uses Redux's previous iteration.
+		#Allowed Values: refreshed, legacy
+		"Cockatrice Model Type" = "refreshed"
 
 	[Rendering.GUI]
 		#Cycles between Redux's menus.
@@ -42,10 +39,14 @@
 [Audio]
 	#Enables a slamming sound for mimics when using the new model. Disable if it gets too annoying XD
 	"Mimic Slam Sound Effect" = true
+	#Gives sounds to the other clouds for the Aether: Genesis when it is installed
+	"Aercloud Ability Sounds" = true
 
 [Internal]
-	#Internal value to decide if it is the first startup. DO NOT EDIT THIS VALUE, unless you want things to break!
-	"First Startup?" = false
 	#Value used to track the version of the Aether: Redux most recently used.
-	"Version ID" = "2.0.6"
+	"Version ID" = "2.0.15"
+	#Internal value to do menu changes. Set this to false in modpacks if you want to use your own menu.
+	"First Startup - Menu Setup" = false
+	#Internal value to change an Aether config, giving a nicer lightmap in the dimension.
+	"First Startup - Lightmap Change" = false
 
