@@ -1,0 +1,73 @@
+{
+  "updateConfig": {
+    "currentConfigVersion": 4,
+    "enableConfigUpdates": true
+  },
+  "clientConfig": {
+    "doBurningHeartOverlay": true,
+    "doSunHatShading": true,
+    "enableHeatStrokePostProcessing": true,
+    "sunHatShadeOpacity": 0.2,
+    "enableSandstormParticles": true,
+    "enableSandstormFog": true,
+    "enableSandstormSounds": true,
+    "sandStormParticleRenderDistance": 20,
+    "sandStormParticleRarity": 60,
+    "sandStormParticleVelocity": -1.0,
+    "sandStormFogStart": 16.0,
+    "sandStormFogEnd": 64.0
+  },
+  "heatingConfig": {
+    "doPassiveHeating": true,
+    "maxPassiveHeatingScale": 1.0,
+    "enableTurtleArmorEffects": true,
+    "coolingFromIce": 12,
+    "minSkyLightLevelForHeat": 13,
+    "heatFromSun": 1,
+    "scorchingBiomeHeatIncrease": 1,
+    "sunHatShadeTemperatureChange": -1,
+    "onFireWarmRate": 24,
+    "onFireWarmRateWithFireResistance": 6,
+    "inLavaWarmRate": 24,
+    "striderOutOfLavaCoolRate": 24,
+    "powderSnowCoolRate": 24,
+    "fireballHeat": 1000,
+    "defaultArmorHeatResistance": 0.0,
+    "veryHarmfulArmorHeatResistance": 0.0,
+    "protectiveArmorHeatResistance": 0.5,
+    "veryProtectiveArmorHeatResistance": 1.0,
+    "waterBreathingDurationPerTurtleArmorPieceSeconds": 10,
+    "lightLevelPerHeatInNether": 4,
+    "minLightLevelForHeatInNether": 11,
+    "blocksAboveLavaOceanPerHeatInNether": 5,
+    "maxHeatFromLavaOceanInNether": 3
+  },
+  "combatConfig": {
+    "fireBallThrownType": "SMALL"
+  },
+  "weatherConfig": {
+    "doSandPileAccumulation": true,
+    "sandPileAccumulationHeight": 1,
+    "sandstormSlownessAmountPercent": -0.3
+  },
+  "thirstConfig": {
+    "temperatureFromWetness": -6,
+    "waterFromRefreshingFood": 60,
+    "waterFromSustainingFood": 120,
+    "waterFromHydratingFood": 300,
+    "waterFromParchingFood": -120,
+    "rehydrationDrinkSize": 120,
+    "soakingFromSplashPotions": 300,
+    "touchingWaterWetnessIncrease": 1,
+    "dryRate": 1,
+    "onFireDryDate": 3,
+    "humidBiomeSweatEfficiency": 0.16666667,
+    "maxRehydrationEfficiency": 0.75
+  },
+  "integrationConfig": {
+    "dehydrationConfig": {
+      "minWaterLevelForSweat": 16,
+      "maxRehydrationWaterAddedPerLevel": 1
+    }
+  }
+}
