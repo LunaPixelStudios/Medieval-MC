@@ -164,7 +164,8 @@
       "meadow:*",
       "villagersplus:occultist_table",
       "toms_storage:ts.inventory_hopper_basic",
-      "the_bumblezone:crystalline_flower"
+      "the_bumblezone:crystalline_flower",
+      "yigd:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -188,8 +189,8 @@
       "quark:totem",
       "vehicle:*",
       "minecraft:villager",
-      "endgoblintraders:end_goblin_trader", 
-      "goblintraders:vein_goblin_trader", 
+      "endgoblintraders:end_goblin_trader",
+      "goblintraders:vein_goblin_trader",
       "goblintraders:goblin_trader"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
