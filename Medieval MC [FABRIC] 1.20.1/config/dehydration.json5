@@ -4,7 +4,7 @@
 	// Defines speed of dehydration, bigger value = slower depletion
 	"hydrating_factor": 3.0,
 	// Defines the rate of the thirst effect's drain, smaller variable = less draining
-	"thirst_effect_factor": 0.019999999552965164,
+	"thirst_effect_factor": 0.004999999888241291,
 	"potion_thirst_quench": 2,
 	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
 	"potion_bad_thirst_chance": 0.25,
@@ -14,6 +14,9 @@
 	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
 	"milk_thirst_chance": 0.4000000059604645,
 	"honey_quench": 3,
+	"water_bowl_quench": 3,
+	// 1.0F = 100%, 0.5F = 50%, 0.0F = 0%
+	"water_bowl_thirst_chance": 0.4000000059604645,
 	// Applies on items added to the drinks tag
 	"drinks_thirst_quench": 3,
 	"stew_thirst_quench": 4,
@@ -43,11 +46,15 @@
 	// Pump requires water below 10 blocks within 50 blocks
 	"pump_requires_water": false,
 	"bottle_consumes_source_block": false,
+	// Haste and fatique on low hydration
+	"special_effects": false,
+	// Applies to all ultrawarm dimensions
 	"harder_nether": false,
 	// 1.3 = 30% more thirst
 	"nether_factor": 1.0,
 	// Enables alternate textures by the lead texture artist
 	"other_droplet_texture": false,
 	"hud_x": 0,
-	"hud_y": 0
+	"hud_y": 0,
+	"thirst_preview": true
 }
