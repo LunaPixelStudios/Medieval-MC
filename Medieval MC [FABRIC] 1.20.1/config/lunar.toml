@@ -2,10 +2,10 @@
 lunarEventChance = 0.2
 [events]
 bloodMoonWeight = 60
-crimsonMoonWeight = 20
+crimsonMoonWeight = 10
 minerMoonWeight = 40
 whiteMoonWeight = 10
-tinyMoonWeight = 10
+tinyMoonWeight = 0
 bigMoonWeight = 10
 badOmenMoonWeight = 0
 heroMoonWeight = 5
