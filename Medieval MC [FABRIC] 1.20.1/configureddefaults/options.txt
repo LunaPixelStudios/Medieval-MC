@@ -225,7 +225,7 @@ key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
-key_key.zenith.toggle_radial_mining:key.keyboard.o
+key_key.zenith.toggle_radial_mining:key.keyboard.j
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
