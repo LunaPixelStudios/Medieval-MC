@@ -34,8 +34,8 @@
 				type: "item"
 			}]
 			title: "Craft a &6Trading Post"
-			x: -3.5d
-			y: -3.5d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			id: "5F0FC5A5035E29B0"
@@ -97,7 +97,7 @@
 			}]
 			title: "Craft a &f&lSmooth Quartz Elevator"
 			x: 1.0d
-			y: 1.0d
+			y: -2.0d
 		}
 		{
 			id: "554FCDBDC9485FA2"
@@ -106,15 +106,22 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Allows for easy transportation between &lany &rtwo places. Longer transport may consume &aexperience&r."
+			subtitle: "Allows for easy transportation between &lany &rtwo places. Costs &aexperience&r to travel."
 			tasks: [{
 				id: "1B1C89CF79BF35BC"
-				item: "fwaystones:waystone"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fwaystones:waystones"
+					}
+				}
+				title: "Any #fwaystones:waystones"
 				type: "item"
 			}]
 			title: "Craft a &8Waystone"
-			x: -0.5d
-			y: -2.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			id: "1E65308E968AF323"
@@ -150,7 +157,7 @@
 			}]
 			title: "Craft &2Greenhouse Glass"
 			x: 1.0d
-			y: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "12965C7AB98FA9C6"
@@ -183,29 +190,8 @@
 				type: "item"
 			}]
 			title: "Craft &dSoap"
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			id: "69A55664BC35DC41"
-			rewards: [{
-				count: 3
-				id: "532056C698E7304F"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "To make a &eStraw Golem&r, place a Carved Pumpkin on top of a Hay Bale. &eStraw Golems &rwill harvest and replant crops, and then deposit to nearby containers. You can shift click the golem and then a container to specify which. Each golem will live for 7 days. This can be extended with wheat. If you have an apple in your hand, they will follow you. Every 2 days, they will want an apple to continue working. Iron Golems and farm animals love Straw Golems. Raiders don't."
-			tasks: [{
-				icon: "minecraft:hay_block"
-				id: "6325FB8B13996FBF"
-				observe_type: 5
-				timer: 0L
-				to_observe: "strawgolem:strawgolem"
-				type: "observation"
-			}]
-			title: "Make a &eStraw Golem"
 			x: -0.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			id: "0B23AB3C41A686EA"
@@ -222,7 +208,7 @@
 			}]
 			title: "Craft a &bDiamond Magnum Torch"
 			x: -0.5d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			id: "3851BFEF1D86D474"
@@ -343,7 +329,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "&5Anvils&r can be used to reroll the rarity of full durability gear using amethyst shards."
+			subtitle: "In addition to repairing gear and combining enchants, &5Anvils&r can be used to crush &3Gems&r for &3Gem Dust&r!"
 			tasks: [{
 				id: "4FDB8434828FD955"
 				item: {
@@ -357,8 +343,8 @@
 				type: "item"
 			}]
 			title: "Craft an &5Anvil"
-			x: 4.0d
-			y: -3.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			id: "7EB6A2560F7BFCF7"
@@ -432,8 +418,8 @@
 				type: "item"
 			}]
 			title: "Craft &5Druid Boots"
-			x: -0.5d
-			y: 2.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			id: "07EE7789B880D2B8"
@@ -507,23 +493,6 @@
 			y: 1.0d
 		}
 		{
-			id: "29DB0E117A09B132"
-			rewards: [{
-				id: "2F768ED8368A54E5"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "A reusable ender pearl which gives brief &6Resistance&r after being used."
-			tasks: [{
-				id: "0F876F4D5EE4EDF2"
-				item: "bosses_of_mass_destruction:charged_ender_pearl"
-				type: "item"
-			}]
-			title: "Craft a &5Charged Ender Pearl"
-			x: 1.0d
-			y: 4.0d
-		}
-		{
 			id: "4FB5786C1574EF9F"
 			rewards: [{
 				id: "722E10678584FF96"
@@ -567,7 +536,7 @@
 				type: "item"
 			}]
 			title: "Craft a &9Sleeping Bag"
-			x: -2.0d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -643,7 +612,7 @@
 				type: "item"
 			}]
 			title: "Craft a &9Bater Wucket"
-			x: 4.0d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -654,7 +623,7 @@
 				item: "supplementaries:doormat"
 				type: "item"
 			}]
-			subtitle: "3 block high door. Great for tall origins."
+			subtitle: "A 3 block high door. Great for tall origins!"
 			tasks: [{
 				id: "7ABFAF9A70390461"
 				item: {
@@ -669,43 +638,7 @@
 			}]
 			title: "Craft a &cDramatic Door"
 			x: 1.0d
-			y: 2.5d
-		}
-		{
-			id: "27CA0D18235360A1"
-			rewards: [{
-				id: "1229487121D0D6C7"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			subtitle: "A detailed guidebook for the Adorn mod."
-			tasks: [{
-				id: "4E5C553A94290A8D"
-				item: "adorn:guide_book"
-				type: "item"
-			}]
-			title: "Craft &oDecorating Your Home"
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			id: "4374FB8D41ABFAEB"
-			rewards: [{
-				count: 8
-				id: "061B665226C2CF48"
-				item: "adorn:stone_torch"
-				random_bonus: 8
-				type: "item"
-			}]
-			subtitle: "Used to find special dungeons that regenerate over time."
-			tasks: [{
-				id: "098F51063F03B6CE"
-				item: "dungeonz:dungeon_compass"
-				type: "item"
-			}]
-			title: "Craft a &3Dungeon Compass"
-			x: 1.0d
-			y: -2.0d
+			y: -0.5d
 		}
 	]
 	title: " &7Miscellaneous"

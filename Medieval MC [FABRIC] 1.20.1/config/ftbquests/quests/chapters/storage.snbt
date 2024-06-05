@@ -254,7 +254,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Has the same functions as a &3Storage Terminal&7, but has a built-in crafting grid."
+			subtitle: "Has the same functions as a &3Storage Terminal&7, but has a built-in crafting grid!"
 			tasks: [{
 				id: "175314DBB0522137"
 				item: "toms_storage:ts.crafting_terminal"
@@ -315,6 +315,30 @@
 			title: "Craft an &8Advanced Wireless Terminal"
 			x: -2.0d
 			y: -8.0d
+		}
+		{
+			id: "1B420DB321E7344B"
+			subtitle: "Attach this to your &3Traveler's Backpack&r in a &8Smithing Table&r to be able to use a 3x3 crafting menu anywhere!"
+			tasks: [{
+				id: "5E1801C063FBCDA5"
+				item: "travelersbackpack:crafting_upgrade"
+				type: "item"
+			}]
+			title: "Craft a &6Crafting Upgrade&r"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "615E1659938E97A1"
+			subtitle: "This convenient attachment will allow you to drink directly from fluids placed into your &3Traveler's Backpack&r (check your keybinds!)"
+			tasks: [{
+				id: "575404470FCC26B7"
+				item: "travelersbackpack:hose"
+				type: "item"
+			}]
+			title: "Craft a &2Backpack Hose&r"
+			x: -2.5d
+			y: -6.0d
 		}
 	]
 	title: " &3Backpacks and Storage"
