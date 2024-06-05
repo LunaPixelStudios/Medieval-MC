@@ -82,15 +82,16 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			subtitle: "Found in the Echoing Forest"
 			tasks: [{
 				entity: "deeperdarker:shattered"
 				icon: "deeperdarker:soul_dust"
 				id: "5B9501581479A2EC"
-				title: "Kill a Shattered"
+				title: "Defeat a Shattered"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Kill a &3Shattered"
+			title: "Defeat a &3Shattered"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -144,7 +145,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "The user gets pernament &3speed"
+			subtitle: "Grants the wearer a permanent &3speed effect"
 			tasks: [{
 				id: "56FDFD3E7BD7EE03"
 				item: {
