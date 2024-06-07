@@ -370,5 +370,14 @@
                 "horizontalOffset": -2
             }
         }
+    },
+    "wraith.fwaystones.screen.WaystoneBlockScreenHandler": {
+        "ignore": true
+    },
+    "com.tiviacz.travelersbackpack.inventory.screen.TravelersBackpackItemScreenHandler": {
+        "ignore": true
+    },
+    "com.tom.storagemod.gui.CraftingTerminalMenu": {
+        "ignore": true
     }
 }

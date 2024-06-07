@@ -760,7 +760,7 @@
 				title: "Throw &5Endermite Powder"
 				type: "advancement"
 			}]
-			title: "Find and throw some &5Endermite Powder"
+			title: "Find and use &5Endermite Powder"
 			x: 10.0d
 			y: 9.0d
 		}

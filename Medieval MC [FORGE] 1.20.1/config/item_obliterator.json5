@@ -16,8 +16,10 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "aquamirae:terrible_sword",
-    "hybrid-aquatic:karkinos_claw"
+    "twilightforest:uncrafting_table",
+    "endermanoverhaul:summoner_pearl",
+    "endermanoverhaul:corrupted_pearl",
+    "aquamirae:terrible_sword"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
@@ -26,7 +28,9 @@
   // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
   // 	
   // 	 You can also use regular expressions by starting the value with !
-  "blacklisted_nbt": [],
+  "blacklisted_nbt": [
+    "!.*skilltree:(sapphire|citrine|ruby|jade|iriscite).*"
+  ],
   // -----------------------------------------------------------
   // Items here will not be able to be right-clicked (Interact)
   //    Example: minecraft:apple

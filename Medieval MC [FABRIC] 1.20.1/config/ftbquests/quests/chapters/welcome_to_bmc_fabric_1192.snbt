@@ -57,9 +57,9 @@
 				""
 				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
 				""
-				"To the right of the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
+				"To the right of the &6Quest Book &ris the &9FTB Chunks &rmap. Click a chunk to claim it, preventing players and other mobs from destroying there. "
 				""
-				"At the top of your inventory is a Book icon. By clicking this book, you can review and upgrade &9Attributes&r. Skill points are gained by obtaining &aExperience Points&r. "
+				"If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
 				""
 				"When you hover over your armor slots, your &8Trinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
 				""
@@ -172,7 +172,7 @@
 				""
 				"Press &bO &rto view Origin Information"
 				""
-				"Press &bH&rto activate your Secondary Origin Ability, if you have one"
+				"Press &bH&r to activate your Secondary Origin Ability, if you have one"
 			]
 			icon: {
 				Count: 1b
@@ -260,11 +260,11 @@
 		{
 			dependencies: ["139DAA6E8CF4267A"]
 			description: [
-				"The tutorial is now &afinished&r! "
+				"Check out &bTips and Tricks&r and &bGetting Stronger&r for more gameplay advice."
 				""
-				"Check out &bTips and Tricks&r and &bGetting Stronger&r for a more in-depth tips."
+				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is. "
 				""
-				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is."
+				"To start, try checking out &3Magic&r, &9Dehydration&r, or &3Backpacks and Storage&r!"
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
 				""
@@ -412,7 +412,59 @@
 				type: "checkmark"
 			}]
 			title: "&cTips \\& Tricks"
-			x: 1.5d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["139DAA6E8CF4267A"]
+			description: [
+				"Mobs in Medieval MC, and especially some bosses, are balanced around character progression."
+				""
+				"Your best tools for dealing with these will be finding and enhancing rare gear through &dZenith&r, and improving your character through &2Simply Skills&r."
+				""
+				"Reforging gear is described in &cTips \\& Tricks&r, the quest just to the left of this one. To add &dZenith&r gems into socketed gear, use a smithing table."
+				""
+				"Gems and items with a rarity (&6Affixed&r items) can be found throughout the world or dropped from bosses. The more &aluck&r you have, the better the loot!"
+				""
+				"&2Simply Skills&r experience is gained by killing mobs - but you'll get less experience the more you kill in the same area (so you can't max out your skill tree just sitting at a mob farm!)"
+				""
+				"Some &5enchantments&r, &6unique weapons&r or &9trinkets&r, and &3spells&r can also be quite strong! Most of these will be found through killing bosses or looting structures. "
+				""
+				"If you'd like more specific guidance and want to view community-made builds, or you've come up with a cool idea of your own you'd like to share, you can join our discord! "
+				""
+				"https://discord.gg/lunapixel"
+			]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F880A742C07C508"
+			rewards: [{
+				id: "0E91377F91E69A9A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "How do I deal with high level mobs?"
+			tasks: [
+				{
+					id: "278A30A9D8737B1A"
+					item: "zenith:simple_reforging_table"
+					type: "item"
+				}
+				{
+					id: "2C12ECF648AC47BD"
+					item: "zenith:salvaging_table"
+					type: "item"
+				}
+			]
+			title: "&4Getting Stronger"
+			x: 2.5d
 			y: -4.5d
 		}
 	]
