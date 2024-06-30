@@ -1,0 +1,73 @@
+<component name="libraryTable">
+  <library name="datapacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/slingshots_removal_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Gazebo_v1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Charm_BetterNether_integration_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/PlayerEx_Cap200.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/RPGOrigins_Rebalance.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/zenith_recipes.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Friends_And_Foes_v3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/TravelersBackpackFabric_RecipeFix.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/TwilightForest_MeltFix.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/hardening_catalyst_blacklist.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Alloy_Forgery_Fuel_Support_v1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/TomsStorageFabric_RecipeFix.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/mmc_zenith.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Bygone_Nether_v1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-wizards-add-on-v2-1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/smitealot.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ArchonEx_1.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/disable_onjoin_books.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/yigd_scroll_fix.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Bountiful_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/mmc_rpgdifficulty.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/FarmersDelight_ToolFix_1.1+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Charm_BetterEnd_integration_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-chefs-delight-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/BalanceEx_Magic_1.5.1+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Farmers_Delight_v5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Origins_Expanded_Foods_v2.1+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Paladins_v1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Better_Witch_Huts_v3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ichphilipp-s-endcity-better-end-1-18-1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Dehydration_Expanded_Drinks_1.3.2+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/scarecrow_deaderer.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/mmc_tags.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Chef's_Delight_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/orb.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/MMChests_RecipeFix.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Origins_EnvironmentZ_Dehydration_v1.6+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-friends-and-foes-add-on.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Trinkets_GloveFix_1.1+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Charm_Architects_Palette_integration.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-bounty-board-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-paladins-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/bwplus_fleece_fix.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Better_Dungeons_v4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/betternether_grinder_remove.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Oh_The_Biomes_Youll_Go_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-villager-plus-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-byg-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/RarerStructures-SpacingTweaks-1.19.2-2.1.54.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-farmers-delight-add-on-v2-1a.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/BalanceEx_1.6+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/AdventureZ_NetheriteFix_1.0+1.19.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/mmc_environmentz.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-waystone-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Charm-Woodcutter-BYG-Add-On.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Charm_Promenade_integration.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-Wizards_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Farmers_Delight_Stripping_Expanded_v1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/mmc_tiered.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/WDA-NoFlyingStructures-OWEND-1.18.2-1.20.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Charm-Woodcutter-Bewitchment-Add-On.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/ctov-gazebos-add-on-v1-0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/Repurposed_Structures-VillagersPlus_v1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FABRIC] 1.19.2 v24/config/paxi/datapacks/feline_nightvision_fix.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

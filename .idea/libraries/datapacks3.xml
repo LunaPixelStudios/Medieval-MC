@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="datapacks3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Buzzier_Bees.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-More_Villagers_Forge_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Environmental.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Better_Strongholds_Forge.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Savage_And_Ravage.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/FarlandersInWarpedVillages.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Farmers_Delight_Forge.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Better_Dungeons_Forge.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Caves_And_Cliffs_Backport-v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Origins_Expanded_Foods_v1.7+1.16.5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Ice_and_Fire_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/Repurposed_Structures-Hexerei_v2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Medieval MC [FORGE] 1.16.5 v60/config/paxi/datapacks/DruidLeavesFix.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
