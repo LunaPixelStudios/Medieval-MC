@@ -16,7 +16,7 @@
 		"origins:sprint_jump" = true
 		"origins:velvet_paws" = true
 		"origins:nine_lives" = true
-		"origins:weak_arms" = true
+		"origins:weak_arms" = false
 		"origins:scare_creepers" = true
 		"origins:cat_vision" = true
 
@@ -34,25 +34,13 @@
 		"medievalorigins:dwarf/helmet_spawn" = true
 
 	[origins."origins:elytrian"]
-		enabled = true
+		enabled = false
 		"origins:elytra" = true
 		"origins:launch_into_air" = true
 		"origins:aerial_combatant" = true
 		"origins:light_armor" = true
 		"origins:claustrophobia" = true
 		"origins:more_kinetic_damage" = true
-
-	[origins."medievalorigins:necromancer"]
-		enabled = true
-		"medievalorigins:necromancer/hellraiser" = true
-		"medievalorigins:necromancer/siphon" = true
-		"medievalorigins:necromancer/resilient" = true
-		"medievalorigins:necromancer/impervious" = true
-		"medievalorigins:necromancer/poor_reputation" = true
-		"medievalorigins:necromancer/black_thumb" = true
-		"medievalorigins:necromancer/disturbed" = true
-		"medievalorigins:necromancer/unguarded" = true
-		"origins_survive:sleepless" = true
 
 	[origins."medievalorigins:pixie"]
 		enabled = true
@@ -64,6 +52,8 @@
 		"medievalorigins:pixie/curse_of_flight" = true
 		"medievalorigins:pixie/soaked" = true
 		"medievalorigins:pixie/troublemaker" = true
+		"medievalorigins:pixie/wings" = true
+		"medievalorigins:pixie/mount" = true
 
 	[origins."medievalorigins:plague_victim"]
 		enabled = true
@@ -75,6 +65,9 @@
 		"medievalorigins:plague_victim/sensitive_skin" = true
 		"medievalorigins:plague_victim/skin_and_bones" = true
 		"origins_surive:illness_resistance" = true
+		"medievalorigins:plague_victim/undeadge" = true
+		"medievalorigins:plague_victim/eternal_suffering" = true
+		"origins_survive:illness_resistance" = true
 
 	[origins."medievalorigins:banshee"]
 		enabled = true
@@ -84,6 +77,11 @@
 		"medievalorigins:banshee/flesheater" = true
 		"medievalorigins:banshee/iron_aversion" = true
 		"medievalorigins:banshee/immaterial" = true
+		"medievalorigins:banshee/lunar_nexus" = true
+		"medievalorigins:banshee/dimeritium_shackles" = true
+		"medievalorigins:banshee/cursed_sigil" = true
+		"medievalorigins:banshee/cursed_ward" = true
+		"origins_survive:sleepless" = true
 
 	[origins."medievalorigins:gorgon"]
 		enabled = true
@@ -94,6 +92,7 @@
 		"medievalorigins:gorgon/silver_aversion" = true
 		"medievalorigins:gorgon/poison_blood" = true
 		"origins_env_deh:thirst_resistance" = true
+		"medievalorigins:gorgon/poison_immune" = true
 
 	[origins."origins:phantom"]
 		enabled = false
@@ -129,9 +128,11 @@
 		"medievalorigins:wood_elf/elegant" = true
 		"medievalorigins:wood_elf/graceful" = true
 		"medievalorigins:wood_elf/gear_spawn" = true
+		"medievalorigins:wood_elf/spell_power" = true
+		"medievalorigins:wood_elf/empowered_shot_apotheosis" = true
 
 	[origins."origins:avian"]
-		enabled = true
+		enabled = false
 		"origins:slow_falling" = true
 		"origins:fresh_air" = true
 		"origins:like_air" = true
@@ -147,6 +148,7 @@
 		"medievalorigins:fae/allure" = true
 		"medievalorigins:fae/diminutive" = true
 		"medievalorigins:fae/iron_aversion" = true
+		"medievalorigins:fae/magic_damage_boost" = true
 
 	[origins."origins:human"]
 		enabled = true
@@ -158,6 +160,8 @@
 		"medievalorigins:goblin/nippy" = true
 		"medievalorigins:goblin/stunted" = true
 		"medievalorigins:goblin/frail" = true
+		"medievalorigins:goblin/green" = true
+		"medievalorigins:goblin/durability" = true
 
 	[origins."medievalorigins:moon_elf"]
 		enabled = true
@@ -182,6 +186,10 @@
 		"medievalorigins:yeti/flammable" = true
 		"medievalorigins:yeti/thick_fur" = true
 		"origins_survive:cold_resistance" = true
+		"medievalorigins:yeti/spell_power" = true
+		"origins_env_deh:cold_resistance" = true
+		"thermoo-patches:cold_immune" = true
+		"origins_toughasnails:cold_resistance" = true
 
 	[origins."medievalorigins:siren"]
 		enabled = true
@@ -195,6 +203,11 @@
 		"medievalorigins:siren/seduce" = true
 		"mermod:fabulous_fins" = true
 		"survive:cold_blooded" = true
+		"origins:aquatic" = true
+		"origins:like_water" = true
+		"origins_env_deh:water_dweller" = true
+		"origins_env_deh:cold_resistance" = true
+		"thermoo-patches:cold_immune" = true
 
 	[origins."medievalorigins:incubus"]
 		enabled = true
@@ -210,6 +223,12 @@
 		"origins:nether_spawn" = true
 		"origins_survive:heat_resistance" = true
 		"origins_survive:lava_drinker" = true
+		"medievalorigins:incubus/spell_power" = true
+		"origins_env_deh:heat_resistance" = true
+		"thermoo-patches:heat_immune" = true
+		"thermoo-patches:cold_vulnerability" = true
+		"origins_toughasnails:lava_drinker" = true
+		"origins_toughasnails:thermal_regulator" = true
 
 	[origins."origins:shulk"]
 		enabled = true
@@ -246,6 +265,7 @@
 		"medievalorigins:ogre/bloodlust_camera" = true
 		"medievalorigins:ogre/orcish_pride" = true
 		"origins_surive:illness_resistance" = true
+		"origins_survive:illness_resistance" = true
 
 	[origins."origins:arachnid"]
 		enabled = true
@@ -256,7 +276,7 @@
 		"origins:arthropod" = true
 
 	[origins."medievalorigins:troll"]
-		enabled = true
+		enabled = false
 		"medievalorigins:troll/ironhide" = true
 		"medievalorigins:troll/ham_fisted" = true
 		"medievalorigins:troll/mountainous" = true
@@ -265,6 +285,10 @@
 		"medievalorigins:troll/old_blood" = true
 		"medievalorigins:troll/out_of_stock" = true
 		"origins_survive:cold_resistance" = true
+		"medievalorigins:troll/spell_power" = true
+		"origins_env_deh:cold_resistance" = true
+		"thermoo-patches:cold_immune" = true
+		"origins_toughasnails:cold_resistance" = true
 
 	[origins."medievalorigins:arachnae"]
 		enabled = true
@@ -275,4 +299,64 @@
 		"medievalorigins:arachnae/bottomless_stomach" = true
 		"medievalorigins:arachnae/brittle" = true
 		"medievalorigins:arachnae/fragile_exoskeleton" = true
+		"origins:master_of_webs" = true
+		"origins:arthropod" = true
+
+	[origins."medievalorigins:high_elf"]
+		enabled = true
+		"medievalorigins:high_elf/mana_rpgmana" = true
+		"medievalorigins:high_elf/extrusive_movement" = true
+		"medievalorigins:high_elf/elegant" = true
+		"medievalorigins:high_elf/glacial_step" = true
+		"medievalorigins:high_elf/mystic_affinity" = true
+		"medievalorigins:high_elf/ebonbreath" = true
+		"medievalorigins:high_elf/mana_irons_ars" = true
+		"medievalorigins:high_elf/gear_spawn" = true
+		"medievalorigins:high_elf/fragile" = true
+		"medievalorigins:high_elf/towering" = true
+		"medievalorigins:high_elf/blazenbreath_weak" = true
+		"medievalorigins:high_elf/subclass_picker" = true
+		"medievalorigins:high_elf/void_warp" = true
+		"medievalorigins:high_elf/blazenbreath" = true
+
+	[origins."medievalorigins:valkyrie"]
+		enabled = true
+		"medievalorigins:valkyrie/wings" = true
+		"medievalorigins:valkyrie/divine_smite" = true
+		"medievalorigins:valkyrie/corruption" = true
+		"medievalorigins:valkyrie/vanquisher" = true
+		"medievalorigins:valkyrie/intervention" = true
+		"medievalorigins:valkyrie/heavenly_implements" = true
+		"medievalorigins:valkyrie/spell_power" = true
+
+	[origins."medievalorigins:revenant"]
+		enabled = true
+		"medievalorigins:revenant/transfer_item" = true
+		"medievalorigins:revenant/skeleton_summons" = true
+		"medievalorigins:revenant/zombie_summons" = true
+		"medievalorigins:revenant/putrid_communion" = true
+		"medievalorigins:revenant/hellraiser" = true
+		"medievalorigins:revenant/siphon" = true
+		"medievalorigins:revenant/unwitherable" = true
+		"medievalorigins:revenant/undeadge" = true
+		"medievalorigins:revenant/poor_reputation" = true
+		"medievalorigins:revenant/black_thumb" = true
+		"medievalorigins:revenant/disturbed" = true
+		"medievalorigins:revenant/unguarded" = true
+		"origins_survive:sleepless" = true
+
+	[origins."medievalorigins:alfiq"]
+		enabled = true
+		"medievalorigins:alfiq/clawed" = true
+		"medievalorigins:alfiq/poor_grip" = true
+		"medievalorigins:alfiq/agile_preference" = true
+		"medievalorigins:alfiq/on_your_feet" = true
+		"medievalorigins:alfiq/crepuscular" = true
+		"medievalorigins:alfiq/pickpocket" = true
+		"medievalorigins:alfiq/pickpocket_player" = true
+		"medievalorigins:alfiq/pounce" = true
+		"origins:carnivore" = true
+		"origins:velvet_paws" = true
+		"origins:scare_creepers" = true
+		"medievalorigins:alfiq/meow" = true
 
