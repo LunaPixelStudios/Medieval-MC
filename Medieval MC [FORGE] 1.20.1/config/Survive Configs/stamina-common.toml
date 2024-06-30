@@ -4,7 +4,7 @@
 #-------------------------------------------
 #Default: true
 #-------------------------------------------
-"Boolean: Enable Stamina" = true
+"Boolean: Enable Stamina" = false
 #
 ############################################
 #Disabling this will allow the weight of certain armor pieces to affect your stamina

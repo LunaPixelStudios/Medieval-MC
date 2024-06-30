@@ -34,7 +34,7 @@
 #Default: 100
 #-------------------------------------------
 #Range: -1 ~ 1000
-"Integer: Idle Thrist Tick Rate" = 100
+"Integer: Idle Thrist Tick Rate" = 200
 #
 ############################################
 #The amount of times we can drink water from a canteen before it's empty
@@ -42,5 +42,5 @@
 #Default: 3
 #-------------------------------------------
 #Range: 1 ~ 10
-"Integer: Canteen Fill Amount" = 4
+"Integer: Canteen Fill Amount" = 5
 
