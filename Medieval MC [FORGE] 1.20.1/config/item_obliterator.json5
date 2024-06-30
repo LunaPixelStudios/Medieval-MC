@@ -16,7 +16,6 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "twilightforest:uncrafting_table",
     "endermanoverhaul:summoner_pearl",
     "endermanoverhaul:corrupted_pearl",
     "aquamirae:terrible_sword"
