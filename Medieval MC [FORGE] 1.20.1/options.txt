@@ -127,7 +127,7 @@ key_key.modernfix.config:key.keyboard.unknown
 key_key.apotheosis.toggle_radial_mining:key.keyboard.o:CONTROL
 key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
-key_key.structure_gel.open_building_tool_gui:key.keyboard.r:CONTROL
+key_key.structure_gel.open_building_tool_gui:key.keyboard.unknown
 key_key.corpse.death_history:key.keyboard.unknown
 key_key.toms_storage.open_terminal:key.keyboard.b
 key_key.structurize.teleport:key.keyboard.unknown
