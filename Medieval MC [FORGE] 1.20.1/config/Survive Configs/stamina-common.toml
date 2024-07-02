@@ -11,7 +11,7 @@
 #-------------------------------------------
 #Default: true
 #-------------------------------------------
-"Boolean: Enable Armor Weights" = true
+"Boolean: Enable Armor Weights" = false
 #
 ############################################
 #Adds stamina exhaustion from interacting with blocks
