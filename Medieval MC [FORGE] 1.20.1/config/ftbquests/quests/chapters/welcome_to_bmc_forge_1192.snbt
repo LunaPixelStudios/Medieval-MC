@@ -4,26 +4,62 @@
 	filename: "welcome_to_bmc_forge_1192"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "patchouli:textures/items/book_blue.png"
 		}
 	}
 	id: "3E34934F09B08365"
+	images: [
+		{
+			height: 2.0d
+			image: "lunapixel:textures/gui/logo_medieval.png"
+			rotation: 0.0d
+			width: 3.42d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:item/dragonsteel_ice_sword"
+			rotation: 135.0d
+			width: 3.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:item/dragonsteel_fire_sword"
+			rotation: 135.0d
+			width: 3.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/cit/custom/shield_round"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: -0.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				"This tutorial will introduce you some important features in the modpack. Don't worry, it won't take long!"
 				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				"Start by clicking the &7gray checkmark&r in &9Tasks&r, then you can claim the &6Rewards&r."
 				""
-				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+				"Once you click the checkmark, new quests will appear! "
+				""
+				"(If no new quests appear, try rejoining your world.) "
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:book"
 				tag: {
 					Enchantments: [{
@@ -47,7 +83,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "To start the tutorial, click on this quest and read the description."
+			subtitle: "Click on this quest and read the description!"
 			tasks: [{
 				id: "1B0800437C68C43A"
 				title: "Click me!"
@@ -58,12 +94,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6A52090D6BC064D7"]
+			dependencies: ["2165E80C52C79992"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to team up with other players, as well as share quests and claimed chunks."
+				"The icon in the top left of the inventory screen is the &aFTB Teams &rmenu. This allows you to team up with other players, as well as share quests and claimed chunks."
 				""
-				"Just to the right is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				"Just to the right is the &6Quest Book &ricon, which will return you &6here&r at any time."
 				""
 				"Under the &6Quest Book &ris the &9FTB Chunks &rmap. Claim a chunk by clicking it, preventing players and other mobs from destroying it. Shift click a chaimed chunk to forceload it. This will make crops, furnaces, and most other blocks behave as if a player was present."
 				""
@@ -77,7 +113,7 @@
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
@@ -85,35 +121,20 @@
 			}
 			id: "2958CA7FA6FD3E4F"
 			invisible_until_tasks: 1
-			rewards: [
-				{
-					id: "649C9C6CB3EB241E"
-					item: "twilightforest:charm_of_life_1"
-					type: "item"
-				}
-				{
-					id: "48172C64269A8953"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ars_nouveau:worn_notebook"
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Read my description!"
+			rewards: [{
+				id: "649C9C6CB3EB241E"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			subtitle: "What do all these buttons do?"
 			tasks: [{
 				id: "0DD3C1416FC34FA1"
 				title: "Click me!"
 				type: "checkmark"
 			}]
 			title: "&2Inventory"
-			x: 0.5d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
@@ -122,11 +143,13 @@
 				""
 				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
 				""
-				"The pin icon at the top right will pin a quest to your screen."
+				"On the &dLeft&r of this page is the tab with the rest of quests - but first, finish the tutorial!"
+				""
+				"The Pin button (next to the &cx&r in the topright) will display that quest in-game, on the right."
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/item/book.png"
@@ -140,7 +163,7 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
-			subtitle: "Read my description!"
+			subtitle: "How do I navigate the Quest Book?"
 			tasks: [
 				{
 					id: "21428FE253D34D4E"
@@ -155,35 +178,39 @@
 				}
 			]
 			title: "&6Quests"
-			x: 1.5d
-			y: 0.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
 			description: [
+				"&lIn-game&r:"
 				"Press &bK&r to open the Skill Tree"
 				""
-				"Press &bO&r to read your Origin"
+				"Press &bO&r to read your Origin powers \\n(If you never picked one, try reconnecting!)"
 				""
-				"Press &bR &rwhile hovering over an item to view its Recipe"
-				""
-				"Press &bU &rwhile hovering over an item to view its Uses"
-				""
-				"&bRight Click &rwhile crouching to pick up a block or mob (Useful for chests, doesn't work on all blocks)"
-				""
-				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
+				"Hold &bLeft Alt&r to Crawl"
 				""
 				"Press &bJ &rto open the World Map"
 				""
 				"Press &bU &rto view your Waypoints, and &bN&r to make a new waypoint."
 				""
+				"Press &bB &rwhile wearing a Backpack to open it"
+				""
+				"&bRight Click &rwhile crouching to pick up a block or mob (Useful for chests, doesn't work on everything)"
+				""
 				"Press &bG&r to activate your Origin Ability"
 				""
 				"Press &bH&r to activate your Secondary Origin Ability, if you have one"
+				""
+				"&lInventory&r:"
+				"Press &bR &rwhile hovering over an item to view its Recipe"
+				""
+				"Press &bU &rwhile hovering over an item to view its Uses"
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/player.png"
@@ -196,87 +223,72 @@
 				item: "biomesoplenty:rainbow_birch_sapling"
 				type: "item"
 			}]
-			subtitle: "Read my description!"
-			tasks: [
-				{
-					id: "6A64112F92690241"
-					title: "Click me!"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "2B23CADA52D45FA0"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
+			subtitle: "Read my description! - Scroll down!"
+			tasks: [{
+				id: "6A64112F92690241"
+				title: "Click me!"
+				type: "checkmark"
+			}]
 			title: "&9Important Controls"
-			x: 2.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2958CA7FA6FD3E4F"]
+			dependencies: ["6A52090D6BC064D7"]
+			dependency_requirement: "one_completed"
 			description: [
-				"At the bottom of the inventory, you may have noticed a search bar."
+				"At the bottom of the inventory screen is a search bar for &dJust Enough Items&r, or &dJEI&r."
 				""
-				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
+				"Start typing a word in the search bar, and &dJEI &r's item list at the right of the screen will be narrowed down to only those that contain the phrase. "
 				""
-				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				"Use @ to only show items from a specific mod, for example, @Adorn"
 				""
-				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
+				"If you hover an item and press &bR&r, you can see its recipe (it might not have one!)"
+				""
+				"If you hover an item and press &bU&r, you can see everything it can be used for.  "
 				""
 				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "jei:textures/gui/icons/config_button_cheat.png"
 				}
 			}
 			id: "139DAA6E8CF4267A"
-			rewards: [
-				{
-					id: "1AE5746200C26691"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "4230961CD8730853"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "apotheosis:apoth_chronicle"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Read my description!"
+			rewards: [{
+				id: "1AE5746200C26691"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Click me to learn how to find items, recipes, and blocks."
 			tasks: [{
 				id: "74C85348A8B837EB"
 				title: "Click me!"
 				type: "checkmark"
 			}]
 			title: "&bJust Enough Items (JEI)"
-			x: 0.5d
-			y: -1.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["139DAA6E8CF4267A"]
+			can_repeat: true
+			dependencies: ["2958CA7FA6FD3E4F"]
 			description: [
-				"The tutorial is now finished! "
+				"The tutorial is now finished! Most guidebooks can be found here."
 				"Welcome to &4&lMedieval MC.&r"
 				""
-				"To get started on the rest of quests, hover over the arrow on the left of the quests page to view the other &6Quest Groups&r. "
+				"Once you have a few levels, try opening the &1Skill Tree&r (K)"
+				""
+				"Try the other beginner quests in this section, or get started on the rest of quests - hover over the arrow on the left side of this page to view the other &6Quest Groups&r. "
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
 			]
 			hide: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/check.png"
@@ -292,7 +304,7 @@
 				{
 					id: "788AAF95DEB79810"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "simplyswords:runic_grimoire"
@@ -303,7 +315,7 @@
 				{
 					id: "79B20657AE24D814"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "irons_spellbooks:iss_guide_book"
@@ -314,7 +326,7 @@
 				{
 					id: "04366C6BF03BF476"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "twilightdelight:twilight_guide"
@@ -327,15 +339,184 @@
 					item: "alexscaves:cave_book"
 					type: "item"
 				}
+				{
+					id: "1D142C3302558983"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "72EC3FAF1B14A691"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "589F5E719AAA8B2B"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "333B8364424E80F7"
+					item: "wizards_reborn:arcanemicon"
+					type: "item"
+				}
+				{
+					id: "32CD5F996650B6A6"
+					item: "aether:book_of_lore"
+					type: "item"
+				}
 			]
-			subtitle: "Read my description!"
+			subtitle: "Click to figure out what to do next!"
 			tasks: [{
 				id: "3B2CC7DEE30E3AB8"
 				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "78A08081E2B79E8F"
+			rewards: [{
+				id: "00333E275FAF944B"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			subtitle: "A convenient way to hold more items! \\nThere are several &6Upgrades&r -\\nCheck the &3Backpacks and Storage&r quests!"
+			tasks: [{
+				id: "2A0ACA027C6DAF32"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				title: "Craft a Standard Travelers Backpack"
+				type: "item"
+			}]
+			title: "Craft a &aStandard Traveler's Backpack"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7C7C6C27109F2CD8"
+			rewards: [{
+				id: "1C68499F3544D97A"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			subtitle: "Find any &5Apotheosis Gem&r, then make an &8Anvil Block&r fall on it."
+			tasks: [{
+				id: "022FB06B334E8E49"
+				item: "apotheosis:gem_dust"
+				title: "Craft a Standard Travelers Backpack"
+				type: "item"
+			}]
+			title: "Acquire some gem dust"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C7C6C27109F2CD8"]
+			id: "162C46A8FABB727F"
+			rewards: [{
+				id: "365277DA6BEDA562"
+				item: "minecraft:obsidian"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Place in any &6affixed&r gear, and break it down into &6reforging&r materials. \\nCan also more conveniently break down &3gems&r into &3gem dust&r."
+			tasks: [{
+				id: "7490574C19729D83"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "Craft a &3Salvaging Table&r"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["162C46A8FABB727F"]
+			id: "50B154D0206B154C"
+			rewards: [{
+				id: "40AAE779246F066B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Used to add or reroll attributes and sockets to gear, up to &9Rare&r. \\nFor more information, read the &5Chronicle of Shadows"
+			tasks: [{
+				id: "42C32A562238353C"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "Craft a &8Simple Reforging Table&r"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "06D40C05BE979B85"
+			rewards: [{
+				id: "285831F02454D7FF"
+				item: "minecraft:leather"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "You can &bpurify&r a bucket of water by &4heating it up&r in a furnace."
+			tasks: [{
+				id: "29D045877E407387"
+				item: "survive:purified_water_bucket"
+				type: "item"
+			}]
+			title: "Obtain some &bPurified Water&r"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3D56762B27F3C57B"
+			rewards: [{
+				count: 2
+				id: "5666A153233A0866"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Besides the Skill Tree and Affixes/Gems, collecting &denchantments&r is an extremely effective way to become stronger."
+			tasks: [{
+				id: "73E700D34C71AC7E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: { }
+				}
+				match_nbt: false
+				only_from_crafting: false
+				title: "Find any &dEnchanted Book&r "
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	title: " &dTutorial"

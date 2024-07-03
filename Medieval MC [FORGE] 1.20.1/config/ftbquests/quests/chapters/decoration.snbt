@@ -3,8 +3,170 @@
 	default_quest_shape: ""
 	filename: "decoration"
 	group: "5EC606153AA8CA77"
-	icon: "everycomp:tw/blue_skies/crystallized_table"
+	icon: "handcrafted:birch_bench"
 	id: "4A6944EF3E0DB874"
+	images: [
+		{
+			height: 1.25d
+			image: "handcrafted:block/drawer/jungle/front_2/drawer_right"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/drawer/jungle/front_2/drawer_left"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/bookshelf1"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/bookshelf2"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/drawer/jungle/front_2/drawer_right"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/drawer/jungle/front_2/drawer_left"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "handcrafted:block/cupboard/jungle/cupboard_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "forbidden_arcanus:item/deorum_chain"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "quark:block/blaze_lantern1"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "forbidden_arcanus:item/deorum_chain"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "quark:block/blaze_lantern1"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "blue_skies:block/plants/pine_fruits_upper_3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "aether_redux:block/natural/enchanted_zyatrix"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 3.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -18,7 +180,7 @@
 			tasks: [{
 				id: "49D1A6062EEF6F0D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:drawers"
@@ -41,7 +203,7 @@
 			tasks: [{
 				id: "675D7F042E9B0A84"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:shelves"
@@ -64,7 +226,7 @@
 			tasks: [{
 				id: "50E3B3E85E9137E5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:desks"
@@ -87,7 +249,7 @@
 			tasks: [{
 				id: "201DD07D39474176"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:nightstands"
@@ -111,7 +273,7 @@
 			tasks: [{
 				id: "5261259E75937F0B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:counters"
@@ -134,7 +296,7 @@
 			tasks: [{
 				id: "30BB758D22EF6D2C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:cupboards"
@@ -157,7 +319,7 @@
 			tasks: [{
 				id: "438CC4ACF9CF6211"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:wooden_benches"
@@ -180,7 +342,7 @@
 			tasks: [{
 				id: "017E8C046DE719A2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:chairs"
@@ -203,7 +365,7 @@
 			tasks: [{
 				id: "1E01A7977AF558D5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:fancy_beds"
@@ -226,7 +388,7 @@
 			tasks: [{
 				id: "1166EA9804E2BE65"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:couches"
@@ -249,7 +411,7 @@
 			tasks: [{
 				id: "0D0CBEB2CF829F84"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:tables"
@@ -272,7 +434,7 @@
 			tasks: [{
 				id: "792F6F6675CECA54"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "handcrafted:side_tables"

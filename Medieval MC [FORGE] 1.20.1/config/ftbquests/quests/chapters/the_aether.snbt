@@ -52,18 +52,27 @@
 				"100082345FA03A9B"
 				"3BE6E50AA8E0170D"
 			]
+			icon: "umbral_skies:slider_trophy"
 			id: "0E349CAEF1D249B6"
-			rewards: [{
-				id: "00CF504850C054AD"
-				item: "deep_aether:skyjade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "00CF504850C054AD"
+					item: "deep_aether:skyjade"
+					type: "item"
+				}
+				{
+					id: "0A60077EFAAB9AA5"
+					item: "aether_redux:sentry_chip"
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.2d
 			subtitle: "&bSliders&r is a boss found in the &eBronze Dungeons&r. "
 			tasks: [{
 				entity: "aether:slider"
-				icon: "aether:slider_spawn_egg"
+				icon: "umbral_skies:slider_trophy"
 				id: "69F7F61602435663"
 				title: "Defeat the &bSlider"
 				type: "kill"
@@ -87,7 +96,7 @@
 				icon: "aether:locked_angelic_stone"
 				id: "760227D918F26D13"
 				structure: "aether:silver_dungeon"
-				title: "Visit &7Silver Dungeon"
+				title: "Find a &7Silver Dungeon"
 				type: "structure"
 			}]
 			x: 2.0d
@@ -108,11 +117,11 @@
 				icon: "aether:hellfire_stone"
 				id: "1D066EC48DFC09CD"
 				structure: "aether:gold_dungeon"
-				title: "Visit &6Gold Dungeon"
+				title: "Find a &6Gold Dungeon"
 				type: "structure"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 4.25d
 		}
 		{
 			dependencies: ["79A852D2B339DF57"]
@@ -126,7 +135,7 @@
 			tasks: [{
 				entity: "aether:valkyrie"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "aether:valkyrie_axe"
 					tag: {
 						Damage: 0
@@ -142,25 +151,33 @@
 		}
 		{
 			dependencies: ["038B71E71E3C8213"]
+			icon: "umbral_skies:valkyrie_queen_trophy"
 			id: "68BF5A98532CD5C3"
-			rewards: [{
-				id: "5DE05B3933EAB617"
-				item: {
-					Count: 1b
-					id: "aether:iron_gloves"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "2004FFAD599B1793"
+					item: {
+						Count: 1
+						id: "aether:diamond_gloves"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "78025E9189BCF40C"
+					item: "ancient_aether:valkyrum"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			size: 1.2d
 			subtitle: "&6The Valkyrie Queen&r is a boss found in the &8Silver Dungeon&r. "
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "aether:valkyrie_lance"
 					tag: {
 						Damage: 0
@@ -218,8 +235,8 @@
 			dependencies: ["7149B8FB49671630"]
 			id: "221923EEDAEE1BEE"
 			rewards: [{
-				id: "4E67A88FDED41AB4"
-				item: "aethersteel:aethersteel_scrap"
+				id: "13B361969CFEB3DC"
+				item: "aether:healing_stone"
 				type: "item"
 			}]
 			shape: "circle"
@@ -227,7 +244,7 @@
 			subtitle: "&eThe Sun Spirit&r is a boss found in the &6Gold Dungeons&r. "
 			tasks: [{
 				entity: "aether:sun_spirit"
-				icon: "aether:sun_spirit_spawn_egg"
+				icon: "umbral_skies:sun_spirit_trophy"
 				id: "49A00D8BAA0923BD"
 				title: "Defeat &eSun Spirit"
 				type: "kill"

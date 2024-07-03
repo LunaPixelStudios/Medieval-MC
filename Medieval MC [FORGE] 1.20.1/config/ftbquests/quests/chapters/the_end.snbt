@@ -7,11 +7,7 @@
 	id: "50EEC609E833AB5F"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -31,11 +23,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -43,11 +31,7 @@
 			y: -1.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -55,11 +39,7 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -67,11 +47,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -79,11 +55,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -91,11 +63,7 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -103,11 +71,7 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -115,11 +79,7 @@
 			y: 5.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -127,11 +87,7 @@
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -139,11 +95,7 @@
 			y: 2.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -151,9 +103,6 @@
 			y: 0.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
 			hover: [
 				"&cEnd Remastered&r reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
@@ -174,12 +123,19 @@
 	quests: [
 		{
 			id: "4D36AAFE17F5CD9C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E61114AC8389AF6"
-				table_id: 6935663685294125539L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E61114AC8389AF6"
+					table_id: 6935663685294125539L
+					type: "choice"
+				}
+				{
+					id: "4BCA9553829D0428"
+					item: "betterend:guidebook"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -220,8 +176,8 @@
 				value: 1L
 			}]
 			title: "Defeat the &8&lEnder Dragon"
-			x: 4.5d
-			y: 0.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4D36AAFE17F5CD9C"]
@@ -235,7 +191,7 @@
 				{
 					id: "6DFD770531B64904"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "betterarcheology:soul_totem"
 						tag: {
 							Damage: 0
@@ -254,69 +210,8 @@
 				value: 1L
 			}]
 			title: "Summon and Kill the &9Void Worm"
-			x: 7.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4D36AAFE17F5CD9C"]
-			id: "66E7CB465F845A15"
-			rewards: [
-				{
-					id: "52F190738B4D81C2"
-					item: "cataclysm:music_disc_ender_guardian"
-					type: "item"
-				}
-				{
-					id: "54B860B89029F1EA"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Found in Ruined Citadels in &5The End &rislands."
-			tasks: [{
-				entity: "cataclysm:ender_golem"
-				icon: "cataclysm:void_core"
-				id: "60D9ED81B17CAE0F"
-				title: "Kill a Ender Golem"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat the &6Ender Golem"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4D36AAFE17F5CD9C"]
-			id: "355ABBA15B609961"
-			rewards: [
-				{
-					id: "0303343E7736CC11"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "203F88D039D761BE"
-					item: "bygonenether:netherite_bell"
-					type: "item"
-				}
-				{
-					id: "14B984C3F20DD35F"
-					item: "travelersbackpack:netherite_tier_upgrade"
-					type: "item"
-				}
-			]
-			subtitle: "Found at the bottom of Ruined Citadels."
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:gauntlet_of_guard"
-				id: "2A41742198B4693C"
-				title: "Kill the Ender Guardian"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat the &3Ender Guardian"
-			x: 7.5d
-			y: 0.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4D36AAFE17F5CD9C"]
@@ -338,47 +233,15 @@
 					xp: 100
 				}
 			]
-			subtitle: "Use TNT to defeat the boss"
+			subtitle: "Found in the cylindrical &dEnd Dungeons&r - can only be damaged with &4Explosives&r"
 			tasks: [{
 				id: "7B37F3A22D97E75F"
 				item: "stalwart_dungeons:void_crystal"
 				type: "item"
 			}]
-			title: "Defeat &3The Shelterer &rand obtain a Void Crystal"
-			x: 4.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["4D36AAFE17F5CD9C"]
-			id: "10809B2BE927E89C"
-			rewards: [
-				{
-					id: "5D67EFE123250008"
-					item: "bosses_of_mass_destruction:levitation_block"
-					type: "item"
-				}
-				{
-					id: "342A0BCF6E1D4671"
-					item: "bosses_of_mass_destruction:mob_ward"
-					type: "item"
-				}
-				{
-					id: "5E2376C9814A8CEC"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-			]
-			subtitle: "Found in rare structures. &4A very difficult boss&r."
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "bosses_of_mass_destruction:obsidian_heart"
-				id: "4EB70815C61C3562"
-				title: "Defeat the &5Obsidilith"
-				type: "kill"
-				value: 1L
-			}]
+			title: "Defeat a &3Shelterer &rand obtain a Void Crystal"
 			x: 6.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "4EA47294389AA8F1"
@@ -391,7 +254,7 @@
 			tasks: [{
 				id: "27ED3435A7ADA5AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:black_eye"
 					tag: {
 						Damage: 0
@@ -414,7 +277,7 @@
 			tasks: [{
 				id: "0EB7DD544D4FD65A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cold_eye"
 					tag: {
 						Damage: 0
@@ -438,7 +301,7 @@
 			tasks: [{
 				id: "5DC7FDD0E1B0547F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:corrupted_eye"
 					tag: {
 						Damage: 0
@@ -470,7 +333,7 @@
 			tasks: [{
 				id: "2A247840DD9AD798"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:lost_eye"
 					tag: {
 						Damage: 0
@@ -487,7 +350,7 @@
 			rewards: [{
 				id: "1F6FA3925C8E174F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
@@ -499,7 +362,7 @@
 			tasks: [{
 				id: "216554B04592CED8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:nether_eye"
 					tag: {
 						Damage: 0
@@ -522,7 +385,7 @@
 			tasks: [{
 				id: "6B9DA6DDE6056810"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:old_eye"
 					tag: {
 						Damage: 0
@@ -545,7 +408,7 @@
 			tasks: [{
 				id: "21F22D48662E2D44"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:rogue_eye"
 					tag: {
 						Damage: 0
@@ -568,7 +431,7 @@
 			tasks: [{
 				id: "52C6877399C708B7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cursed_eye"
 					tag: {
 						Damage: 0
@@ -592,7 +455,7 @@
 			tasks: [{
 				id: "0B0EB63C7F1EA23E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:evil_eye"
 					tag: {
 						Damage: 0
@@ -615,7 +478,7 @@
 			tasks: [{
 				id: "49A1F7775A9CB466"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:guardian_eye"
 					tag: {
 						Damage: 0
@@ -633,7 +496,7 @@
 				{
 					id: "61EAAED550A0D697"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "irons_spellbooks:archevoker_helmet"
 						tag: {
 							Damage: 0
@@ -651,7 +514,7 @@
 			tasks: [{
 				id: "09C984156AC2AFEC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:magical_eye"
 					tag: {
 						Damage: 0
@@ -674,7 +537,7 @@
 			tasks: [{
 				id: "72FADF8E8E2C936B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:wither_eye"
 					tag: {
 						Damage: 0
@@ -697,7 +560,7 @@
 			tasks: [{
 				id: "203B2EDBB4C36385"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:witch_eye"
 					tag: {
 						Damage: 0
@@ -720,7 +583,7 @@
 			tasks: [{
 				id: "0B89FA34F22F37BB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:undead_eye"
 					tag: {
 						Damage: 0
@@ -743,7 +606,7 @@
 			tasks: [{
 				id: "22D3513CACAF0C0F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:exotic_eye"
 					tag: {
 						Damage: 0
@@ -784,7 +647,7 @@
 			tasks: [{
 				id: "0C6F5D61AD4FBED2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endrem:cryptic_eye"
 					tag: {
 						Damage: 0
@@ -808,7 +671,7 @@
 				{
 					id: "618265B423CFCF5B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "betterend:netherite_hammer"
 						tag: {
 							Damage: 0
@@ -825,35 +688,71 @@
 				type: "advancement"
 			}]
 			title: "Open an &bEternal Portal"
-			x: 8.0d
-			y: 2.0d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4D36AAFE17F5CD9C"]
-			id: "1A93AAF1920AE4D3"
+			id: "195D4FA6C8314124"
 			rewards: [
 				{
-					id: "3B953F7ACA13F660"
+					id: "6307E660587589CA"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "52ED65846ED60167"
+					id: "2DE3369C1D364A56"
 					item: "supplementaries:enderman_head"
 					type: "item"
 				}
 			]
 			subtitle: "Regular Endermen rarely have a chance to spawn as a &dMutant Enderman"
 			tasks: [{
-				entity: "mutantmonsters:mutant_enderman"
+				entity: "endermanoverhaul:end_enderman"
 				icon: "supplementaries:enderman_head"
-				id: "4E62D9AD3CBC18AC"
+				id: "73AAF4B5D32CD549"
 				type: "kill"
 				value: 1L
 			}]
 			title: "Defeat a &dMutant Enderman"
-			x: 4.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "147D99CCEBE0A68B"
+			rewards: [
+				{
+					id: "61A0997BE11AC4C8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "173B9BDA41BA14C6"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:mythic"
+							}
+							gem: "apotheosis:the_end/endersurge"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "These extremely rare structures are home to giant &1phantoms&r and rare loot"
+			tasks: [{
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				icon: "handcrafted:phantom_trophy"
+				id: "4DC12779F1D1592D"
+				type: "advancement"
+			}]
+			title: "Find an &dAviary"
+			x: 6.0d
+			y: 4.0d
 		}
 	]
 	title: " &5The End"

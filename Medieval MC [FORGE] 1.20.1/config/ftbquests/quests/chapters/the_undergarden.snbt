@@ -15,7 +15,7 @@
 				{
 					id: "51AFADB818384136"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:written_book"
 						tag: {
 							RepairCost: 0
@@ -51,7 +51,7 @@
 				{
 					id: "41A42AC13A78DC02"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "undergarden:slingshot"
 						tag: {
 							Damage: 0
@@ -88,7 +88,7 @@
 				{
 					id: "3FE539920A6475BC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "undergarden:utherium_sword"
 						tag: {
 							Damage: 0
@@ -99,7 +99,7 @@
 				{
 					id: "32955F85E1C8F0DE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "undergarden:forgotten_sword"
 						tag: {
 							Damage: 0

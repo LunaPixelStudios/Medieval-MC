@@ -1,0 +1,680 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses_and_weapons"
+	group: ""
+	icon: {
+		Count: 1
+		id: "cataclysm:ignitium_helmet"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 0
+			}
+		}
+	}
+	id: "7D49255AE00C0EF9"
+	images: [
+		{
+			height: 5.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/dimensional_rift_grow_2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.75d
+			y: -8.25d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/particle/shock_wave.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.75d
+			y: -8.25d
+		}
+		{
+			height: 1.5d
+			image: "aquamirae:textures/gui/bossbars/cornelia.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "3E5DEAC831670289"
+			rewards: [
+				{
+					id: "3B0E0AE48B8DCDDF"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "4692CE9B5E154DD8"
+					item: {
+						Count: 1
+						id: "bygonenether:gilded_netherite_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Found in large &8Blackstone &rcube structures in &cThe Nether. &r&4Hard&r."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "2BDD4CBB0FF497E7"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cNether Gauntlet&r. "
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "456C672E23CF2422"
+			rewards: [
+				{
+					id: "0AB3C6D7F81ACFCC"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "64E724201A7474DB"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "480A1ED4229E42FE"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			size: 1.25d
+			subtitle: "Found on floating platforms in &5The End&r. &4Very Hard&r."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "23FDD50B6FC4245D"
+				title: "Defeat the &5Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &1Obsidilith"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"721CE32F613A11CC"
+				"7E6081141A8EA0B6"
+			]
+			id: "14B6686E09423E13"
+			rewards: [
+				{
+					count: 3
+					id: "4C1D0FC89B21296A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1EE5FCE4B99999F5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "Can be spawned in the &4Lich Prison &rstructure, a large floating island above oceans. Once it is night time, place the fragments on the Corrupted Deepslate Center blocks. Then, pour the &4blood &ronto the altar in the middle."
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:altar"
+				id: "149568FD562E8A3B"
+				title: "Defeat the Lich"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &4The Corrupted Champion"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			id: "3D20815424092400"
+			rewards: [
+				{
+					id: "30DA750EED922FBE"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "1DD97C1696FD2F95"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "3B3B801EE03DEBE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in rare towers that spawn in &9cold &rbiomes. Place a &bsoul star&r in each pedestal to summon."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "2C676DB7003A8A57"
+				title: "Defeat the Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &bNight Lich"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7E6081141A8EA0B6"
+			rewards: [
+				{
+					id: "59DDC96407C3FB44"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "35DE7D45BEB65B30"
+					item: {
+						Count: 1
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Can be found in Ruins. Each Ruin will only have one &fFragment&r."
+			tasks: [
+				{
+					id: "0834B973A199F29D"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "6C609D73A8C78C55"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "6DD4017E9BE4A667"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+			]
+			title: "Collect all three &fBone Staff Fragments"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "721CE32F613A11CC"
+			rewards: [{
+				id: "07C29F11D7F5D857"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Obtained by killing 8 villagers with a &fBone Dagger &rand a glass bottle in your offhand. "
+			tasks: [{
+				id: "135CB3DAA4774C19"
+				item: {
+					Count: 1
+					id: "graveyard:vial_of_blood"
+					tag: {
+						Blood: 0.8000001f
+					}
+				}
+				type: "item"
+			}]
+			title: "Fill a &4Vial of Blood"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5AD6785F17845DFD"
+			rewards: [
+				{
+					id: "6A3E073E795DD6DE"
+					item: {
+						Count: 1
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21269CACF76F7CDF"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "2C97D25F00E881AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in rare caves at the bottom of the &aOverworld&r. &dVoid Lillies&r will point towards the &5Void Blossom&r."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "224BE72129E69D1E"
+				title: "Defeat the Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Void Blossom"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "12F3CEC7EB920E91"
+			rewards: [{
+				count: 3
+				id: "4482743AF0DA987C"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Summoned using Soul Sand, Soul Soil, or Soul Stone, and 3 wither skulls."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "4E378E2F33655762"
+				title: "Defeat &k&4I&r&8&lThe Wither&k&4I"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&fDefeat &r&k&4I&r&8&lThe Wither&k&4I"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "6B91E665B4B18F60"
+			rewards: [
+				{
+					id: "4311A59EE0B0978E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "066B20294D1950AD"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Call her forth by blowing the &fShell Horn&r in an &bIce Maze&r. &4Hard&r."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "5751C9941672AA8E"
+				title: "Defeat the &1Ghost of Captain Cornelia&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "457F74599A599B4B"
+			rewards: [{
+				id: "47EBBFDC29F681A5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5638D3FAF2C18E00"
+				title: "Kill the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8Netherite Monstrosity"
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"46D0AAEEB69E28B3"
+				"483C615059FCCF09"
+			]
+			id: "0BAAF09D17861331"
+			rewards: [
+				{
+					id: "249A5B68C7A675AF"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "64301658FF6AC9E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.75d
+			subtitle: "Found at the Top of the Burning Arena. \\nPlace Burning Ashes in the Altar to Summon &4Ignis&r\\n&2Good luck."
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:altar_of_fire"
+				id: "3D2590F1A2F43C8C"
+				title: "Kill Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &4Ignis"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4D36AAFE17F5CD9C"
+				"257F06101F3FD8CA"
+			]
+			hide_dependency_lines: true
+			id: "4FC472446F766FAF"
+			rewards: [
+				{
+					id: "57693E33A1E6F67E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5EAA4E949C6CDC5D"
+					item: "bygonenether:netherite_bell"
+					type: "item"
+				}
+				{
+					id: "6F59DF7566EC1DF5"
+					item: "travelersbackpack:netherite_tier_upgrade"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Found at the bottom level of the Ruined Citadel. &4Hard&r."
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "1E3123149DB8139B"
+				title: "Kill the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &3Ender Guardian"
+			x: 6.75d
+			y: -8.25d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "483C615059FCCF09"
+			rewards: [
+				{
+					id: "0D8EEEE61CFF6E53"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					id: "0B04FF68D27BB79B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in the Burning Arena in the &4Nether"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:burning_ashes"
+				id: "20D1EF7FDF319C11"
+				title: "Kill a Ignited Revenant"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &6Ignited Revenant"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4D36AAFE17F5CD9C"]
+			id: "257F06101F3FD8CA"
+			rewards: [
+				{
+					id: "6AECAE523A7B71BD"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "7111ADAE248F1490"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Found in Ruined Citadels in &5The End &rislands."
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "51DF17A0C13BDAD1"
+				title: "Kill a Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat an &6Ender Golem"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "290DEE27E79B8F67"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				id: "56D059584CAF5074"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "241E15A6AF6027D1"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				id: "20BEF79FC10FFB4E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:netherworld_katana"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+			id: "29EE0072FEDAD4A1"
+			size: 1.25d
+			tasks: [{
+				entity: "eeeabsmobs:immortal"
+				id: "08387952D4AC01F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "4EB509756A3EAB5C"
+			size: 1.0d
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sol_visage"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				id: "07320D5AD1121336"
+				title: "Defeat &eUmvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &eUmvuthi, the Sunbird&r"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "6A85E589A5527ED3"
+			rewards: [
+				{
+					id: "2982E8973A1166AA"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D756C9967F9BD73"
+					item: "minecraft:redstone"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mechanical_fusion_anvil"
+				id: "3B6A7AB439FA5BB5"
+				title: "Defeat &l&4The Harbinger&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "639B07F946987018"
+			rewards: [
+				{
+					id: "76A57AE9E00CB854"
+					item: "mutantmonsters:mutant_skeleton_limb"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07FABA8072D3429F"
+					item: "fantasyfurniture:decorations/coin_stack_gold"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "6A6B197F4E2B2090"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Found in the &6Cursed Pyramid&r, in desert biomes.\\nWake it using an &4ancient necklace&r hidden in some &6suspicious sand&r in the temple."
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:kobolediator_skull"
+				id: "028C7AFDA269D578"
+				title: "Defeat the &6Ancient Remnant&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "211FD2F0F534A0AF"
+			rewards: [
+				{
+					id: "5AA94792DA541520"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+				{
+					id: "6D27C4CF9921A471"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			size: 1.5d
+			subtitle: "In Deep Oceans, find the &9Sunken City&r. In the central chamber can be found the &5Altar of the Abyss&r\\nCraft an &5Abyssal Sacrifice&r and use it on the altar. &4Very Hard&r."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:tidal_claws"
+				id: "3FD18779049ABCFE"
+				title: "Defeat &5The Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.75d
+			y: -8.25d
+		}
+	]
+	title: " &4Bosses"
+}

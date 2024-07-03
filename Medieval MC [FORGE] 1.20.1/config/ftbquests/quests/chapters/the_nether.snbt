@@ -5,6 +5,250 @@
 	group: "5BBB507BE497896B"
 	icon: "minecraft:obsidian"
 	id: "0D7FF8F037EFF568"
+	images: [
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/fire_1"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/weeping_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/weeping_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/weeping_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/weeping_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 0.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -13,7 +257,7 @@
 			rewards: [{
 				id: "75D2953DAEB9AFC1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:lingering_potion"
 					tag: {
 						Potion: "minecraft:fire_resistance"
@@ -62,7 +306,7 @@
 				value: 1L
 			}]
 			title: "Kill the &4Nether Keeper"
-			x: 3.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -90,141 +334,8 @@
 				value: 1L
 			}]
 			title: "Defeat the &9Awful Ghast"
-			x: 4.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "0000B3F315C4173D"
-			rewards: [{
-				id: "4865893101B5F37C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Found in Soul Blacksmiths, which rarely spawn in the &cNether&r."
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				icon: {
-					Count: 1b
-					id: "cataclysm:monstrous_helm"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "09CCC1DF45B5EE5B"
-				title: "Kill the Netherite Monstrosity"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat the &8Netherite Monstrosity"
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "0BFD8ED8A0E3AE60"
-			rewards: [{
-				id: "1FB79B0A8B0FBE90"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Instead of &dSoul Sand&r, you must use &5Soul Stone &rfrom the Bygone Nether mod. Make sure there are no obstructions like snow or grass under the arms when spawning."
-			tasks: [{
-				entity: "minecraft:wither"
-				icon: "minecraft:wither_skeleton_skull"
-				id: "575C8BC94DAC2B05"
-				title: "Kill The Wither"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &8&lThe Wither"
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "483C615059FCCF09"
-			rewards: [
-				{
-					id: "0D8EEEE61CFF6E53"
-					item: "cataclysm:burning_ashes"
-					type: "item"
-				}
-				{
-					id: "0B04FF68D27BB79B"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Found in the Burning Arena"
-			tasks: [{
-				entity: "cataclysm:ignited_revenant"
-				icon: "cataclysm:burning_ashes"
-				id: "20D1EF7FDF319C11"
-				title: "Kill a Ignited Revenant"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat an &6Ignited Revenant"
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "318F1A4A83D61E98"
-			rewards: [
-				{
-					id: "27FC4D5F422A3B57"
-					item: "cataclysm:bulwark_of_the_flame"
-					type: "item"
-				}
-				{
-					id: "03F88F2EAA259C7F"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Found at the Top of the Burning Arena. Place Burning Ashes in the Altar to Summon &2Ignis"
-			tasks: [{
-				entity: "cataclysm:ignis"
-				icon: "cataclysm:altar_of_fire"
-				id: "030A251089730963"
-				title: "Kill Ignis"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat &2Ignis"
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["46D0AAEEB69E28B3"]
-			id: "3E5DEAC831670289"
-			rewards: [
-				{
-					count: 4
-					id: "373F6DF4F9B5CE92"
-					item: "minecraft:chiseled_polished_blackstone"
-					type: "item"
-				}
-				{
-					id: "3B0E0AE48B8DCDDF"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			subtitle: "Found in large &dBlackstone &rstructures in &4The Nether. &rA difficult boss."
-			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				icon: "bosses_of_mass_destruction:blazing_eye"
-				id: "2BDD4CBB0FF497E7"
-				title: "Kill the Nether Gauntlet"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat the &cNether &6Gauntlet"
-			x: 4.5d
-			y: 1.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -233,7 +344,7 @@
 			tasks: [{
 				entity: "friendsandfoes:wildfire"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "friendsandfoes:wildfire_crown"
 					tag: {
 						Damage: 0
@@ -244,8 +355,57 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "6DA5333381A7E0C8"
+			rewards: [
+				{
+					id: "16F341CF77177A09"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07B129ED49AF22AC"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Let's hope this doesn't happen to you."
+			tasks: [{
+				icon: "realmrpg_skeletons:melted_skeleton"
+				id: "5F79A402206B2C68"
+				observe_type: 0
+				timer: 0L
+				title: "Find a &6Melted Skeleton&r"
+				to_observe: "realmrpg_skeletons:melted_skeleton"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "788CBF3EBFD43D34"
+			subtitle: "Home to &4Ignis&r. Probably best to keep your distance for now."
+			tasks: [{
+				icon: "cataclysm:ignitium_block"
+				id: "71F569A3F8F94D36"
+				structure: "cataclysm:burning_arena"
+				title: "Find a &4Burning Arena"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	title: " &cNether"

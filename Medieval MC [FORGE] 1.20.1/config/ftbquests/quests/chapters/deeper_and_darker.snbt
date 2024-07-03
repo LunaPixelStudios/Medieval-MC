@@ -5,6 +5,14 @@
 	group: "5BBB507BE497896B"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "43F9E85332B37439"
+	images: [{
+		height: 1.25d
+		image: "deeperdarker:textures/gui/advancements/root.png"
+		rotation: 0.0d
+		width: 1.25d
+		x: 6.5d
+		y: 7.5d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -42,7 +50,7 @@
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0

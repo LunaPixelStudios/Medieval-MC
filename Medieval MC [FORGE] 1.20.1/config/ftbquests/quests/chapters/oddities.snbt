@@ -7,532 +7,260 @@
 	id: "537C6DB0026E6B7D"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 7.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 8.0d
 			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.5d
-			y: -2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.5d
-			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.5d
-			y: 1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.0d
-			y: 3.5d
+			y: -2.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 5.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: -2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 2.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 3.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 8.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: 3.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -6.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -5.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 0.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
 			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.5d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.5d
-			y: 2.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "ftblibrary:textures/icons/star.png"
+			image: "alexscaves:block/abyssmarine_bricks_glow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks_glow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks_glow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks_glow"
 			rotation: 0.0d
 			width: 1.0d
 			x: 9.0d
-			y: -2.5d
+			y: 3.5d
 		}
 	]
 	order_index: 1
@@ -629,7 +357,7 @@
 			tasks: [{
 				id: "364054A106006ED9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:wrench"
 					tag: {
 						Damage: 0
@@ -665,7 +393,7 @@
 				item: "supplementaries:key"
 				type: "item"
 			}]
-			subtitle: "Acts as a sort of upgraded &eshulker box&r that is &efire resistant&r. &eSafes&r can be locked with a key."
+			subtitle: "Acts as a sort of upgraded &eshulker box&r. &eSafes&r can be locked with a key."
 			tasks: [{
 				id: "46FA4477B1E5F268"
 				item: "supplementaries:safe"
@@ -705,7 +433,7 @@
 			tasks: [{
 				id: "092337026D40809E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexsmobs:endolocator"
 					tag: {
 						Damage: 0
@@ -728,7 +456,7 @@
 			tasks: [{
 				id: "51D0F0965E7474D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexsmobs:pupfish_locator"
 					tag: {
 						Damage: 0
@@ -751,7 +479,7 @@
 			tasks: [{
 				id: "694519243F2ABB20"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexsmobs:straddleboard"
 					tag: {
 						Damage: 0
@@ -768,7 +496,7 @@
 			rewards: [{
 				id: "532FC1535ECE9114"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:swiftness"
@@ -780,7 +508,7 @@
 			tasks: [{
 				id: "1AB4700BD15535AC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -816,7 +544,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Add &dBookwyrms&r to the lectern using a &dcharm&r, then connect it to chests by using a &5Dominion Wand&r. Read the &9Worn Notebook&r for more information. "
+			subtitle: "A more magical storage solution. Add &dBookwyrms&r to the lectern using a &dcharm&r, then connect it to chests by using a &5Dominion Wand&r. \\nRead the &9Worn Notebook&r for more information. "
 			tasks: [{
 				id: "2BA4869E23D65B68"
 				item: "ars_nouveau:storage_lectern"
@@ -900,7 +628,7 @@
 			rewards: [{
 				id: "02F5494F24F5B3D3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "supplementaries:flute"
 					tag: {
 						Damage: 0
@@ -923,7 +651,7 @@
 			rewards: [{
 				id: "27FBA6FB084EEF09"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "alexscaves:cave_tablet"
 					tag: {
 						CaveBiome: "alexscaves:toxic_caves"
@@ -940,6 +668,102 @@
 			title: "Find a &7&lSpelunkery Table"
 			x: 2.5d
 			y: 1.5d
+		}
+		{
+			id: "4B7494D988D2791E"
+			rewards: [{
+				count: 3
+				id: "5A0D2CA938295BC5"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "09F692476991A148"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "6280E25813EA2805"
+			rewards: [{
+				count: 3
+				id: "020B040C4D079A06"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "3594A94ECDBC14FB"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "18F2D18D6E3C0FC0"
+			rewards: [{
+				count: 3
+				id: "0707AEC962E4738B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Used to modify tools via the &aTetra&r mod."
+			tasks: [{
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+				id: "0345833C1B038B9F"
+				title: "Right click the crafting table with a hammer to create the workbench"
+				type: "advancement"
+			}]
+			title: "Craft a &aTetra Workbench"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "464B8C64E7391EC6"
+			rewards: [{
+				count: 3
+				id: "00CDD81B21B0282A"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &bOceanographer"
+			tasks: [{
+				id: "026354399020FCFD"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &bAquarium"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "20344F2B3192E007"
+			rewards: [{
+				count: 3
+				id: "4CB2B75FCBBA499F"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "35D196D6E5F6844C"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: 10.0d
+			y: -0.5d
 		}
 	]
 	title: " &fCuriosities&f"

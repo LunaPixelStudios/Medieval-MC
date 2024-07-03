@@ -32,7 +32,7 @@
 			dependencies: ["375FB9826C8942B8"]
 			description: ["The Arachnarch lunges at targets and sprays poison from the ceiling above. Being the queen of this nest, expect reinforcements to come crawling from the walls. With such an aggressive method of attacking, you may be able to stun her when she lunges by blocking with your shield."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "blue_skies:textures/gui/journal/icons/nested_spider.png"
@@ -48,7 +48,7 @@
 			tasks: [{
 				entity: "blue_skies:arachnarch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "blue_skies:arachnarch_trophy"
 					tag: {
 						BlockStateTag: {
@@ -92,7 +92,7 @@
 				{
 					id: "794BE8A8DF703552"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "blue_skies:alchemy_scroll"
 						tag: {
 							Damage: 0
