@@ -12,7 +12,7 @@
 
 [Attributes]
 	#Contains a list of pairs of attributes and their bonuses per one level
-	"Attributes bonuses per one level" = [["minecraft:generic.attack_damage", 0.08], ["minecraft:generic.armor", 0.05], ["minecraft:generic.max_health", 0.1], ["autoleveling:monster.projectile_damage_bonus", 0.08], ["autoleveling:monster.explosion_damage_bonus", 0.02]]
+	"Attributes bonuses per one level" = [["minecraft:generic.attack_damage", 0.07], ["minecraft:generic.armor", 0.034], ["minecraft:generic.max_health", 0.1], ["autoleveling:monster.projectile_damage_bonus", 0.07], ["autoleveling:monster.explosion_damage_bonus", 0.01]]
 
 ["Default levelling settings"]
 	"Starting level" = 1
