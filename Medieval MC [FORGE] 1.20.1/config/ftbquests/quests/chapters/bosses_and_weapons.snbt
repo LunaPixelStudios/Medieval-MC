@@ -98,14 +98,23 @@
 					type: "item"
 				}
 				{
-					id: "64E724201A7474DB"
-					item: "bosses_of_mass_destruction:mob_ward"
-					type: "item"
-				}
-				{
 					id: "480A1ED4229E42FE"
 					type: "xp_levels"
 					xp_levels: 50
+				}
+				{
+					id: "1DE9D324E841477E"
+					item: {
+						Count: 1
+						id: "simplyswords:watcher_claymore"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 1.25d
@@ -184,8 +193,8 @@
 				value: 1L
 			}]
 			title: "Defeat the &bNight Lich"
-			x: 3.0d
-			y: -1.0d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			id: "7E6081141A8EA0B6"
@@ -287,8 +296,8 @@
 				value: 1L
 			}]
 			title: "Defeat the &5Void Blossom"
-			x: 1.5d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			id: "12F3CEC7EB920E91"
@@ -323,6 +332,24 @@
 				{
 					id: "066B20294D1950AD"
 					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+				{
+					id: "72525CE4B50BC42F"
+					item: {
+						Count: 1
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
 					type: "item"
 				}
 			]
@@ -392,6 +419,11 @@
 					id: "64301658FF6AC9E3"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+				{
+					id: "57F896E85251E436"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
 				}
 			]
 			size: 1.75d
@@ -504,8 +536,29 @@
 		}
 		{
 			id: "290DEE27E79B8F67"
+			rewards: [
+				{
+					id: "5E4A910ED0DB869C"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:guardian_axe"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "657ADCFA7CE78290"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Found deep underground in &2Overworld&r caves, in a massive cube arena surrounded by lava. \\nIt is said to have been guarding something &6valuable&r..."
 			tasks: [{
-				entity: "mowziesmobs:ferrous_wroughtnaut"
+				entity: "eeeabsmobs:nameless_guardian"
 				icon: {
 					Count: 1
 					id: "eeeabsmobs:guardian_axe"
@@ -516,6 +569,7 @@
 					}
 				}
 				id: "56D059584CAF5074"
+				title: "Defeat the &8Nameless Guardian"
 				type: "kill"
 				value: 1L
 			}]
@@ -524,8 +578,22 @@
 		}
 		{
 			id: "241E15A6AF6027D1"
+			rewards: [
+				{
+					id: "50513D307C625814"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "19201CFEBCF571C4"
+					item: "graveyard:dark_iron_block"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Found just under the dirt layer in the &2Overworld&r. \\nCan only be damaged by hitting a wound left by an old adventurer, at a certain moment..."
 			tasks: [{
-				entity: "eeeabsmobs:nameless_guardian"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: {
 					Count: 1
 					id: "mowziesmobs:wrought_helmet"
@@ -536,6 +604,7 @@
 					}
 				}
 				id: "20BEF79FC10FFB4E"
+				title: "Defeat the &8Ferrous Wroughtnaut"
 				type: "kill"
 				value: 1L
 			}]
@@ -554,10 +623,40 @@
 				}
 			}
 			id: "29EE0072FEDAD4A1"
+			rewards: [
+				{
+					id: "1FD555465F8FFF45"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "21170BCCBEC99CE7"
+					item: {
+						Count: 1
+						id: "alexscaves:totem_of_possession"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "Found in the &4Bloody Arena&r, anywhere in the &cNether&r."
 			tasks: [{
 				entity: "eeeabsmobs:immortal"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:netherworld_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
 				id: "08387952D4AC01F0"
+				title: "Defeat &9The Immortal"
 				type: "kill"
 				value: 1L
 			}]
@@ -566,7 +665,29 @@
 		}
 		{
 			id: "4EB509756A3EAB5C"
+			rewards: [
+				{
+					id: "4B5E7CBB45236046"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0F7DA9208356AC73"
+					item: {
+						Count: 1
+						id: "simplyswords:sunfire"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.0d
+			subtitle: "A powerful heliomancer and the wise creator of the Abavuthana, residing upon a throne in &cSavanna&r groves. "
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: {
@@ -603,6 +724,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Found in the &fAncient Factory&r, underground in the Overworld. \\n&8Witherite&r can be used to craft the &fMechanical Fusion Anvil&r, which is used to combine various gear from Cataclysm. "
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:mechanical_fusion_anvil"

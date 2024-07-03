@@ -5,6 +5,876 @@
 	group: "5BBB507BE497896B"
 	icon: "aether:aether_portal_frame"
 	id: "566DC2763E60ED8A"
+	images: [
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 4
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/enchanted_aether_grass_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/aether_dirt"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/spectral_fieldsproot_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/golden_flower"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/fruit_golden_vines_plant"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/fruit_golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/sky_grass_very_tall_enchanted"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/sky_grass_medium_enchanted"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/sky_grass_medium_enchanted"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/sky_grass_medium_enchanted"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/sky_grass_very_short_enchanted"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/enchanted_blossom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/holystone_pillar_up"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/holystone_pillar_up"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/ambrosium_campfire_fire"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deep_aether:block/holystone_pillar_up"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "ancient_aether:block/ambrosium_campfire_fire"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_log"
+			order: 3
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_log"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_log"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_log"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/golden_oak_leaves"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/holystone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_emissivity:block/natural/ambrosium_ore_overlay"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_emissivity:block/natural/ambrosium_ore_overlay"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/zanite_ore"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			height: 1.25d
+			image: "aether:block/natural/zanite_ore"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			height: 1.25d
+			image: "aether_emissivity:block/natural/ambrosium_ore_overlay"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 17.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/golden_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			height: 1.25d
+			image: "aether_redux:block/natural/enchanted_splitfern"
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.0d
+			y: 8.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -268,7 +1138,35 @@
 				type: "item"
 			}]
 			title: "Craft &3Book of Lore"
-			x: 0.0d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "015624FC41BEF8C8"
+			rewards: [
+				{
+					id: "7250BEFADD6739C8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "334E9061E0626C91"
+					item: "ancient_aether:whale_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "This majestic creature can be found flying above &bPlatinum Dungeons&r"
+			tasks: [{
+				icon: "fantasyfurniture:decorations/royal_crown"
+				id: "08B19D0473C30863"
+				observe_type: 0
+				timer: 0L
+				title: "Find an &eAerwhale King"
+				to_observe: "lost_aether_content:aerwhale_king"
+				type: "observation"
+			}]
+			x: 1.0d
 			y: 0.0d
 		}
 	]

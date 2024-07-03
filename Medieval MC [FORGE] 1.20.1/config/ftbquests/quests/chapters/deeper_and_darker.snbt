@@ -5,14 +5,525 @@
 	group: "5BBB507BE497896B"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "43F9E85332B37439"
-	images: [{
-		height: 1.25d
-		image: "deeperdarker:textures/gui/advancements/root.png"
-		rotation: 0.0d
-		width: 1.25d
-		x: 6.5d
-		y: 7.5d
-	}]
+	images: [
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:textures/gui/advancements/root.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_tendrils"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/echo_sapling"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/echo_sapling"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_tendrils"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines_plant"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_stone"
+			rotation: 0.0d
+			width: 1.25d
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 180.0d
+			width: 1.25d
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 180.0d
+			width: 1.25d
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 180.0d
+			width: 1.25d
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			height: 1.25d
+			image: "deeperdarker:block/sculk_vines"
+			rotation: 180.0d
+			width: 1.25d
+			x: 8.0d
+			y: 6.5d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [

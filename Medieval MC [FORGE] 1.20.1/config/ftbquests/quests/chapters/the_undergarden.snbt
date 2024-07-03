@@ -5,36 +5,688 @@
 	group: "5BBB507BE497896B"
 	icon: "minecraft:stone_bricks"
 	id: "744FB47D1500561A"
+	images: [
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/ink_mushroom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/blood_mushroom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/miserabell"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/indigo_mushroom"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/miserabell"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "undergarden:block/underbean_bush_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "undergarden:block/underbean_bush_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["To access the Undergarden, the player must construct an Undergarden portal in the Overworld (portals created in other dimensions such as the Nether and the End do not activate). To create the portal, the player must first build a rectangular frame made out of any arrangement of Stone Bricks, Deepslate Bricks, Depthrock Bricks, and Shiverstone Bricks in the shape of a Nether portal. To activate the portal, right click on the inner bottom face of the frame while holding the Catalyst."]
+			dependencies: ["7009C9DC7AB48D85"]
+			description: [""]
 			id: "63183329FCECAB43"
-			rewards: [
-				{
-					id: "51AFADB818384136"
-					item: {
-						Count: 1
-						id: "minecraft:written_book"
-						tag: {
-							RepairCost: 0
-							author: "xSharkieTV"
-							display: {
-								Name: "{\"text\":\"What is that smell?\"}"
-							}
-							pages: ["{\"text\":\"What is this Rotten place. It smells so bad. I don't even want to imagine what creatures live here!\"}"]
-							title: "Undergarden"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "55597E811E717D0E"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "55597E811E717D0E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "To enter the Undergarden, build a portal out of &8Deepslate Bricks&r or &7Stone Bricks&r, then light it using the &eCatalyst&r."
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				icon: "minecraft:stone_bricks"
@@ -43,9 +695,11 @@
 				type: "dimension"
 			}]
 			x: -2.0d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
 			id: "571D0197D432A3BB"
 			rewards: [
 				{
@@ -64,20 +718,29 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					count: 2
+					id: "01E33E09A0F34C11"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
 			]
-			subtitle: "The Stoneborn can spawn anywhere in Dense Forests, Forgotten Fields, Smogstem Forests, and Wigglewood Forests."
+			subtitle: "The &2Stoneborn&r are native to the Undergarden. Find them in Dense Forests, Forgotten Fields, Smogstem Forests, and Wigglewood Forests.\\nThey can be &6traded with&r using &6Regalium&r."
 			tasks: [{
-				entity: "undergarden:stoneborn"
-				icon: "undergarden:depthrock_pebble"
-				id: "31E3B830BF959DD0"
-				title: "Kill a Stoneborn"
-				type: "kill"
-				value: 1L
+				icon: "undergarden:chiseled_depthrock_bricks"
+				id: "3D18FD5B56B4F28A"
+				observe_type: 0
+				timer: 0L
+				title: "Encounter a &2Stoneborn&r"
+				to_observe: "undergarden:stoneborn"
+				type: "observation"
 			}]
 			x: -0.5d
 			y: -0.5d
 		}
 		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
 			id: "41196539DF4CC0E7"
 			rewards: [
 				{
@@ -96,78 +759,114 @@
 					}
 					type: "item"
 				}
-				{
-					id: "32955F85E1C8F0DE"
-					item: {
-						Count: 1
-						id: "undergarden:forgotten_sword"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
-			subtitle: "Spawns on any solid block with a light level below 7 in the Undergarden."
+			subtitle: "&4Rotspawn&r are invaders to the Undergarden. They can be found in &8dark areas&r, and spawn most often in the Barren Abyss"
 			tasks: [{
 				entity: "undergarden:rotbeast"
-				icon: "undergarden:utheric_shard"
+				icon: "undergarden:utherium_crystal"
 				id: "605588A719BF905C"
 				title: "Kill a Rotbeast"
 				type: "kill"
 				value: 1L
 			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "30C280A698BF1C9F"
+			rewards: [{
+				id: "3D850E5F4609526C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The &3Forgotten Guardian&r can only be found naturally in the &3catacombs&r, in Frostfields and Forgotten Fields.\\nThey'll stand still until a player comes in range, at which point they will follow and attack."
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "undergarden:forgotten_nugget"
+				id: "70B986266C5A2041"
+				title: "Fight a &3Forgotten Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "7009C9DC7AB48D85"
+			rewards: [{
+				count: 2
+				id: "01B52CE33865BD13"
+				item: "minecraft:deepslate_bricks"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "Used to activate a portal to the &2Undergarden"
+			tasks: [{
+				id: "47381C9E4B02C98E"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			title: "Craft a &eCatalyst&r"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "5D0C0B636215D298"
+			rewards: [
+				{
+					id: "487D6B98A949C904"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7768D0C30BB204E2"
+					item: "undergarden:depthrock_pebble"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "&2Mogs&r can be sheared for &2mogmoss&r, used to make the questionably comfortable &2depthrock beds&r, and even more questionable food.."
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "undergarden:mogmoss"
+				id: "2FD74C1C220E5DE9"
+				title: "Find a &2Mog&r"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Find a &2Mog&r"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["63183329FCECAB43"]
-			id: "30C280A698BF1C9F"
-			rewards: [
-				{
-					id: "7C46DFA37BCD531D"
-					item: "undergarden:masticator_spawn_egg"
-					type: "item"
+			hide_dependency_lines: true
+			id: "27D86DBBE74CE0AB"
+			rewards: [{
+				id: "5828984669A4F72A"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
 				}
-				{
-					id: "3D850E5F4609526C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "The Forgotten Guardian can only be found naturally in the catacombs, spawning with the generation of the world."
-			tasks: [{
-				entity: "undergarden:forgotten_guardian"
-				icon: "undergarden:forgotten_nugget"
-				id: "70B986266C5A2041"
-				title: "Kill the Forgotten Guardian"
-				type: "kill"
-				value: 1L
+				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["30C280A698BF1C9F"]
-			id: "7793464B93856F3E"
-			rewards: [
-				{
-					id: "61D18401A17E4870"
-					item: "upgradednetherite_items:echo_upgraded_netherite_totem"
-					type: "item"
-				}
-				{
-					id: "7E9E4B626410C0B4"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "Spawned with the spawn egg from the previous quest."
+			subtitle: "Another type of &4Rotspawn&r, with a vaguely humanoid shape. They can be found in &8dark places&r, just like other &4rotspawn&r."
 			tasks: [{
-				entity: "undergarden:masticator"
-				icon: "undergarden:masticator_scales"
-				id: "5D106CF8AB2ADF1B"
-				title: "Spawn and Kill the Masticator"
+				entity: "undergarden:rotwalker"
+				icon: "undergarden:utheric_shard"
+				id: "6DEB96D1DAFE7A1C"
+				title: "Kill a &4Rotwalker&r"
 				type: "kill"
 				value: 1L
 			}]
