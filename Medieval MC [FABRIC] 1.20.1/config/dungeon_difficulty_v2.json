@@ -137,7 +137,7 @@
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(mutant|magus).*$"
+            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(mutant|magus|dragon|hydra).*$"
           },
           "attributes": [
             {
