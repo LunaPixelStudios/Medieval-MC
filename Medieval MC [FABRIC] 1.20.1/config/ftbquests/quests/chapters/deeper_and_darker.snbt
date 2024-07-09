@@ -42,7 +42,7 @@
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_helmet"
 					tag: {
 						Damage: 0
@@ -149,7 +149,7 @@
 			tasks: [{
 				id: "56FDFD3E7BD7EE03"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_leggings"
 					tag: {
 						Damage: 0
@@ -178,7 +178,7 @@
 			tasks: [{
 				id: "7B6C04B363259D20"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:soul_elytra"
 					tag: {
 						Damage: 0

@@ -4,7 +4,7 @@
 	filename: "dehydration"
 	group: "3C993182D3E6754B"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "dehydration:textures/mob_effect/thirst_effect.png"

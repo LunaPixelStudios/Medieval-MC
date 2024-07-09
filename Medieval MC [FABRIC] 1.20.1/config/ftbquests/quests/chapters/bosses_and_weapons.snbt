@@ -14,7 +14,7 @@
 			rewards: [{
 				id: "78742FBEF1CF4E2B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "zenith:strong_haste"
@@ -52,7 +52,7 @@
 			tasks: [{
 				id: "37B87530164E5CAE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "soulsweapons:lord_soul"
@@ -114,7 +114,7 @@
 			tasks: [{
 				entity: "soulsweapons:returning_knight"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "soulsweapons:nightfall"
 					tag: {
 						Damage: 0
@@ -145,7 +145,7 @@
 				{
 					id: "765E4BF62ED3BFE7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -181,7 +181,7 @@
 			tasks: [{
 				entity: "soulsweapons:draugr_boss"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "soulsweapons:draugr"
 					tag: {
 						Damage: 0
@@ -267,7 +267,7 @@
 			tasks: [{
 				entity: "soulsweapons:accursed_lord_boss"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "soulsweapons:darkin_blade"
 					tag: {
 						Damage: 0
@@ -369,7 +369,7 @@
 			tasks: [{
 				entity: "soulsweapons:chaos_monarch"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "soulsweapons:chaos_robes"
 					tag: {
 						Damage: 0
@@ -413,7 +413,7 @@
 				{
 					id: "4E3EAB64FC79C0C1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:thunder_bolt"
 						tag: {
 							Damage: 0
@@ -447,7 +447,7 @@
 				{
 					id: "15FA9EA120AB9627"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:terrain_mace"
 						tag: {
 							Damage: 0
@@ -545,7 +545,7 @@
 				{
 					id: "35DE7D45BEB65B30"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "graveyard:bone_dagger"
 						tag: {
 							Damage: 0
@@ -587,7 +587,7 @@
 			tasks: [{
 				id: "135CB3DAA4774C19"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "graveyard:vial_of_blood"
 					tag: {
 						Blood: 0.8000001f
@@ -605,7 +605,7 @@
 				{
 					id: "6A3E073E795DD6DE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "bosses_of_mass_destruction:earthdive_spear"
 						tag: {
 							Damage: 0
@@ -671,7 +671,7 @@
 				{
 					id: "28B393CAC82AEF8F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:heat_ranger"
 						tag: {
 							Damage: 0
@@ -704,7 +704,7 @@
 				{
 					id: "2984D18D0B82F7B6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:frost_sword"
 						tag: {
 							Damage: 0
@@ -750,7 +750,7 @@
 				{
 					id: "5E942D96909B8275"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "zenith:potion_charm"
 						tag: {
 							Damage: 0
@@ -784,7 +784,7 @@
 			rewards: [{
 				id: "646A21E5D4956CF6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "spellbladenext:blazing_head"
 					tag: {
 						Damage: 0
@@ -849,7 +849,7 @@
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "aquamirae:coral_lance"
 					tag: {
 						Damage: 0
@@ -874,7 +874,7 @@
 				{
 					id: "0FE5D13C9C82FBE5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "archon:ender_blade"
 						tag: {
 							Damage: 0

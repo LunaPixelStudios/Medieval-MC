@@ -4,17 +4,13 @@
 	filename: "storage"
 	group: "799D8360B26E9792"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "travelersbackpack:standard"
 		tag: { }
 	}
 	id: "791A53DBEED81142"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 1.0d
-		hover: [ ]
 		image: "toms_storage:block/inventory_cable"
 		rotation: 0.0d
 		width: 1.0d
@@ -35,7 +31,7 @@
 			tasks: [{
 				id: "7C819485FF0B8632"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "travelersbackpack:standard"
 					tag: { }
 				}
@@ -130,7 +126,7 @@
 			rewards: [{
 				id: "01759FD987DFDD42"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -294,7 +290,7 @@
 				{
 					id: "5B40C05749866F1A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{

@@ -7,11 +7,7 @@
 	id: "6712BF106330B0F3"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -19,11 +15,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -31,11 +23,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -43,11 +31,7 @@
 			y: 4.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -55,11 +39,7 @@
 			y: 6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -67,11 +47,7 @@
 			y: 7.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -79,11 +55,7 @@
 			y: 9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -91,11 +63,7 @@
 			y: 10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -103,11 +71,7 @@
 			y: 10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -115,11 +79,7 @@
 			y: 10.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -127,11 +87,7 @@
 			y: 9.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -139,11 +95,7 @@
 			y: 7.5d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
-			hover: [ ]
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -151,9 +103,6 @@
 			y: 6.0d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 5.0d
 			hover: [
 				"&cEnd Remastered&r reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
@@ -194,7 +143,7 @@
 			rewards: [{
 				id: "6D6138E8851E7318"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mcdw:bow_snow_bow"
 					tag: {
 						Damage: 0
@@ -217,7 +166,7 @@
 			rewards: [{
 				id: "44BB1E1CD4A3C68B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mcdar:corrupted_seeds"
 					tag: {
 						Damage: 0
@@ -266,7 +215,7 @@
 			rewards: [{
 				id: "1F6FA3925C8E174F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "minecraft:long_fire_resistance"
@@ -358,7 +307,7 @@
 			rewards: [{
 				id: "271774D3FEFAD7B0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mcdw:bow_guardian_bow"
 					tag: {
 						Damage: 0
@@ -382,7 +331,7 @@
 				count: 16
 				id: "02018A6537DB3390"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:tipped_arrow"
 					tag: {
 						Potion: "minecraft:long_warding"
@@ -407,7 +356,7 @@
 				count: 5
 				id: "1DF85E194FA24F5B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:tipped_arrow"
 					tag: {
 						Potion: "zenith:strong_wither"
@@ -431,7 +380,7 @@
 			rewards: [{
 				id: "6DC12DDC6DB967D8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bewitchment:hedgewitch_robes"
 					tag: {
 						Damage: 0
@@ -604,7 +553,7 @@
 				{
 					id: "618265B423CFCF5B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "betterend:netherite_hammer"
 						tag: {
 							Damage: 0
@@ -692,7 +641,7 @@
 		{
 			dependencies: ["3478A49EB5AA6BF4"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:elytra"
 				tag: {
 					Damage: 0
@@ -716,7 +665,7 @@
 			tasks: [{
 				entity: "adventurez:the_eye"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -743,7 +692,7 @@
 				{
 					id: "477912B4E9958CF7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "mcdw:shield_royal_guard"
 						tag: {
 							Damage: 0

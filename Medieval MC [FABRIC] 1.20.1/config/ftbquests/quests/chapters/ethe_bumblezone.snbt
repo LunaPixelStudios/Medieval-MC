@@ -16,7 +16,7 @@
 				{
 					id: "7ECF17AEC78DD991"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:honey_compass"
 						tag: { }
 					}
@@ -170,7 +170,7 @@
 			tasks: [{
 				id: "51A5D0D2C39A836E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:honey_crystal_shield"
 					tag: {
 						Damage: 0

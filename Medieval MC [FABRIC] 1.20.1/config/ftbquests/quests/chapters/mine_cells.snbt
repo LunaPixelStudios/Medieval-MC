@@ -4,7 +4,7 @@
 	filename: "mine_cells"
 	group: "59C90AA1B128306B"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "minecells:textures/mob_effect/cursed.png"
@@ -58,7 +58,7 @@
 			tasks: [{
 				entity: "minecells:conjunctivius"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecells:tentacle"
 					tag: {
 						Damage: 0
@@ -211,7 +211,7 @@
 				{
 					id: "7EEA21F2B06DA3BC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "illagerinvasion:strong_berserking"

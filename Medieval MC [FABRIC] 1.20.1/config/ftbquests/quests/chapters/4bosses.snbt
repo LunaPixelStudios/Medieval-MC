@@ -4,7 +4,7 @@
 	filename: "4bosses"
 	group: "3C993182D3E6754B"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "minecraft:iron_sword"
 		tag: {
 			Damage: 0
@@ -14,6 +14,69 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [
+		{
+			description: ["Younger dragons are found on small roosts on the surface (Stages 1-3), whereas older ones (Stage 4 and rarely Stage 5) lurk in caverns beneath the ground."]
+			id: "06DE7C036F3E4248"
+			rewards: [{
+				id: "7899950BEF4619F8"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "&4Fire dragons&r can spawn in any biome that has a temperature above -0.5, save for Jungles, Savannas, and Badlands. \\nClick for more details."
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:dragonarmor_dragon_steel_fire_head"
+				id: "5DC73CE594C0318B"
+				title: "Slay a &4Fire Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Younger dragons are found on small roosts on the surface (Stages 1-3), whereas older ones (Stage 4 and rarely Stage 5) lurk in caverns beneath the ground."]
+			id: "65EB658172D9A9F9"
+			rewards: [{
+				id: "782EE02E994E3F1A"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "&eLightning dragons&r can spawn in Jungle, Savanna, and Badlands biomes. \\nClick for more details."
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:dragonarmor_dragon_steel_lightning_head"
+				id: "4A11BB26148B8E8D"
+				title: "Slay a &eLightning Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: ["Younger dragons (Stages 1-3) are found on small roosts on the surface, whereas older ones (Stage 4 and rarely Stage 5) lurk in subterranean caverns."]
+			id: "0EA8A4D0CA5FC3CB"
+			rewards: [{
+				id: "7622DDFA1BF43CC0"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "&bIce dragons&r can spawn in any biome that has a temperature of -0.5 or below. \\nClick for more details."
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:dragonarmor_dragon_steel_ice_head"
+				id: "1545FCC9A8291941"
+				title: "Slay an &bIce Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
 		{
 			id: "1C7E9580565509D2"
 			rewards: [{
@@ -200,7 +263,7 @@
 		}
 		{
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "mysticaloaktree:textures/block/wise_oak.png"
@@ -215,7 +278,7 @@
 			subtitle: "Has over &l300 &rlines of dialogue. Gain his trust by talking to him enough. If you make him &cangry&r, you will face &4consequences&r. "
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "mysticaloaktree:textures/block/wise_oak_butt.png"

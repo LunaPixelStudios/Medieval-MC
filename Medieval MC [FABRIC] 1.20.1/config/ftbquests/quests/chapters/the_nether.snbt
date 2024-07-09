@@ -13,7 +13,7 @@
 			rewards: [{
 				id: "75D2953DAEB9AFC1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:lingering_potion"
 					tag: {
 						Potion: "minecraft:fire_resistance"
@@ -165,7 +165,7 @@
 			tasks: [{
 				entity: "friendsandfoes:wildfire"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "friendsandfoes:wildfire_crown"
 					tag: {
 						Damage: 0

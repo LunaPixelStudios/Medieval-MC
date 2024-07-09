@@ -4,7 +4,7 @@
 	filename: "3wizards"
 	group: "3C993182D3E6754B"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "wizards:wizard_robe_head"
 		tag: {
 			Damage: 0
@@ -46,7 +46,7 @@
 			tasks: [{
 				id: "546892239C517A0A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "wizards:wizard_runes"
@@ -64,7 +64,7 @@
 			rewards: [{
 				id: "71A95BCA4411BDBB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "wizards:wizard_robe_head"
 					tag: {
 						Damage: 0
@@ -76,7 +76,7 @@
 			tasks: [{
 				id: "3A09D43B0B303B47"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "wizards:wands"
@@ -134,7 +134,7 @@
 			subtitle: "Sells powerful wizard equipment."
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "merchantmarkers:textures/entity/villager/markers/wizards__wizard_merchant.png"
@@ -169,7 +169,7 @@
 			tasks: [{
 				id: "0FAEE43890CC3808"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "rpg_series:tier_4_weapons"
@@ -203,7 +203,7 @@
 				{
 					id: "0A641C77781C20EB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:fire_robe_head"
 						tag: {
 							Damage: 0
@@ -214,7 +214,7 @@
 				{
 					id: "3CC5A0965AE5B15C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:arcane_robe_head"
 						tag: {
 							Damage: 0
@@ -225,7 +225,7 @@
 				{
 					id: "7F7466E8FF101425"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wizards:frost_robe_head"
 						tag: {
 							Damage: 0
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "61212B3F2533378C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "paladins:iron_mace"
 					tag: {
 						Damage: 0
@@ -335,7 +335,7 @@
 				{
 					id: "00400B01DA04520C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:arcane_blade"
 						tag: {
 							Damage: 0
@@ -346,7 +346,7 @@
 				{
 					id: "6B4CABFECE0BD534"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:frost_blade"
 						tag: {
 							Damage: 0
@@ -357,7 +357,7 @@
 				{
 					id: "76C9B252A3D38D54"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:fire_blade"
 						tag: {
 							Damage: 0
@@ -381,7 +381,7 @@
 			tasks: [{
 				id: "6A9BD8F688BE25D1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "spellbladenext:frozen_head"
 					tag: {
 						Damage: 0
@@ -405,7 +405,7 @@
 				{
 					id: "439A294704897715"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:arcane_orb"
 						tag: {
 							Damage: 0
@@ -416,7 +416,7 @@
 				{
 					id: "66865B9C2C44E984"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:fire_orb"
 						tag: {
 							Damage: 0
@@ -427,7 +427,7 @@
 				{
 					id: "77BD9B1BBB12B362"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "spellbladenext:frost_orb"
 						tag: {
 							Damage: 0
@@ -479,7 +479,7 @@
 				{
 					id: "75AF11FAA05C3D55"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "jewelry:rings"
@@ -491,7 +491,7 @@
 				{
 					id: "081E4690BD001F87"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "jewelry:necklaces"
@@ -557,7 +557,7 @@
 			subtitle: "&eShards&r can not be used to cast spells. Instead, hold them in the &6off-hand&r to amplify the power of your main weapon."
 			tasks: [{
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "druids:shard_lightning"
 					tag: {
 						Damage: 0
@@ -565,7 +565,7 @@
 				}
 				id: "48688CF4534417F5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "druids:shard_lightning"
 					tag: {
 						Damage: 0
