@@ -12,7 +12,7 @@
   "showNameplateIfObstructed": false,
   "useRpgDifficultyLvl": false,
   "levelTitle": true,
-  "healthBar": false,
+  "healthBar": true,
   "excludedEntities": [
     "minecraft:ender_dragon",
     "minecraft:wither",
