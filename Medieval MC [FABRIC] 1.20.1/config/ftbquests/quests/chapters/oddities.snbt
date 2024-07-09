@@ -4,12 +4,12 @@
 	filename: "oddities"
 	group: "799D8360B26E9792"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "naturescompass:naturescompass"
 		tag: { }
 	}
 	id: "4E33D80DA11F2414"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -49,7 +49,7 @@
 			tasks: [{
 				id: "351D2EAFAE0F9CB7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -64,7 +64,7 @@
 			rewards: [{
 				id: "6819762A22074A86"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "goblintraders:powerful_instant_health"
@@ -110,7 +110,7 @@
 			tasks: [{
 				id: "1B1C89CF79BF35BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "fwaystones:waystones"
@@ -302,7 +302,7 @@
 			rewards: [{
 				id: "0AD7FD96C06B0F10"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bountiful:decree"
 					tag: {
 						"bountiful:decree_data": "{}"
@@ -333,7 +333,7 @@
 			tasks: [{
 				id: "4FDB8434828FD955"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:anvil"
@@ -409,7 +409,7 @@
 			tasks: [{
 				id: "26B8E558C5F9292F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "archon:druid_boots"
 					tag: {
 						Damage: 0
@@ -503,7 +503,7 @@
 			tasks: [{
 				id: "1C766C5F6146FFEB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bewitchment:death_protection_poppet"
 					tag: {
 						Damage: 0
@@ -526,7 +526,7 @@
 			tasks: [{
 				id: "4776525216009D16"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "travelersbackpack:sleeping_bags"
@@ -597,7 +597,7 @@
 			rewards: [{
 				id: "19C5BAC1B7FE0368"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:lingering_potion"
 					tag: {
 						Potion: "goblintraders:extended_water_breathing"
@@ -627,7 +627,7 @@
 			tasks: [{
 				id: "7ABFAF9A70390461"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "dramaticdoors:tall_doors"
