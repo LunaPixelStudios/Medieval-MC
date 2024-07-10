@@ -21,3 +21,6 @@ net.minecraft.class_481 {
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
