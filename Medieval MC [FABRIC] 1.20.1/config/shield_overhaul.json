@@ -1,0 +1,17 @@
+{
+  "enable_instant_shield_use": true,
+  "blacklisted_shields": [
+    "// Items here will not use Shield Overhaul\u0027s mechanics",
+    "examplemod:epic_shield"
+  ],
+  "bosses_immune_to_stun": true,
+  "bash_only_on_ground": true,
+  "bash_damage": 0.0,
+  "bash_cooldown_secs": 2.0,
+  "bash_stun_duration_secs": 1.0,
+  "add_stun_immunity": true,
+  "enable_parrying": false,
+  "enable_parry_abuse_prevention": true,
+  "parry_abuse_cooldown_secs": 0.5,
+  "parry_window_secs": 0.5
+}
