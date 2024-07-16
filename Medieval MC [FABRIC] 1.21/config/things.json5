@@ -1,0 +1,30 @@
+{
+	// Whether gleaming ore should generate. Unless you plan on making custom recipes, turning this off is a bad idea
+	"generateGleamingOre": true,
+	// Disables trinket support for apples
+	"appleTrinket": true,
+	// How much faster the wax gland should make you
+	"waxGlandMultiplier": 3.5,
+	// The base durability of the infernal scepter
+	"infernalScepterDurability": 64,
+	// Whether Things should prevent beacons from giving someone haste when they already have momentum
+	"nerfBeaconsWithMomentum": true,
+	// Globally disables Things trinket rendering
+	"renderTrinkets": true,
+	// Only disables trinket rendering for apples
+	"renderAppleTrinket": true,
+	// Only disables trinket rendering for agglomerations
+	"renderAgglomerationTrinket": true,
+	// Whether container blocks locked by a Container Key should be unbreakable
+	"makeLockedContainersUnbreakable": true,
+	"enableAgglomeration": true,
+	// How many ender pearls the displacement tome uses per teleport
+	"displacementTomeFuelConsumption": 1,
+	// How much walking speed the socks should add per level, base is 0.1, default is 0.02
+	"sockPerLevelSpeedAmplifier": 0.019999999552965164,
+	"effectLevels": {
+		"mossNecklaceRegen": 2,
+		"miningGloveMomentum": 2,
+		"riotGauntletStrength": 1
+	}
+}

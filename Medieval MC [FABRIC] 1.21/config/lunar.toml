@@ -1,0 +1,14 @@
+[general]
+lunarEventChance = 0.2
+[events]
+bloodMoonWeight = 50
+crimsonMoonWeight = 10
+minerMoonWeight = 30
+whiteMoonWeight = 20
+tinyMoonWeight = 0
+bigMoonWeight = 10
+badOmenMoonWeight = 0
+heroMoonWeight = 5
+eclipseMoon = 2
+[crimson]
+crimsonReplacements = ["minecraft:zombie,minecraft:zombified_piglin", "minecraft:husk,minecraft:zombified_piglin", "minecraft:drowned,minecraft:zombified_piglin", "minecraft:skeleton,minecraft:wither_skeleton", "minecraft:slime,minecraft:magma_cube", "minecraft:spider,minecraft:zoglin"]

@@ -1,0 +1,26 @@
+type = customizablemenus
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_436 {
+}
+
+net.minecraft.class_500 {
+}
+
+com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
+}
+
+net.minecraft.class_481 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+

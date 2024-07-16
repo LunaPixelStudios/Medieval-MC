@@ -1,0 +1,905 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses_and_weapons"
+	group: "3C993182D3E6754B"
+	icon: "soulsweapons:lord_soul_purple"
+	id: "7D49255AE00C0EF9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3655C1E37CA7D798"]
+			id: "4DE07A265C23059D"
+			rewards: [{
+				id: "78742FBEF1CF4E2B"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "zenith:strong_haste"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Locates structures such as &8The Champion's Graves &rand &4The Decaying Kingdom&r. &bMoonstone &rcan be found at diamond level"
+			tasks: [{
+				id: "361663005D493369"
+				item: "soulsweapons:boss_compass"
+				type: "item"
+			}]
+			title: "Craft a &bMoonstone Compass"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "53DA0D5A16A337C3"
+			rewards: [
+				{
+					count: 20
+					id: "20361EAE1BCB24C3"
+					item: "soulsweapons:silver_bullet"
+					type: "item"
+				}
+				{
+					id: "4B4818B3923591D4"
+					item: "soulsweapons:verglas"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "There are several types of &6Lord Souls&r. They are dropped by certain bosses, including &8The Wither &rand &8&lEnder Dragon&r. Used to craft powerful weapons."
+			tasks: [{
+				id: "37B87530164E5CAE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "soulsweapons:lord_soul"
+					}
+				}
+				title: "Any #soulsweapons:lord_soul"
+				type: "item"
+			}]
+			title: "Obtain your first &6Lord Soul"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3655C1E37CA7D798"]
+			id: "73E1C32ED6A7B4D9"
+			rewards: [{
+				id: "7CE9F3DA939B817C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Obtained by smelting Soul Sand"
+			tasks: [{
+				id: "4C5CFD0173AC0259"
+				item: "soulsweapons:lost_soul"
+				type: "item"
+			}]
+			title: "Craft a &bLost Soul"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73E1C32ED6A7B4D9"]
+			id: "75C6F49855914B13"
+			rewards: [{
+				id: "3FC6ABB14FA352E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Used to summon bosses"
+			tasks: [{
+				id: "0DD9A12979A7EF8C"
+				item: "soulsweapons:altar_block"
+				type: "item"
+			}]
+			title: "Craft an &dOld Moon Altar"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75C6F49855914B13"]
+			dependency_requirement: "all_started"
+			id: "319DE61C872232A0"
+			rewards: [{
+				id: "0B2DC3FA4F246E8E"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Summoned by clicking an &dOld Moon Altar&r with a &bLost Soul"
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				icon: {
+					Count: 1
+					id: "soulsweapons:nightfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7274A24C140A4861"
+				title: "Kill the Returning Knight"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &eThe Returning Knight"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"46CD30713D23F57F"
+				"319DE61C872232A0"
+			]
+			dependency_requirement: "all_started"
+			id: "0494D0B6F2578ABE"
+			rewards: [
+				{
+					id: "5C4D6B750B802EFD"
+					item: "soulsweapons:withered_demon_heart"
+					type: "item"
+				}
+				{
+					id: "765E4BF62ED3BFE7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "zenith:miners_fervor"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Summoned by clicking an &dOld Moon Altar&r with a &3Essence of Eventide"
+			tasks: [{
+				advancement: "soulsweapons:moonknight"
+				criterion: ""
+				id: "7EC4C2E070063645"
+				title: "Defeat the &4Fallen Icon"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DE07A265C23059D"]
+			hide_dependency_lines: false
+			id: "7A2BBF9AED44DFFC"
+			rewards: [{
+				id: "5885AB7C817BE098"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+			subtitle: "Found in the &8Old Champion's Graves&r, which can be located using the &bMoonstone Compass"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:draugr"
+					tag: {
+						Damage: 0
+						night: 1b
+					}
+				}
+				id: "592BC8D8C6B7B671"
+				title: "Kill the Old Champions Remains"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &6Old Champion's Remains"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["In combination with &bVerglas&r and &6Lord Souls&r, it can also be used to craft powerful gear."]
+			id: "3655C1E37CA7D798"
+			rewards: [
+				{
+					id: "4DECE0C7C816D9AD"
+					item: "soulsweapons:moonstone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0F1B33CADD817031"
+					item: "soulsweapons:verglas"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Used to summon bosses&r from &5Marium's Soulslike Weaponry"
+			tasks: [{
+				id: "6DFF6C9870DB3401"
+				item: "soulsweapons:moonstone"
+				type: "item"
+			}]
+			title: "Obtain &3Moonstone"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A2BBF9AED44DFFC"]
+			icon: "soulsweapons:essence_of_eventide"
+			id: "46CD30713D23F57F"
+			rewards: [{
+				id: "6396B8EF9A54EC64"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "The &9Frenzied Shade &7spawns after you have succesfully defeated the &6Old Champion's Remains"
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				icon: "soulsweapons:essence_of_eventide"
+				id: "65E229B65713BB5D"
+				title: "Kill the Frenzied Shade"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &9Frenzied Shade"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DE07A265C23059D"]
+			hide_dependency_lines: true
+			id: "4D8E75FCB9812382"
+			rewards: [
+				{
+					id: "2588A8F25A54A610"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "4D39FA07A648C461"
+					item: "soulsweapons:crimson_ingot"
+					type: "item"
+				}
+			]
+			size: 1.1d
+			subtitle: "Spawns in the Decaying Kingdom, which can be found using the &bMoonstone Compass&r"
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1B6671BF381E9350"
+				title: "Kill the Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &4The Decaying King"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "3E5DEAC831670289"
+			rewards: [
+				{
+					count: 8
+					id: "10DACE20C0CA8C13"
+					item: "adventurez:gilded_stone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "373F6DF4F9B5CE92"
+					item: "minecraft:chiseled_polished_blackstone"
+					type: "item"
+				}
+				{
+					id: "3B0E0AE48B8DCDDF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Found in large &dBlackstone &rstructures in &4The Nether. &rA difficult boss."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "2BDD4CBB0FF497E7"
+				title: "Kill the Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cNether &6Gauntlet"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "456C672E23CF2422"
+			rewards: [
+				{
+					id: "0AB3C6D7F81ACFCC"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "64E724201A7474DB"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "480A1ED4229E42FE"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			size: 1.25d
+			subtitle: "Found on floating platforms in &5The End&r. &4A very difficult boss&r."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "23FDD50B6FC4245D"
+				title: "Defeat the &5Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &1Obsidilith"
+			x: 2.5d
+			y: -3.125d
+		}
+		{
+			dependencies: ["123827307AFEBDD4"]
+			id: "71683668170F3C66"
+			rewards: [
+				{
+					id: "2D6781A2213493F3"
+					item: "brewinandchewin:withering_dross"
+					type: "item"
+				}
+				{
+					id: "4AAE4495EB8823C7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.1d
+			subtitle: "Summoned by right-clicking a &5Blackstone Pedestal&r with a &0Shard of Uncertainty&r (dropped by the Wither)"
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				icon: {
+					Count: 1
+					id: "soulsweapons:chaos_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5AB293EE3D42F63B"
+				title: "Defeat the &dMonarch of Chaos"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3655C1E37CA7D798"]
+			id: "123827307AFEBDD4"
+			rewards: [{
+				id: "5312EF3E2A9ECF9F"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			subtitle: "Used to summon a boss"
+			tasks: [{
+				id: "415384D0530EF9E9"
+				item: "soulsweapons:blackstone_pedestal"
+				type: "item"
+			}]
+			title: "Craft a &5Blackstone Pedestal"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C0DC1E4BF8FD1DC"]
+			id: "0F872972390A69EB"
+			rewards: [
+				{
+					id: "4354D4D25BBF8F23"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4E3EAB64FC79C0C1"
+					item: {
+						Count: 1
+						id: "archon:thunder_bolt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Read the &3Grimoire&r for more information"
+			tasks: [{
+				entity: "archon:ayla"
+				icon: "archon:angelic_star"
+				id: "060FBB5EE9ED4671"
+				title: "Summon and Kill Ayla"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &6Ayla"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C0DC1E4BF8FD1DC"]
+			id: "2C462D3C55AC772F"
+			rewards: [
+				{
+					id: "79A8C93AEF3DADD1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "15FA9EA120AB9627"
+					item: {
+						Count: 1
+						id: "archon:terrain_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Read the &3Grimoire&r for more information"
+			tasks: [{
+				entity: "archon:tar"
+				icon: "archon:terranite_stone"
+				id: "4990F85E43B80E23"
+				title: "Summon and Kill Tar"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &2Tar"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"721CE32F613A11CC"
+				"7E6081141A8EA0B6"
+			]
+			id: "14B6686E09423E13"
+			rewards: [
+				{
+					count: 3
+					id: "4C1D0FC89B21296A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "1EE5FCE4B99999F5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.25d
+			subtitle: "Can be spawned in the &4Lich Prison &rstructure, a large floating island above oceans. Once it is night time, place the fragments on the Corrupted Deepslate Center blocks. Then, pour the &4blood &ronto the altar in the middle."
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:altar"
+				id: "149568FD562E8A3B"
+				title: "Defeat the Lich"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &4The Lich"
+			x: -0.3125d
+			y: -3.0d
+		}
+		{
+			id: "3D20815424092400"
+			rewards: [
+				{
+					id: "30DA750EED922FBE"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "1DD97C1696FD2F95"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					id: "3B3B801EE03DEBE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in rare towers that spawn in &9cold &rbiomes. Place a &bsoul star&r in each pedestal to summon."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "2C676DB7003A8A57"
+				title: "Defeat the Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &bNight Lich"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "7E6081141A8EA0B6"
+			rewards: [
+				{
+					id: "59DDC96407C3FB44"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "35DE7D45BEB65B30"
+					item: {
+						Count: 1
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Can be found in Ruins. Each Ruin will only have one &fFragment&r."
+			tasks: [
+				{
+					id: "0834B973A199F29D"
+					item: "graveyard:upper_bone_staff"
+					type: "item"
+				}
+				{
+					id: "6C609D73A8C78C55"
+					item: "graveyard:middle_bone_staff"
+					type: "item"
+				}
+				{
+					id: "6DD4017E9BE4A667"
+					item: "graveyard:lower_bone_staff"
+					type: "item"
+				}
+			]
+			title: "Collect all three &fBone Staff Fragments"
+			x: -0.3125d
+			y: 0.125d
+		}
+		{
+			id: "721CE32F613A11CC"
+			rewards: [{
+				id: "07C29F11D7F5D857"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Obtained by killing 8 villagers with a &fBone Dagger &rand a glass bottle in your offhand. "
+			tasks: [{
+				id: "135CB3DAA4774C19"
+				item: {
+					Count: 1
+					id: "graveyard:vial_of_blood"
+					tag: {
+						Blood: 0.8000001f
+					}
+				}
+				type: "item"
+			}]
+			title: "Fill a &4Vial of Blood"
+			x: -0.3125d
+			y: -1.375d
+		}
+		{
+			id: "5AD6785F17845DFD"
+			rewards: [
+				{
+					id: "6A3E073E795DD6DE"
+					item: {
+						Count: 1
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21269CACF76F7CDF"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "2C97D25F00E881AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Found in rare caves at the bottom of the &aOverworld&r. &dVoid Lillies&r will point towards the &5Void Blossom&r."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "224BE72129E69D1E"
+				title: "Defeat the Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Void Blossom"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "12F3CEC7EB920E91"
+			rewards: [{
+				count: 3
+				id: "4482743AF0DA987C"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Summoned using Soul Sand, Soul Soil, or Soul Stone, and 3 wither skulls."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "4E378E2F33655762"
+				title: "Defeat &k&4I&r&8&lThe Wither&k&4I"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &k&4I&r&8&lThe Wither&k&4I"
+			x: -0.3125d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C0DC1E4BF8FD1DC"]
+			id: "036F5A6BA3C813AB"
+			rewards: [
+				{
+					id: "019B512F7A0782A0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "28B393CAC82AEF8F"
+					item: {
+						Count: 1
+						id: "archon:heat_ranger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Read the &3Grimoire&r for more information"
+			tasks: [{
+				entity: "archon:inigo"
+				icon: "archon:charred_eye"
+				id: "38A68D89A29E6FB4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &4Inigo"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C0DC1E4BF8FD1DC"]
+			id: "25B25CED95DC0EDA"
+			rewards: [
+				{
+					id: "77AFEDC179F990A4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2984D18D0B82F7B6"
+					item: {
+						Count: 1
+						id: "archon:frost_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Read the &3Grimoire&r for more information"
+			tasks: [{
+				entity: "archon:leven"
+				icon: "archon:wave_crystal"
+				id: "714CB54199D6F1E1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat &cLeven"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "1C0DC1E4BF8FD1DC"
+			rewards: [{
+				count: 4
+				id: "0C88805A15B283A9"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "Used to perform summoning rituals for bosses from &1Archon&r."
+			tasks: [{
+				id: "1ECC7D6651A2BF8F"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			title: "Craft a &bSummoning Pedestal"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["312740B0689DBBF7"]
+			id: "2A439E31861A888F"
+			rewards: [
+				{
+					id: "5E942D96909B8275"
+					item: {
+						Count: 1
+						id: "zenith:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:strong_warding"
+							charm_enabled: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA79C4CED681CDC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 1.25d
+			subtitle: "Summoned by using a &fPrismatic Effigy&r while in the &5Glass Ocean"
+			tasks: [{
+				entity: "spellbladenext:magus"
+				icon: "spellbladenext:hexbladeitem"
+				id: "7D90EA416236E74C"
+				title: "Defeat &4Magus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.125d
+			y: -3.125d
+		}
+		{
+			id: "552EEA2D27B23904"
+			rewards: [{
+				id: "646A21E5D4956CF6"
+				item: {
+					Count: 1
+					id: "spellbladenext:blazing_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This spellblade-wielding cult is rumored to be hunting down all users of &dMagic"
+			tasks: [{
+				icon: "spellbladenext:prismatic"
+				id: "5F2FD0A30DC4DE1B"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter &3The Hexblades"
+				to_observe: "spellbladenext:magister"
+				type: "observation"
+			}]
+			x: -3.125d
+			y: 0.0d
+		}
+		{
+			dependencies: ["552EEA2D27B23904"]
+			id: "312740B0689DBBF7"
+			rewards: [
+				{
+					id: "66B431977828E0C3"
+					item: "spellbladenext:runegleam_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3B8479045751C43A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Open a &dHexblade Portal&r using a &3Hexblade Offering&r."
+			tasks: [{
+				dimension: "spellbladenext:glassocean"
+				id: "5EB3275DC0489A05"
+				title: "Enter the &5Glass Ocean"
+				type: "dimension"
+			}]
+			x: -3.125d
+			y: -1.5d
+		}
+		{
+			id: "6B91E665B4B18F60"
+			rewards: [
+				{
+					id: "4311A59EE0B0978E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "066B20294D1950AD"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Call her forth by blowing the Shell Horn in an Ice Maze."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				id: "5751C9941672AA8E"
+				title: "Defeat the &1Ghost of Captain Cornelia&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C0DC1E4BF8FD1DC"]
+			id: "18CB30652B65BE08"
+			rewards: [
+				{
+					id: "0FE5D13C9C82FBE5"
+					item: {
+						Count: 1
+						id: "archon:ender_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22EB97F4C485066D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Read the &3Grimoire&r for more information"
+			tasks: [{
+				entity: "archon:null"
+				icon: "archon:soulless_eye"
+				id: "5BD7D33A1DCF300D"
+				title: "Defeat &dNull"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+	]
+	title: " &4Bosses"
+}

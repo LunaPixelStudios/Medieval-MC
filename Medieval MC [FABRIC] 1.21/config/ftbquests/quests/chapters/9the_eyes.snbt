@@ -1,0 +1,739 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9the_eyes"
+	group: "59C90AA1B128306B"
+	icon: "minecraft:end_portal_frame"
+	id: "6712BF106330B0F3"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"&cEnd Remastered&r reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
+				" "
+				"Find &f12&r unique eyes out of &f15&r to open the End Portal."
+				" "
+				"You can locate a stronghold by throwing any End Remastered eye, but be careful - they can still break."
+			]
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 7.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4EA47294389AA8F1"
+			rewards: [{
+				id: "54DD24929D84ED8B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in &3Buried Treasures."
+			tasks: [{
+				id: "27ED3435A7ADA5AD"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			title: "Obtain the &8Black Eye"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "5C3D45F2CEE41D77"
+			rewards: [{
+				id: "6D6138E8851E7318"
+				item: {
+					Count: 1
+					id: "mcdw:bow_snow_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found in &fIgloos"
+			tasks: [{
+				id: "0EB7DD544D4FD65A"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			title: "Obtain the &3Cold Eye"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "3CA0E9745340762E"
+			rewards: [{
+				id: "44BB1E1CD4A3C68B"
+				item: {
+					Count: 1
+					id: "mcdar:corrupted_seeds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found in &6Pillager Outposts"
+			tasks: [{
+				id: "5DC7FDD0E1B0547F"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			title: "Obtain the &8Corrupted Eye"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "28D56E2D2D9DD8CD"
+			rewards: [
+				{
+					id: "1AF06461F6523186"
+					item: "minecraft:tnt_minecart"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0DAFDD982FC219F8"
+					item: "minecraft:rail"
+					type: "item"
+				}
+			]
+			subtitle: "Found in &8Mineshafts."
+			tasks: [{
+				id: "2A247840DD9AD798"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			title: "Obtain the &4Lost Eye"
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "3C10FBF0251A1047"
+			rewards: [{
+				id: "1F6FA3925C8E174F"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found in &4Nether Fortresses."
+			tasks: [{
+				id: "216554B04592CED8"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			title: "Obtain the &6Nether Eye"
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			id: "4726C6C722EFE7C0"
+			rewards: [{
+				id: "664FCFD33AB8A1C8"
+				item: "fwaystones:desert_waystone"
+				type: "item"
+			}]
+			subtitle: "Found in &eDesert Pyramids."
+			tasks: [{
+				id: "6B9DA6DDE6056810"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			title: "Obtain the &eOld Eye"
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			id: "4218B5890CF9EB46"
+			rewards: [{
+				id: "2CE5CD0B6436C3C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in &2Jungle Temples"
+			tasks: [{
+				id: "21F22D48662E2D44"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			title: "Obtain the &2Rogue Eye"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "2E32BEE8B248BA12"
+			rewards: [{
+				id: "6E934CBC05F81F5B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found in &6Bastion Treasure&r chests."
+			tasks: [{
+				id: "52C6877399C708B7"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			title: "Obtain the &9Cursed Eye"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			id: "1D12AE712F1942F6"
+			rewards: [{
+				id: "72C08438FD567773"
+				item: "minecraft:emerald"
+				random_bonus: 9
+				type: "item"
+			}]
+			subtitle: "A trade from a &5Master Level Cleric."
+			tasks: [{
+				id: "0B0EB63C7F1EA23E"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			title: "Obtain the &6Evil Eye"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "4C3EAB2FC21DBE56"
+			rewards: [{
+				id: "271774D3FEFAD7B0"
+				item: {
+					Count: 1
+					id: "mcdw:bow_guardian_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Get it from &9Elder Guardians."
+			tasks: [{
+				id: "49A1F7775A9CB466"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			title: "Obtain the &3Guardian Eye"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "73D207BD45A7660E"
+			rewards: [{
+				count: 16
+				id: "02018A6537DB3390"
+				item: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:long_warding"
+					}
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "Dropped by Evokers"
+			tasks: [{
+				id: "09C984156AC2AFEC"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			title: "Obtain the &5Magical Eye"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "5F2B6AE36771AB5B"
+			rewards: [{
+				count: 5
+				id: "1DF85E194FA24F5B"
+				item: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "zenith:strong_wither"
+					}
+				}
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "Drops from &7The Wither."
+			tasks: [{
+				id: "72FADF8E8E2C936B"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			title: "Obtain the &4Wither Eye"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "7D156C4A9331B0EB"
+			rewards: [{
+				id: "6DC12DDC6DB967D8"
+				item: {
+					Count: 1
+					id: "bewitchment:hedgewitch_robes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Crafted by combining a &dWitch Pupil &7and an &eEye of Ender "
+			tasks: [{
+				id: "203B2EDBB4C36385"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			title: "Obtain the &dWitch Eye"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "05FFC6C016B8D7B7"
+			rewards: [{
+				id: "305110413E34B0BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Craft it with an &8Undead Soul."
+			tasks: [{
+				id: "0B89FA34F22F37BB"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			title: "&8Undead Eye"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "0204DFBFBB267108"
+			rewards: [{
+				id: "7706199F2CEB2E6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Craft it by using &3Aquatic items."
+			tasks: [{
+				id: "22D3513CACAF0C0F"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			title: "Obtain the &6E&1x&2o&7t&3ic &4E&9y&5e"
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			description: [
+				"&cEnd Remastered&r reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
+				" "
+				"Find &f12&r unique eyes out of &f15&r to open the End Portal."
+				" "
+				"You can locate a stronghold by throwing any End Remastered eye, but be careful - they can still break."
+			]
+			id: "60367DDACC525262"
+			rewards: [{
+				id: "11FA046BA2F10F01"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "You can't use eyes of ender to find or open a portal. Click for more details."
+			tasks: [{
+				id: "0FB7070B1F9C37D8"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&4Finding a Stronghold"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "07E305E95A000FAF"
+			rewards: [{
+				id: "1A4F1BAC0EB7387F"
+				item: "betterend:guidebook"
+				type: "item"
+			}]
+			subtitle: "To open, and find, the &5End&r portal, you will need to use the eyes from the End Remastered mod. Check the &9Entering the End&r quest page for details."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "42642531FFCE3EBA"
+				title: "Enter The End"
+				type: "dimension"
+			}]
+			title: "Enter &5The End"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			id: "2CE58DD1AE214711"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1919D53920738BB2"
+				item: "adventurez:dragon_saddle"
+				type: "item"
+			}]
+			subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim. The Dragon Saddle can be used later on in the questline."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "6848B89E38A80BAB"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8&lEnder Dragon"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "6381BB849DDEE54A"
+			rewards: [{
+				id: "64C9F6F6921F8A27"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "A powerful, unbreakable anvil that &6caps the experience cost of repairs and enchantment mixing&r. Crafted with &3scales&r from the &5Ender Dragon"
+			tasks: [{
+				id: "311E2F090413B061"
+				item: "dragonloot:dragon_anvil"
+				type: "item"
+			}]
+			title: "Craft a &5Dragon Anvil"
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6381BB849DDEE54A"]
+			id: "21D51BCBD1818836"
+			rewards: [{
+				id: "288285752789C313"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A powerful mob found everywhere in &5The End&r, most commonly in &3Umbra Valleys&r. The shell pieces can be crafted into &8netherite scrap."
+			tasks: [{
+				entity: "adventurez:enderwarthog"
+				icon: "adventurez:warthog_shell_piece"
+				id: "64FF133673B090FC"
+				title: "Kill an Enderwarthog"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat an &8Enderwarthog"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["21D51BCBD1818836"]
+			id: "4ABFB228442D00FB"
+			rewards: [
+				{
+					id: "635FBFFC8004E240"
+					item: "fwaystones:end_stone_brick_waystone"
+					type: "item"
+				}
+				{
+					id: "3EDA1F9BB902B2FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "618265B423CFCF5B"
+					item: {
+						Count: 1
+						id: "betterend:netherite_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Once opened, this strange portal spawns a matching portal at the same location in &2The Overworld&r. Read &1The End For Dummies&r for details."
+			tasks: [{
+				advancement: "betterend:portal_on"
+				criterion: ""
+				id: "50056AE5531C98C3"
+				type: "advancement"
+			}]
+			title: "Open an &bEternal Portal"
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26E01F1822B87C9D"]
+			id: "5FCA29F10B0B0F24"
+			rewards: [
+				{
+					id: "6485437B2F07055E"
+					item: "bosses_of_mass_destruction:monolith_block"
+					type: "item"
+				}
+				{
+					id: "5AE898145996CB2B"
+					item: "adventurez:shadow_chest_block"
+					type: "item"
+				}
+				{
+					id: "21C418E19809F111"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 1.25d
+			subtitle: "Found in The &k&4l&r&0&lVoid&r&k&4l &rdimension, which is entered via the portal that is generated when you kill &6The Eye&r. After killing the &8Void Shadow&r, it will drop a Dragon Egg. Stand near it after defeating the &8Void Shadow &rto hatch the egg. You can ride the dragon using the Dragon Saddle, once it has hatched. Press &bY&r to breathe fire while riding the dragon. The dragon will eat raw meat and Orc Skin."
+			tasks: [{
+				advancement: "adventurez:void_shadow_advancement"
+				criterion: ""
+				icon: "minecraft:dragon_egg"
+				id: "5190752054716766"
+				title: "Defeat the Void Shadow"
+				type: "advancement"
+			}]
+			title: "Enter the &k&4l&r&0&lVoid&r&k&4l &rand Defeat the &8Void Shadow"
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "26E01F1822B87C9D"
+			rewards: [
+				{
+					id: "10485EF664881B88"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "7592A4381F525AEC"
+					item: "betterend:terminite_forged_plate"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			size: 1.125d
+			subtitle: "To build an &3Eye Shrine&r, build a 5x5 &5Obsidian &rplatform. On top of the platform, in the center, build a 3x3 layer of &bCrying Obsidian&r. Place an &fEnd Rod &ron all 4 corners of both layers. Then, place the &8Dragon Egg &rin the middle of the &bCrying Obsidian &rplatform to summon &6The Eye&r."
+			tasks: [{
+				entity: "adventurez:the_eye"
+				icon: "minecraft:ender_eye"
+				id: "0CE2C6F045E057B7"
+				title: "Kill the Eye"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill &6The Eye"
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3478A49EB5AA6BF4"]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C83144CCAFC3E29"
+			rewards: [
+				{
+					id: "4192AC110673E6AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "60EEB5FA44C9C306"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			subtitle: "You can also craft several &6Elytra Variants&r. some provide armor, the &3Soul Elytra&r provides infinite powered flight, and &fIcarus&r Wings allow flying upside down and self-powered flight at the cost of hunger."
+			tasks: [{
+				entity: "adventurez:the_eye"
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0F3904EE46B78920"
+				title: "Get an elytra"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Find an &3Elytra"
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["523ECDEFE767B5D0"]
+			id: "3478A49EB5AA6BF4"
+			rewards: [
+				{
+					id: "369E6AAA4A76E70D"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "477912B4E9958CF7"
+					item: {
+						Count: 1
+						id: "mcdw:shield_royal_guard"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Where does it lead?"
+			tasks: [{
+				advancement: "charm:endermite_powder/use_endermite_powder"
+				criterion: ""
+				id: "572EB2BC0D03158B"
+				title: "Throw &5Endermite Powder"
+				type: "advancement"
+			}]
+			title: "Find and use &5Endermite Powder"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "523ECDEFE767B5D0"
+			rewards: [{
+				id: "62D410635AA984DE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Found flying in the skies of &5The End&r. Can be saddled and led with Chorus Fruit."
+			tasks: [{
+				icon: "adventurez:ender_whale_skin"
+				id: "640CC1970264149D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adventurez:ender_whale"
+				type: "observation"
+			}]
+			title: "Find an &3Ender Whale"
+			x: 8.5d
+			y: 8.5d
+		}
+	]
+	title: " &5The End"
+}

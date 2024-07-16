@@ -1,0 +1,56 @@
+{
+	// Maximum Mana Modifier (Default: 1)
+	"mana": 1.0,
+	// Additional Base Mana (Default: 0)
+	"basemana": 20.0,
+	// Mana Regen Modifier (Default: 1)
+	"manaregen": 1.0,
+	// Inspiration Bonus (Default: 10%)
+	"inspiration": 10.0,
+	// Lucidity Bonus (Default: 5%)
+	"lucidity": 5.0,
+	// Manafused Bonus (Default: 10)
+	"manafuse": 10.0,
+	// ManaStabilized Bonus (Default: 5%)
+	"manastabilized": 5.0,
+	// Resplendent Bonus (Default: 10%)
+	"resplendent": 10.0,
+	// Do not apply Mana Costs (and therefore Mana Compatibility) to spells matching this regex.
+	"blacklist_spell_casting_regex": "",
+	// Apply mana costs to select spells (Format: 'spellid': 40)
+	"spells": {
+		"examplemod:examplespell": 40,
+		"wizards:arcane_beam": 60,
+		"wizards:arcane_blast": 40,
+		"wizards:arcane_blink": 60,
+		"wizards:arcane_bolt": 20,
+		"wizards:arcane_missile": 30,
+		"wizards:fire_breath": 40,
+		"wizards:fire_meteor": 60,
+		"wizards:fire_scorch": 20,
+		"wizards:fire_wall": 80,
+		"wizards:fireball": 30,
+		"wizards:frost_blizzard": 60,
+		"wizards:frost_nova": 30,
+		"wizards:frost_shard": 20,
+		"wizards:frost_shield": 70,
+		"wizards:frostbolt": 30,
+		"paladins:barrier": 80,
+		"paladins:battle_banner": 80,
+		"paladins:circle_of_healing": 70,
+		"paladins:divine_protection": 60,
+		"paladins:flash_heal": 30,
+		"paladins:heal": 20,
+		"paladins:holy_beam": 30,
+		"paladins:holy_shock": 30,
+		"paladins:judgement": 60,
+		"druids:galvanic_rite": 30,
+		"druids:lightningblast": 30,
+		"druids:maelstromtotem": 50,
+		"druids:soulfirebastion": 40,
+		"druids:soulflare": 40,
+		"druids:spiritbolts": 30,
+		"druids:stormcall": 80,
+		"druids:voltaic_burst": 20
+	}
+}
