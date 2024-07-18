@@ -3,9 +3,6 @@ type = customizablemenus
 net.minecraft.class_442 {
 }
 
-net.minecraft.class_433 {
-}
-
 net.minecraft.class_436 {
 }
 
@@ -15,12 +12,72 @@ net.minecraft.class_500 {
 com.jab125.mpuc.client.gui.screen.changelog.ChangelogScreen {
 }
 
-net.minecraft.class_481 {
-}
-
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
 com.jab125.mpuc.client.gui.screen.changelog.NewChangelogScreen {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_426 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.publicserverlist.screen.PublicServersScreen {
+}
+
+net.minecraft.class_422 {
+}
+
+net.minecraft.class_420 {
+}
+
+net.minecraft.class_525 {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_407 {
+}
+
+net.minecraft.class_445 {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_440 {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_6777 {
+}
+
+net.minecraft.class_5346 {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
 }
 

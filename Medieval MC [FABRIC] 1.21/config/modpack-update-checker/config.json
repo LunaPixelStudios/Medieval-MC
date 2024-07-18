@@ -1,9 +1,9 @@
 {
   "schemaVersion": 4,
-  "currentVersion": "v25",
-  "modpackName": "MMC2 Fabric",
+  "currentVersion": "v1",
+  "modpackName": "MMC3 Fabric",
   "modpackAuthor": "Luna Pixel Studios",
-  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/mmc2fabric/",
+  "githubRepo": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/mmc3fabric/",
   "advanced": {
     "bccEnabled": true,
     "expandButton": true,

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = share_to_lan_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1715521013866
+  last_edited_time = 1721282879022
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:1bcaf843-d2a3-4931-976d-0fa036f80764-1715521013866] = [groups:][instances:]
+  [loading_requirement_container_meta:b8358f58-7941-4efc-b64f-c5edefbaeee6-1721282859749] = [groups:][instances:]
 }
 
 customization {
@@ -24,27 +24,37 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
 }
 
 element {
-  orientation = mid-centered
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = Keep in mind that sharing your world will have more latency %n%and potential performance issues than using a server.%n%LAN hosted worlds are also very unreliable and inconsistent %n%with mods as they are not meant to be used for LAN.%n%%n%So we still recommend to use Server Hosted Worlds.
-  text_border = 0
-  case_mode = normal
+  source = Keep in mind that sharing your world is more likely to have issues%n%with latency and performance compared to a dedicated server.%n%%n%LAN hosted worlds can also be unreliable and inconsistent with%n%mods, as most are never tested with world-sharing in mind. %n%%n%For these reasons we still recommend using a dedicated server.
   source_mode = direct
-  line_spacing = 1
-  x = -150
-  width = 309
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 47fd05ed-32e9-4d60-8c32-e2af7c2102551692901379583
-  y = -52
+  shadow = true
+  case_mode = normal
+  scale = 1.0
   alignment = centered
   base_color = f08181
-  height = 62
+  text_border = 0
+  line_spacing = 1
+  enable_scrolling = true
   element_type = fancymenu_customization_item_text
+  instance_identifier = 47fd05ed-32e9-4d60-8c32-e2af7c2102551692901379583
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -169
+  y = -52
+  width = 338
+  height = 75
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3ba52a99-8cf5-4d14-84ef-321b5e940d24-1721282220365
+  [loading_requirement_container_meta:3ba52a99-8cf5-4d14-84ef-321b5e940d24-1721282220365] = [groups:][instances:]
 }
 
 element {
@@ -66,7 +76,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = mid-centered
   x = -84
-  y = 12
+  y = 23
   width = 170
   height = 19
   stretch_x = false
@@ -74,6 +84,39 @@ element {
   stay_on_screen = false
   element_loading_requirement_container_identifier = e95ac710-98e0-49dd-a8ca-d6214ba1e473-1715521013871
   [loading_requirement_container_meta:e95ac710-98e0-49dd-a8ca-d6214ba1e473-1715521013871] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = e1f8f39c-7434-42c1-a1f7-e7b5be4d7d20-1715521013866
+  [executable_block:e1f8f39c-7434-42c1-a1f7-e7b5be4d7d20-1715521013866][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Share World
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 345972
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 3
+  y = 48
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b0131d44-8e49-4b4c-89f4-f3dbcbe42e4c-1715521013866
+  [loading_requirement_container_meta:b0131d44-8e49-4b4c-89f4-f3dbcbe42e4c-1715521013866] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 
 vanilla_button {
@@ -94,8 +137,8 @@ vanilla_button {
   anchor_point = mid-centered
   x = 3
   y = -75
-  width = 0
-  height = 0
+  width = 150
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
@@ -124,48 +167,16 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 0
-  y = 0
-  width = 0
-  height = 0
+  x = 498
+  y = 160
+  width = 150
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
   element_loading_requirement_container_identifier = be14af31-2db1-4309-a489-5c11c8f567cb-1715521013866
   [loading_requirement_container_meta:be14af31-2db1-4309-a489-5c11c8f567cb-1715521013866] = [groups:][instances:]
   is_hidden = true
-  automated_button_clicks = 0
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-}
-
-vanilla_button {
-  button_element_executable_block_identifier = e95f2c66-794b-46ef-af49-d03362e4dd53-1715521013866
-  [executable_block:e95f2c66-794b-46ef-af49-d03362e4dd53-1715521013866][type:generic] = [executables:]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  navigatable = true
-  element_type = vanilla_button
-  instance_identifier = 505972
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-centered
-  x = -151
-  y = 35
-  width = 0
-  height = 0
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = c8a5d9c1-b405-4c06-944d-092c30d7c4ff-1715521013866
-  [loading_requirement_container_meta:c8a5d9c1-b405-4c06-944d-092c30d7c4ff-1715521013866] = [groups:][instances:]
-  is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false
   nine_slice_slider_handle_border_x = 5
@@ -190,8 +201,8 @@ vanilla_button {
   anchor_point = mid-centered
   x = -151
   y = -75
-  width = 0
-  height = 0
+  width = 150
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
@@ -205,31 +216,30 @@ vanilla_button {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = e1f8f39c-7434-42c1-a1f7-e7b5be4d7d20-1715521013866
-  [executable_block:e1f8f39c-7434-42c1-a1f7-e7b5be4d7d20-1715521013866][type:generic] = [executables:]
+  button_element_executable_block_identifier = e95f2c66-794b-46ef-af49-d03362e4dd53-1715521013866
+  [executable_block:e95f2c66-794b-46ef-af49-d03362e4dd53-1715521013866][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Share World
   navigatable = true
   element_type = vanilla_button
-  instance_identifier = 345972
+  instance_identifier = 505972
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = mid-centered
-  x = 3
-  y = 35
-  width = 0
-  height = 0
+  x = -152
+  y = 48
+  width = 150
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
-  element_loading_requirement_container_identifier = b0131d44-8e49-4b4c-89f4-f3dbcbe42e4c-1715521013866
-  [loading_requirement_container_meta:b0131d44-8e49-4b4c-89f4-f3dbcbe42e4c-1715521013866] = [groups:][instances:]
+  element_loading_requirement_container_identifier = c8a5d9c1-b405-4c06-944d-092c30d7c4ff-1715521013866
+  [loading_requirement_container_meta:c8a5d9c1-b405-4c06-944d-092c30d7c4ff-1715521013866] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
   nine_slice_slider_handle = false

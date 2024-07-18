@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1715521013888
+  last_edited_time = 1721287644617
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:23879fcb-3470-4de7-8f20-7b74465fcc95-1715521013888] = [groups:][instances:]
+  [loading_requirement_container_meta:1eb04352-11bf-45e7-a402-0755549a0542-1721287465394] = [groups:][instances:]
 }
 
 customization {
@@ -24,6 +24,8 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
 }
 
 vanilla_button {

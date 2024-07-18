@@ -1,0 +1,22 @@
+{
+	// Default: 35
+	"goblinGruntWeight": 40,
+	// Default: 10
+	"pumpFrogWeight": 10,
+	// Default: 30
+	"flaphawkWeight": 30,
+	// Default: 4
+	"mockerWeight": 4,
+	// Default: 9
+	"leviathanWeight": 9,
+	// Default: 10
+	"thundizardWeight": 14,
+	// Default: 12
+	"fairyWeight": 0,
+	// Default: 10
+	"ascendantWeight": 4,
+	// Default: 0.01 (Must be greater than 0 and at most 1)
+	"mockerDropChance": 0.019999999552965164,
+	// Default: 32
+	"healingCubeRange": 32
+}

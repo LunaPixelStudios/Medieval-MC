@@ -3,17 +3,17 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1720561989048
+  last_edited_time = 1721280075059
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d5bf005c-d219-4785-871f-db4202584fbc-1720561982106] = [groups:][instances:]
+  [loading_requirement_container_meta:92cc1e02-c892-4f78-a5f3-792843bb5645-1721280030816] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]resourcepacks/Graphics/loading.png
+  image_path = [source:local]/config/fancymenu/assets/loading.png
   slide = false
   repeat_texture = false
   background_type = image
@@ -31,10 +31,12 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
 }
 
 element {
-  source = [source:local]resourcepacks/Graphics/lunapixel.png
+  source = [source:local]/config/fancymenu/assets/lunapixel.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
