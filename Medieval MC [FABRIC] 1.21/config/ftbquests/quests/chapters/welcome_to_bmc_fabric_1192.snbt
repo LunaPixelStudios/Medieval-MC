@@ -59,11 +59,11 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
+			hide: true
 			icon: {
 				id: "minecraft:paper"
 			}
 			id: "2958CA7FA6FD3E4F"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
 				id: "02F8E878E716442E"
@@ -79,11 +79,11 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
+			hide: true
 			icon: {
 				id: "ftbquests:book"
 			}
 			id: "175099CF5696829E"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
 				id: "75A2D5627FDAE245"
@@ -102,11 +102,11 @@
 		}
 		{
 			dependencies: ["175099CF5696829E"]
+			hide: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
 			id: "2165E80C52C79992"
-			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
 				id: "53BABD7EBBAE8559"
