@@ -4,12 +4,12 @@ layout-meta {
   identifier = share_to_lan_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1721282879022
-  is_enabled = true
+  is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b8358f58-7941-4efc-b64f-c5edefbaeee6-1721282859749] = [groups:][instances:]
+  [loading_requirement_container_meta:abc23158-c733-48ec-ad15-27a6081fe4a2-1721354937286] = [groups:][instances:]
 }
 
 customization {
