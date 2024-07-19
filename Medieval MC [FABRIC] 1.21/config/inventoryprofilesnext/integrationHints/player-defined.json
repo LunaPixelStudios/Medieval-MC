@@ -379,5 +379,11 @@
     },
     "com.tom.storagemod.gui.CraftingTerminalMenu": {
         "ignore": true
+    },
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": {
+        "ignore": true
+    },
+    "io.wispforest.accessories.client.AccessoriesMenu": {
+        "ignore": true
     }
 }

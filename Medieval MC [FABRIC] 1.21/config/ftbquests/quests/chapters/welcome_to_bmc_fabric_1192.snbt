@@ -4,22 +4,10 @@
 	filename: "welcome_to_bmc_fabric_1192"
 	group: ""
 	icon: {
-		Count: 1
 		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "patchouli:textures/items/book_blue.png"
-		}
 	}
 	id: "3E34934F09B08365"
 	images: [
-		{
-			height: 2.0d
-			image: "lunapixel:textures/gui/logo_medieval.png"
-			rotation: 0.0d
-			width: 3.42d
-			x: 1.5d
-			y: 4.0d
-		}
 		{
 			height: 3.0d
 			image: "iceandfire:item/dragonsteel_ice_sword"
@@ -49,231 +37,97 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
-				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
-				""
-				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
-			]
 			icon: {
-				Count: 1
 				id: "minecraft:book"
-				tag: {
-					Enchantments: [{
-						id: "aqua_affinity"
-						lvl: 1
-					}]
-				}
 			}
 			id: "6A52090D6BC064D7"
 			rewards: [{
-				count: 3
-				id: "57BF2196D5016192"
-				item: "minecraft:bread"
+				id: "62D6BC934349C87A"
+				item: {
+					count: 1
+					id: "natures_spirit:purple_wildflower"
+				}
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "To start the tutorial, click on this quest and read the description."
 			tasks: [{
 				id: "1B0800437C68C43A"
-				title: "Click me!"
 				type: "checkmark"
 			}]
-			title: "&eWelcome to Medieval MC!"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
-				""
-				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
-				""
-				"To the right of the &6Quest Book &ris the &9FTB Chunks &rmap. Click a chunk to claim it, preventing players and other mobs from destroying there. "
-				""
-				"If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
-				""
-				"When you hover over your armor slots, your &8Trinket &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
-				""
-				"Try equipping the &cQuiver &rfrom the quest reward in your Quiver slot!"
-			]
 			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbteams:textures/teams.png"
-				}
+				id: "minecraft:paper"
 			}
 			id: "2958CA7FA6FD3E4F"
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "720DCC1EC474A18E"
-				item: {
-					Count: 1
-					id: "supplementaries:quiver"
-					tag: {
-						SelectedSlot: 0
-					}
-				}
-				type: "item"
+				id: "02F8E878E716442E"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
-			subtitle: "Read my description! Make sure to scroll down."
-			tasks: [
-				{
-					id: "0DD3C1416FC34FA1"
-					title: "Inventory"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "380A99374727D6D8"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
-			title: "&2Inventory"
-			x: 0.5d
-			y: 0.0d
+			tasks: [{
+				id: "0DD3C1416FC34FA1"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			description: [
-				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
-				""
-				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
-				""
-				"The pin icon at the top right will pin a quest to your screen."
-			]
 			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbquests:textures/item/book.png"
-				}
+				id: "ftbquests:book"
 			}
 			id: "175099CF5696829E"
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				count: 3
-				id: "34B145F40A6C1F3B"
-				item: "minecraft:torch"
+				id: "75A2D5627FDAE245"
+				item: {
+					count: 1
+					id: "travelersbackpack:backpack_tank"
+				}
 				type: "item"
 			}]
-			subtitle: "Read my description!"
-			tasks: [
-				{
-					id: "21428FE253D34D4E"
-					title: "Quests"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "08EDA62F0B406C49"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
-			title: "&6Quests"
+			tasks: [{
+				id: "21428FE253D34D4E"
+				type: "checkmark"
+			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A52090D6BC064D7"]
-			description: [
-				"Press &bR &rwhile hovering over an item to view its Recipe"
-				""
-				"Press &bU &rwhile hovering over an item to view its Uses"
-				""
-				"Press &bLeft Alt &rto Crawl"
-				""
-				"Press &bR &rto Roll"
-				""
-				"Press &bK&r to open the Skill Tree"
-				""
-				"Press &bRight Click &rwhile crouching to pick up a block or mob. Some mobs can be stacked on top of each other!"
-				""
-				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
-				""
-				"Press &bG &rto activate your Primary Origin Ability"
-				""
-				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
-				""
-				"Press &bM &rto open the World Map"
-				""
-				"Press &bO &rto view Origin Information"
-				""
-				"Press &bH&r to activate your Secondary Origin Ability, if you have one"
-			]
+			dependencies: ["175099CF5696829E"]
 			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftblibrary:textures/icons/player.png"
-				}
+				id: "minecraft:writable_book"
 			}
 			id: "2165E80C52C79992"
 			invisible: true
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "1F8F06B03E3FCB30"
+				id: "53BABD7EBBAE8559"
 				item: {
-					Count: 1
-					id: "wizards:wand_novice"
-					tag: {
-						Damage: 0
-					}
+					count: 1
+					id: "dehydration:leather_flask"
 				}
 				type: "item"
 			}]
-			subtitle: "Read my description! Make sure to scroll down."
-			tasks: [
-				{
-					id: "6A64112F92690241"
-					title: "Click me!"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					id: "2B23CADA52D45FA0"
-					item: "minecraft:bread"
-					type: "item"
-				}
-			]
-			title: "&9Important Controls"
-			x: 2.5d
-			y: 0.0d
+			tasks: [{
+				id: "6A64112F92690241"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"2958CA7FA6FD3E4F"
-				"175099CF5696829E"
-				"2165E80C52C79992"
-			]
-			description: [
-				"At the bottom of the inventory, you may have noticed a search bar."
-				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
-				"If you type Wood, for example, the &dREI &ritem list at the right of the screen will show all items with Wood in the name."
-				""
-				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Adorn"
-				""
-				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #logs"
-				""
-				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen, or press A while hovering over it."
-				""
-				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
-				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
-			]
+			dependencies: ["6A52090D6BC064D7"]
 			hide: true
 			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "owo:textures/gui/config_search.png"
-				}
+				id: "minecraft:paper"
 			}
 			id: "139DAA6E8CF4267A"
 			rewards: [{
@@ -281,226 +135,28 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "Read my description! Make sure to scroll down."
 			tasks: [{
 				id: "74C85348A8B837EB"
-				title: "Roughly Enough Items"
 				type: "checkmark"
 			}]
-			title: "&bRoughly Enough Items (REI)"
-			x: 1.5d
-			y: -1.5d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["139DAA6E8CF4267A"]
-			description: [
-				"Check out &bTips and Tricks&r and &bGetting Stronger&r for more gameplay advice."
-				""
-				"&a&lMORE QUESTS! &rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page, where the arrow is. "
-				""
-				"To start, try checking out &3Magic&r, &9Dehydration&r, or &3Backpacks and Storage&r!"
-				""
-				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
-				""
-				"You may want to claim these quest rewards later, once you have storage available!"
-				"{@pagebreak}"
-			]
+			dependencies: ["2165E80C52C79992"]
 			hide: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftblibrary:textures/icons/check.png"
-				}
-			}
 			id: "6A4CB4700F0082C6"
-			rewards: [
-				{
-					id: "0CEA429A4EFA92FE"
-					item: "archon:grimoire"
-					type: "item"
-				}
-				{
-					id: "2808585D0EE745EB"
-					item: "adventurez:handbook"
-					type: "item"
-				}
-				{
-					id: "18A2D4062EBC2799"
-					item: "dehydration:handbook"
-					type: "item"
-				}
-				{
-					id: "3462D5D6E9AB1156"
-					item: {
-						Count: 1
-						id: "conjuring:enchiridion"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "0DE3F7CB7E410B7D"
-					item: "seasonsextras:seasonal_compendium"
-					type: "item"
-				}
-				{
-					id: "06C7B40D5203309A"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "mythicmobs:mythical_guide_book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3631078E0D5277CD"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "mythicmounts:mythical_mounts"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "69F36920E9B9B445"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "simplyswords:runic_grimoire"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "50B4BEB896E2AC66"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "zenith:chronicle"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Read my description!"
+			rewards: [{
+				id: "76A4DF2192A3107D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "3B2CC7DEE30E3AB8"
-				title: "&aTutorial Complete!"
 				type: "checkmark"
 			}]
-			title: "&aTutorial Complete!"
 			x: 1.5d
 			y: -3.0d
 		}
-		{
-			dependencies: ["139DAA6E8CF4267A"]
-			description: [
-				"Items with a rarity can be salvaged in a &7Salvaging Table&r, and any gear can be reforged in a &6Reforging Table&r. "
-				""
-				"For a guide, read the &3Chronicle of Shadows&r, which you can get from the previous tutorial quest."
-				""
-				"Mobs will become &dhigher level&r based on distance from spawn, and in certain structures that contain powerful loot. "
-				""
-				"Their health and damage will also increase gradually as you invest further into &2Skill Trees&r"
-				""
-				"&dMob level&r and the &6rarity of loot&r will also increase based on Dimension. In order of increasing difficulty: "
-				"&d1&r. Overworld"
-				"&d2&r. &2Twilight Forest&r/&eThe Bumblezone"
-				"&d3&r. &cMine Cells&r/&0The Otherside&r"
-				"&d4&r. The &4Nether"
-				"&d5&r. The &5End"
-			]
-			hide: true
-			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftblibrary:textures/icons/diamond.png"
-				}
-			}
-			id: "1272952B43DFA218"
-			rewards: [
-				{
-					id: "30B23FCC24506AEC"
-					item: "zenith:uncommon_material"
-					type: "item"
-				}
-				{
-					id: "76C952DDC66960BF"
-					item: "zenith:gem_dust"
-					type: "item"
-				}
-			]
-			subtitle: "Read my description! Make sure to scroll down."
-			tasks: [{
-				id: "64F70B833581A586"
-				title: "&cTips \\& Tricks"
-				type: "checkmark"
-			}]
-			title: "&cTips \\& Tricks"
-			x: 0.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["139DAA6E8CF4267A"]
-			description: [
-				"Mobs in Medieval MC, and especially some bosses, are balanced around character progression."
-				""
-				"Your best tools for dealing with these will be finding and enhancing rare gear through &dZenith&r, and improving your character through &2Simply Skills&r."
-				""
-				"Reforging gear is described in &cTips \\& Tricks&r, the quest just to the left of this one. To add &dZenith&r gems into socketed gear, use a smithing table."
-				""
-				"Gems and items with a rarity (&6Affixed&r items) can be found throughout the world or dropped from bosses. The more &aluck&r you have, the better the loot!"
-				""
-				"&2Simply Skills&r experience is gained by killing mobs - but you'll get less experience the more you kill in the same area (so you can't max out your skill tree just sitting at a mob farm!)"
-				""
-				"Some &5enchantments&r, &6unique weapons&r or &9trinkets&r, and &3spells&r can also be quite strong! Most of these will be found through killing bosses or looting structures. "
-				""
-				"If you'd like more specific guidance and want to view community-made builds, or you've come up with a cool idea of your own you'd like to share, you can join our discord! "
-				""
-				"https://discord.gg/lunapixel"
-			]
-			hide: true
-			hide_dependency_lines: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6F880A742C07C508"
-			rewards: [{
-				id: "0E91377F91E69A9A"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "How do I deal with high level mobs?"
-			tasks: [
-				{
-					id: "278A30A9D8737B1A"
-					item: "zenith:simple_reforging_table"
-					type: "item"
-				}
-				{
-					id: "2C12ECF648AC47BD"
-					item: "zenith:salvaging_table"
-					type: "item"
-				}
-			]
-			title: "&4Getting Stronger"
-			x: 2.5d
-			y: -4.5d
-		}
 	]
-	title: " &dTutorial"
 }

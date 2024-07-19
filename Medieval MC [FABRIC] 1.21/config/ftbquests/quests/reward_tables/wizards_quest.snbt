@@ -3,66 +3,10 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "zenith:protection"
-						lvl: 4s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "origins:water_protection"
-						lvl: 4s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "zenith:fire_protection"
-						lvl: 4s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "zenith:projectile_protection"
-						lvl: 4s
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "zenith:blast_protection"
-						lvl: 4s
-					}]
-				}
-			}
-		}
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
 	]
-	title: "Rune Ingredients"
 }
