@@ -49,7 +49,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.6.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/Clarent_(20)_1.20.2~1.20.6.zip","file/MMC_Excal","file/STONEBORN-1.20.3-1.20.6-V3.2.1.4.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Additions v1.0.zip","file/stoneborn_patches","file/NoBushyLeaves.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip","file/panorama_overrides.zip","file/EclecticTrove-1.20.1-1.3.0.zip"]
+resourcePacks:["vanilla","fabric","file/Excalibur_V1.20.6.zip","file/Clarent_(20)_1.20.2~1.20.6.zip","file/MMC_Excal","file/STONEBORN-1.20.3-1.20.6-V3.2.1.4.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Additions v1.0.zip","file/stoneborn_patches","file/EmbellishedStone-1.20.1-1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip","file/EclecticTrove-1.20.1-1.3.0.zip","file/NoBushyLeaves.zip","file/panorama_overrides.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -132,9 +132,8 @@ key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.h
-key_key.carry.desc:key.keyboard.left.shift
+key_key.carry.desc:key.keyboard.unknown
 key_key.crawl:key.keyboard.left.alt
-key_key.desolation.cinder_dash:key.keyboard.v
 key_key.interactic.pickup_item:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
@@ -144,6 +143,8 @@ key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.jade.config:key.keyboard.unknown
 key_key.jade.show_overlay:key.keyboard.unknown
 key_key.jade.toggle_liquid:key.keyboard.unknown
+key_key.jade.show_recipes:key.keyboard.keypad.3
+key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.unknown
 key_key.jade.show_details_alternative:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.equal
@@ -162,12 +163,13 @@ key_key.journeymap.fullscreen.north:key.keyboard.up
 key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
-key_key.journeymap.fullscreen_follow_player:key.keyboard.f
+key_key.journeymap.fullscreen_follow_player:key.keyboard.unknown
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_key.journeymap.toggle_entity_names:key.keyboard.g
 key_mapfrontiers.key.open_settings:key.keyboard.f8
+key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.puffish_skills.open:key.keyboard.k
-key_key.seasonhud.options:key.keyboard.h
+key_key.spyglass-improvements.use:key.keyboard.z
 key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
@@ -177,16 +179,13 @@ key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
 key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
 key_key.travelersbackpack.toggle_tank:key.keyboard.unknown
-key_key.uselessreptile.flyDownKey:key.keyboard.unknown
-key_key.uselessreptile.primaryAttackKey:key.keyboard.g
-key_key.uselessreptile.secondaryAttackKey:key.keyboard.v
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.5088369205298013
-soundCategory_music:0.0
+soundCategory_master:0.5093841444632682
+soundCategory_music:0.5153636663732394
 soundCategory_record:0.5051386443661973
 soundCategory_weather:0.5019091109154928
 soundCategory_block:0.5051386443661973
