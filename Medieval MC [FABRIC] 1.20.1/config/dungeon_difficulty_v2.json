@@ -172,6 +172,39 @@
             }
           ],
           "experience_multiplier": 1.5
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "guardvillagers:guard"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.69
+            }
+          ],
+          "experience_multiplier": 1.5
         }
       ],
       "rewards": {
@@ -310,13 +343,13 @@
               "attribute": "generic.attack_damage",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 0.75
+              "value": 0.5
             },
             {
               "attribute": "projectile_damage:generic",
               "operation": "ADDITION",
               "randomness": 0.1,
-              "value": 0.75
+              "value": 0.5
             },
             {
               "attribute": "generic.armor",
@@ -328,19 +361,19 @@
               "attribute": "generic.max_health",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 1.25
+              "value": 0.75
             },
             {
               "attribute": "generic.armor_toughness",
               "operation": "ADDITION",
               "randomness": 0.0,
-              "value": 1.0
+              "value": 0.0
             },
             {
               "attribute": "generic.movement_speed",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.005
+              "value": 0.002
             }
           ],
           "spawners": {
