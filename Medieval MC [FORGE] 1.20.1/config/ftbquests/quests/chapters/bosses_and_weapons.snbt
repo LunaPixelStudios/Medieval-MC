@@ -318,8 +318,8 @@
 				value: 1L
 			}]
 			title: "&fDefeat &r&k&4I&r&8&lThe Wither&k&4I"
-			x: 0.0d
-			y: 2.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			id: "6B91E665B4B18F60"
@@ -556,6 +556,7 @@
 					xp_levels: 15
 				}
 			]
+			size: 1.25d
 			subtitle: "Found deep underground in &2Overworld&r caves, in a massive cube arena surrounded by lava. \\nIt is said to have been guarding something &6valuable&r..."
 			tasks: [{
 				entity: "eeeabsmobs:nameless_guardian"
@@ -573,8 +574,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.5d
-			y: -3.5d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			id: "241E15A6AF6027D1"
@@ -608,60 +609,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			icon: {
-				Count: 1
-				id: "eeeabsmobs:netherworld_katana"
-				tag: {
-					Damage: 0
-					affix_data: {
-						sockets: 0
-					}
-				}
-			}
-			id: "29EE0072FEDAD4A1"
-			rewards: [
-				{
-					id: "1FD555465F8FFF45"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
-					id: "21170BCCBEC99CE7"
-					item: {
-						Count: 1
-						id: "alexscaves:totem_of_possession"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			size: 1.25d
-			subtitle: "Found in the &4Bloody Arena&r, anywhere in the &cNether&r."
-			tasks: [{
-				entity: "eeeabsmobs:immortal"
-				icon: {
-					Count: 1
-					id: "eeeabsmobs:netherworld_katana"
-					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 0
-						}
-					}
-				}
-				id: "08387952D4AC01F0"
-				title: "Defeat &9The Immortal"
-				type: "kill"
-				value: 1L
-			}]
-			x: -4.0d
-			y: -6.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			id: "4EB509756A3EAB5C"
@@ -705,8 +654,8 @@
 				value: 1L
 			}]
 			title: "Defeat &eUmvuthi, the Sunbird&r"
-			x: -3.0d
-			y: -1.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			id: "6A85E589A5527ED3"
@@ -796,6 +745,31 @@
 			}]
 			x: -6.75d
 			y: -8.25d
+		}
+		{
+			id: "6AEC6F84D646FC53"
+			rewards: [
+				{
+					id: "405DB8C8CBE54F78"
+					item: "aetherdelight:oat_cookie"
+					type: "item"
+				}
+				{
+					id: "35CD99E797274DB0"
+					item: "bosses_of_mass_destruction:brimstone_nectar"
+					type: "item"
+				}
+			]
+			subtitle: "&bChallenge Orbs&r are fairly expensive to craft, but can be used to respawn almost any boss arena or major dungeon. \\n\\nDoes not work if the structure has any &dclaimed chunks&r.\\n\\nWon't work on arenas from &6Bosses of Mass Destruction&r; these use their own item, the &6Brimstone Nectar&r"
+			tasks: [{
+				id: "6696BF75C5D3B149"
+				item: "medieval:challenge_orb"
+				title: "Craft a Challenge Orb"
+				type: "item"
+			}]
+			title: "&k&dI&r&b Challenge Orbs &k&dI"
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: " &4Bosses"

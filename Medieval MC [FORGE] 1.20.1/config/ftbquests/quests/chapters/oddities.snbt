@@ -310,7 +310,7 @@
 				item: "biomesoplenty:redwood_log"
 				type: "item"
 			}]
-			subtitle: "Same utility as a &eStone Cutter&r, but for wood."
+			subtitle: "Like a &eStone Cutter&r, but for wood"
 			tasks: [{
 				id: "7EB14B4A74259817"
 				item: "sawmill:sawmill"
@@ -668,25 +668,6 @@
 			title: "Find a &7&lSpelunkery Table"
 			x: 2.5d
 			y: 1.5d
-		}
-		{
-			id: "4B7494D988D2791E"
-			rewards: [{
-				count: 3
-				id: "5A0D2CA938295BC5"
-				item: "minecraft:emerald"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "Used to turn a villager into an &dOccultist"
-			tasks: [{
-				id: "09F692476991A148"
-				item: "villagersplus:occultist_table"
-				type: "item"
-			}]
-			title: "Craft an &dEnchanted Basin"
-			x: -6.0d
-			y: 9.5d
 		}
 		{
 			id: "6280E25813EA2805"

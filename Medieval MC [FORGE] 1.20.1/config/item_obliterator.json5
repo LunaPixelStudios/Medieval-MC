@@ -28,25 +28,21 @@
   // 	
   // 	 You can also use regular expressions by starting the value with !
   "blacklisted_nbt": [
-    "!.*skilltree:(sapphire|citrine|ruby|jade|iriscite).*"
   ],
   // -----------------------------------------------------------
   // Items here will not be able to be right-clicked (Interact)
   //    Example: minecraft:apple
   "only_disable_interactions": [
-    "examplemod:example_item"
   ],
   // -----------------------------------------------------------
   // Items here will not be able to be used to attack
   //    Example: minecraft:diamond_sword
   "only_disable_attacks": [
-    "examplemod:example_item"
   ],
   // -----------------------------------------------------------
   // Items here will get their recipes disabled
   // Keep in mind this already is applied to blacklisted items
   "only_disable_recipes": [
-    "examplemod:example_item"
   ],
   // -----------------------------------------------------------
   // If true, the mod will use a hashset to handle the blacklisted items
