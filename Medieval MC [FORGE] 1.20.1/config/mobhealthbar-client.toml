@@ -1,0 +1,46 @@
+
+[general]
+	#Toggle Health bars for mobs
+	toogle = true
+	#Render health bar only when the mob is visible
+	onvisible = true
+	#Show health points on bars. Note that not every type of the bars can show the hp
+	show_hp = true
+	#Show the Name above the mobs
+	show_name = false
+	#Show bars only when a mob is aggressive
+	on_aggro = false
+	#Show bar texture
+	bar = true
+	#Show the hp bar of the mobs who are damaged
+	damaged_only = false
+	#Show the hp bar of the mob you are looking at
+	hovered_only = false
+	#
+	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
+	blacklist = "minecraft:ender_dragon"
+
+	#MobHealtBar
+	[general.hpbar]
+		#Health Bar Type
+		#Range: 1 ~ 14
+		type = 3
+		#X Position
+		#Range: > -2147483648
+		x-pos = 0
+		#Y Position
+		#Range: > -2147483648
+		y-pos = 24
+		#Render Distance
+		#Range: > 0
+		render-distance = 450
+		#Scale Nametag
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scale-name = 0.75
+		#Scale Bar
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scale-bar = 0.75
+		#Scale Numbers
+		#Range: 0.0 ~ 1.7976931348623157E308
+		scale-nums = 1.0
+
