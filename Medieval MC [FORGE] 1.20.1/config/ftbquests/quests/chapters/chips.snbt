@@ -837,7 +837,7 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			subtitle: "Cherished as a source of &bDiamonds&r, their durable shells can only be damaged by Iron pickaxes or better. \\nRumor has it a certain &denchantment&r may allow you to pick one up without harm."
+			subtitle: "Cherished as a source of &bDiamonds&r, their durable shells can only be damaged by Iron pickaxes or better. \\n\\nA certain &denchantment&r is the trick to picking one up without harm."
 			tasks: [{
 				id: "1764FC918E966C42"
 				item: "mowziesmobs:captured_grottol"
