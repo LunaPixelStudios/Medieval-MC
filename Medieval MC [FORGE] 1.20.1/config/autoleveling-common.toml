@@ -6,7 +6,7 @@
 	#Example: ["minecraft:zombie", "minecraft:skeleton"]
 	"List of mobs that should be able to level up" = []
 	"Always show mobs levels" = false
-	"Only show levels when you look at the mob" = true
+	"Only show levels when you look at the mob" = false
 	"Bonus experience per level" = 0.1
 	"List of mobs that should have their levels always hidden" = []
 
