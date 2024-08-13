@@ -299,9 +299,18 @@
 		{
 			id: "07E305E95A000FAF"
 			rewards: [{
+				count: 16
+				icon: {
+					id: "mythicmetals:runite_arrow"
+				}
 				id: "1A4F1BAC0EB7387F"
+				item: {
+					count: 1
+					id: "mythicmetals:runite_arrow"
+				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: {
@@ -320,12 +329,29 @@
 			}
 			id: "2CE58DD1AE214711"
 			progression_mode: "flexible"
-			rewards: [{
-				id: "1919D53920738BB2"
-				type: "item"
-			}]
+			rewards: [
+				{
+					icon: {
+						id: "dragonloot:dragon_scale"
+					}
+					id: "1919D53920738BB2"
+					item: {
+						count: 1
+						id: "dragonloot:dragon_scale"
+					}
+					type: "item"
+				}
+				{
+					id: "296E81269E2CF6BB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
 				id: "6848B89E38A80BAB"
 				type: "kill"
 				value: 1L
@@ -334,7 +360,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["2CE58DD1AE214711"]
+			dependencies: ["76A2E66A3AD64AA4"]
 			id: "6381BB849DDEE54A"
 			rewards: [{
 				id: "64C9F6F6921F8A27"
@@ -347,16 +373,12 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["2CE58DD1AE214711"]
+			dependencies: ["6E643E07C34F4D25"]
 			id: "4ABFB228442D00FB"
 			rewards: [
-				{
-					id: "635FBFFC8004E240"
-					type: "item"
-				}
 				{
 					id: "3EDA1F9BB902B2FD"
 					type: "xp_levels"
@@ -378,7 +400,7 @@
 				type: "advancement"
 			}]
 			x: 9.5d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			id: "1B3DA66139175C4C"
@@ -389,6 +411,7 @@
 						"minecraft:potion_contents": {
 							potion: "minecraft:fire_resistance"
 						}
+						"scorchful:drink_level": "hydrating"
 					}
 					count: 1
 					id: "minecraft:potion"
@@ -492,6 +515,156 @@
 			}]
 			x: 1.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "71C349B7CEDE6CA8"
+			rewards: [{
+				id: "03EC9FE8BEB62BC6"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				entity: "adventurez:the_eye"
+				icon: {
+					id: "adventurez:prime_eye"
+				}
+				id: "11D0BD5986E1B874"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71C349B7CEDE6CA8"]
+			id: "4F9DA666CA118ECA"
+			rewards: [
+				{
+					id: "4A58C920A5AE9C6E"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "5F7FADB2A5D843F0"
+					item: {
+						count: 1
+						id: "betterend:aeternium_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				entity: "adventurez:void_shadow"
+				id: "64E74549ED509E16"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.875d
+			y: 6.25d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			id: "76A2E66A3AD64AA4"
+			rewards: [
+				{
+					id: "0499631B35D61E9E"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "7D9C12F4ABA2A2DE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "adventurez:ender_whale_skin"
+				}
+				id: "4F8627FE88723B3C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adventurez:ender_whale"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07E305E95A000FAF"]
+			id: "6E643E07C34F4D25"
+			rewards: [
+				{
+					id: "72D0B887D0300CEC"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "76BC8D22CE473E99"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2BBECF8FCB33A3C2"
+				item: { count: 1, id: "mythicmetals:celestium_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4F9DA666CA118ECA"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3A5840CDE3D16FE3"
+			rewards: [
+				{
+					count: 2
+					id: "6721B0745092EFBC"
+					item: {
+						count: 1
+						id: "adventurez:orc_skin"
+					}
+					type: "item"
+				}
+				{
+					id: "6EF14C5613FEEA54"
+					item: {
+						count: 1
+						id: "minecraft:beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3CE05AE80D119B43"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				icon: {
+					id: "minecraft:dragon_egg"
+				}
+				id: "6CA9508358404366"
+				observe_type: 5
+				timer: 0L
+				to_observe: "adventurez:dragon"
+				type: "observation"
+			}]
+			x: 11.0d
+			y: 8.5d
 		}
 	]
 }

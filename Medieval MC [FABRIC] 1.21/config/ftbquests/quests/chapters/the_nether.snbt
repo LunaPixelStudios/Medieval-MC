@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "0D7FF8F037EFF568"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "46D0AAEEB69E28B3"
+			rewards: [{
+				id: "3EF7274E68915A93"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "7FC5892104C0744C"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "5B11DB2289D4F66C"
+			rewards: [{
+				id: "01843B11C600D8E2"
+				item: {
+					count: 1
+					id: "travelersbackpack:blaze"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "adventurez:blaze_guardian"
+				icon: {
+					id: "minecraft:blaze_powder"
+				}
+				id: "4DBABAE3AE00C903"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "69872C1F1CCBDEBD"
+			rewards: [{
+				id: "5EDD80F5723D41C3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "adventurez:necromancer"
+				icon: {
+					id: "minecraft:wither_skeleton_skull"
+				}
+				id: "745C505DC4DF253C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "4E14675B45B7DD15"
+			rewards: [
+				{
+					id: "101B4E61468DF647"
+					item: {
+						count: 1
+						id: "adventurez:piglin_flag"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E386C6C4EE23C79"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:piglin_beast"
+				icon: {
+					id: "adventurez:piglin_flag"
+				}
+				id: "6F13475E767FB83F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "3963B69A10D95565"
+			rewards: [
+				{
+					id: "642781128F917E02"
+					item: {
+						count: 1
+						id: "adventurez:gilded_netherite_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "4A545B0B6E9CE272"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: {
+					id: "adventurez:blackstone_golem_heart"
+				}
+				id: "3CCB99D30F004CC1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "277A0F5BB5027FA5"
+			rewards: [{
+				id: "6197D5559D7F9FB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: {
+					id: "friendsandfoes:wildfire_crown"
+				}
+				id: "3C02A17229E78D78"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+}

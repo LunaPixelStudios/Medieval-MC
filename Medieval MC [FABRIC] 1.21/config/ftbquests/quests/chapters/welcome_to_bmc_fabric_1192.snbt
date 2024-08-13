@@ -32,6 +32,14 @@
 			x: 1.5d
 			y: -0.5d
 		}
+		{
+			height: 2.0d
+			image: "lunapixel:textures/gui/logo_medieval.png"
+			rotation: 0.0d
+			width: 4.1d
+			x: 1.5d
+			y: 4.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -109,7 +117,7 @@
 			id: "2165E80C52C79992"
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "53BABD7EBBAE8559"
+				id: "4A78A57601954674"
 				item: {
 					count: 1
 					id: "dehydration:leather_flask"
@@ -149,7 +157,7 @@
 			rewards: [{
 				id: "76A4DF2192A3107D"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 1
 			}]
 			tasks: [{
 				id: "3B2CC7DEE30E3AB8"

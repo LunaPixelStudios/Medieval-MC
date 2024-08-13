@@ -2,15 +2,35 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dehydration"
-	group: "3C993182D3E6754B"
+	group: ""
 	icon: {
 		id: "dehydration:purified_water_bucket"
 	}
 	id: "4D71D04257FC6CC7"
+	images: [
+		{
+			height: 1.25d
+			image: "minecraft:textures/misc/powder_snow_outline.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: 4.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2822E50A6F4EE71B"]
 			id: "2D3B4D3B83178C68"
 			rewards: [
 				{
@@ -33,10 +53,11 @@
 				item: { count: 1, id: "dehydration:campfire_cauldron" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["2822E50A6F4EE71B"]
 			id: "3D7D3E6E77B52951"
 			rewards: [{
 				id: "78BB4AD99A8617F9"
@@ -52,6 +73,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2822E50A6F4EE71B"]
 			id: "747A584BA1CF69EA"
 			rewards: [{
 				id: "68455DE50E0DE631"
@@ -69,8 +91,8 @@
 				item: { count: 1, id: "dehydration:iron_leather_flask" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 0.25d
+			y: 1.5d
 		}
 		{
 			dependencies: ["747A584BA1CF69EA"]
@@ -88,8 +110,8 @@
 				item: { count: 1, id: "dehydration:golden_leather_flask" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: -0.25d
+			y: 0.25d
 		}
 		{
 			dependencies: ["2B4B28A34BCCE2B1"]
@@ -108,8 +130,8 @@
 				item: { count: 1, id: "dehydration:diamond_leather_flask" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: -0.35d
+			y: -1.1d
 		}
 		{
 			dependencies: ["3410D8B3D7124EC3"]
@@ -127,8 +149,386 @@
 				item: { count: 1, id: "dehydration:netherite_leather_flask" }
 				type: "item"
 			}]
+			x: 0.15d
+			y: -2.5d
+		}
+		{
+			id: "5E5B131145B3C89C"
+			rewards: [{
+				count: 2
+				id: "49563BDD73C0454F"
+				item: {
+					count: 1
+					id: "frostiful:glacial_arrow"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "21D93DAAC47A1DCE"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
 			x: 0.5d
-			y: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["395D22288E514876"]
+			id: "4534C3E994049A02"
+			rewards: [
+				{
+					count: 2
+					id: "6AB0E5B1B62143A0"
+					item: {
+						count: 1
+						id: "minecraft:bamboo_mosaic"
+					}
+					type: "item"
+				}
+				{
+					id: "6E623DBC2FF32F55"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "012C5F87D8C75707"
+				item: { count: 1, id: "scorchful:sun_hat" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B1F7643E746BEBF"]
+			id: "32540152DDEF9895"
+			rewards: [{
+				id: "204E5C87A2184FFB"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:purified_water"
+						}
+						"scorchful:drink_level": "hydrating"
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CA29EE6E95EE108"
+				item: { count: 1, id: "scorchful:cactus_juice" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["045341D2BC836C1D"]
+			id: "54DFB7571394B727"
+			rewards: [
+				{
+					id: "1D8312EB1B0C4F7E"
+					item: {
+						count: 1
+						id: "minecraft:armadillo_scute"
+					}
+					type: "item"
+				}
+				{
+					id: "5285DC688F6A1C2F"
+					item: {
+						count: 1
+						id: "frostiful:wolf_fur_tuft"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1808B5C70AF17644"
+				item: { count: 1, id: "frostiful:wolf_fur_tuft" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54DFB7571394B727"]
+			id: "159637FFAB283D79"
+			rewards: [{
+				id: "3001925058B53DD3"
+				item: {
+					count: 1
+					id: "minecraft:fire_charge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "frostiful:hot_sun_lichen"
+				}
+				id: "1665BF71D5548F91"
+				observe_type: 0
+				timer: 0L
+				to_observe: "frostiful:hot_sun_lichen"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4534C3E994049A02"]
+			id: "3B1F7643E746BEBF"
+			rewards: [
+				{
+					id: "082A931A00C93311"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "77D2524D61DC8B90"
+					item: {
+						count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+					}
+					type: "item"
+				}
+				{
+					id: "5DFCA368CF81F7B3"
+					item: {
+						count: 1
+						id: "handcrafted:crimson_fancy_bed"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "scorchful:crimson_lily"
+					}
+					id: "65943FD9F67EEB9F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "scorchful:crimson_lily"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "scorchful:warped_lily"
+					}
+					id: "6065E17621983789"
+					observe_type: 0
+					timer: 0L
+					to_observe: "scorchful:warped_lily"
+					type: "observation"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["35FC5E4F0EEA04C2"]
+			id: "02A0C939A32308CA"
+			rewards: [{
+				id: "6BC63482F6037D2E"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "47515850A82EB7D8"
+				item: { count: 1, id: "scorchful:water_skin" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["159637FFAB283D79"]
+			id: "676E51FECDE9F4C1"
+			rewards: [
+				{
+					count: 2
+					id: "321F825E4EF3E1AD"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0F69E530EB40638D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "058682AA703BA228"
+				item: { count: 1, id: "frostiful:glacial_heart" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "dehydration:leather_flask"
+			}
+			id: "2822E50A6F4EE71B"
+			rewards: [{
+				id: "4AAD4C63ECB33AEF"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "4B129EC7F06170C7"
+				item: { count: 1, id: "dehydration:leather_flask" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.25d
+		}
+		{
+			id: "395D22288E514876"
+			rewards: [{
+				id: "069D17CE23F6E0F1"
+				item: {
+					count: 1
+					id: "dehydration:leather_flask"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				comparison: 0
+				icon: {
+					id: "minecraft:fire_charge"
+				}
+				id: "6476D6F16F63F140"
+				target_temperature: 500
+				type: "medieval:temperature"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "frostiful:packed_snowball"
+			}
+			id: "045341D2BC836C1D"
+			rewards: [{
+				count: 2
+				id: "39E7AA23F378FA43"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				comparison: 1
+				icon: {
+					id: "frostiful:packed_snowball"
+				}
+				id: "608179E2C8926B06"
+				target_temperature: -500
+				type: "medieval:temperature"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["676E51FECDE9F4C1"]
+			id: "13D77F68355444FF"
+			rewards: [
+				{
+					id: "2156F4D49E32AD1B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "755CE85BFEDC752D"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "frostiful:strong_freezing"
+							}
+							"scorchful:drink_level": "hydrating"
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "261A2A4D4475D4A4"
+				item: { components: { "minecraft:enchantments": { levels: { "minecraft:binding_curse": 1 } } }, count: 1, id: "frostiful:frostology_cloak" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32540152DDEF9895"]
+			id: "6EE9067C9A973259"
+			rewards: [
+				{
+					count: 3
+					id: "11BFAC3585A6DF8B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_turtle_master"
+							}
+							"scorchful:drink_level": "hydrating"
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "51F5E50FE8713CAE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "116C5AB74D588B5A"
+					item: { count: 1, id: "minecraft:turtle_helmet" }
+					type: "item"
+				}
+				{
+					id: "4AD196A2112CE250"
+					item: { count: 1, id: "scorchful:turtle_chestplate" }
+					type: "item"
+				}
+				{
+					id: "01374BEEE05EBC4C"
+					item: { count: 1, id: "scorchful:turtle_leggings" }
+					type: "item"
+				}
+				{
+					id: "2D747E35F8CA7AB3"
+					item: { count: 1, id: "scorchful:turtle_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
 		}
 	]
 }

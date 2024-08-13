@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bosses_and_weapons"
-	group: "3C993182D3E6754B"
+	group: ""
 	icon: {
 		id: "bosses_of_mass_destruction:brimstone_nectar"
 	}
 	id: "7D49255AE00C0EF9"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

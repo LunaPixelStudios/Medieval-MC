@@ -300,6 +300,7 @@
 						"minecraft:potion_contents": {
 							potion: "minecraft:fire_resistance"
 						}
+						"scorchful:drink_level": "hydrating"
 					}
 					count: 1
 					id: "minecraft:potion"
