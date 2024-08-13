@@ -44,8 +44,8 @@
   "combatConfig": {
     "fireBallThrownType": "SMALL",
     "enableDesertVisions": true,
-    "defaultArmorHeatResistance": -0.5,
-    "veryHarmfulArmorHeatResistance": -1.0,
+    "defaultArmorHeatResistance": 0.0,
+    "veryHarmfulArmorHeatResistance": -0.5,
     "protectiveArmorHeatResistance": 0.5,
     "veryProtectiveArmorHeatResistance": 1.0,
     "fearDetectionRangeMultiplier": 2.0
