@@ -1,0 +1,81 @@
+{
+  "updateConfig": {
+    "currentConfigVersion": 4,
+    "enableConfigUpdates": false
+  },
+  "clientConfig": {
+    "doBurningHeartOverlay": true,
+    "doSunHatShading": true,
+    "enableSoundTemperatureEffects": true,
+    "enableHeatStrokePostProcessing": true,
+    "enableFearPostProcessing": true,
+    "sunHatShadeOpacity": 0.2,
+    "enableSandstormParticles": true,
+    "enableSandstormFog": true,
+    "enableSandstormSounds": true,
+    "sandStormParticleRenderDistance": 20,
+    "sandStormParticleRarity": 60,
+    "sandStormParticleVelocity": -1.0,
+    "sandStormFogStart": 16.0,
+    "sandStormFogEnd": 64.0
+  },
+  "heatingConfig": {
+    "doPassiveHeating": true,
+    "passiveHeatingTickInterval": 1,
+    "maxPassiveHeatingScale": 1.0,
+    "enableTurtleArmorEffects": true,
+    "coolingFromIce": 12,
+    "minSkyLightLevelForHeat": 15,
+    "heatFromSun": 1,
+    "scorchingBiomeHeatIncrease": 1,
+    "sunHatShadeTemperatureChange": -2,
+    "onFireWarmRate": 12,
+    "onFireWarmRateWithFireResistance": 3,
+    "inLavaWarmRate": 12,
+    "striderOutOfLavaCoolRate": 24,
+    "powderSnowCoolRate": 24,
+    "fireballHeat": 500,
+    "waterBreathingDurationPerTurtleArmorPieceSeconds": 10,
+    "lightLevelPerHeatInNether": 5,
+    "minLightLevelForHeatInNether": 14,
+    "blocksAboveLavaOceanPerHeatInNether": 5,
+    "maxHeatFromLavaOceanInNether": 3
+  },
+  "combatConfig": {
+    "fireBallThrownType": "SMALL",
+    "enableDesertVisions": true,
+    "defaultArmorHeatResistance": -0.5,
+    "veryHarmfulArmorHeatResistance": -1.0,
+    "protectiveArmorHeatResistance": 0.5,
+    "veryProtectiveArmorHeatResistance": 1.0,
+    "fearDetectionRangeMultiplier": 2.0
+  },
+  "weatherConfig": {
+    "doSandPileAccumulation": true,
+    "sandPileAccumulationHeight": 1,
+    "sandstormSlownessAmountPercent": -0.3,
+    "sandstormFollowRangeReductionPercent": -0.5
+  },
+  "thirstConfig": {
+    "temperatureFromWetness": -6,
+    "waterFromRefreshingFood": 60,
+    "waterFromSustainingFood": 120,
+    "waterFromHydratingFood": 300,
+    "waterFromParchingFood": -120,
+    "rehydrationDrinkSize": 120,
+    "soakingFromSplashPotions": 300,
+    "touchingWaterWetnessIncrease": 1,
+    "dryRate": 1,
+    "onFireDryDate": 3,
+    "humidBiomeSweatEfficiency": 0.16666667,
+    "maxRehydrationEfficiency": 0.75
+  },
+  "integrationConfig": {
+    "dehydrationConfig": {
+      "minWaterLevelForSweat": 16
+    },
+    "seasonsConfig": {
+      "enableSeasonsIntegration": true
+    }
+  }
+}
