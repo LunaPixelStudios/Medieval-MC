@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1722885764033
+  last_edited_time = 1723056131149
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:fe30e8d6-0397-4d06-837c-4e34b53cc796-1722885515956] = [groups:][instances:]
+  [loading_requirement_container_meta:76a3bac5-4165-4592-b25e-fb4a927f0cf8-1723056117556] = [groups:][instances:]
 }
 
 menu_background {
@@ -51,8 +51,8 @@ element {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = mid-centered
-  x = -140
-  y = 57
+  x = -138
+  y = -25
   width = 280
   height = 50
   stretch_x = false
@@ -60,38 +60,6 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 78a919ab-8113-4d72-9dfb-ed4fa0f311be-1722885543402
   [loading_requirement_container_meta:78a919ab-8113-4d72-9dfb-ed4fa0f311be-1722885543402] = [groups:][instances:]
-}
-
-vanilla_button {
-  button_element_executable_block_identifier = aca94eeb-4588-480b-b3b5-53d8b4743d54-1720561982107
-  [executable_block:aca94eeb-4588-480b-b3b5-53d8b4743d54-1720561982107][type:generic] = [executables:]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  navigatable = true
-  element_type = vanilla_button
-  instance_identifier = mojang_logo
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = vanilla
-  x = 132
-  y = 106
-  width = 282
-  height = 70
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = e9671c4b-6974-4422-9748-82950a026a57-1720561982107
-  [loading_requirement_container_meta:e9671c4b-6974-4422-9748-82950a026a57-1720561982107] = [groups:][instances:]
-  is_hidden = true
-  automated_button_clicks = 0
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
 }
 
 vanilla_button {
@@ -110,15 +78,47 @@ vanilla_button {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = vanilla
-  x = 132
-  y = 230
-  width = 282
+  x = 43
+  y = 208
+  width = 256
   height = 10
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = c6ca5691-bed5-42b3-a21a-ecce49be1bf6-1720561982107
   [loading_requirement_container_meta:c6ca5691-bed5-42b3-a21a-ecce49be1bf6-1720561982107] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = aca94eeb-4588-480b-b3b5-53d8b4743d54-1720561982107
+  [executable_block:aca94eeb-4588-480b-b3b5-53d8b4743d54-1720561982107][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 43
+  y = 96
+  width = 256
+  height = 64
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e9671c4b-6974-4422-9748-82950a026a57-1720561982107
+  [loading_requirement_container_meta:e9671c4b-6974-4422-9748-82950a026a57-1720561982107] = [groups:][instances:]
   is_hidden = true
   automated_button_clicks = 0
   nine_slice_slider_handle = false
