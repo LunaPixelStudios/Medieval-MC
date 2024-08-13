@@ -106,9 +106,6 @@
     },
     "natures_spirit:plank_consistency": {
       "hidden": true
-    },
-    "$polymer-resources": {
-      "hidden": true
     }
   }
 }
