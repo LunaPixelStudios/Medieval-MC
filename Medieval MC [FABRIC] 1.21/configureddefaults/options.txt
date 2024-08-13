@@ -124,6 +124,7 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.ftbchunks.map:key.keyboard.unknown
+key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown
@@ -132,7 +133,11 @@ key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.h
+key_key.adventurez.dragonflydown:key.keyboard.unknown
+key_key.adventurez.dragonfirebreath:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.unknown
+key_key.charm.open_atlas:key.keyboard.unknown
+key_key.charm.open_portable_crafting:key.keyboard.unknown
 key_key.crawl:key.keyboard.left.alt
 key_key.interactic.pickup_item:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
