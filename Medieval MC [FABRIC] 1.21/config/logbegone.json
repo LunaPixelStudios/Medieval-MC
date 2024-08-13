@@ -14,7 +14,8 @@
         "invalid entry \"credits\"", 
         "Ignored non-lowercase namespace", 
         "does not belong to a known attribute. This entry will be ignored", 
-        "Detected setBlock in a far chunk"
+        "Detected setBlock in a far chunk",
+        "Ignoring unknown attribute"
       ],
       "regex": [
         ".*(Unknown block '.*' in '.*' element '.*' at index).*", 
