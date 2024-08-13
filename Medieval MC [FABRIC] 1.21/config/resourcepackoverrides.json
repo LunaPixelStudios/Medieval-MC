@@ -4,17 +4,18 @@
   "default_packs": [
     "vanilla",
     "fabric",
+    "moonlight:mods_dynamic_assets",
     "file/Excalibur_V1.20.6.zip",
     "file/Clarent_(20)_1.20.2~1.20.6.zip",
     "file/MMC_Excal",
-    "file/STONEBORN-1.20.3-1.20.6-V3.2.1.4.zip",
+    "file/STONEBORN-1.21-V3.2.2.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip",
     "file/STONEBORN - Denis\u0027 Additions v1.0.zip",
-    "file/stoneborn_patches",
+    "file/STONEBORN - MMC",
+    "file/EclecticTrove-1.20.1-1.3.0.zip",
     "file/EmbellishedStone-1.20.1-1.0.0.zip",
     "file/[1.4] Enhanced Boss Bars.zip",
-    "file/EclecticTrove-1.20.1-1.3.0.zip",
     "file/NoBushyLeaves.zip",
     "file/panorama_overrides.zip"
   ],
@@ -49,7 +50,7 @@
     "file/Trinkets_OffhandFix_1.2+1.20.1.zip": {
       "hidden": true
     },
-    "file/AdventureZ_NetheriteFix_1.0+1.20.1.zip": {
+    "file/AdventureZ_NetheriteFix_1.0+1.21.zip": {
       "hidden": true
     },
     "file/Dehydration_Expanded_Drinks_1.3.4+1.20.1.zip": {
@@ -85,7 +86,7 @@
     "natures_spirit:better_leaves_compatibility": {
       "hidden": true
     },
-    "file/ichphilipp-s-endcity-vanilla-v1-1-1-18-1-e640.zip": {
+    "file/Ichphilipps-Endcity-Better-End-1-21.zip": {
       "hidden": true
     },
     "file/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip": {
@@ -98,6 +99,15 @@
       "hidden": true
     },
     "file/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip": {
+      "hidden": true
+    },
+    "natures_spirit:emissive_ores_compatibility": {
+      "hidden": true
+    },
+    "natures_spirit:plank_consistency": {
+      "hidden": true
+    },
+    "$polymer-resources": {
       "hidden": true
     }
   }
