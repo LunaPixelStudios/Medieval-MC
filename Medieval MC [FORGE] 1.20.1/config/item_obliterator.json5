@@ -18,7 +18,8 @@
   "blacklisted_items": [
     "endermanoverhaul:summoner_pearl",
     "endermanoverhaul:corrupted_pearl",
-    "aquamirae:terrible_sword"
+    "aquamirae:terrible_sword",
+    "bloodmagic:experiencebook"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
