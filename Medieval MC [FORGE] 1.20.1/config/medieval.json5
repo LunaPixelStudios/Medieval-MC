@@ -1,0 +1,23 @@
+{
+	"levelingSearchRadius": 128.0,
+	"levelsPerPoint": 0.4,
+	"cancelLevelsForPassives": true,
+	"allowedStructureNamespaces": [
+		"eeeabsmobs",
+		"cataclysm",
+		"dungeons_arise",
+		"dungeons_arise_seven_seas",
+		"mowziesmobs"
+	],
+	"additionalValidStructures": [
+		"irons_spellbooks:catacombs"
+	],
+	"applyPlayerBasedLeveling": true,
+	"structureSearchRadius": 6,
+	"enableStructureLevelBonus": true,
+	"structureLevelBonuses": {
+		"dungeons_arise:mushroom_mines": 10,
+		"minecraft:stronghold": 10,
+		"dungeons_arise:coliseum": 20
+	}
+}
