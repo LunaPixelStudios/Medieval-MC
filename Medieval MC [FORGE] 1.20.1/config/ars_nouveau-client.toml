@@ -28,7 +28,7 @@
 	yTooltip = 0
 	#X offset for the Mana Bar
 	#Range: > -2147483648
-	xManaBar = 0
+	xManaBar = 25
 	#Y offset for the Mana Bar
 	#Range: > -2147483648
 	yManaBar = 0
@@ -47,4 +47,6 @@
 	gui_transparency = true
 	#Disables translucent particles. Disable if your particles are invisible with shaders.
 	opaque_particles = false
+	#Show spell tooltips with glyphs instead of plain text
+	glyphTooltips = true
 
