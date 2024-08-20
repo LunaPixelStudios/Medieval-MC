@@ -151,7 +151,7 @@
 		#If rarities should ignore color and render as white (This is really only used for modpacks)
 		white_rarities = false
 		#If vanilla rarities should be rendered.
-		vanilla_rarities = true
+		vanilla_rarities = false
 		#If the player should be crouching to see extended advanced tooltips.
 		screen_tooltips_require_crouch = true
 		#If the name and rarity should be combined into one tooltip.
