@@ -285,7 +285,9 @@
 				"The tutorial is now finished! Most guidebooks can be found here."
 				"Welcome to &4&lMedieval MC.&r"
 				""
-				"Once you have a few levels, try opening the &1Skill Tree&r (K)"
+				"Once you have a few levels, try opening the &cSkill Tree&r (press K)"
+				""
+				"Newly spawned mobs will gradually &dlevel up&r based on your points in the Skill Tree (though there are many other factors to mob levels!) "
 				""
 				"Try the other beginner quests in this section, or get started on the rest of quests - hover over the arrow on the left side of this page to view the other &6Quest Groups&r. "
 				""
@@ -396,11 +398,18 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "78A08081E2B79E8F"
-			rewards: [{
-				id: "00333E275FAF944B"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0447249DE0D93250"
+					item: "travelersbackpack:blank_upgrade"
+					type: "item"
+				}
+				{
+					id: "32D59D7ECEC6D9BC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			subtitle: "A convenient way to hold more items \\n\\nThere are several &6Upgrades&r -\\nCheck the &3Backpacks and Storage&r quests!"
 			tasks: [{
 				id: "2A0ACA027C6DAF32"
@@ -485,7 +494,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "You can &bpurify&r a bucket of water by &4heating it up&r in a furnace."
+			subtitle: "You can &bpurify&r a bucket of water by &4heating it up&r in a furnace. You can draw from a &bPurified Water&r source block using a canteen."
 			tasks: [{
 				id: "29D045877E407387"
 				item: "survive:purified_water_bucket"

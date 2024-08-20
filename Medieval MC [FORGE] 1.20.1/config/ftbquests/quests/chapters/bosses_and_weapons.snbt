@@ -216,7 +216,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Can be found in Ruins. Each Ruin will only have one &fFragment&r."
+			subtitle: "Can be found in &8Ruins&r, a destroyed cobblestone tower structure. Each Ruin will only have one &fFragment&r."
 			tasks: [
 				{
 					id: "0834B973A199F29D"
@@ -760,7 +760,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&bChallenge Orbs&r are fairly expensive to craft, but can be used to respawn almost any boss arena or major dungeon. \\n\\nDoes not work if the structure has any &dclaimed chunks&r.\\n\\nWon't work on arenas from &6Bosses of Mass Destruction&r; these use their own item, the &6Brimstone Nectar&r"
+			subtitle: "&bChallenge Orbs&r are fairly expensive to craft, but can be used to respawn almost any boss arena or major dungeon. \\n\\nDoes not work if the structure has any &dclaimed chunks&r.\\n\\nWon't work on arenas from &6Bosses of Mass Destruction&r; these use their own item, the &6Brimstone Nectar&r\\n\\nRespawning a boss may give it a higher level based on nearby players - some ultra-rare items are &lonly&r available from bonus-leveled bosses!"
 			tasks: [{
 				id: "6696BF75C5D3B149"
 				item: "medieval:challenge_orb"

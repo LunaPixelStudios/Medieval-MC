@@ -165,6 +165,11 @@
 					type: "xp_levels"
 					xp_levels: 10
 				}
+				{
+					id: "54D3DE5150F29695"
+					item: "medieval:challenge_orb"
+					type: "item"
+				}
 			]
 			subtitle: "Respawned the same way as normal - placing an end crystal on all four cardinal directions on the exit portal's outer rim."
 			tasks: [{
@@ -644,6 +649,12 @@
 		}
 		{
 			id: "7CC588E4A49FCEE1"
+			rewards: [{
+				id: "2557132832D23271"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			subtitle: "This eye can obtained through &dInfusion Enchanting&r. For more information, read the &2Chronicle of Shadows"
 			tasks: [{
 				id: "0C6F5D61AD4FBED2"
 				item: {
