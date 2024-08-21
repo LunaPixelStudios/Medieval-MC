@@ -1,0 +1,19 @@
+{
+    "vectorwing.farmersdelight.client.gui.CookingPotScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "vectorwing.farmersdelight.common.block.entity.container.CookingPotMenu": {
+        "playerSideOnly": true
+    }
+}
