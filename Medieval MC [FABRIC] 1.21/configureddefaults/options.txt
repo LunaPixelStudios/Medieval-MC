@@ -49,7 +49,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","file/Excalibur_V1.20.6.zip","file/Clarent_(20)_1.20.2~1.20.6.zip","file/MMC_Excal","file/STONEBORN-1.21-V3.2.2.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Additions v1.0.zip","file/STONEBORN - MMC","file/EclecticTrove-1.20.1-1.3.0.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip","file/NoBushyLeaves.zip","file/panorama_overrides.zip"]
+resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","file/Excalibur_V1.21.1.zip","file/Clarent_(22)_1.20.2~1.20.6.zip","file/MMC_Excal","file/FarmersDelightExcaliburSupport.zip","file/STONEBORN-1.21-V3.2.2.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Additions v1.0.zip","file/STONEBORN - MMC","file/EclecticTrove-1.20.1-1.3.0.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip","file/NoBushyLeaves.zip","file/panorama_overrides.zip","minecraft:tieredz_mrpgc"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
