@@ -77,6 +77,23 @@
 		}
 		{
 			id: "7D1F5E31E0B0E309"
+			rewards: [
+				{
+					id: "25D90FAAF33EFDBF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "076E97490D96BC6A"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "745CE156E1F2EB59"
 				item: { count: 1, id: "mythicmetals:metallurgium_ingot" }
