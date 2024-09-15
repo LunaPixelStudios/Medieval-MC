@@ -107,9 +107,9 @@
 		{
 			height: 5.0d
 			hover: [
-				"&cEnd Remastered&r reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
+				"End Remastered reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
 				" "
-				"Find &f12&r unique eyes out of &f15&r to open the End Portal."
+				"Find 12 unique eyes (out of 15) to open the End Portal."
 				" "
 				"You can locate a stronghold by throwing any End Remastered eye, but be careful - they can still break."
 			]
@@ -119,8 +119,16 @@
 			x: 1.0d
 			y: 7.5d
 		}
+		{
+			height: 10.0d
+			image: "medieval:textures/dragon.png"
+			rotation: 0.0d
+			width: 23.0d
+			x: 12.0d
+			y: 7.0d
+		}
 	]
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -572,6 +580,9 @@
 				{
 					id: "0499631B35D61E9E"
 					item: {
+						components: {
+							"scorchful:drink_level": "refreshing"
+						}
 						count: 1
 						id: "minecraft:chorus_fruit"
 					}
@@ -603,6 +614,9 @@
 				{
 					id: "72D0B887D0300CEC"
 					item: {
+						components: {
+							"scorchful:drink_level": "refreshing"
+						}
 						count: 1
 						id: "minecraft:chorus_fruit"
 					}
@@ -624,8 +638,9 @@
 		}
 		{
 			dependencies: ["4F9DA666CA118ECA"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "3A5840CDE3D16FE3"
 			rewards: [
 				{
@@ -663,8 +678,39 @@
 				to_observe: "adventurez:dragon"
 				type: "observation"
 			}]
-			x: 11.0d
-			y: 8.5d
+			x: 11.875d
+			y: 8.75d
+		}
+		{
+			dependencies: ["4F9DA666CA118ECA"]
+			id: "06E92717A25CFFA4"
+			rewards: [
+				{
+					id: "298141986680D6DB"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:mob_ward"
+					}
+					type: "item"
+				}
+				{
+					id: "7B59B7563F41901A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					id: "bosses_of_mass_destruction:obsidian_heart"
+				}
+				id: "0277E4051205DEAB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.375d
+			y: 6.875d
 		}
 	]
 }

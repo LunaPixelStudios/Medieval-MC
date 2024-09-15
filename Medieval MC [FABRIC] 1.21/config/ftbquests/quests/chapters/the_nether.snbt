@@ -32,7 +32,7 @@
 				type: "dimension"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["46D0AAEEB69E28B3"]
@@ -54,7 +54,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -74,11 +74,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["69872C1F1CCBDEBD"]
 			id: "4E14675B45B7DD15"
 			rewards: [
 				{
@@ -108,11 +108,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["31C9AD21FCABBEAE"]
 			id: "3963B69A10D95565"
 			rewards: [
 				{
@@ -138,11 +138,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["46D0AAEEB69E28B3"]
+			dependencies: ["5B11DB2289D4F66C"]
 			id: "277A0F5BB5027FA5"
 			rewards: [{
 				id: "6197D5559D7F9FB5"
@@ -158,8 +158,62 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["3963B69A10D95565"]
+			id: "3B499CB8AE06777E"
+			rewards: [
+				{
+					id: "0B4839D108A8E689"
+					item: {
+						count: 1
+						id: "minecraft:diamond_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "379244EDC3BAF831"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					id: "bosses_of_mass_destruction:blazing_eye"
+				}
+				id: "2E0AFCBA5B92414E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["46D0AAEEB69E28B3"]
+			id: "31C9AD21FCABBEAE"
+			rewards: [{
+				id: "6FA28740AC106AB3"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					id: "minecraft:wither_rose"
+				}
+				id: "7B38C428B431E381"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -1.0d
 		}
 	]
 }

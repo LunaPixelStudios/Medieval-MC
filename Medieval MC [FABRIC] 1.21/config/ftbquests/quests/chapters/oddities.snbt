@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "oddities"
+	group: "799D8360B26E9792"
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "4E33D80DA11F2414"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4185D9740B80E39D"
+			rewards: [{
+				count: 3
+				id: "6FD73C2AB049EC66"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A87110D51613032"
+				item: { count: 1, id: "tradingpost:trading_post" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "5F0FC5A5035E29B0"
+			rewards: [{
+				count: 16
+				id: "78535C006B1E1D87"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "351D2EAFAE0F9CB7"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "1E65308E968AF323"
+			rewards: [{
+				count: 3
+				id: "0222F0DF696FA1F5"
+				item: {
+					count: 1
+					id: "minecraft:melon_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15B384EA2101FE2C"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "08294911FF1A808E"
+			rewards: [{
+				count: 8
+				id: "3ADFE7FA953AB1C0"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46F2673C0F138F59"
+				item: { count: 1, id: "sawmill:sawmill" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "55949A5DC9264888"
+			rewards: [{
+				id: "164901B2337E4D3A"
+				item: {
+					count: 1
+					id: "mythicmetals:mythril_ingot"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "23A25DA48F08655A"
+				item: { count: 1, id: "mythicmetals_decorations:orichalcum_chest" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "7FE42B256F9BC9DF"
+			rewards: [{
+				count: 16
+				id: "04A7D6A6455F10B1"
+				item: {
+					count: 1
+					id: "minecraft:spectral_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "100849599C81C2CC"
+				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "6008D278FDB7A301"
+			rewards: [{
+				id: "75E18EE8F3FD5DFF"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "574B6D424764D18A"
+				item: { count: 1, id: "things:gleaming_powder" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "2174D3FF53425B41"
+			rewards: [
+				{
+					id: "230BC46DF9CCF981"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "48FF93D1D15C349A"
+					item: {
+						count: 1
+						id: "farmersdelight:sweet_berry_cookie"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F5EBC058891ADC1"
+				item: { count: 1, id: "things:empty_agglomeration" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "793E8C57C2359C76"
+			rewards: [{
+				id: "6C89455855D97DB4"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:water_breathing"
+						}
+						"scorchful:drink_level": "hydrating"
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2277B4BC0780864E"
+				item: { count: 1, id: "things:bater_wucket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "5092782C1C675575"
+			rewards: [{
+				id: "22F43DAB8B192251"
+				item: {
+					count: 1
+					id: "minecraft:white_banner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75DD4CEC0534B742"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+	]
+}

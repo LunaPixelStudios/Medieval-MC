@@ -4,7 +4,7 @@
 	filename: "welcome_to_bmc_fabric_1192"
 	group: ""
 	icon: {
-		id: "ftbquests:custom_icon"
+		id: "minecraft:diamond_sword"
 	}
 	id: "3E34934F09B08365"
 	images: [
@@ -67,7 +67,7 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "minecraft:paper"
 			}
@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "ftbquests:book"
 			}
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["175099CF5696829E"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "minecraft:writable_book"
 			}
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: ["6A52090D6BC064D7"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "minecraft:paper"
 			}
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["2165E80C52C79992"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6A4CB4700F0082C6"
 			rewards: [{
 				id: "76A4DF2192A3107D"
@@ -165,6 +165,63 @@
 			}]
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "038DE5A8F9591D2F"
+			rewards: [
+				{
+					id: "1EE674AC1B2E6FD2"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "772DE5970151216E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4DD13FBD195A2043"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:anvil)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "03ECB62C4534132B"
+			rewards: [
+				{
+					id: "11725BEBDA0D283D"
+					item: {
+						count: 1
+						id: "transmog:void_fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "2EF7072941EE4993"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "2F8AE3B290876871"
+				item: { count: 1, id: "transmog:transmogrification_table" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
 		}
 	]
 }
