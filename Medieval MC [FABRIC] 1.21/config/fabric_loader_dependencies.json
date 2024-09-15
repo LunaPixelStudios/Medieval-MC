@@ -1,10 +1,60 @@
 {
-    "version": 1,
-    "overrides": {
-      "jmi": {
-        "-depends": {
-          "minecraft": "IGNORED"
-        }
+  "version": 1,
+  "overrides": {
+    "jmi": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "easyanvils": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "easymagic": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "cutthrough": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "mediumcore": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "tradingpost": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "leavesbegone": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "sparsestructures": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "armoroftheages": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "resourcepackoverrides": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    },
+    "magnumtorch": {
+      "-depends": {
+        "minecraft": "IGNORED"
       }
     }
   }
+}
