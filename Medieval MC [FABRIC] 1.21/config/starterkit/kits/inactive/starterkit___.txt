@@ -3,7 +3,7 @@
 'legs' : '{components:{"minecraft:damage":58},count:1,id:"minecraft:chainmail_leggings"}',
 'feet' : '{components:{"minecraft:damage":58},count:1,id:"minecraft:chainmail_boots"}',
 'offhand' : '{count:3,id:"minecraft:lantern"}',
-0 : '{components:{"minecraft:damage":100},count:1,id:"mythicmetals:copper_sword"}',
+0 : '{components:{"minecraft:damage":80,"transmog:appearance_item":{itemStack:{id:"transmog:void_fragment"}}},count:1,id:"mythicmetals:copper_sword"}',
 1 : '{count:1,id:"ftbquests:book"}',
 2 : '',
 3 : '',
