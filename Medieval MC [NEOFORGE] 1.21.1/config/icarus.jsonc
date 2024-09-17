@@ -1,0 +1,27 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    "can_loop_de_loop": true,
+    "armor_slows": true,
+    "can_slow_fall": true,
+    // Type: Float
+    "max_slowed_multiplier": 2.0,
+    // Type: Float
+    "wings_speed": 0.0125,
+    // Type: Integer
+    "wings_durability": 0,
+    // Type: Float
+    "exhaustion_amount": 0.03,
+    // Type: Float
+    "required_food_amount": 6.001,
+    // Type: Float
+    "roll_amount": 1.0,
+    "max_height_enabled": true,
+    // Type: Integer
+    "max_height_above_world": 128,
+    // Type: Float
+    "flying_target_radius": 0.25,
+    "client": {
+        "can_loop_de_loop": true
+    }
+}

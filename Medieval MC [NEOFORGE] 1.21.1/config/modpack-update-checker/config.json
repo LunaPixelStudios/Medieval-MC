@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "v1",
+  "modpackName": "Medieval MC [NEOFORGE] MMC5",
+  "modpackAuthor": "LunaPixelStudios",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://raw.githubusercontent.com/LunaPixelStudios/Modpack-Update-Checker/new/mmc5forge/",
+  "forceModpackCompatible": true,
+  "advanced": {
+    "bccEnabled": true,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

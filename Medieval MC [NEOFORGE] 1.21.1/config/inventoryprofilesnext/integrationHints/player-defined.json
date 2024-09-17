@@ -1,0 +1,334 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SORT": {
+                "bottom": 3
+            },
+            "MOVE_TO_CONTAINER": {
+                "bottom": 3
+            },
+            "SORT_COLUMNS": {
+                "bottom": 3
+            },
+            "SORT_ROWS": {
+                "bottom": 3
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 202,
+                "top": 160
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -19,
+                "bottom": 3
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -18,
+                "bottom": 3
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": 3
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 81,
+                "top": 80
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.DispenserScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 1,
+                "top": 3
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -1,
+                "top": 3
+            },
+            "SORT": {
+                "horizontalOffset": -5,
+                "top": 3
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -3,
+                "top": 3
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 1,
+                "bottom": 3
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.HopperScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 1,
+                "bottom": 3
+            },
+            "SORT": {
+                "horizontalOffset": 115,
+                "bottom": 30
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -3,
+                "bottom": 30
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -1,
+                "bottom": 30
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 1,
+                "top": 3
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 2
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 1
+            },
+            "SORT": {
+                "horizontalOffset": -6,
+                "top": 1
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -4,
+                "top": 1
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -2,
+                "top": 1
+            }
+        }
+    },
+    "com.tiviacz.travelersbackpack.client.screens.TravelersBackpackScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 36,
+                "bottom": -2
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 36,
+                "top": -14
+            },
+            "SORT": {
+                "horizontalOffset": 30,
+                "top": -14
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 32,
+                "top": -14
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 34,
+                "top": -14
+            },
+            "SETTINGS": {
+                "top": 1
+            }
+        },
+        "force": true
+    },
+    "me.daqem.jobsplus.client.gui.BackpackScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 1
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 1
+            },
+            "SORT": {
+                "horizontalOffset": -6,
+                "top": 1
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -4,
+                "top": 1
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -2,
+                "top": 1
+            }
+        }
+    },
+    "xyz.apex.forge.fantasyfurniture.client.screen.MediumInventoryMenuScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -1
+            },
+            "SORT": {
+                "horizontalOffset": -7
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -5
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -3
+            }
+        }
+    },
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": {
+        "ignore": true
+    },
+    "lain.mods.cos.impl.inventory.ContainerCosArmor": {
+        "ignore": true
+    },
+    "com.teamabnormals.woodworks.client.gui.screens.inventory.SawmillScreen": {
+        "ignore": true
+    },
+    "com.teamabnormals.woodworks.common.inventory.SawmillMenu": {
+        "ignore": true
+    },
+    "se.mickelus.tetra.blocks.workbench.gui.WorkbenchScreen": {
+        "ignore": true
+    },
+    "se.mickelus.tetra.blocks.workbench.WorkbenchContainer": {
+        "ignore": true
+    },
+    "com.aqutheseal.celestisynth.client.gui.celestialcrafting.CelestialCraftingScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 73,
+                "bottom": 1
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -5,
+                "top": -14
+            },
+            "SORT": {
+                "horizontalOffset": -41,
+                "top": -14,
+                "bottom": -10
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "top": -14,
+                "bottom": -20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "top": -14,
+                "bottom": -30
+            }
+        }
+    },
+    "com.hollingsworth.arsnouveau.client.container.CraftingTerminalScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 99,
+                "bottom": 10
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 97,
+                "top": 116
+            },
+            "SORT": {
+                "horizontalOffset": -25,
+                "top": -375,
+                "bottom": -15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -13,
+                "top": -375,
+                "bottom": -25
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -1,
+                "top": -375,
+                "bottom": -35
+            }
+        }
+    },
+    "com.github.alexthe666.iceandfire.client.gui.GuiDragonForge": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 1,
+                "top": -15
+            },
+            "SORT": {
+                "horizontalOffset": 1,
+                "top": -215
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 3,
+                "top": -215
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 5,
+                "top": -215
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 1
+            }
+        }
+    },
+    "com.tom.storagemod.gui.CraftingTerminalScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 96,
+                "bottom": 1
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 96,
+                "top": 140
+            },
+            "SORT": {
+                "horizontalOffset": 16,
+                "top": -384
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 17,
+                "top": -385
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 18,
+                "top": -384
+            }
+        }
+    },
+    "fuzs.netherchested.client.gui.screens.inventory.NetherChestScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 4,
+                "bottom": -12
+            },
+            "SORT": {
+                "horizontalOffset": 13
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 14
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 15
+            }
+        }
+    },
+    "fuzs.netherchested.world.inventory.NetherChestMenu": {
+        "playerSideOnly": true
+    },
+    "com.hollingsworth.arsnouveau.client.container.CraftingTerminalMenu": {
+        "playerSideOnly": true
+    },
+    "com.github.alexthe666.iceandfire.inventory.ContainerDragonForge": {
+        "playerSideOnly": true
+    },
+    "com.tom.storagemod.gui.CraftingTerminalMenu": {
+        "playerSideOnly": true
+    },
+    "com.aqutheseal.celestisynth.client.gui.celestialcrafting.CelestialCraftingMenu": {
+        "playerSideOnly": true
+    }
+}
