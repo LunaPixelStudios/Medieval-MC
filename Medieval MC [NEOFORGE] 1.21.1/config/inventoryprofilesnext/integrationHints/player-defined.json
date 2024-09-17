@@ -330,5 +330,11 @@
     },
     "com.aqutheseal.celestisynth.client.gui.celestialcrafting.CelestialCraftingMenu": {
         "playerSideOnly": true
+    },
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": {
+        "ignore": true
+    },
+    "io.wispforest.accessories.client.AccessoriesMenu": {
+        "playerSideOnly": true
     }
 }
