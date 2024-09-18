@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "9the_eyes"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "minecraft:end_crystal"
+	}
+	id: "6712BF106330B0F3"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"End Remastered reworks how you reach The End, spreading eyes across the world which require you to explore and progress before opening the portal."
+				" "
+				"Find 12 unique eyes (out of 15) to open the End Portal."
+				" "
+				"You can locate a stronghold by throwing any End Remastered eye, but be careful - they can still break."
+			]
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 7.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4EA47294389AA8F1"
+			rewards: [{
+				id: "54DD24929D84ED8B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "27ED3435A7ADA5AD"
+				item: { count: 1, id: "endrem:black_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "3CA0E9745340762E"
+			rewards: [{
+				id: "44BB1E1CD4A3C68B"
+				item: {
+					components: {
+						"ftbquests:missing_item": "mcdar:corrupted_seeds"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC7FDD0E1B0547F"
+				item: { count: 1, id: "endrem:corrupted_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "4726C6C722EFE7C0"
+			rewards: [{
+				id: "0E23BD2C20E92E7E"
+				item: {
+					count: 1
+					id: "natures_spirit:drowsy_succulent"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A102CA28F156CAF"
+				item: { count: 1, id: "endrem:old_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			id: "4218B5890CF9EB46"
+			rewards: [{
+				id: "2CE5CD0B6436C3C1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "21F22D48662E2D44"
+				item: { count: 1, id: "endrem:rogue_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "2E32BEE8B248BA12"
+			rewards: [{
+				id: "6E934CBC05F81F5B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "52C6877399C708B7"
+				item: { count: 1, id: "endrem:cursed_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			id: "1D12AE712F1942F6"
+			rewards: [{
+				id: "45E13C4C9E162EFE"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B0EB63C7F1EA23E"
+				item: { count: 1, id: "endrem:evil_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "4C3EAB2FC21DBE56"
+			rewards: [{
+				id: "2E8730ACC3767D31"
+				item: {
+					count: 1
+					id: "minecraft:fire_coral"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49A1F7775A9CB466"
+				item: { count: 1, id: "endrem:guardian_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "7D156C4A9331B0EB"
+			rewards: [{
+				id: "6DC12DDC6DB967D8"
+				item: {
+					components: {
+						"ftbquests:missing_item": "bewitchment:hedgewitch_robes"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "203B2EDBB4C36385"
+				item: { count: 1, id: "endrem:witch_eye" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "0204DFBFBB267108"
+			rewards: [{
+				id: "7706199F2CEB2E6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "22D3513CACAF0C0F"
+				item: { count: 1, id: "endrem:exotic_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			id: "60367DDACC525262"
+			rewards: [{
+				id: "11FA046BA2F10F01"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0FB7070B1F9C37D8"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "1B3DA66139175C4C"
+			rewards: [{
+				id: "2BB3F2134FC0E958"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "698A8D9D61C060BF"
+				item: { count: 1, id: "endrem:nether_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			id: "0211DBAD1BA4858E"
+			rewards: [{
+				id: "6D798FFC36B42BD0"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"veinmining:vein_mining": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC44570B5AEDFCE"
+				item: { count: 1, id: "endrem:lost_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "4A2176409CC12F00"
+			rewards: [{
+				count: 5
+				id: "724F50B82F3CE04F"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "00280449F07F4980"
+				item: { count: 1, id: "endrem:cryptic_eye" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "59D6FF0AB3FB26FC"
+			rewards: [{
+				id: "662D584927EC352A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7FBEB9D10E614DA7"
+				item: { count: 1, id: "endrem:undead_eye" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "46280FF1EE648A3E"
+			rewards: [{
+				id: "000A05A460AC51CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "62D46C8B52F7BF78"
+				item: { count: 1, id: "endrem:wither_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "1E1A74E752E36ADF"
+			rewards: [{
+				id: "4D7038898727B3EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "32A7299BCCEC8FDD"
+				item: { count: 1, id: "endrem:magical_eye" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+}

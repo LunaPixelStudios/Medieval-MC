@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2overworld"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "0E7C2FD4EF1EBCC4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0309AFE9E3851209"
+			rewards: [{
+				id: "32356BB8CEB7B120"
+				item: {
+					count: 1
+					id: "minecraft:shield"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "minecraft:trial_spawner"
+				}
+				id: "57E14697C45547A6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:trial_spawner"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "36B1ADEC79D5153D"
+			rewards: [{
+				id: "06105F5F3FB54247"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "friendsandfoes:adventure/the_magicians"
+				criterion: ""
+				id: "5AEB8F4A9F2B4DA3"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "681023F993C3FF3D"
+			rewards: [
+				{
+					id: "399FB2A87D1B4503"
+					item: {
+						count: 1
+						id: "handcrafted:pillager_trophy"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5E4D6FD420208C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: {
+					components: {
+						"minecraft:banner_patterns": [
+							{
+								color: "cyan"
+								pattern: {
+									asset_id: "minecraft:rhombus"
+									translation_key: "block.minecraft.banner.rhombus"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:stripe_bottom"
+									translation_key: "block.minecraft.banner.stripe_bottom"
+								}
+							}
+							{
+								color: "gray"
+								pattern: {
+									asset_id: "minecraft:stripe_center"
+									translation_key: "block.minecraft.banner.stripe_center"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:border"
+									translation_key: "block.minecraft.banner.border"
+								}
+							}
+							{
+								color: "black"
+								pattern: {
+									asset_id: "minecraft:stripe_middle"
+									translation_key: "block.minecraft.banner.stripe_middle"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:half_horizontal"
+									translation_key: "block.minecraft.banner.half_horizontal"
+								}
+							}
+							{
+								color: "light_gray"
+								pattern: {
+									asset_id: "minecraft:circle"
+									translation_key: "block.minecraft.banner.circle"
+								}
+							}
+							{
+								color: "black"
+								pattern: {
+									asset_id: "minecraft:border"
+									translation_key: "block.minecraft.banner.border"
+								}
+							}
+						]
+						"minecraft:hide_additional_tooltip": { }
+						"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+					id: "minecraft:white_banner"
+				}
+				id: "2CDC9E93B5236A52"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:slime_block"
+			}
+			id: "73FA7CBFB4DFD0DA"
+			rewards: [
+				{
+					id: "0BFF60CE9CD2BA84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "653AFB98103D611D"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:tarnished_helmet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:slime_block"
+				}
+				id: "1BF11025BEEA81C2"
+				structure: "dungeons_arise:keep_kayra"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "0C8009276F2B28D8"
+			rewards: [
+				{
+					id: "574D477D5A7DA368"
+					item: {
+						count: 1
+						id: "waystones:end_stone_waystone"
+					}
+					type: "item"
+				}
+				{
+					id: "6F1660F58B78AA8F"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:netherite_sword"
+				}
+				id: "31BD699E055FE30F"
+				structure: "dungeons_arise:shiraz_palace"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+}

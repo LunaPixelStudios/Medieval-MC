@@ -1,0 +1,12 @@
+{
+	id: "18B80C0A168F80C3"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+	]
+}

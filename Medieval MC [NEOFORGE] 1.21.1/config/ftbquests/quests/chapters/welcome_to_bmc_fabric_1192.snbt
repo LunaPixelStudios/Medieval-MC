@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_fabric_1192"
+	group: ""
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "3E34934F09B08365"
+	images: [
+		{
+			height: 3.0d
+			image: "iceandfire:item/dragonsteel_ice_sword"
+			rotation: 135.0d
+			width: 3.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "iceandfire:item/dragonsteel_fire_sword"
+			rotation: 135.0d
+			width: 3.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:item/cit/custom/shield_round"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "6A52090D6BC064D7"
+			rewards: [{
+				id: "62D6BC934349C87A"
+				item: {
+					count: 1
+					id: "natures_spirit:purple_wildflower"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1B0800437C68C43A"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "2958CA7FA6FD3E4F"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "02F8E878E716442E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0DD3C1416FC34FA1"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			hide_until_deps_visible: true
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "175099CF5696829E"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "75A2D5627FDAE245"
+				item: {
+					count: 1
+					id: "travelersbackpack:backpack_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21428FE253D34D4E"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["175099CF5696829E"]
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "2165E80C52C79992"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "2B867E03270A83FC"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:frostwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A64112F92690241"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "1AE5746200C26691"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "74C85348A8B837EB"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			hide_until_deps_visible: true
+			id: "6A4CB4700F0082C6"
+			rewards: [{
+				id: "76A4DF2192A3107D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3B2CC7DEE30E3AB8"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+}
