@@ -1,0 +1,70 @@
+{
+	// Applied as multiplier on top of spell.cast.movement_speed. Default value of 1.0 means no change.
+	"movement_multiplier_speed_while_casting": 0.8,
+	// Allow spells to bypass invulnerability frames. This is required in order for high attack frequency spells (such as beams) to work.
+	"bypass_iframes": true,
+	// Spell haste reduces the cooldown time of abilities
+	"haste_affects_cooldown": true,
+	// Spell costs exhausts (hunger) will be multiplied with this value. Set `0` for no exhaust.
+	"spell_cost_exhaust_multiplier": 1.0,
+	// Spells should cost items. Set `false` to remove rune (or other item) cost from all spells.
+	"spell_cost_item_allowed": true,
+	// Spells should damage items on use. Set `false` to disable.
+	"spell_cost_durability_allowed": true,
+	// The time in ticks of global cooldown to apply to all instant cast spells when casted.
+	"spell_instant_cast_gcd": 0,
+	// Players cannot unequip a spell book, if one of the spells in it is on cooldown.
+	"spell_book_cooldown_lock": true,
+	// Players can use the Spell Binding Table to create spell books.
+	"spell_book_creation_enabled": true,
+	// Spell book creation level cost
+	"spell_book_creation_cost": 1,
+	// Spell book creation level requirement
+	"spell_book_creation_requirement": 1,
+	// Spell binding level cost multiplier
+	"spell_binding_level_cost_multiplier": 1,
+	// Spell binding lapis lazuli cost multiplier
+	"spell_binding_lapis_cost_multiplier": 1,
+	// Should the player be able to cast spells from the offhand spell book?
+	"spell_book_offhand": false,
+	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
+	"projectiles_pass_thru_irrelevant_targets": true,
+	// Auto swap Bow & Spear cooldown ticks to apply for attack and itemUse
+	"auto_swap_cooldown": 5,
+	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
+	"add_spell_casting_to_swords": true,
+	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"add_spell_casting_regex": "",
+	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"blacklist_spell_casting_regex": "",
+	/* Relations determine which cases the effect of a player casted spell can effect a target.
+	   +----------------+-------+----------+----------+----------+--------+
+	   |                | ALLY  | FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
+	   +----------------+-------+----------+----------+----------+--------+
+	   | DIRECT DAMAGE  | 🚫    | ✅       | ✅       | ✅       | ✅    |
+	   | AREA DAMAGE    | 🚫    | 🚫       | 🚫       | ✅       | ✅    |
+	   | DIRECT HEALING | ✅    | ✅       | ✅       | 🚫       | ✅    |
+	   | AREA HEALING   | ✅    | ✅       | 🚫       | 🚫       | ✅    |
+	   +----------------+-------+----------+----------+----------+--------+
+	   
+	   The various relation related configs are being checked in the following order:
+	   - `player_relations`
+	   - `player_relation_to_passives`
+	   - `player_relation_to_hostiles`
+	   - `player_relation_to_other`
+	   (The first relation to be found for the target will be applied.)
+	*/
+	"player_relations": {
+		"minecraft:player": "MIXED",
+		"minecraft:villager": "FRIENDLY",
+		"minecraft:iron_golem": "NEUTRAL",
+		"guardvillagers:guard": "FRIENDLY",
+		"minecraft:cat": "FRIENDLY"
+	},
+	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
+	"player_relation_to_passives": "MIXED",
+	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
+	"player_relation_to_hostiles": "HOSTILE",
+	// Fallback relation
+	"player_relation_to_other": "HOSTILE"
+}
