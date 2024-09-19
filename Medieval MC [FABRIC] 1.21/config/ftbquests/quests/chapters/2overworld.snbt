@@ -7,6 +7,14 @@
 		id: "minecraft:grass_block"
 	}
 	id: "0E7C2FD4EF1EBCC4"
+	images: [{
+		height: 12.0d
+		image: "minecraft:painting/burning_skull"
+		rotation: 0.0d
+		width: 12.0d
+		x: -1.5d
+		y: 0.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
