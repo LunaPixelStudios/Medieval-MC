@@ -6,7 +6,7 @@
     "fabric",
     "moonlight:mods_dynamic_assets",
     "file/Excalibur_V1.21.1.zip",
-    "file/Clarent_(22)_1.20.2~1.20.6.zip",
+    "file/Clarent_(24)_1.20.2~1.21.1.zip",
     "file/MMC_Excal",
     "file/FarmersDelightExcaliburSupport.zip",
     "file/STONEBORN-1.21-V3.2.2.zip",
@@ -19,7 +19,8 @@
     "file/[1.4] Enhanced Boss Bars.zip",
     "file/NoBushyLeaves.zip",
     "file/panorama_overrides.zip",
-    "minecraft:tieredz_mrpgc"
+    "minecraft:tieredz_mrpgc",
+    "tinyskeletons:dynamically_copied_skeleton_textures"
   ],
   "default_overrides": {
     "force_compatible": true
