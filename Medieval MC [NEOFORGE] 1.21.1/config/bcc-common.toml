@@ -2,7 +2,7 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 0
+	modpackProjectID = 826840
 	#The name of the modpack
 	modpackName = "Medieval MC [NEOFORGE] 1.21.1"
 	#The version of the modpack
