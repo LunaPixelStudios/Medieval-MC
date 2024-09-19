@@ -39,7 +39,7 @@
 	#Show item durability bar
 	armBars = true
 	#Move all items at once or each one
-	moveAll = false
+	moveAll = true
 	#Show/Hide empty slot icon
 	showEmpty = true
 	#Show overall count of items in main/off hand
