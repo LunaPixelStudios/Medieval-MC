@@ -165,7 +165,7 @@
 				id: "0E23BD2C20E92E7E"
 				item: {
 					count: 1
-					id: "natures_spirit:drowsy_succulent"
+					id: "minecraft:poppy"
 				}
 				random_bonus: 2
 				type: "item"
