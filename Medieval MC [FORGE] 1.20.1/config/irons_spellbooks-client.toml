@@ -4,21 +4,21 @@
 	showFirstPersonArms = true
 	showFirstPersonItems = true
 
-########################################################################################################################
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###   ATTENTION: These are client configs. For gameplay settings, go to the SERVER CONFIGS (in the world save file)   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-###                                                                                                                   ##
-########################################################################################################################
+###############################################################################################
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###   ATTENTION: These are client configs. For gameplay settings, go to the SERVER CONFIGS   ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###                                                                                          ##
+###############################################################################################
 #
 [UI]
 
@@ -40,7 +40,7 @@
 		#Allowed Values: Never, Always, Contextual
 		spellBarDisplay = "Always"
 		#Used to adjust spell bar's position.
-		spellBarXOffset = 0
+		spellBarXOffset = -45
 		spellBarYOffset = 0
 		#Allowed Values: Hotbar, TopLeft, TopRight, BottomLeft, BottomRight
 		spellBarAnchor = "Hotbar"

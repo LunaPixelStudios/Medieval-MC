@@ -28,14 +28,14 @@
 	yTooltip = 0
 	#X offset for the Mana Bar
 	#Range: > -2147483648
-	xManaBar = 25
+	xManaBar = -10
 	#Y offset for the Mana Bar
 	#Range: > -2147483648
 	yManaBar = 0
 	#If the Storage Lectern should show the recipe book icon
 	showRecipeBook = true
 	#Inform the player of Dynamic lights once.
-	informLights = true
+	informLights = false
 
 #Misc
 [misc]
