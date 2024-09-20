@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Medieval MC [FORGE] 1.20.1"
 	#The version of the modpack
-	modpackVersion = "v28"
+	modpackVersion = "v28.5"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
