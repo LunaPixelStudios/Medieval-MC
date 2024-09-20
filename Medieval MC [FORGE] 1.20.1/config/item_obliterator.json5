@@ -19,7 +19,13 @@
     "endermanoverhaul:summoner_pearl",
     "endermanoverhaul:corrupted_pearl",
     "aquamirae:terrible_sword",
-    "bloodmagic:experiencebook"
+    "bloodmagic:experiencebook",
+    "samurai_dynasty:silver_block",
+    "forbidden_arcanus:quantum_catcher",
+    "eidolon:silver_helmet",
+    "eidolon:silver_chestplate",
+    "eidolon:silver_leggings",
+    "eidolon:silver_boots"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
