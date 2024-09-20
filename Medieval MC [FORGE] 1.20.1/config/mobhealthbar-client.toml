@@ -9,13 +9,13 @@
 	#Show the Name above the mobs
 	show_name = false
 	#Show bars only when a mob is aggressive
-	on_aggro = false
+	on_aggro = true
 	#Show bar texture
 	bar = true
 	#Show the hp bar of the mobs who are damaged
-	damaged_only = false
+	damaged_only = true
 	#Show the hp bar of the mob you are looking at
-	hovered_only = false
+	hovered_only = true
 	#
 	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
 	blacklist = "minecraft:ender_dragon"
