@@ -6,8 +6,9 @@
     "fabric",
     "moonlight:mods_dynamic_assets",
     "file/Excalibur_V1.21.1.zip",
-    "file/Clarent_(24)_1.20.2~1.21.1.zip",
+    "file/Clarent_(25)_1.20.2+.zip",
     "file/MMC_Excal",
+    "file/Excalibur - RPG Series Addon",
     "file/FarmersDelightExcaliburSupport.zip",
     "file/STONEBORN-1.21-V3.2.2.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
@@ -56,7 +57,7 @@
     "file/AdventureZ_NetheriteFix_1.0+1.21.zip": {
       "hidden": true
     },
-    "file/Dehydration_Expanded_Drinks_1.3.4+1.20.1.zip": {
+    "file/Dehydration_Expanded_Drinks_1.3.5+1.21.1.zip": {
       "hidden": true
     },
     "file/Origins_EnvironmentZ_Dehydration_v1.7+1.20.1.zip": {
