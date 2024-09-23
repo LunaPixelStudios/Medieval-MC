@@ -49,25 +49,6 @@
 			y: -0.5d
 		}
 		{
-			id: "1E65308E968AF323"
-			rewards: [{
-				count: 3
-				id: "0222F0DF696FA1F5"
-				item: {
-					count: 1
-					id: "minecraft:melon_seeds"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "15B384EA2101FE2C"
-				item: { count: 1, id: "sereneseasons:calendar" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
-		}
-		{
 			id: "08294911FF1A808E"
 			rewards: [{
 				count: 8
@@ -121,8 +102,8 @@
 				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "6008D278FDB7A301"
@@ -208,6 +189,56 @@
 			}]
 			x: -0.5d
 			y: 2.5d
+		}
+		{
+			id: "66B589045CE792D5"
+			rewards: [{
+				count: 8
+				id: "4A99CB7C53AA4403"
+				item: {
+					count: 1
+					id: "mythicmetals:midas_gold_ingot"
+				}
+				random_bonus: 24
+				type: "item"
+			}]
+			tasks: [{
+				id: "36CD9934D65462F5"
+				item: { count: 1, id: "mythicmetals:enchanted_midas_gold_block" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "3FD6E76312F3AB76"
+			rewards: [{
+				id: "7906CCB6E8974553"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0349D97C31EFC722"
+				item: { count: 1, id: "fwaystones:pocket_wormhole" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "52DB245E43332182"
+			rewards: [{
+				id: "7B89284C450E0748"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5AACEB4BE59200B1"
+				item: { count: 1, id: "medieval:challenge_orb" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 	]
 }

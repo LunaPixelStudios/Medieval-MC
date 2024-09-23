@@ -7,6 +7,32 @@
 		id: "minecraft:netherrack"
 	}
 	id: "0D7FF8F037EFF568"
+	images: [
+		{
+			height: 10.0d
+			image: "medieval:textures/adventurez/entity/blackstone_golem.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 10.0d
+			image: "medieval:textures/gauntlet.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			height: 7.0d
+			image: "medieval:textures/wildfire.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -0.5d
+			y: 1.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -176,9 +202,11 @@
 				{
 					id: "379244EDC3BAF831"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 30
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: {

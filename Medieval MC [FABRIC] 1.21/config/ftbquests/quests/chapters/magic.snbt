@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "4BC43492EB4B3856"
+	icon: {
+		id: "elemental_wizards_rpg:elemental_head"
+	}
+	id: "580D8D5B446E1DC3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "357F79B09169E319"
+			rewards: [
+				{
+					id: "63C8D331CB4F4A67"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "1FEA26D3497F29C1"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				icon: {
+					id: "spell_engine:spell_binding"
+				}
+				id: "405AC4B8E129AFD7"
+				observe_type: 3
+				timer: 0L
+				to_observe: "spell_engine:spell_binding"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "4721FB5B934EE756"
+			rewards: [{
+				id: "3D3C179F7DB3C27C"
+				item: {
+					count: 1
+					id: "minecraft:bookshelf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "285F8657BD818405"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(spell_engine:spell_book)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "0CADC1DF4112B007"
+			rewards: [{
+				id: "4F090150830674B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "43AB5E932AA49DB4"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(spell_power:enchantable/haste)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "6122F73E153A1379"
+			rewards: [{
+				id: "59C8700C0691A235"
+				item: {
+					count: 1
+					id: "jewelry:jewelers_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D4DDFFD36F7DD5"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(jewelry:gems)item_tag(jewelry:necklaces)item_tag(jewelry:rings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "1DBA768B981818E0"
+			rewards: [{
+				id: "391311E3F0E4D817"
+				item: {
+					count: 1
+					id: "minecraft:polished_diorite"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "5795F3E693A1509C"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(runes:runes)item(more_rpg_classes:aqua_stone)item(more_rpg_classes:terra_stone)item(more_rpg_classes:storm_stone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+	]
+}

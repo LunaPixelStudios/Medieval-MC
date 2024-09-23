@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glass_ocean"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "betternether:blue_obsidian_glass_pane"
+	}
+	id: "38D9B4E1D971C4FD"
+	images: [{
+		height: 10.0d
+		image: "medieval:textures/magus.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 8.0d
+		y: 0.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37F21B6B05BB5572"
+			rewards: [{
+				id: "348716140208A368"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "spellbladenext:frozen_head"
+				}
+				id: "38E4C031786763FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hexblade:magister"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7609099D2B130554"]
+			icon: {
+				id: "hexblade:hexbladeitem"
+			}
+			id: "7C755E8DF289E215"
+			rewards: [{
+				id: "59DF1DAC8C133600"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				entity: "hexblade:magus"
+				icon: {
+					id: "hexblade:hexbladeitem"
+				}
+				id: "47016E26A544DB95"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37F21B6B05BB5572"]
+			id: "7609099D2B130554"
+			tasks: [{
+				dimension: "hexblade:glassocean"
+				id: "1D10E092005E38B3"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CD10955970FCB73"]
+			id: "72BC01021548C6D6"
+			rewards: [{
+				id: "0C399B201D03172C"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:turtle_master"
+						}
+					}
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D90A305A233353"
+				item: { count: 1, id: "hexblade:ashes" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72BC01021548C6D6"]
+			id: "67AF0D287349A250"
+			rewards: [{
+				id: "60B6ABA9F5CB4C60"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"spell_power:spell_power": 5
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2467B5F687B9EEBD"
+				item: { count: 1, id: "hexblade:omni" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CD10955970FCB73"]
+			id: "683C49EC71A34CE3"
+			rewards: [
+				{
+					id: "59E4297866AD2C20"
+					item: {
+						count: 1
+						id: "spellbladenext:frozen_head"
+					}
+					type: "item"
+				}
+				{
+					id: "5DBA0A455A45B15C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "2F18967116EFF750"
+				item: { count: 1, id: "hexblade:starforge" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["683C49EC71A34CE3"]
+			id: "0E8988DE4AB13501"
+			rewards: [
+				{
+					id: "0C96FFC6443994CF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5CCE6D6A47AF736D"
+					item: {
+						count: 1
+						id: "jewelry:unique_spell_ring"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06C3ECDABCA3CE39"
+				item: { count: 1, id: "hexblade:voidforge" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C755E8DF289E215"]
+			id: "4CD10955970FCB73"
+			rewards: [{
+				id: "2D75751606BAF777"
+				item: {
+					count: 1
+					id: "spellbladenext:runeblaze_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71B6B797B2B3F925"
+				item: { count: 1, id: "hexblade:thread" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+}

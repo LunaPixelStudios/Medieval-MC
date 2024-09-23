@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome_to_bmc_fabric_1192"
-	group: ""
+	group: "4BC43492EB4B3856"
 	icon: {
 		id: "minecraft:diamond_sword"
 	}

@@ -7,34 +7,47 @@
 		id: "minecraft:grass_block"
 	}
 	id: "0E7C2FD4EF1EBCC4"
-	images: [{
-		height: 12.0d
-		image: "minecraft:painting/burning_skull"
-		rotation: 0.0d
-		width: 12.0d
-		x: -1.5d
-		y: 0.0d
-	}]
+	images: [
+		{
+			height: 8.0d
+			image: "medieval:textures/void_blossom.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 12.0d
+			image: "medieval:textures/lich_2_.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 3.0d
+			y: -5.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["76B3EC978FF0AC9C"]
 			id: "5D52EA58C8243728"
 			rewards: [
-				{
-					id: "5F5B591B7F2D40B8"
-					item: {
-						count: 1
-						id: "bosses_of_mass_destruction:earthdive_spear"
-					}
-					type: "item"
-				}
 				{
 					id: "7693C42EEC955C03"
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					count: 4
+					id: "6FD9822778C02784"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
 			]
+			size: 1.25d
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: {
@@ -44,10 +57,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 8.5d
+			y: -6.5d
 		}
 		{
+			dependencies: ["681023F993C3FF3D"]
 			id: "76B3EC978FF0AC9C"
 			rewards: [
 				{
@@ -71,6 +85,7 @@
 					type: "item"
 				}
 			]
+			size: 1.25d
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: {
@@ -80,10 +95,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["2CE25FECF9B80F40"]
 			id: "7D1F5E31E0B0E309"
 			rewards: [
 				{
@@ -107,10 +123,11 @@
 				item: { count: 1, id: "mythicmetals:metallurgium_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["1636409493A84C88"]
 			id: "06B91438B7C34880"
 			rewards: [{
 				id: "09F9F20169A5B145"
@@ -126,19 +143,26 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: -0.5d
+			y: -3.5d
 		}
 		{
 			id: "0309AFE9E3851209"
-			rewards: [{
-				id: "32356BB8CEB7B120"
-				item: {
-					count: 1
-					id: "minecraft:shield"
+			rewards: [
+				{
+					id: "32356BB8CEB7B120"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "10870652F0D45E5D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				icon: {
@@ -154,6 +178,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["06B91438B7C34880"]
 			id: "36B1ADEC79D5153D"
 			rewards: [
 				{
@@ -176,10 +201,11 @@
 				id: "5AEB8F4A9F2B4DA3"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["36B1ADEC79D5153D"]
 			id: "681023F993C3FF3D"
 			rewards: [
 				{
@@ -196,6 +222,7 @@
 					xp_levels: 25
 				}
 			]
+			size: 1.25d
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				icon: {
@@ -267,8 +294,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 4.5d
+			y: -3.5d
 		}
 		{
 			id: "1636409493A84C88"
@@ -286,8 +313,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			id: "2CE25FECF9B80F40"
@@ -305,10 +332,11 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(alloy_forgery:alloy_forges)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["61A2B0E6A85CDDEF"]
 			icon: {
 				id: "minecraft:slime_block"
 			}
@@ -336,10 +364,11 @@
 				structure: "dungeons_arise:keep_kayra"
 				type: "structure"
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["61A2B0E6A85CDDEF"]
 			id: "0C8009276F2B28D8"
 			rewards: [
 				{
@@ -367,8 +396,157 @@
 				structure: "dungeons_arise:shiraz_palace"
 				type: "structure"
 			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
+			icon: {
+				id: "minecraft:red_mushroom_block"
+			}
+			id: "2953E3F29EC03302"
+			rewards: [{
+				id: "536AC2AA08320E7C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:red_mushroom_block"
+				}
+				id: "517D6CBEE0276636"
+				structure: "dungeons_arise:mushroom_mines"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69DEB17F302B7686"]
+			id: "41964FE016B460FD"
+			tasks: [{
+				icon: {
+					id: "minecraft:cracked_deepslate_bricks"
+				}
+				id: "1AD79C8977AFA54A"
+				structure: "nova_structures:lone_citadel"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69DEB17F302B7686"]
+			id: "45917D194B0F0439"
+			tasks: [{
+				icon: {
+					id: "minecraft:dark_oak_wood"
+				}
+				id: "055FF3F3E1C2EE79"
+				structure: "nova_structures:illager_manor"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69DEB17F302B7686"]
+			id: "77620D66329E6AAC"
+			tasks: [{
+				icon: {
+					id: "minecraft:prismarine_bricks"
+				}
+				id: "1D9ED6D7A60B892A"
+				structure: "nova_structures:trident_trial_monument"
+				type: "structure"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			id: "61A2B0E6A85CDDEF"
+			rewards: [{
+				id: "678467BCE8869FCB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2880D7348AE7BDEE"
+				structure: "dungeons_arise:lighthouse"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "69DEB17F302B7686"
+			tasks: [{
+				id: "386C7CD7800BF562"
+				structure: "#nova_structures:taverns"
+				type: "structure"
+			}]
 			x: -3.5d
-			y: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
+			id: "61DFD9235D29A1A8"
+			rewards: [{
+				count: 4
+				id: "57A2492B905D45A1"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_invisibility"
+						}
+					}
+					count: 1
+					id: "mythicmetals:tipped_runite_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "farmersdelight:iron_knife"
+				}
+				id: "6E69B9FDF71CEEA1"
+				structure: "dungeons_arise:bandit_towers"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
+			id: "655B18592B4C332B"
+			rewards: [
+				{
+					id: "1EE0B460C97892A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "13D3CF979143DC90"
+					item: {
+						components: {
+							"scorchful:drink_level": "hydrating"
+						}
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "handcrafted:phantom_trophy"
+				}
+				id: "61221607C868980B"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 }
