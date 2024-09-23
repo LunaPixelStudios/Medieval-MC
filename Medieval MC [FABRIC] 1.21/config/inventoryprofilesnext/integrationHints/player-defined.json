@@ -385,5 +385,20 @@
     },
     "io.wispforest.accessories.client.AccessoriesMenu": {
         "ignore": true
+    },
+    "net.satisfy.vinery.client.gui.handler.ApplePressGuiHandler": {
+        "ignore": true
+    },
+    "net.satisfy.vinery.client.gui.handler.FermentationBarrelGuiHandler": {
+        "ignore": true
+    },
+    "com.hidoni.transmog.inventory.TransmogMenu": {
+        "ignore": true
+    },
+    "fuzs.easyanvils.world.inventory.ModAnvilMenu": {
+        "ignore": true
+    },
+    "draylar.tiered.reforge.ReforgeScreenHandler": {
+        "ignore": true
     }
 }
