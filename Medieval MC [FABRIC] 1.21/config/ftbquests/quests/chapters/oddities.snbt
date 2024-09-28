@@ -191,26 +191,6 @@
 			y: 2.5d
 		}
 		{
-			id: "66B589045CE792D5"
-			rewards: [{
-				count: 8
-				id: "4A99CB7C53AA4403"
-				item: {
-					count: 1
-					id: "mythicmetals:midas_gold_ingot"
-				}
-				random_bonus: 24
-				type: "item"
-			}]
-			tasks: [{
-				id: "36CD9934D65462F5"
-				item: { count: 1, id: "mythicmetals:enchanted_midas_gold_block" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.5d
-		}
-		{
 			id: "3FD6E76312F3AB76"
 			rewards: [{
 				id: "7906CCB6E8974553"
@@ -239,6 +219,25 @@
 			}]
 			x: 1.0d
 			y: -2.0d
+		}
+		{
+			id: "2CE233872493212C"
+			rewards: [{
+				count: 5
+				id: "63F2F330C7EB4C62"
+				item: {
+					count: 1
+					id: "mythicmetals:morkite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "622F863CB61B6380"
+				item: { count: 1, id: "mythicmetals:mythril_drill" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
 		}
 	]
 }

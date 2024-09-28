@@ -67,6 +67,14 @@
 		{
 			dependencies: ["37F21B6B05BB5572"]
 			id: "7609099D2B130554"
+			rewards: [{
+				id: "3FA453B928B75571"
+				item: {
+					count: 1
+					id: "mythicmetals:stormyx_boots"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "hexblade:glassocean"
 				id: "1D10E092005E38B3"

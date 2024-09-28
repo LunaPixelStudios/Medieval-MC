@@ -232,6 +232,7 @@
 	quest.2A1BA4AAA2162ECE.title: "Craft a &1Wireless Terminal"
 	quest.2B4B28A34BCCE2B1.quest_subtitle: "Has a &ecapacity &7of 4."
 	quest.2B4B28A34BCCE2B1.title: "Craft a &6Golden Leather Flask"
+	quest.2CE233872493212C.quest_subtitle: "Once fueled with morkite, this unique tool can mine extremely fast - You can also add various &6upgrades&r."
 	quest.2CE25FECF9B80F40.quest_desc: [
 		"To use an alloy forge, you'll need to make a &6multiblock structure&r made out of the same block type as the forge controller: "
 		"(Keep scrolling down!)"
@@ -427,7 +428,6 @@
 	quest.655B18592B4C332B.quest_subtitle: "Here, very rarely, one may face off with a formidable &9Skeleton Rider&r."
 	quest.65C4BF29F49AB821.quest_subtitle: "Wearing a full set of &4Fire&r / &bFrost&r / &5Arcane&r Wizard gear will make spells of that element much more powerful."
 	quest.65C4BF29F49AB821.title: "Craft the hat for all three &3Wizard&r gearsets"
-	quest.66B589045CE792D5.quest_subtitle: "This ultra-rare item can be obtained by bartering with piglins using &6Midas Gold&r"
 	quest.676E51FECDE9F4C1.quest_subtitle: "This powerful frozen core is dropped by the &bFrostologer&r. A map to the Frostologer's Castle may be found inside a &bChillager Outpost&r."
 	quest.678B2562584E24EF.quest_subtitle: "Spawns in the &1Insufferable Crypt&r. To deal damage to &dConjunctivius&r, you must first kill the tentacles. Can drop the &4&lCursed Sword&r, which gives you the &4Cursed &reffect when held. Don't use this sword in Hardcore ;)"
 	quest.678B2562584E24EF.title: "Defeat &dConjunctivius"
@@ -644,6 +644,7 @@
 	task.5FADB24FD405741E.title: "Slay the &9&lNight Lich&r"
 	task.608179E2C8926B06.title: "Start to get &bCold"
 	task.61221607C868980B.title: "Find the &6Coliseum&r"
+	task.622F863CB61B6380.title: "Craft a &9Mythril Drill"
 	task.6476D6F16F63F140.title: "Start to get &cWarm"
 	task.64CB4ECC614E2DC9.title: "Kill a Amethyst Golem"
 	task.64E74549ED509E16.title: "Slay the &k&4l&r&0&lVoid Shadow&r&k&4l"
