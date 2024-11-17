@@ -116,7 +116,7 @@
 				""
 				"Try equipping the &cCharm of Life &rfrom the quest reward in your Necklace slot!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -152,7 +152,7 @@
 				""
 				"The Pin button (next to the &cx&r in the topright) will display that quest in-game, on the right."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -213,7 +213,7 @@
 				""
 				"Press &bU &rwhile hovering over an item to view its Uses"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -254,7 +254,7 @@
 				""
 				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -293,7 +293,7 @@
 				""
 				"Feel free to join our &bDiscord &rfor any other questions you may have: https://lunapixel.studio/discord"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -395,8 +395,8 @@
 		}
 		{
 			dependencies: ["2958CA7FA6FD3E4F"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "78A08081E2B79E8F"
 			rewards: [
 				{
@@ -427,8 +427,8 @@
 		}
 		{
 			dependencies: ["2958CA7FA6FD3E4F"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "7C7C6C27109F2CD8"
 			rewards: [{
 				id: "1C68499F3544D97A"
@@ -438,11 +438,13 @@
 			subtitle: "Find any &5Apotheosis Gem&r, then make an &8Anvil Block&r fall on it."
 			tasks: [{
 				id: "022FB06B334E8E49"
-				item: "apotheosis:gem_dust"
-				title: "Craft a Standard Travelers Backpack"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_dust"
+				}
+				title: "Acquire some Gem Dust"
 				type: "item"
 			}]
-			title: "Acquire some gem dust"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -485,8 +487,8 @@
 		}
 		{
 			dependencies: ["2958CA7FA6FD3E4F"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "06D40C05BE979B85"
 			rewards: [{
 				id: "285831F02454D7FF"
@@ -506,8 +508,8 @@
 		}
 		{
 			dependencies: ["2958CA7FA6FD3E4F"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "3D56762B27F3C57B"
 			rewards: [{
 				count: 2

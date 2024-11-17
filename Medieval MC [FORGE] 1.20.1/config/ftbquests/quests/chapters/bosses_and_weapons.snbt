@@ -5,6 +5,11 @@
 	group: ""
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "cataclysm:ignitium_helmet"
 		tag: {
 			Damage: 0
@@ -46,6 +51,14 @@
 			width: 6.0d
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			height: 20.0d
+			image: "medieval:textures/maledictus.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -17.5d
 		}
 	]
 	order_index: 1
@@ -427,7 +440,7 @@
 				}
 			]
 			size: 1.75d
-			subtitle: "Found at the Top of the Burning Arena. \\nPlace Burning Ashes in the Altar to Summon &4Ignis&r\\n&2Good luck."
+			subtitle: "Found at the Top of the Burning Arena. Place Burning Ashes in the Altar to Summon &4Ignis&r. &2Good luck."
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:altar_of_fire"
@@ -609,7 +622,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -760,6 +773,8 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			subtitle: "&bChallenge Orbs&r are fairly expensive to craft, but can be used to respawn almost any boss arena or major dungeon. \\n\\nDoes not work if the structure has any &dclaimed chunks&r.\\n\\nWon't work on arenas from &6Bosses of Mass Destruction&r; these use their own item, the &6Brimstone Nectar&r\\n\\nRespawning a boss may give it a higher level based on nearby players - some ultra-rare items are &lonly&r available from bonus-leveled bosses!"
 			tasks: [{
 				id: "6696BF75C5D3B149"
@@ -769,7 +784,50 @@
 			}]
 			title: "&k&dI&r&b Challenge Orbs &k&dI"
 			x: 0.0d
-			y: 2.5d
+			y: 3.0d
+		}
+		{
+			id: "578D6FC48136A07A"
+			rewards: [
+				{
+					id: "4B30A855FE412950"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "29F3362835FD1210"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "icarus:white_feathered_wings"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "A winged god, bathed in the &3Phantom Flame&r. His grave lies in the &bFrosted Prison&r, deep underground in snowy biomes. Summon him by touching the &8cursed tombstone&r. "
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursium_upgrade_smithing_template"
+				}
+				id: "0DB047132C633ADB"
+				title: "Defeat &3&lMaledictus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -15.0d
 		}
 	]
 	title: " &4Bosses"
