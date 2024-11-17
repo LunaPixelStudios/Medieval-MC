@@ -18,14 +18,9 @@
   "blacklisted_items": [
     "endermanoverhaul:summoner_pearl",
     "endermanoverhaul:corrupted_pearl",
-    "aquamirae:terrible_sword",
     "bloodmagic:experiencebook",
     "samurai_dynasty:silver_block",
-    "forbidden_arcanus:quantum_catcher",
-    "eidolon:silver_helmet",
-    "eidolon:silver_chestplate",
-    "eidolon:silver_leggings",
-    "eidolon:silver_boots"
+    "forbidden_arcanus:quantum_catcher"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
@@ -50,6 +45,11 @@
   // Items here will get their recipes disabled
   // Keep in mind this already is applied to blacklisted items
   "only_disable_recipes": [
+        "eidolon:silver_helmet",
+    "eidolon:silver_chestplate",
+    "eidolon:silver_leggings",
+    "eidolon:silver_boots",
+    "aquamirae:terrible_sword"
   ],
   // -----------------------------------------------------------
   // If true, the mod will use a hashset to handle the blacklisted items
