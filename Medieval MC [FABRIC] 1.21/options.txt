@@ -3,7 +3,7 @@ toggleCrawl:false
 ao:true
 biomeBlendRadius:2
 enableVsync:false
-entityDistanceScaling:1.0
+entityDistanceScaling:0.75
 entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
@@ -23,8 +23,8 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:10
-simulationDistance:10
+renderDistance:8
+simulationDistance:8
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -39,7 +39,7 @@ realmsNotifications:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-bobView:false
+bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -49,7 +49,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","file/Excalibur_V1.21.1.zip","file/Clarent_(25)_1.20.2+.zip","file/MMC_Excal","file/Excalibur - RPG Series Addon","file/FarmersDelightExcaliburSupport.zip","file/STONEBORN-1.21-V3.2.2.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Additions v1.0.zip","file/STONEBORN - MMC","file/EclecticTrove-1.20.1-1.3.0.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip","file/NoBushyLeaves.zip","file/panorama_overrides.zip","minecraft:tieredz_mrpgc","tinyskeletons:dynamically_copied_skeleton_textures"]
+resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","file/Excalibur_V1.21.1.zip","file/Clarent_(26)_1.20.2+.zip","file/MMC_Excal","file/Excalibur - RPG Series Addon","file/FarmersDelightExcaliburSupport.zip","file/Stoneborn-1.20.2-1.21.4-V3.2.4.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Additions v1.0.zip","file/STONEBORN - MMC","file/EclecticTrove-1.20.1-1.3.0.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip","file/NoBushyLeaves.zip","file/panorama_overrides.zip","Medieval Quest Assets","minecraft:tieredz_mrpgc"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -132,11 +132,12 @@ key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.unknown
-key_accessories.key.open_accessories_screen:key.keyboard.h
+key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.adventurez.dragonflydown:key.keyboard.left.alt
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
 key_key.bettertrims.toggle_magnet:key.keyboard.h
 key_key.carry.desc:key.keyboard.left.shift
 key_key.charm.open_atlas:key.keyboard.unknown
@@ -200,7 +201,7 @@ key_key.journeymap.toggle_render_waypoints:key.keyboard.unknown
 key_key.journeymap.toggle_render_waypoints_world:key.keyboard.unknown
 key_key.journeymap.toggle_render_waypoints_map:key.keyboard.unknown
 key_key.journeymap.toggle_waypoints:key.keyboard.unknown
-key_key.journeymap.fullscreen_create_waypoint:key.keyboard.n
+key_key.journeymap.fullscreen_create_waypoint:key.keyboard.unknown
 key_key.journeymap.fullscreen_chat_position:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.m
 key_key.journeymap.fullscreen_waypoints:key.keyboard.u
@@ -212,9 +213,15 @@ key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen_follow_player:key.keyboard.unknown
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
-key_key.journeymap.toggle_entity_names:key.keyboard.g
+key_key.journeymap.toggle_entity_names:key.keyboard.unknown
 key_mapfrontiers.key.open_settings:key.keyboard.f8
+key_key.toggle_plaques:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.v
+key_key.presencefootsteps.settings:key.keyboard.f10
+key_key.presencefootsteps.toggle:key.keyboard.unknown
+key_key.puffish_skills.open:key.keyboard.k
+key_reacharound.keybinding.toggle:key.keyboard.unknown
 key_keybindings.spell_engine.bypass_spell_hotbar:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_1:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_2:key.keyboard.unknown
@@ -225,8 +232,7 @@ key_keybindings.spell_engine.spell_hotbar_6:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_7:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_8:key.keyboard.unknown
 key_keybindings.spell_engine.spell_hotbar_9:key.keyboard.unknown
-key_key.spyglass-improvements.use:key.keyboard.z
-key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
+key_key.spyglass-improvements.use:key.keyboard.c
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
 key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.things.place_item:key.keyboard.unknown
@@ -240,7 +246,7 @@ key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
 key_key.travelersbackpack.toggle_tank:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.grave.accent
 key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:0.5093841444632682
