@@ -2,7 +2,7 @@
 	// Defines the damage taken every 4 seconds
 	"thirst_damage": 1.0,
 	// Defines speed of dehydration, bigger value = slower depletion
-	"hydrating_factor": 4.0,
+	"hydrating_factor": 8.0,
 	// Defines the rate of the thirst effect's drain, smaller variable = less draining
 	"thirst_effect_factor": 0.004999999888241291,
 	"potion_thirst_quench": 2,

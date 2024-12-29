@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.class_442 {
-}
-
 net.minecraft.class_436 {
 }
 
@@ -82,5 +79,8 @@ com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerS
 }
 
 net.minecraft.class_433 {
+}
+
+net.minecraft.class_442 {
 }
 

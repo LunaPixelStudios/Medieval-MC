@@ -167,7 +167,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "21D93DAAC47A1DCE"
-				item: { count: 1, id: "sereneseasons:calendar" }
+				item: { count: 1, id: "seasonsextras:season_calendar" }
 				type: "item"
 			}]
 			x: 0.5d

@@ -106,25 +106,15 @@
 		{
 			dependencies: ["69872C1F1CCBDEBD"]
 			id: "4E14675B45B7DD15"
-			rewards: [
-				{
-					id: "101B4E61468DF647"
-					item: {
-						count: 1
-						id: "adventurez:piglin_flag"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "4E386C6C4EE23C79"
+				item: {
+					count: 1
+					id: "minecraft:cooked_porkchop"
 				}
-				{
-					count: 8
-					id: "4E386C6C4EE23C79"
-					item: {
-						count: 1
-						id: "minecraft:cooked_porkchop"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "adventurez:piglin_beast"
 				icon: {

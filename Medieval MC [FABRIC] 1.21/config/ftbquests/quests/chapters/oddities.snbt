@@ -169,8 +169,8 @@
 				item: { count: 1, id: "things:bater_wucket" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			id: "5092782C1C675575"
@@ -238,6 +238,183 @@
 			}]
 			x: -2.0d
 			y: 2.5d
+		}
+		{
+			id: "6F44963B8926A708"
+			rewards: [{
+				count: 4
+				id: "2F1E4DB11F411EA5"
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DAB9E3418F56A2A"
+				item: { count: 1, id: "seasonsextras:heater" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "20AE640D7E58DACC"
+			rewards: [{
+				id: "42454C5C4750CB38"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3CD74F1C4CE307E7"
+				item: { count: 1, id: "things:ender_pouch" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "31F21A7B64F97B9F"
+			rewards: [{
+				id: "40C1866B94E26D69"
+				item: {
+					count: 1
+					id: "minecraft:saddle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "680FFF40322A1FFC"
+				item: { count: 1, id: "horseexpert:monocle" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "4A45FB94A63D453E"
+			rewards: [{
+				count: 3
+				id: "1470C17D31B7AF6E"
+				item: {
+					count: 1
+					id: "minecraft:melon_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "100D8BF76AD9B27C"
+				item: { count: 1, id: "seasonsextras:season_calendar" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "081482D4A8FBDFD7"
+			rewards: [{
+				count: 3
+				id: "6A4AB84F78C3E826"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0796F7DDEEF19C75"
+				item: { count: 1, id: "adventurez:piglin_flag" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "504F4795C536CA77"
+			rewards: [{
+				count: 8
+				id: "735B4A8D38F02C88"
+				item: {
+					count: 1
+					id: "farmersdelight:tomato_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00B7E3D55AA657C0"
+				item: { count: 1, id: "seasonsextras:white_greenhouse_glass" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "02EEEB5B31A3A83A"
+			rewards: [{
+				id: "4CC854A7F4A65F6C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0A63AF47D3DBF1BE"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "51403A0817171DEA"
+			rewards: [{
+				count: 8
+				id: "15F22B15FE2CA999"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B0FADFF6CC005E1"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(dramaticdoors:tall_doors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "2E841ADEE374595D"
+			rewards: [{
+				id: "0B89499A98D11202"
+				item: {
+					count: 1
+					id: "mythicmetals:durasteel_ingot"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "564936816051E51B"
+				item: { count: 1, id: "things:hardening_catalyst" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "6C42365EDC992359"
+			rewards: [{
+				id: "685AD79B2861366D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "60F4AE1D23717E64"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(fwaystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 }

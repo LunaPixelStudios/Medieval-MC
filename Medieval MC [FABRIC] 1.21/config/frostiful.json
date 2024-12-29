@@ -41,6 +41,7 @@
     "frostologerMaxPassiveFreezing": 0.5,
     "biterFrostBiteMaxAmplifier": 2,
     "chillagerFireDamageMultiplier": 1.5,
+    "frostologerIntolerableHeat": 9,
     "furUpgradeTemplateGenerateChance": 0.5,
     "skateUpgradeTemplateGenerateChance": 0.33,
     "veryProtectiveFrostResistanceMultiplier": 1.0,

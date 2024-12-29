@@ -1,6 +1,6 @@
 {
 	// Applied as multiplier on top of spell.cast.movement_speed. Default value of 1.0 means no change.
-	"movement_multiplier_speed_while_casting": 0.8,
+	"movement_multiplier_speed_while_casting": 0.800000011920929,
 	// Allow spells to bypass invulnerability frames. This is required in order for high attack frequency spells (such as beams) to work.
 	"bypass_iframes": true,
 	// Spell haste reduces the cooldown time of abilities
@@ -31,8 +31,10 @@
 	"projectiles_pass_thru_irrelevant_targets": true,
 	// Auto swap Bow & Spear cooldown ticks to apply for attack and itemUse
 	"auto_swap_cooldown": 5,
-	// Apply `Spell Casting from Spell Book` capability to anything that subclasses Sword
-	"add_spell_casting_to_swords": true,
+	// Apply `Spell Casting from Spell Book` capability to Swords, Tridents, Maces
+	"add_spell_casting_to_melee_weapons": true,
+	// Apply `Spell Casting from Spell Book` capability to Bows, Crossbows
+	"add_spell_casting_to_ranged_weapons": true,
 	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
 	"add_spell_casting_regex": "",
 	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)

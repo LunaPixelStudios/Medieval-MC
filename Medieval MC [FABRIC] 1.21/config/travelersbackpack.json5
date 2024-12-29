@@ -3,54 +3,59 @@
 		"leather": {
 			// Number of inventory slots for the tier
 			"inventorySlotCount": 27,
+			// Number of upgrade slots for the tier
+			"upgradeSlotCount": 2,
 			// Number of tool slots for the tier
 			"toolSlotCount": 2,
-			// Tank capacity for the tier, 81000 equals 1 Bucket, (Leather default: 3 buckets)
-			"tankCapacity": 243000
+			// Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
+			"tankCapacityPerRow": 81000
 		},
 		"iron": {
 			// Number of inventory slots for the tier
-			"inventorySlotCount": 36,
+			"inventorySlotCount": 45,
+			// Number of upgrade slots for the tier
+			"upgradeSlotCount": 3,
 			// Number of tool slots for the tier
 			"toolSlotCount": 3,
-			// Tank capacity for the tier, 81000 equals 1 Bucket, (Iron default: 4 buckets)
-			"tankCapacity": 324000
+			// Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
+			"tankCapacityPerRow": 81000
 		},
 		"gold": {
 			// Number of inventory slots for the tier
-			"inventorySlotCount": 45,
+			"inventorySlotCount": 63,
+			// Number of upgrade slots for the tier
+			"upgradeSlotCount": 4,
 			// Number of tool slots for the tier
 			"toolSlotCount": 4,
-			// Tank capacity for the tier, 81000 equals 1 Bucket, (Gold default: 5 buckets)
-			"tankCapacity": 405000
+			// Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
+			"tankCapacityPerRow": 81000
 		},
 		"diamond": {
 			// Number of inventory slots for the tier
-			"inventorySlotCount": 54,
+			"inventorySlotCount": 81,
+			// Number of upgrade slots for the tier
+			"upgradeSlotCount": 5,
 			// Number of tool slots for the tier
 			"toolSlotCount": 5,
-			// Tank capacity for the tier, 81000 equals 1 Bucket, (Diamond default: 6 buckets)
-			"tankCapacity": 486000
+			// Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
+			"tankCapacityPerRow": 81000
 		},
 		"netherite": {
 			// Number of inventory slots for the tier
-			"inventorySlotCount": 63,
+			"inventorySlotCount": 99,
+			// Number of upgrade slots for the tier
+			"upgradeSlotCount": 6,
 			// Number of tool slots for the tier
 			"toolSlotCount": 6,
-			// Tank capacity for the tier, 81000 equals 1 Bucket, (Netherite default: 7 buckets)
-			"tankCapacity": 567000
+			// Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
+			"tankCapacityPerRow": 81000
 		},
-		"enableTierUpgrades": true,
-		// Unused - keep for compatibility only, will be removed in future versions
-		"disableCrafting": false,
-		"enableCraftingUpgrade": true,
-		// New backpacks will have crafting grid by default
-		"craftingUpgradeByDefault": false,
-		"craftingSavesItems": false,
-		// Enables wearing backpack directly from ground
-		"enableBackpackBlockQuickEquip": true,
-		// Enables unequipping the backpack when player clicks with empty hand on the ground
-		"enableBackpackRightClickUnequip": false,
+		// Enables equipping the backpack on right-click from the ground (Disabled if Trinkets/Accessories Integration is enabled)
+		"rightClickEquip": true,
+		// Enables unequipping the backpack on right-click on the ground with empty hand (Disabled if Trinkets/Accessories Integration is enabled)
+		"rightClickUnequip": false,
+		// Allows to use only equipped backpack
+		"allowOnlyEquippedBackpack": false,
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
 		// List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
@@ -59,32 +64,45 @@
 		"blacklistedItems": [],
 		// Tool slots accept any item
 		"toolSlotsAcceptEverything": false,
-		"allowShulkerBoxes": true,
-		// Unused - keep for compatibility only, will be removed in future versions
-		"tanksCapacity": [
-			162000,
-			243000,
-			324000,
-			405000,
-			486000
-		],
-		// Prevents backpack disappearing in void
+		// Allows putting shulker boxes and other items with inventory in backpack
+		"allowShulkerBoxes": false,
+		// Prevents backpack disappearing in void, spawns floating backpack above minimum Y when player dies in void
 		"voidProtection": true,
 		// Places backpack at place where player died
-		"backpackDeathPlace": false,
+		"backpackDeathPlace": true,
 		// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
 		"backpackForceDeathPlace": false,
 		"enableSleepingBagSpawnPoint": false,
-		/* If true, backpack can only be worn by placing it in curios 'Back' slot
-		   WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
-		*/
-		"trinketsIntegration": true
+		// If true, backpack can only be worn by placing it in Trinkets or Accessories 'Back' slot, WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
+		"backSlotIntegration": true
+	},
+	"backpackUpgrades": {
+		"enableTanksUpgrade": true,
+		"enableCraftingUpgrade": true,
+		"enableJukeboxUpgrade": true,
+		"pickupUpgradeSettings": {
+			"enableUpgrade": true,
+			"filterSlotCount": 9
+		},
+		"magnetUpgradeSettings": {
+			"enableUpgrade": true,
+			"filterSlotCount": 9,
+			"pullRange": 5
+		},
+		"feedingUpgradeSettings": {
+			"enableUpgrade": true,
+			"filterSlotCount": 9
+		},
+		"voidUpgradeSettings": {
+			"enableUpgrade": true,
+			"filterSlotCount": 9
+		}
 	},
 	"world": {
 		// Enables backpacks spawning in loot chests
 		"enableLoot": true,
 		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-		"spawnEntitiesWithBackpack": false,
+		"spawnEntitiesWithBackpack": true,
 		// List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
 		"possibleOverworldEntityTypes": [
 			"minecraft:zombie",
@@ -96,8 +114,8 @@
 			"minecraft:wither_skeleton",
 			"minecraft:piglin"
 		],
-		// Defines spawn chance of entity with backpack (1 in [selected value])
-		"spawnChance": 500,
+		// Defines spawn chance of entity with a backpack
+		"chance": 0.004999999888241291,
 		// List of backpacks that can spawn on overworld mobs
 		"overworldBackpacks": [
 			"travelersbackpack:standard",
@@ -146,6 +164,7 @@
 	},
 	"backpackAbilities": {
 		"enableBackpackAbilities": true,
+		// Newly crafted backpacks will have ability enabled by default
 		"forceAbilityEnabled": true,
 		// List of backpacks that are allowed to have an ability. DO NOT ADD anything to this list, because the game will crash, remove entries if backpack should not have ability
 		"allowedAbilities": [
@@ -194,8 +213,10 @@
 			// Offsets to up
 			"offsetY": 30
 		},
-		// Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
-		"enableLegacyGui": false,
+		// Whether the backpack icon should be visible in player's inventory
+		"showBackpackIconInInventory": true,
+		// Sends a message to the player on death with backpack coordinates
+		"sendBackpackCoordinatesMessage": true,
 		// Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
 		"enableToolCycling": true,
 		// Allows tool cycling using keybinding only (Default Z)
@@ -203,10 +224,6 @@
 		// Enables tip, how to obtain a backpack, if there's no crafting recipe for it
 		"obtainTips": true,
 		// Render tools in tool slots on the backpack, while worn
-		"renderTools": true,
-		// Render backpack if elytra is present
-		"renderBackpackWithElytra": true,
-		// Disable backpack rendering
-		"disableBackpackRender": false
+		"renderTools": true
 	}
 }

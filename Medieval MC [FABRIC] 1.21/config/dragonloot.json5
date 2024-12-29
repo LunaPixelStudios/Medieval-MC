@@ -11,8 +11,9 @@
 	"dragon_armor_knockback_resistance": 2.0,
 	"dragon_armor_enchantability": 15,
 	"dragon_armor_durability_multiplier": 37,
-	"dragon_item_durability_multiplier": 37,
+	"dragon_item_durability": 1961,
 	"dragon_item_base_damage": 8.0,
+	"dragon_item_mining_speed_multiplier": 12.0,
 	"dragon_tool_enchantability": 20,
 	"dragon_anvil_no_cap": true
 }

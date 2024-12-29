@@ -5,8 +5,10 @@
   },
   "clientConfig": {
     "doBurningHeartOverlay": true,
+    "doSoakingOverlay": true,
     "doSunHatShading": true,
     "enableSoundTemperatureEffects": true,
+    "enableWetDripParticles": true,
     "enableHeatStrokePostProcessing": true,
     "enableFearPostProcessing": true,
     "sunHatShadeOpacity": 0.2,
@@ -39,7 +41,8 @@
     "lightLevelPerHeatInNether": 5,
     "minLightLevelForHeatInNether": 14,
     "blocksAboveLavaOceanPerHeatInNether": 5,
-    "maxHeatFromLavaOceanInNether": 3
+    "maxHeatFromLavaOceanInNether": 3,
+    "temperatureFromCoolingFood": -1260
   },
   "combatConfig": {
     "fireBallThrownType": "SMALL",
@@ -48,7 +51,8 @@
     "veryHarmfulArmorHeatResistance": -0.5,
     "protectiveArmorHeatResistance": 0.5,
     "veryProtectiveArmorHeatResistance": 1.0,
-    "fearDetectionRangeMultiplier": 2.0
+    "fearDetectionRangeMultiplier": 2.0,
+    "impalingDamagePerLevel": 2.5
   },
   "weatherConfig": {
     "doSandPileAccumulation": true,
@@ -75,7 +79,9 @@
       "minWaterLevelForSweat": 16
     },
     "seasonsConfig": {
-      "enableSeasonsIntegration": true
+      "enableSeasonsIntegration": true,
+      "wetSeasonHumidBiomeSweatEfficiency": 0.16666667,
+      "drySeasonHumidBiomeSweatEfficiency": 0.5
     }
   }
 }
