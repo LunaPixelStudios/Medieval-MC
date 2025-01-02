@@ -2630,11 +2630,7 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_4_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2643,7 +2639,16 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
           "weight": 1
         }
       ]
@@ -2653,19 +2658,19 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
+          "id": "#rpg_series:tier_4_aether_weapons",
           "weight": 1
         },
         {
-          "id": "#rpg_series:tier_2_weapons",
+          "id": "#rpg_series:tier_3_weapons",
           "weight": 1
         },
         {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_3_armors",
           "weight": 1
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_4_accessories",
           "weight": 1
         }
       ]
@@ -2902,24 +2907,7 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_3_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_4_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2937,11 +2925,7 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_3_accessories",
+          "id": "#rpg_series:tier_4_accessories",
           "weight": 1
         }
       ]
@@ -2951,11 +2935,7 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_3_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2964,7 +2944,16 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_accessories",
           "weight": 1
         }
       ]
