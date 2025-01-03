@@ -1,0 +1,15 @@
+# Use Cloth Config mod for the descriptions.
+---
+modules:
+  enchantment: true
+fallDamageReduction: 0.25
+fallDamageThreshold: 40
+speedReductionHorizontal: 0.0
+speedReductionVertical: 0.5
+modifyPathFinding: true
+playerOnly: false
+alwaysNotViewBlocking: true
+alwaysLeafWalking: false
+sounds:
+  volume: 1.0
+  playerOnly: false
