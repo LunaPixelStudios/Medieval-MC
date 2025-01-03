@@ -424,6 +424,15 @@
 		{
 			dependencies: ["69DEB17F302B7686"]
 			id: "41964FE016B460FD"
+			rewards: [{
+				count: 8
+				id: "4C145FA47E09905A"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:cracked_deepslate_bricks"
@@ -438,6 +447,14 @@
 		{
 			dependencies: ["69DEB17F302B7686"]
 			id: "45917D194B0F0439"
+			rewards: [{
+				id: "2019FF686026D348"
+				item: {
+					count: 1
+					id: "paladins:iron_kite_shield"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:dark_oak_wood"
@@ -452,6 +469,20 @@
 		{
 			dependencies: ["69DEB17F302B7686"]
 			id: "77620D66329E6AAC"
+			rewards: [{
+				id: "0C968DA839098CC6"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_water_breathing"
+						}
+						"scorchful:drink_level": "hydrating"
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:prismarine_bricks"
