@@ -4,8 +4,8 @@ modules:
   enchantment: true
 fallDamageReduction: 0.25
 fallDamageThreshold: 40
-speedReductionHorizontal: 0.0
-speedReductionVertical: 0.5
+speedReductionHorizontal: 1.0
+speedReductionVertical: 0.8
 modifyPathFinding: true
 playerOnly: false
 alwaysNotViewBlocking: true
