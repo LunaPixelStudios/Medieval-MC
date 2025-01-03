@@ -1,0 +1,20 @@
+{
+  "attributes_container_injection_scope": "LIVING_ENTITY",
+  "base_spell_critical_chance_percentage": 5.0,
+  "base_spell_critical_damage_percentage": 50.0,
+  "spell_power_effect": {
+    "bonus_per_stack": 0.1
+  },
+  "secondary_effects": {
+    "critical_chance": {
+      "bonus_per_stack": 0.05
+    },
+    "critical_damage": {
+      "bonus_per_stack": 0.1
+    },
+    "haste": {
+      "bonus_per_stack": 0.05
+    }
+  },
+  "resistance_reduction_cap": 0.75
+}
