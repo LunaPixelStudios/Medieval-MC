@@ -135,6 +135,11 @@ key_key.ftbteams.open_gui:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.unknown
 key_key.adventurez.dragonflydown:key.keyboard.left.alt
 key_key.adventurez.dragonfirebreath:key.keyboard.grave.accent
+key_key.aether.open_accessories.desc:key.keyboard.unknown
+key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
+key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
+key_key.affinity.activate_evade_ring:key.keyboard.unknown
+key_key.affinity.select_staff_from_bundle:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
