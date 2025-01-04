@@ -883,6 +883,400 @@
         }
       ]
     },
+    "aether:chests/dungeon/silver/silver_dungeon_reward": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_aether_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "aether:chests/dungeon/gold/gold_dungeon_reward": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_aether_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "nova_structures:chests/lone_citadel/c_vault_boss": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/lone_citadel/c_vault": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/lone_citadel/c_library": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/lone_citadel/c_forge_chest": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/bunker_altar": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/conduit_ruin/conduit_ruin_big": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/creeping_crypt/crypt_grave": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/creeping_crypt/crypt_hallway": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/creeping_crypt/vault_creeping": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/desert_ruins/desert_ruin_main_temple": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/vault_brigattine": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/vault_galleon": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/vault_slope": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/treasure_lighthouse": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_lighthouse/vault_lighthouse": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/illager_hideout_tresure": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/nether_keep/vault_keep": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_3_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/nether_keep/skeleton_tower_chest": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/pillager_outpost_treasure": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/toxic_lair/toxic_vault": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/toxic_lair/toxic_ominous_vault": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/toxic_lair/toxic_boss_vault": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "nova_structures:chests/trident_trial_monument/ttm_common_vault": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
     "graveyard:chests/great_crypt_loot": {
       "rolls": 1.0,
       "bonus_rolls": 0.2,
@@ -2236,11 +2630,7 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_4_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2249,7 +2639,16 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
           "weight": 1
         }
       ]
@@ -2259,19 +2658,19 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
+          "id": "#rpg_series:tier_4_aether_weapons",
           "weight": 1
         },
         {
-          "id": "#rpg_series:tier_2_weapons",
+          "id": "#rpg_series:tier_3_weapons",
           "weight": 1
         },
         {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_3_armors",
           "weight": 1
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_4_accessories",
           "weight": 1
         }
       ]
@@ -2508,24 +2907,7 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_3_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_4_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2543,11 +2925,7 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_3_accessories",
+          "id": "#rpg_series:tier_4_accessories",
           "weight": 1
         }
       ]
@@ -2557,11 +2935,7 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
+          "id": "#rpg_series:tier_3_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -2570,7 +2944,16 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_accessories",
           "weight": 1
         }
       ]

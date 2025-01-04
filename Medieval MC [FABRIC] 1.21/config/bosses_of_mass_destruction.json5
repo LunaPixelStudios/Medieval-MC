@@ -3,12 +3,11 @@
 		"eternalNighttime": true,
 		"experienceDrop": 1500,
 		"idleHealingPerTick": 0.20000000298023224,
-		"health": 500.0,
+		"health": 300.0,
 		"missile": {
-			"statusEffectId": "minecraft:slowness",
 			"statusEffectDuration": 100,
 			"statusEffectPotency": 2,
-			"damage": 15.0
+			"damage": 9.0
 		},
 		"comet": {
 			"explosionStrength": 4.0
@@ -31,7 +30,7 @@
 				"minecraft:zombie_villager",
 				"minecraft:zombified_piglin"
 			],
-			"numEntitiesKilledToDropSoulStar": 75
+			"numEntitiesKilledToDropSoulStar": 50
 		}
 	},
 	"obsidilithConfig": {

@@ -800,8 +800,24 @@
 			x: 8.0d
 			y: 6.0d
 		}
+		{
+			height: 14.0d
+			image: "medieval:textures/shriek_worm.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			height: 8.0d
+			image: "medieval:textures/stalker.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 8.0d
+		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

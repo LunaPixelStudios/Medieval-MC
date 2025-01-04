@@ -336,5 +336,8 @@
     },
     "io.wispforest.accessories.client.AccessoriesMenu": {
         "playerSideOnly": true
+    },
+    "dev.shadowsoffire.apothic_enchanting.library.EnchLibraryContainer": {
+        "ignore": true
     }
 }

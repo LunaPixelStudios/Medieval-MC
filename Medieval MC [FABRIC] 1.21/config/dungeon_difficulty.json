@@ -1,0 +1,631 @@
+{
+  "meta": {
+    "comment": "Note: Each difficulty type (just below) is multiplied by that area\u0027s difficulty level (found at the bottom of the config). In MMC Fabric, Dungeon Difficulty is used primarly for bosses and a few structures. All other mob leveling is handled by RPGDifficulty, via config and datapack. Item scaling is now handled by Zenith.",
+    "allow_customization": true,
+    "sanitize_config": true,
+    "rounding_unit": 0.5
+  },
+  "perPlayerDifficulty": {
+    "enabled": false,
+    "counting": "EVERYWHERE",
+    "entities": [
+      {
+        "entity_matches": {
+          "attitude": "ANY",
+          "entity_id_regex": "^(?!.*(player)).*?"
+        },
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "ADDITION",
+            "randomness": 0.0,
+            "value": 0.02
+          },
+          {
+            "attribute": "projectile_damage:generic",
+            "operation": "ADDITION",
+            "randomness": 0.0,
+            "value": 0.02
+          },
+          {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.0,
+            "value": 0.02
+          }
+        ],
+        "experience_multiplier": 0.0
+      }
+    ]
+  },
+  "difficulty_types": [
+    {
+      "name": "normal",
+      "parent": "bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(obsidilith|twilightforest:naga|twilightforest:lich|player)).*?"
+          },
+          "attributes": [],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.05,
+            "max_nearby_entities_multiplier": 0.05,
+            "min_spawn_delay_multiplier": 0.0,
+            "max_spawn_delay_multiplier": 0.0,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.6
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(twilightforest):.*(naga|lich|alpha_yeti|minoshroom|snow_queen|knight_phantom|hydra).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.5
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.4
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.017
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "nether_end",
+      "parent": "harder_dims_bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(obsidilith|twilightforest:naga|twilightforest:lich|player)).*?"
+          },
+          "attributes": [],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.05,
+            "max_nearby_entities_multiplier": 0.05,
+            "min_spawn_delay_multiplier": 0.0,
+            "max_spawn_delay_multiplier": 0.0,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.6
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "overworld_specific",
+      "parent": "bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(unusedexclusion)).*?(mutant|magus|dragon|hydra).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.0
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.0
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.0
+            }
+          ],
+          "experience_multiplier": 1.5
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "guardvillagers:guard"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.25
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(twilightforest|wither_skeleton|soulmass|remnant|forlorn|sorcerer|skelt|leech)).*?(minecells:conjunctivius|bosses_of_mass_destruction|minecraft:wither|minecraft:warden|lich|hidebehind|hirschgeist|soulsweapons|archon|cornelia|maze_mother).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.75
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.75
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "aquamirae"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "harder_dims_bosses_only",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(twilightforest|wither_skeleton|soulmass|remnant|forlorn|sorcerer|skelt|leech)).*?(bosses_of_mass_destruction|ender_dragon|wither|warden|lich|hidebehind|hirschgeist|soulsweapons|archon).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.25
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.04
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "dungeon_special",
+      "parent": "normal",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(player)).*?"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 0.5
+            },
+            {
+              "attribute": "projectile_damage:generic",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.15
+            },
+            {
+              "attribute": "generic.armor_toughness",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.0
+            },
+            {
+              "attribute": "generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.002
+            }
+          ],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.05,
+            "max_nearby_entities_multiplier": 0.05,
+            "min_spawn_delay_multiplier": 0.0,
+            "max_spawn_delay_multiplier": 0.0,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.6
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "arch_magussy",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "magus"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 1.35
+            }
+          ],
+          "experience_multiplier": 5.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!.*(magus|player)).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.1,
+              "value": 1.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 1.0
+            }
+          ],
+          "experience_multiplier": 1.5
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:overworld|edenring|paradise_lost"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 10
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "overworld_specific",
+            "level": 4
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "twilightforest|bumblezone"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 4
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecells:prison"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecells:promenade|minecells:insufferable_crypt"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 6
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_nether|deeperdarker"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "nether_end",
+            "level": 8
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_end"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 15
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 18
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 18
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "dungeon_special",
+            "level": 21
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "nether_end",
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "voidz:void"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "normal",
+            "level": 13
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "spellbladenext:glassocean"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "biome": ".*"
+          },
+          "difficulty": {
+            "name": "arch_magussy",
+            "level": 6
+          }
+        }
+      ]
+    }
+  ]
+}

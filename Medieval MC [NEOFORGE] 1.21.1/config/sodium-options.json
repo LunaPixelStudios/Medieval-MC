@@ -18,7 +18,7 @@
     "use_block_face_culling": true,
     "use_no_error_g_l_context": true,
     "sorting_enabled_v2": true,
-    "leaf_culling_quality": "SOLID_AGGRESSIVE"
+    "leaf_culling_quality": "SOLID"
   },
   "notifications": {
     "has_cleared_donation_button": true,

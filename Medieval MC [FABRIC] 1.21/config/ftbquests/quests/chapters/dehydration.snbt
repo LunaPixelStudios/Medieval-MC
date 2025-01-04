@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dehydration"
-	group: ""
+	group: "4BC43492EB4B3856"
 	icon: {
 		id: "dehydration:purified_water_bucket"
 	}
@@ -167,7 +167,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "21D93DAAC47A1DCE"
-				item: { count: 1, id: "sereneseasons:calendar" }
+				item: { count: 1, id: "seasonsextras:season_calendar" }
 				type: "item"
 			}]
 			x: 0.5d

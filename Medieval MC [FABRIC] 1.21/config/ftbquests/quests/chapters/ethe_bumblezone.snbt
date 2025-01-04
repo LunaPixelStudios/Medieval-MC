@@ -7,6 +7,14 @@
 		id: "minecraft:bee_nest"
 	}
 	id: "5E108F66F3EF0B77"
+	images: [{
+		height: 15.0d
+		image: "medieval:textures/the_bumblezone/entity/bee_queen.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -2.5d
+		y: -3.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -260,6 +268,8 @@
 				type: "xp_levels"
 				xp_levels: 30
 			}]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				id: "28AD2FAF7EEA9ECF"
 				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }

@@ -40,17 +40,19 @@
 			// Tank capacity for the tier, 81000 equals 1 Bucket, (Netherite default: 7 buckets)
 			"tankCapacity": 567000
 		},
+		"crafting": {
+			"enableUpgrade": true,
+			// Newly crafted backpacks will have crafting upgrade included by default
+			"includeByDefault": false,
+			"savesItems": true
+		},
 		"enableTierUpgrades": true,
-		// Unused - keep for compatibility only, will be removed in future versions
-		"disableCrafting": false,
-		"enableCraftingUpgrade": true,
-		// New backpacks will have crafting grid by default
-		"craftingUpgradeByDefault": false,
-		"craftingSavesItems": false,
-		// Enables wearing backpack directly from ground
-		"enableBackpackBlockQuickEquip": true,
-		// Enables unequipping the backpack when player clicks with empty hand on the ground
-		"enableBackpackRightClickUnequip": false,
+		// Enables equipping the backpack on right-click from the ground (Disabled if Trinkets/Accessories Integration is enabled)
+		"rightClickEquip": true,
+		// Enables unequipping the backpack on right-click on the ground with empty hand (Disabled if Trinkets/Accessories Integration is enabled)
+		"rightClickUnequip": false,
+		// Allows to use only equipped backpack
+		"allowOnlyEquippedBackpack": false,
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
 		// List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
@@ -59,32 +61,29 @@
 		"blacklistedItems": [],
 		// Tool slots accept any item
 		"toolSlotsAcceptEverything": false,
-		"allowShulkerBoxes": true,
-		// Unused - keep for compatibility only, will be removed in future versions
-		"tanksCapacity": [
-			162000,
-			243000,
-			324000,
-			405000,
-			486000
-		],
-		// Prevents backpack disappearing in void
+		// Allows putting shulker boxes and other items with inventory in backpack
+		"allowShulkerBoxes": false,
+		// Prevents backpack disappearing in void, spawns floating backpack above minimum Y when player dies in void
 		"voidProtection": true,
 		// Places backpack at place where player died
-		"backpackDeathPlace": false,
+		"backpackDeathPlace": true,
 		// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
 		"backpackForceDeathPlace": false,
 		"enableSleepingBagSpawnPoint": false,
-		/* If true, backpack can only be worn by placing it in curios 'Back' slot
+		/* If true, backpack can only be worn by placing it in Trinkets 'Back' slot
 		   WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
 		*/
-		"trinketsIntegration": true
+		"trinketsIntegration": true,
+		/* If true, backpack can only be worn by placing it in Accessories 'Back' slot
+		   WARNING - Remember to TAKE OFF BACKPACK BEFORE enabling or disabling this integration!! - if not you'll lose your backpack
+		*/
+		"accessoriesIntegration": true
 	},
 	"world": {
 		// Enables backpacks spawning in loot chests
 		"enableLoot": true,
 		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-		"spawnEntitiesWithBackpack": false,
+		"spawnEntitiesWithBackpack": true,
 		// List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
 		"possibleOverworldEntityTypes": [
 			"minecraft:zombie",
@@ -96,8 +95,8 @@
 			"minecraft:wither_skeleton",
 			"minecraft:piglin"
 		],
-		// Defines spawn chance of entity with backpack (1 in [selected value])
-		"spawnChance": 500,
+		// Defines spawn chance of entity with a backpack
+		"chance": 0.004999999888241291,
 		// List of backpacks that can spawn on overworld mobs
 		"overworldBackpacks": [
 			"travelersbackpack:standard",
@@ -146,6 +145,7 @@
 	},
 	"backpackAbilities": {
 		"enableBackpackAbilities": true,
+		// Newly crafted backpacks will have ability enabled by default
 		"forceAbilityEnabled": true,
 		// List of backpacks that are allowed to have an ability. DO NOT ADD anything to this list, because the game will crash, remove entries if backpack should not have ability
 		"allowedAbilities": [
@@ -194,6 +194,10 @@
 			// Offsets to up
 			"offsetY": 30
 		},
+		// Whether the backpack icon should be visible in player's inventory
+		"showBackpackIconInInventory": true,
+		// Sends a message to the player on death with backpack coordinates
+		"sendBackpackCoordinatesMessage": true,
 		// Enables legacy GUI (Blue slots for storage, brown for crafting and green for tools)
 		"enableLegacyGui": false,
 		// Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn

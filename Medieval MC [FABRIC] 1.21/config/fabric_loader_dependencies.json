@@ -6,19 +6,9 @@
         "minecraft": "IGNORED"
       }
     },
-    "easyanvils": {
+    "spellbladenext": {
       "-depends": {
-        "minecraft": "IGNORED"
-      }
-    },
-    "easymagic": {
-      "-depends": {
-        "minecraft": "IGNORED"
-      }
-    },
-    "cutthrough": {
-      "-depends": {
-        "minecraft": "IGNORED"
+        "spell_engine": "IGNORED"
       }
     },
     "mediumcore": {
@@ -31,27 +21,7 @@
         "minecraft": "IGNORED"
       }
     },
-    "leavesbegone": {
-      "-depends": {
-        "minecraft": "IGNORED"
-      }
-    },
-    "sparsestructures": {
-      "-depends": {
-        "minecraft": "IGNORED"
-      }
-    },
     "armoroftheages": {
-      "-depends": {
-        "minecraft": "IGNORED"
-      }
-    },
-    "resourcepackoverrides": {
-      "-depends": {
-        "minecraft": "IGNORED"
-      }
-    },
-    "magnumtorch": {
       "-depends": {
         "minecraft": "IGNORED"
       }

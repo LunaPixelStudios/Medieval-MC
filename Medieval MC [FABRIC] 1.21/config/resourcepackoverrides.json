@@ -2,14 +2,13 @@
   "schema_version": 1,
   "failed_reloads_per_session": 5,
   "default_packs": [
-    "vanilla",
-    "fabric",
     "moonlight:mods_dynamic_assets",
     "file/Excalibur_V1.21.1.zip",
-    "file/Clarent_(24)_1.20.2~1.21.1.zip",
+    "file/Clarent_(26)_1.20.2+.zip",
     "file/MMC_Excal",
+    "file/Excalibur - RPG Series Addon",
     "file/FarmersDelightExcaliburSupport.zip",
-    "file/STONEBORN-1.21-V3.2.2.zip",
+    "file/Stoneborn-1.20.2-1.21.4-V3.2.4.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip",
     "file/STONEBORN - Denis\u0027 Additions v1.0.zip",
@@ -18,9 +17,7 @@
     "file/EmbellishedStone-1.20.1-1.0.0.zip",
     "file/[1.4] Enhanced Boss Bars.zip",
     "file/NoBushyLeaves.zip",
-    "file/panorama_overrides.zip",
-    "minecraft:tieredz_mrpgc",
-    "tinyskeletons:dynamically_copied_skeleton_textures"
+    "file/panorama_overrides.zip"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -56,7 +53,7 @@
     "file/AdventureZ_NetheriteFix_1.0+1.21.zip": {
       "hidden": true
     },
-    "file/Dehydration_Expanded_Drinks_1.3.4+1.20.1.zip": {
+    "file/Dehydration_Expanded_Drinks_1.3.5+1.21.1.zip": {
       "hidden": true
     },
     "file/Origins_EnvironmentZ_Dehydration_v1.7+1.20.1.zip": {

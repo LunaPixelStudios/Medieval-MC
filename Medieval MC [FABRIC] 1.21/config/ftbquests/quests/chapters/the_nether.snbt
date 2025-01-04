@@ -7,6 +7,32 @@
 		id: "minecraft:netherrack"
 	}
 	id: "0D7FF8F037EFF568"
+	images: [
+		{
+			height: 10.0d
+			image: "medieval:textures/adventurez/entity/blackstone_golem.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			height: 10.0d
+			image: "medieval:textures/gauntlet.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			height: 7.0d
+			image: "medieval:textures/wildfire.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -0.5d
+			y: 1.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -80,25 +106,15 @@
 		{
 			dependencies: ["69872C1F1CCBDEBD"]
 			id: "4E14675B45B7DD15"
-			rewards: [
-				{
-					id: "101B4E61468DF647"
-					item: {
-						count: 1
-						id: "adventurez:piglin_flag"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "4E386C6C4EE23C79"
+				item: {
+					count: 1
+					id: "minecraft:cooked_porkchop"
 				}
-				{
-					count: 8
-					id: "4E386C6C4EE23C79"
-					item: {
-						count: 1
-						id: "minecraft:cooked_porkchop"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "adventurez:piglin_beast"
 				icon: {
@@ -176,9 +192,11 @@
 				{
 					id: "379244EDC3BAF831"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 30
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: {

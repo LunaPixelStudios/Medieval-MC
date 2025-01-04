@@ -1,0 +1,10 @@
+{
+	id: "776C51E20F16A9F2"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 3, "spell_engine:spell_infinity": 1, "spell_power:haste": 5, "spell_power:spell_power": 5 } } }, count: 1, id: "paladins:diamond_holy_staff" } }
+		{ item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 3, "minecraft:mending": 1, "minecraft:smite": 5, "minecraft:unbreaking": 3 } } }, count: 1, id: "minecraft:diamond_sword" } }
+		{ item: { components: { "minecraft:enchantments": { levels: { "minecraft:flame": 1, "minecraft:power": 5, "minecraft:unbreaking": 3, "nova_structures:multishot": 1 } } }, count: 1, id: "archers:royal_longbow" } }
+	]
+}
