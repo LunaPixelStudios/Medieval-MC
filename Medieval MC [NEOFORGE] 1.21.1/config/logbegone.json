@@ -13,12 +13,13 @@
       "Empty or non-existent pool",
       "invalid entry \"credits\"",
       "Ignored non-lowercase namespace",
-      "Ignoring unknown attribute",
       "does not belong to a known attribute. This entry will be ignored",
-      "Detected setBlock in a far chunk"
+      "Detected setBlock in a far chunk",
+      "Ignoring unknown attribute",
+      "Couldn't find template pool reference",
+      "Template pool fallback chain found"
     ],
     "regex": [
-      "Disconnecting VANILLA connection attempt",
       ".*(Unknown block '.*' in '.*' element '.*' at index).*",
       ".*(GL_INVALID_(OPERATION|VALUE|ENUM)).*"
     ]
