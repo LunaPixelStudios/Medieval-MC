@@ -6,15 +6,15 @@
 	icon: {
 		id: "naturescompass:naturescompass"
 	}
-	id: "4E33D80DA11F2414"
+	id: "24BF7EAB0608B877"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5F0FC5A5035E29B0"
+			id: "4387DC125EB44573"
 			rewards: [{
 				count: 16
-				id: "78535C006B1E1D87"
+				id: "4D62A4CFA78ACA91"
 				item: {
 					count: 1
 					id: "minecraft:torch"
@@ -22,7 +22,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "351D2EAFAE0F9CB7"
+				id: "6A8CF1B278364EF6"
 				item: { count: 1, id: "naturescompass:naturescompass" }
 				type: "item"
 			}]
@@ -49,10 +49,10 @@
 			y: -0.5d
 		}
 		{
-			id: "08294911FF1A808E"
+			id: "1BFDB866125B81CF"
 			rewards: [{
 				count: 8
-				id: "3ADFE7FA953AB1C0"
+				id: "656DFE3A7CC48601"
 				item: {
 					count: 1
 					id: "minecraft:oak_log"
@@ -60,7 +60,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "46F2673C0F138F59"
+				id: "259DD25DD4E080D8"
 				item: { count: 1, id: "sawmill:sawmill" }
 				type: "item"
 			}]
@@ -68,10 +68,10 @@
 			y: -0.5d
 		}
 		{
-			id: "7FE42B256F9BC9DF"
+			id: "57BCA1F791036BEB"
 			rewards: [{
 				count: 16
-				id: "04A7D6A6455F10B1"
+				id: "7CADF56190D3DB11"
 				item: {
 					count: 1
 					id: "minecraft:spectral_arrow"
@@ -79,7 +79,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "100849599C81C2CC"
+				id: "4529CB373E37AB67"
 				item: { count: 1, id: "magnumtorch:diamond_magnum_torch" }
 				type: "item"
 			}]
@@ -87,9 +87,9 @@
 			y: 1.0d
 		}
 		{
-			id: "5092782C1C675575"
+			id: "3AEFF086B6978759"
 			rewards: [{
-				id: "22F43DAB8B192251"
+				id: "3B40F0D431696699"
 				item: {
 					count: 1
 					id: "minecraft:white_banner"
@@ -97,12 +97,98 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "75DD4CEC0534B742"
+				id: "0E4345FBB5BECF45"
 				item: { count: 1, id: "dummmmmmy:target_dummy" }
 				type: "item"
 			}]
 			x: -0.5d
 			y: -2.0d
+		}
+		{
+			id: "4E0D44424E41AD74"
+			rewards: [{
+				id: "1199F5F868319EED"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6A9EED890EC4713B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "35FBD3B1EDC80582"
+			rewards: [{
+				count: 8
+				id: "053E7F448B21CE19"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73BE38C0047EFA31"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(dramaticdoors:tall_doors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "05B1C97F3AD3E31F"
+			rewards: [{
+				id: "77D4FAD0669D55D5"
+				item: {
+					count: 1
+					id: "minecraft:saddle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F6148A48B67DE4D"
+				item: { count: 1, id: "horseexpert:monocle" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "7F8D3509B2699413"
+			rewards: [{
+				id: "40E8CB44225E341C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "68933FB8C96CD6B1"
+				item: { count: 1, id: "medieval:challenge_orb" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "353956A504681541"
+			rewards: [{
+				count: 3
+				id: "2E00CC98CF8ED80B"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BC30D2F68FC8D4D"
+				item: { count: 1, id: "tradingpost:trading_post" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
 		}
 	]
 }

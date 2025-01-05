@@ -1,0 +1,853 @@
+{
+	autofocus_id: "7009C9DC7AB48D85"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "59C90AA1B128306B"
+	icon: {
+		id: "undergarden:cracked_shiverstone_bricks"
+	}
+	id: "744FB47D1500561A"
+	images: [
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/ink_mushroom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepturf_block_side"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/deepsoil"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/depthrock"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/blood_mushroom"
+			rotation: 0.0d
+			width: 1.25d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/miserabell"
+			rotation: 0.0d
+			width: 1.25d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/indigo_mushroom"
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/miserabell"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 1.25d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "minecraft:block/deepslate_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 1.25d
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.25d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 1.25d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "undergarden:block/underbean_bush_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "undergarden:block/underbean_bush_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7009C9DC7AB48D85"]
+			id: "63183329FCECAB43"
+			rewards: [{
+				id: "55597E811E717D0E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "237356226B413DBB"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "571D0197D432A3BB"
+			rewards: [
+				{
+					id: "41A42AC13A78DC02"
+					item: {
+						count: 1
+						id: "undergarden:slingshot"
+					}
+					type: "item"
+				}
+				{
+					id: "4012CCA85053BA23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "66FAC6499A982478"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D18FD5B56B4F28A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "undergarden:stoneborn"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "41196539DF4CC0E7"
+			rewards: [
+				{
+					id: "7B7FFE4C3A6E5AEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3FE539920A6475BC"
+					item: {
+						count: 1
+						id: "undergarden:utherium_sword"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				id: "605588A719BF905C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "30C280A698BF1C9F"
+			rewards: [{
+				id: "3D850E5F4609526C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "70B986266C5A2041"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "7009C9DC7AB48D85"
+			rewards: [{
+				count: 4
+				id: "094B4F6138DBC56D"
+				item: {
+					count: 1
+					id: "minecraft:deepslate_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51856960EE183EDE"
+				item: { count: 1, id: "undergarden:catalyst" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "5D0C0B636215D298"
+			rewards: [
+				{
+					id: "487D6B98A949C904"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3BCDC0584161C6F6"
+					item: {
+						count: 1
+						id: "undergarden:depthrock_pebble"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "2FD74C1C220E5DE9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63183329FCECAB43"]
+			hide_dependency_lines: true
+			id: "27D86DBBE74CE0AB"
+			rewards: [{
+				id: "5828984669A4F72A"
+				item: {
+					count: 1
+					id: "undergarden:forgotten_sword"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotwalker"
+				id: "6DEB96D1DAFE7A1C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+}

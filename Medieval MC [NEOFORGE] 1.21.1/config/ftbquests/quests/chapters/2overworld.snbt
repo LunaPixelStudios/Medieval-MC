@@ -1,4 +1,5 @@
 {
+	autofocus_id: "6DF9912BC71928D6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2overworld"
@@ -6,55 +7,162 @@
 	icon: {
 		id: "minecraft:grass_block"
 	}
-	id: "0E7C2FD4EF1EBCC4"
+	id: "67450E78381B67D2"
+	images: [
+		{
+			height: 8.0d
+			image: "medieval:textures/void_blossom.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			height: 12.0d
+			image: "medieval:textures/lich_2_.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 6.0d
+			y: -7.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			id: "0309AFE9E3851209"
-			rewards: [{
-				id: "32356BB8CEB7B120"
-				item: {
-					count: 1
-					id: "minecraft:shield"
+			dependencies: ["76B3EC978FF0AC9C"]
+			id: "5D52EA58C8243728"
+			rewards: [
+				{
+					id: "7693C42EEC955C03"
+					type: "xp_levels"
+					xp_levels: 5
 				}
-				type: "item"
+				{
+					count: 4
+					id: "6FD9822778C02784"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					id: "bosses_of_mass_destruction:void_lily"
+				}
+				id: "66280CE70A237FB5"
+				type: "kill"
+				value: 1L
 			}]
+			x: 11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6E7C45D24CF36A2E"]
+			id: "76B3EC978FF0AC9C"
+			rewards: [
+				{
+					id: "41EACE0D12F85FFD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A4F9CEF8F7C3771"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					id: "bosses_of_mass_destruction:ancient_anima"
+				}
+				id: "5FADB24FD405741E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			id: "6DF9912BC71928D6"
+			rewards: [
+				{
+					id: "364D83E4C16526FC"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+				{
+					id: "10870652F0D45E5D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				icon: {
 					id: "minecraft:trial_spawner"
 				}
-				id: "57E14697C45547A6"
+				id: "58F0714C142B0078"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:trial_spawner"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			id: "36B1ADEC79D5153D"
-			rewards: [{
-				id: "06105F5F3FB54247"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			dependencies: ["5BBC5EACB3578E65"]
+			id: "1492A19A5DA07990"
+			rewards: [
+				{
+					id: "5342D13128E2CB08"
+					item: {
+						count: 1
+						id: "irons_spellbooks:autoloader_crossbow"
+					}
+					type: "item"
+				}
+				{
+					id: "0F364AE3F45B952D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				advancement: "friendsandfoes:adventure/the_magicians"
 				criterion: ""
-				id: "5AEB8F4A9F2B4DA3"
+				id: "62CE2BBAE4C0CFA6"
 				type: "advancement"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
-			id: "681023F993C3FF3D"
+			dependencies: ["1492A19A5DA07990"]
+			id: "6E7C45D24CF36A2E"
 			rewards: [
 				{
-					id: "399FB2A87D1B4503"
+					id: "3D37015D9ECA478B"
 					item: {
 						count: 1
 						id: "handcrafted:pillager_trophy"
@@ -62,11 +170,12 @@
 					type: "item"
 				}
 				{
-					id: "3C5E4D6FD420208C"
+					id: "3CA374713E303817"
 					type: "xp_levels"
 					xp_levels: 25
 				}
 			]
+			size: 1.25d
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				icon: {
@@ -134,68 +243,82 @@
 					}
 					id: "minecraft:white_banner"
 				}
-				id: "2CDC9E93B5236A52"
+				id: "5B98A2D940FE42C4"
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
+			id: "1636409493A84C88"
+			rewards: [{
+				id: "395EEADB86ED6D13"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mobs_of_mythology:chupacabra"
+				icon: {
+					id: "mobs_of_mythology:cooked_chupacabra_meat"
+				}
+				id: "47D837F5AA30226D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
 			icon: {
 				id: "minecraft:slime_block"
 			}
-			id: "73FA7CBFB4DFD0DA"
+			id: "16354D77A242E3DB"
 			rewards: [
 				{
-					id: "0BFF60CE9CD2BA84"
+					id: "6D6F0BED875E854E"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 				{
-					id: "653AFB98103D611D"
+					id: "135397E21C77FB3E"
 					item: {
-						components: {
-							"irons_spellbooks:spell_container": {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
 						count: 1
-						id: "irons_spellbooks:tarnished_helmet"
+						id: "minecolonies:golden_bread"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				icon: {
-					id: "minecraft:slime_block"
+					id: "ars_nouveau:alchemists_crown"
 				}
-				id: "1BF11025BEEA81C2"
+				id: "54265E5D5C0B440A"
 				structure: "dungeons_arise:keep_kayra"
 				type: "structure"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			id: "0C8009276F2B28D8"
+			dependencies: ["61A2B0E6A85CDDEF"]
+			id: "7EE884879A88BA5B"
 			rewards: [
 				{
-					id: "574D477D5A7DA368"
+					id: "07D8A99446285DCE"
 					item: {
 						count: 1
-						id: "waystones:end_stone_waystone"
+						id: "irons_spellbooks:emerald_stoneplate_ring"
 					}
 					type: "item"
 				}
 				{
-					id: "6F1660F58B78AA8F"
+					id: "0BF3586D27D7152A"
 					item: {
 						count: 1
-						id: "minecraft:shield"
+						id: "waystones:sandy_waystone"
 					}
 					type: "item"
 				}
@@ -204,12 +327,226 @@
 				icon: {
 					id: "minecraft:netherite_sword"
 				}
-				id: "31BD699E055FE30F"
+				id: "32D45BFCC0175863"
 				structure: "dungeons_arise:shiraz_palace"
 				type: "structure"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
+			icon: {
+				id: "minecraft:red_mushroom_block"
+			}
+			id: "2953E3F29EC03302"
+			rewards: [{
+				id: "536AC2AA08320E7C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:red_mushroom_block"
+				}
+				id: "517D6CBEE0276636"
+				structure: "dungeons_arise:mushroom_mines"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69DEB17F302B7686"]
+			id: "41964FE016B460FD"
+			rewards: [{
+				count: 8
+				id: "4C145FA47E09905A"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:cracked_deepslate_bricks"
+				}
+				id: "1AD79C8977AFA54A"
+				structure: "nova_structures:lone_citadel"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69DEB17F302B7686"]
+			id: "45917D194B0F0439"
+			rewards: [{
+				id: "7CBDAC0372B8D7E8"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:shield"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:dark_oak_wood"
+				}
+				id: "055FF3F3E1C2EE79"
+				structure: "nova_structures:illager_manor"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69DEB17F302B7686"]
+			id: "77620D66329E6AAC"
+			rewards: [{
+				id: "0C968DA839098CC6"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_water_breathing"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:prismarine_bricks"
+				}
+				id: "1D9ED6D7A60B892A"
+				structure: "nova_structures:trident_trial_monument"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "61A2B0E6A85CDDEF"
+			rewards: [{
+				id: "678467BCE8869FCB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2880D7348AE7BDEE"
+				structure: "dungeons_arise:lighthouse"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "69DEB17F302B7686"
+			rewards: [{
+				count: 5
+				id: "44FAFEE9A9C28850"
+				item: {
+					count: 1
+					id: "minecraft:gold_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "386C7CD7800BF562"
+				structure: "#nova_structures:taverns"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
+			id: "61DFD9235D29A1A8"
+			rewards: [{
+				count: 5
+				id: "6D6F8AD02C98BA7D"
+				item: {
+					count: 1
+					id: "minecraft:spectral_arrow"
+				}
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "farmersdelight:iron_knife"
+				}
+				id: "6E69B9FDF71CEEA1"
+				structure: "dungeons_arise:bandit_towers"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61A2B0E6A85CDDEF"]
+			id: "655B18592B4C332B"
+			rewards: [
+				{
+					id: "1EE0B460C97892A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "13D3CF979143DC90"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "handcrafted:phantom_trophy"
+				}
+				id: "61221607C868980B"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1636409493A84C88"]
+			id: "5BBC5EACB3578E65"
+			rewards: [{
+				id: "28EB8A4F91314D59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "takesapillage:legioner"
+				icon: {
+					id: "undergarden:cloggrum_helmet"
+				}
+				id: "1C57822FAB122C70"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -4.5d
 		}
 	]
 }

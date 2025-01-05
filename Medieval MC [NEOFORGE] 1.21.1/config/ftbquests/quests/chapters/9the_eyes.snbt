@@ -1,4 +1,5 @@
 {
+	autofocus_id: "60367DDACC525262"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "9the_eyes"
@@ -13,96 +14,96 @@
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -0.5d
-			y: 4.5d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.0d
-			y: 4.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.5d
-			y: 4.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.0d
-			y: 6.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.0d
-			y: 7.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.0d
-			y: 9.0d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.5d
-			y: 10.5d
+			x: 7.5d
+			y: 11.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.0d
-			y: 10.5d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -0.5d
-			y: 10.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.0d
-			y: 9.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.0d
-			y: 7.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.0d
-			y: 6.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			height: 5.0d
@@ -116,11 +117,19 @@
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 1.0d
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			height: 10.0d
+			image: "medieval:textures/dragon.png"
+			rotation: 0.0d
+			width: 23.0d
+			x: 17.0d
 			y: 7.5d
 		}
 	]
-	order_index: 2
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -135,8 +144,8 @@
 				item: { count: 1, id: "endrem:black_eye" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			id: "3CA0E9745340762E"
@@ -156,16 +165,19 @@
 				item: { count: 1, id: "endrem:corrupted_eye" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			id: "4726C6C722EFE7C0"
 			rewards: [{
 				id: "0E23BD2C20E92E7E"
 				item: {
+					components: {
+						"ftbquests:missing_item": "natures_spirit:drowsy_succulent"
+					}
 					count: 1
-					id: "minecraft:poppy"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 2
 				type: "item"
@@ -175,8 +187,8 @@
 				item: { count: 1, id: "endrem:old_eye" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 10.5d
+			x: 7.5d
+			y: 11.0d
 		}
 		{
 			id: "4218B5890CF9EB46"
@@ -190,8 +202,8 @@
 				item: { count: 1, id: "endrem:rogue_eye" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.0d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			id: "2E32BEE8B248BA12"
@@ -205,8 +217,8 @@
 				item: { count: 1, id: "endrem:cursed_eye" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			id: "1D12AE712F1942F6"
@@ -224,8 +236,8 @@
 				item: { count: 1, id: "endrem:evil_eye" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			id: "4C3EAB2FC21DBE56"
@@ -242,8 +254,8 @@
 				item: { count: 1, id: "endrem:guardian_eye" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			id: "7D156C4A9331B0EB"
@@ -263,8 +275,8 @@
 				item: { count: 1, id: "endrem:witch_eye" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			id: "0204DFBFBB267108"
@@ -278,8 +290,8 @@
 				item: { count: 1, id: "endrem:exotic_eye" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 12.5d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			id: "60367DDACC525262"
@@ -293,8 +305,78 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.5d
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "425EC4B0377744A4"
+			rewards: [{
+				id: "2ED6F726B0874B0C"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:magic_arrow"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_crystal"
+				}
+				id: "2470F6952E7BBC5E"
+				type: "dimension"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["425EC4B0377744A4"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "2CE58DD1AE214711"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "296E81269E2CF6BB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0C5D505AB2558097"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dragonskin"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "6848B89E38A80BAB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: 6.5d
 		}
 		{
 			id: "1B3DA66139175C4C"
@@ -316,8 +398,8 @@
 				item: { count: 1, id: "endrem:nether_eye" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.5d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			id: "0211DBAD1BA4858E"
@@ -341,8 +423,8 @@
 				item: { count: 1, id: "endrem:lost_eye" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			id: "4A2176409CC12F00"
@@ -361,8 +443,8 @@
 				item: { count: 1, id: "endrem:cryptic_eye" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.5d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			id: "59D6FF0AB3FB26FC"
@@ -376,8 +458,8 @@
 				item: { count: 1, id: "endrem:undead_eye" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			id: "46280FF1EE648A3E"
@@ -391,8 +473,8 @@
 				item: { count: 1, id: "endrem:wither_eye" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "1E1A74E752E36ADF"
@@ -406,8 +488,39 @@
 				item: { count: 1, id: "endrem:magical_eye" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CE58DD1AE214711"]
+			id: "097A5600C57A6FBF"
+			rewards: [
+				{
+					id: "718C6F5545B06B5C"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:mob_ward"
+					}
+					type: "item"
+				}
+				{
+					id: "2ADAD61B01550BE2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					id: "bosses_of_mass_destruction:obsidian_heart"
+				}
+				id: "5E25F6C019E809E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 7.375d
 		}
 	]
 }
