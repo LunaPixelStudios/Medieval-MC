@@ -1,23 +1,24 @@
 {
   "general": {
-    "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
+    "hideFromGUIs": true,
+    "accessibilityModMemory": false,
+    "enableAccessibilityPlugin": false,
+    "hideFromDebug": true,
+    "hideFromTabList": true,
     "ttsMode": "PRESS",
     "fluidMode": "ANY",
-    "reachDistance": 0.0,
+    "extendedReach": 0.0,
+    "debug": false,
     "displayEntities": true,
     "displayBosses": true,
     "displayMode": "TOGGLE",
-    "displayTooltip": true,
-    "displayBlocks": true,
-    "hideFromDebug": true,
-    "hideFromTabList": true,
     "enableTextToSpeech": false,
-    "hintOverlayToggle": true,
-    "hintNarratorToggle": true,
-    "previewOverlay": true
+    "previewOverlay": true,
+    "displayTooltip": true,
+    "displayBlocks": true
   },
   "overlay": {
     "alpha": 1.0,
@@ -27,15 +28,20 @@
     "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.5,
-    "overlayPosY": 1.0,
     "overlayScale": 1.0,
     "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,
     "activeTheme": "jade_excalibur:excalibur",
-    "themesHash": 134534286,
-    "overlayPosX": 0.0
+    "overlayPosX": 0.0,
+    "overlayPosY": 1.0
   },
   "formatting": {
-    "modName": "§9§o%s"
+    "itemModNameStyle": {
+      "italic": true,
+      "color": "blue"
+    }
+  },
+  "history": {
+    "themesHash": 134534286
   }
 }

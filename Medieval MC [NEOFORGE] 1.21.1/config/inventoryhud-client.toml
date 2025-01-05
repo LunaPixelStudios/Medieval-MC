@@ -5,7 +5,8 @@
 	#Inventory HUD vertical mode
 	invVert = false
 	#Inventory HUD alpha
-	#Range: 0 ~ 100
+	# Default: 0
+	# Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
 	byDefault = false
@@ -21,7 +22,8 @@
 	#Is Armor Damage HUD enabled
 	ArmorDamage = true
 	#Hide if durability is above this (in percentage):
-	#Range: 0 ~ 100
+	# Default: 100
+	# Range: 0 ~ 100
 	armAbove = 100
 	#Show/Hide armor
 	showArmor = true
@@ -45,7 +47,8 @@
 	#Show overall count of items in main/off hand
 	showCount = false
 	#ArmorHUD scale in persentage from 50 to 150
-	#Range: 50 ~ 150
+	# Default: 100
+	# Range: 50 ~ 150
 	armScale = 100
 	#Show Armor HUD when debug menu is open
 	armWithDebug = true
@@ -57,17 +60,20 @@
 	#Is Potions HUD enabled
 	Potions = true
 	#Potion HUD alpha
-	#Range: 0 ~ 100
+	# Default: 100
+	# Range: 0 ~ 100
 	potAlpha = 75
 	#Potion HUD gap
-	#Range: -5 ~ 5
+	# Default: 0
+	# Range: -5 ~ 5
 	potGap = 0
 	#Potion HUD mini mode
 	potMini = true
 	#Potion HUD horizontal mode
 	potHor = false
 	#Full bar duration
-	#Range: > 1
+	# Default: 300
+	# Range: > 1
 	barDuration = 300
 	#Show hidden effects
 	showHiddenEffects = false
@@ -87,10 +93,12 @@
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	invHalign = "MIDDLE"
 	#Inventory HUD position (X)
-	#Range: -9999 ~ 9999
+	# Default: 0
+	# Range: -9999 ~ 9999
 	xPos = 0
 	#Inventory HUD position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 150
+	# Range: -9999 ~ 9999
 	yPos = 150
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
@@ -99,10 +107,12 @@
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	armHalign = "MIDDLE"
 	#Armor HUD position (X)
-	#Range: -9999 ~ 9999
+	# Default: 0
+	# Range: -9999 ~ 9999
 	xArmPos = 0
 	#Armor HUD position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 70
+	# Range: -9999 ~ 9999
 	yArmPos = 70
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
@@ -111,58 +121,76 @@
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	potHalign = "LEFT"
 	#Potion HUD position (X)
-	#Range: -9999 ~ 9999
+	# Default: 20
+	# Range: -9999 ~ 9999
 	xPotionPos = 2
 	#Potion HUD position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 20
+	# Range: -9999 ~ 9999
 	yPotionPos = 60
 	#Helmet position (X)
-	#Range: -9999 ~ 9999
+	# Default: 103
+	# Range: -9999 ~ 9999
 	helmPosX = 148
 	#Helmet position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 54
+	# Range: -9999 ~ 9999
 	helmPosY = 54
 	#Chestplate position (X)
-	#Range: -9999 ~ 9999
+	# Default: 103
+	# Range: -9999 ~ 9999
 	chestPosX = 148
 	#Chestplate position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 37
+	# Range: -9999 ~ 9999
 	chestPosY = 37
 	#Leggings position (X)
-	#Range: -9999 ~ 9999
+	# Default: -103
+	# Range: -9999 ~ 9999
 	legPosX = 164
 	#Leggings position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 54
+	# Range: -9999 ~ 9999
 	legPosY = 54
 	#Boots position (X)
-	#Range: -9999 ~ 9999
+	# Default: -103
+	# Range: -9999 ~ 9999
 	bootPosX = 164
 	#Boots position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 37
+	# Range: -9999 ~ 9999
 	bootPosY = 37
 	#MainHand position (X)
-	#Range: -9999 ~ 9999
+	# Default: 103
+	# Range: -9999 ~ 9999
 	mainPosX = 130
 	#MainHand position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 71
+	# Range: -9999 ~ 9999
 	mainPosY = 37
 	#OffHand position (X)
-	#Range: -9999 ~ 9999
+	# Default: -103
+	# Range: -9999 ~ 9999
 	offPosX = 146
 	#OffHand position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 71
+	# Range: -9999 ~ 9999
 	offPosY = 37
 	#Arrows position (X)
-	#Range: -9999 ~ 9999
+	# Default: 103
+	# Range: -9999 ~ 9999
 	arrPosX = 148
 	#Arrows position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 20
+	# Range: -9999 ~ 9999
 	arrPosY = 71
 	#InvIcon position (X)
-	#Range: -9999 ~ 9999
+	# Default: -103
+	# Range: -9999 ~ 9999
 	invPosX = -103
 	#InvIcon position (Y)
-	#Range: -9999 ~ 9999
+	# Default: 20
+	# Range: -9999 ~ 9999
 	invPosY = 20
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT

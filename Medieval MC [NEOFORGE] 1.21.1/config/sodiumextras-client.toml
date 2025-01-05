@@ -16,7 +16,8 @@
 		fpsDisplaySystem = "OFF"
 		#Configure FPS Display margin
 		#Give some space between corner and text
-		#Range: 0 ~ 48
+		# Default: 12
+		# Range: 0 ~ 48
 		fpsDisplayMargin = 12
 		#Toggle FPS Display shadow
 		#In case sometimes you can't see the text
@@ -28,7 +29,8 @@
 		fog = true
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
-		#Range: 0 ~ 512
+		# Default: 192
+		# Range: 0 ~ 512
 		cloudsHeight = 192
 		#Chunks fade in speed
 		#This option doesn't affect performance, just changes speed
@@ -45,12 +47,14 @@
 			#Toggle Darkness on Nether dimension
 			enableOnNether = false
 			#Configure fog brightness on nether when darkness is enabled
-			#Range: 0.0 ~ 1.0
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
 			netherFogBright = 0.5
 			#Toggle Darkness on End dimension
 			enableOnEnd = false
 			#Configure fog brightness on nether when darkness is enabled
-			#Range: 0.0 ~ 1.0
+			# Default: 0.5
+			# Range: 0.0 ~ 1.0
 			endFogBright = 0.5
 			#Toggle Darkness default mode for modded dimensions
 			valueByDefault = false
@@ -65,10 +69,12 @@
 			#Toggles if moon phases affects darkness in the overworld
 			affectedByMoonPhase = true
 			#Configure max moon brightness level with darkness
-			#Range: 0.0 ~ 1.0
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
 			fullMoonBright = 0.25
 			#Configure min moon brightness level with darkness
-			#Range: 0.0 ~ 1.0
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
 			newMoonBright = 0.0
 
 	[embeddiumextras.performance]
@@ -86,11 +92,13 @@
 				enable = true
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
-				#Range: > 0
+				# Default: 4096
+				# Range: > 0
 				cullingMaxDistanceX = 4096
 				#Configure vertical max distance before cull Block entities
 				#Value is raw
-				#Range: 0 ~ 512
+				# Default: 32
+				# Range: 0 ~ 512
 				cullingMaxDistanceY = 32
 				#List of all Block Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
@@ -104,11 +112,13 @@
 				enable = true
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
-				#Range: > 0
+				# Default: 4096
+				# Range: > 0
 				cullingMaxDistanceX = 4096
 				#Configure vertical max distance before cull entities
 				#Value is raw
-				#Range: 0 ~ 512
+				# Default: 32
+				# Range: 0 ~ 512
 				cullingMaxDistanceY = 32
 				#List of all Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it

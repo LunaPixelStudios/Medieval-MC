@@ -1,12 +1,13 @@
 #General settings
 [general]
 	#The CurseForge project ID for the modpack
-	#Range: > 0
+	# Default: 0
+	# Range: > 0
 	modpackProjectID = 826840
 	#The name of the modpack
 	modpackName = "Medieval MC [NEOFORGE] 1.21.1"
 	#The version of the modpack
-	modpackVersion = "v2"
+	modpackVersion = "v7.5"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
