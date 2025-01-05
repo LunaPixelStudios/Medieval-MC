@@ -1,0 +1,91 @@
+#Are mob plaques enabled, toggleable in-game via the dedicated keybinding.
+allow_rendering = true
+
+[general]
+	#Render mob plaques below the mob's name tag instead of above.
+	#Default Value: false
+	render_below_name_tag = false
+	#Show a black background box behind plaques. Disabled by default as it doesn't work with shaders.
+	#Default Value: true
+	render_background = false
+	#Entities blacklisted from showing any plaques.
+	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
+	#Default Value: [minecraft:armor_stand]
+	no_plaque_mobs = ["minecraft:armor_stand"]
+	#The raytrace range for finding a picked entity.
+	#Setting this to -1 will make it use the player entity interaction range, which is 3 in survival.
+	#Default Value: -1
+	# Default: -1
+	# Range: -1 ~ 128
+	picked_entity_interaction_range = -1
+	#Amount of pixels a row of plaques may take up, when exceeding this value a new row will be started.
+	#Default Value: 108
+	# Default: 108
+	# Range: > 0
+	max_plaque_row_width = 108
+	#Height offset from default position.
+	#Default Value: 0
+	# Default: 0
+	# Range: > -2147483648
+	offset_height = 0
+	#Distance to the mob at which plaques will still be visible. The distance is halved when the mob is crouching.
+	#Default Value: 96
+	# Default: 96
+	# Range: > 0
+	max_render_distance = 96
+	#Show plaques from mobs obstructed by walls the player cannot see through, similar to the nameplates of other players.
+	#Default Value: true
+	behind_walls = true
+	#Coyote time in seconds after which a no longer picked entity will still show the plaques.
+	#Set to -1 to keep the old entity until a new one is picked by the crosshair.
+	#Default Value: 2
+	# Default: 2
+	# Range: > -1
+	picked_entity_delay = 2
+	#Dynamically increase plaque size the further away the camera is to simplify readability.
+	#Default Value: true
+	scale_with_distance = true
+	#Selectors for choosing mobs to render plaques for.
+	#Default Value: [minecraft:all]
+	#Allowed Values: minecraft:all, minecraft:tamed, minecraft:tamed_only_owner, minecraft:player, minecraft:monster, minecraft:boss, minecraft:mount
+	mob_selectors = ["minecraft:all"]
+	#Show plaques for the entity picked by the crosshair only.
+	#Default Value: false
+	picked_entity = false
+	#Custom scale for rendering plaques.
+	#Default Value: 0.5
+	# Default: 0.5
+	# Range: 0.05 ~ 2.0
+	plaque_scale = 0.5
+	#Always render plaques with full brightness to be most visible, ignoring local lighting conditions.
+	#Default Value: true
+	full_brightness = true
+	#Hide all plaques when mob has full health.
+	#Default Value: false
+	hide_at_full_health = false
+
+[health]
+	#Allow for rendering this type of plaque.
+	allow_rendering = true
+	#Transition text colors depending on current percentage.
+	shift_colors = false
+	#Show current amount either as percentage or as absolute value.
+	#Allowed Values: ABSOLUTE, ABSOLUTE_WITH_MAX, RELATIVE
+	plaque_value = "ABSOLUTE"
+
+[air]
+	#Allow for rendering this type of plaque.
+	allow_rendering = true
+	#Transition text colors depending on current percentage.
+	shift_colors = false
+	#Show current amount either as percentage or as absolute value.
+	#Allowed Values: ABSOLUTE, ABSOLUTE_WITH_MAX, RELATIVE
+	plaque_value = "RELATIVE"
+
+[armor]
+	#Allow for rendering this type of plaque.
+	allow_rendering = true
+
+[toughness]
+	#Allow for rendering this type of plaque.
+	allow_rendering = true
