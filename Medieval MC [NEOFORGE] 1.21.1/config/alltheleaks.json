@@ -1,4 +1,4 @@
 {
   "ingredientDedupe": true,
-  "entitySectionCME": true
+  "entitySectionCME": false
 }
