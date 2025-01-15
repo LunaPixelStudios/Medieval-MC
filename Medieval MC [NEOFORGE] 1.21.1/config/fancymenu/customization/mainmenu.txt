@@ -335,7 +335,7 @@ element {
 
 element {
   interactable = false
-  source = MMC Neoforge 1.21 {"placeholder":"mpuc:current-modpack-version"}
+  source = MMC Neoforge 1.21.1 {"placeholder":"mpuc:current-modpack-version"}
   source_mode = direct
   shadow = false
   scale = 1.0
