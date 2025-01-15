@@ -43,9 +43,9 @@ drowningBubbles = "DEFAULT"
 drowningBubblesDensity = 10
 
 [humanoids.frostyBreath]
-displayType = "DEFAULT"
-alpha = 0.25490198
-waitTime = 60
+displayType = "THIRD_PERSON_ONLY"
+alpha = 0.2
+waitTime = 85
 seasons = "DEFAULT"
 additionalBiomes = [  ]
 

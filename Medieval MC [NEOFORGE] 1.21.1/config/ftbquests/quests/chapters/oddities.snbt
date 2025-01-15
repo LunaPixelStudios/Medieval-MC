@@ -139,39 +139,6 @@
 			y: 1.0d
 		}
 		{
-			id: "05B1C97F3AD3E31F"
-			rewards: [{
-				id: "77D4FAD0669D55D5"
-				item: {
-					count: 1
-					id: "minecraft:saddle"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5F6148A48B67DE4D"
-				item: { count: 1, id: "horseexpert:monocle" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			id: "7F8D3509B2699413"
-			rewards: [{
-				id: "40E8CB44225E341C"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "68933FB8C96CD6B1"
-				item: { count: 1, id: "medieval:challenge_orb" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.0d
-		}
-		{
 			id: "353956A504681541"
 			rewards: [{
 				count: 3
