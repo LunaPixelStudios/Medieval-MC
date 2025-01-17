@@ -3,7 +3,7 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ }
-		{ }
+		{ id: "1E34FC88A72820BE" }
+		{ id: "266A9DE424FC7F8E" }
 	]
 }

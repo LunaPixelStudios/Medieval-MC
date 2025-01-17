@@ -115,5 +115,38 @@
 			x: 0.5d
 			y: 3.5d
 		}
+		{
+			id: "6179325BB7304E2B"
+			rewards: [{
+				id: "7E7695AE4CD2D458"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3C77C36703253EED"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spell_engine:spell_book_mergeable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "785B67209C84E4C6"
+			rewards: [{
+				id: "229F0F1BB3B59DA8"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "286C3A04EB4EC0BF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spell_power:enchantable/critical)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
 	]
 }

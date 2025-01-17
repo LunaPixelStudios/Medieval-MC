@@ -3,10 +3,10 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ item: { count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "558BED11E53235A9", item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "108ABFBE6098728E", item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "754BC831E7FB7638", item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "132ECEC267865D77", item: { count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "278FD1209425BA6E", item: { count: 1, id: "minecraft:enchanted_book" } }
 	]
 }
