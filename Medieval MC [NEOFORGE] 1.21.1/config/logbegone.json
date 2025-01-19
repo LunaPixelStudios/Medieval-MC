@@ -17,7 +17,8 @@
       "Detected setBlock in a far chunk",
       "Ignoring unknown attribute",
       "Couldn't find template pool reference",
-      "Template pool fallback chain found"
+      "Template pool fallback chain found",
+      "Error while trying to apply a critical hit"
     ],
     "regex": [
       ".*(Unknown block '.*' in '.*' element '.*' at index).*",
