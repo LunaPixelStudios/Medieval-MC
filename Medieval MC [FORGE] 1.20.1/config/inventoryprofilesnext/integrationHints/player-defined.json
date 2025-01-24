@@ -330,5 +330,11 @@
     },
     "com.aqutheseal.celestisynth.client.gui.celestialcrafting.CelestialCraftingMenu": {
         "playerSideOnly": true
+    },
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": {
+        "ignore": true
+    },
+    "de.maxhenkel.corpse.gui.CorpseInventoryContainer": {
+        "ignore": true
     }
 }
