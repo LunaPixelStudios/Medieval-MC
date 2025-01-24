@@ -438,10 +438,7 @@
 			subtitle: "Find any &5Apotheosis Gem&r, then make an &8Anvil Block&r fall on it."
 			tasks: [{
 				id: "022FB06B334E8E49"
-				item: {
-					Count: 1
-					id: "apotheosis:gem_dust"
-				}
+				item: "apotheosis:gem_dust"
 				title: "Acquire some Gem Dust"
 				type: "item"
 			}]

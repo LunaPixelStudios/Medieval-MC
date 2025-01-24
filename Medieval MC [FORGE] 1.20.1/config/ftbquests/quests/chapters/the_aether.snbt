@@ -1,4 +1,5 @@
 {
+	autofocus_id: "32226ED25E813908"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_aether"
@@ -533,7 +534,7 @@
 		}
 		{
 			height: 1.25d
-			image: "aether_redux:block/natural/spectral_fieldsproot_sapling"
+			image: "deep_aether:block/tall_aether_cattails_top"
 			order: 1
 			rotation: 0.0d
 			width: 1.25d
@@ -588,14 +589,6 @@
 			width: 1.25d
 			x: 0.5d
 			y: 6.0d
-		}
-		{
-			height: 1.25d
-			image: "ancient_aether:block/sky_grass_medium_enchanted"
-			rotation: 0.0d
-			width: 1.25d
-			x: 4.5d
-			y: 7.0d
 		}
 		{
 			height: 1.25d
@@ -1138,7 +1131,7 @@
 				type: "item"
 			}]
 			title: "Craft &3Book of Lore"
-			x: -1.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -1166,8 +1159,30 @@
 				to_observe: "lost_aether_content:aerwhale_king"
 				type: "observation"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["32226ED25E813908"]
+			id: "311EDCBB45108C6D"
+			subtitle: "This village's existence probably has something to do with the honorific &6statues&r spread throughout."
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aether:pillar_top"
+				}
+				id: "67F5B3FAB91CD150"
+				structure: "aether_villages:olympic_citadel"
+				title: "Find an &6Aether Village&r"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: " &eThe Aether"
