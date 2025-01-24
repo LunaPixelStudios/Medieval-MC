@@ -20,7 +20,9 @@
     "endermanoverhaul:corrupted_pearl",
     "bloodmagic:experiencebook",
     "samurai_dynasty:silver_block",
-    "forbidden_arcanus:quantum_catcher"
+    "forbidden_arcanus:quantum_catcher",
+    "dungeons_and_combat:combat_style_manual",
+    "celestisynth:keres"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
