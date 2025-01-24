@@ -1,8 +1,8 @@
 {
   "mod_priorities": [
-    "minecraft",
+    "mythicmetals",
     "witcher_rpg",
-    "mythicmetals"
+    "minecraft"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -11,7 +11,8 @@
     "deepslate",
     "diorite",
     "granite",
-    "nether"
+    "netherrack",
+    "end_stone"
   ],
   "tags": [
     "c:dusts/{material}",
@@ -27,7 +28,10 @@
     "c:storage_blocks/{material}",
     "c:wires/{material}"
   ],
-  "ignored_tags": [],
+  "ignored_tags": [
+    "c:iron_ingots",
+    "c:ingots/iron"
+  ],
   "ignored_items": [],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
