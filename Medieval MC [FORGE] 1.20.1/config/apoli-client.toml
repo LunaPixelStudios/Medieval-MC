@@ -1,6 +1,6 @@
 
 [resources_and_cooldowns]
-	hud_offset_x = -100
+	hud_offset_x = 0
 	hud_offset_y = -10
 
 [tooltips]
