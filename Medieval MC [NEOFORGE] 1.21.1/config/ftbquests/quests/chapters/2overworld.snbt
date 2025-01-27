@@ -25,6 +25,30 @@
 			x: 6.0d
 			y: -7.0d
 		}
+		{
+			height: 16.0d
+			image: "medieval:textures/maledictus.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 3.5d
+			y: -18.5d
+		}
+		{
+			height: 20.0d
+			image: "medieval:textures/the_leviathan.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			height: 12.0d
+			image: "medieval:textures/dead_king.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 11.0d
+			y: -11.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -547,6 +571,183 @@
 			}]
 			x: 3.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["28574831674B39BE"]
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "7391AAFE703794B5"
+			rewards: [
+				{
+					id: "19C1F74235586FA4"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_leviathan"
+					}
+					type: "item"
+				}
+				{
+					id: "7E3703E4724110D4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:abyss_eye"
+				}
+				id: "76957D3D14D16480"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.25d
+			y: -12.75d
+		}
+		{
+			dependencies: ["7391AAFE703794B5"]
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "49A6F764A878CE3E"
+			rewards: [
+				{
+					id: "0BA11F6D0331E1EC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "46B5CA36A1F068EE"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_maledictus"
+					}
+					type: "item"
+				}
+				{
+					id: "56F21D16BB7F4989"
+					item: {
+						count: 1
+						id: "ars_additions:fall_prevention_charm"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.74d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					id: "cataclysm:cursed_eye"
+				}
+				id: "69BB98D28FDE83F3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.4800000000000004d
+			y: -15.66d
+		}
+		{
+			dependencies: ["59430A98F41ABBA0"]
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "28574831674B39BE"
+			rewards: [
+				{
+					id: "2714EFA90A012EB5"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ancient_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "6D4D38F4CCB6AA66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5AA2EB2EC0A37A97"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:desert_eye"
+				}
+				id: "310D8E0126D46878"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: -11.25d
+		}
+		{
+			dependencies: ["5D52EA58C8243728"]
+			id: "59430A98F41ABBA0"
+			rewards: [
+				{
+					id: "7D10C0E93CEE1923"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3D7D4BD32F1B9EA6"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79D4B6D782E2A144"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blood_rune"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					id: "irons_spellbooks:blood_staff"
+				}
+				id: "11D1BAC50853CB01"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -10.0d
 		}
 	]
 }

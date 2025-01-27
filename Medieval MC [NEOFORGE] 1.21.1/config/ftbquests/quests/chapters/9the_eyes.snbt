@@ -509,7 +509,8 @@
 					xp_levels: 50
 				}
 			]
-			size: 1.25d
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: {
@@ -521,6 +522,67 @@
 			}]
 			x: 17.5d
 			y: 7.375d
+		}
+		{
+			dependencies: ["097A5600C57A6FBF"]
+			id: "28F8487C8845BA59"
+			rewards: [{
+				id: "6E71C1DBEEA643F2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: {
+					id: "cataclysm:enderite_block"
+				}
+				id: "0F99AA15FE3953A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28F8487C8845BA59"]
+			hide_until_deps_complete: false
+			id: "39E6B081D8383844"
+			rewards: [
+				{
+					id: "796076E660723CD6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "78677DCAE158F75E"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_ender_guardian"
+					}
+					type: "item"
+				}
+				{
+					id: "2E3FC1B32406606C"
+					item: {
+						count: 1
+						id: "aether:obsidian_gloves"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					id: "cataclysm:void_core"
+				}
+				id: "58D8CE362325FCDA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.5d
+			y: 8.0d
 		}
 	]
 }
