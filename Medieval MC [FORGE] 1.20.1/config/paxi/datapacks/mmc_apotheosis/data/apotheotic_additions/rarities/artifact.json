@@ -1,0 +1,40 @@
+{
+    "ordinal": 6,
+    "color": "#ec996b",
+    "material": "apotheotic_additions:artifact_material",
+	"weight": 1,
+	"quality": 25,
+	"rules": [{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1
+		},
+		{
+			"type": "socket",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1.0
+		},
+		{
+			"type": "durability",
+			"chance": 0.5
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+    "variant": "intelligent",
+    "weight": 5,
+    "quality": 0,
+    "dimensions": [],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "anything",
+                "types": ["helmet",
+                    "chestplate",
+                    "leggings",
+                    "boots", "curios:spellbook"]
+            },
+            "attribute": "irons_spellbooks:max_mana",
+            "operation": "ADDITION",
+            "values":
+            {
+                "common":
+                {
+                    "min": 0,
+                    "steps": 20,
+                    "step": 1
+                },
+                "uncommon":
+                {
+                    "min": 40,
+                    "steps": 20,
+                    "step": 1
+                },
+                "rare":
+                {
+                    "min": 80,
+                    "steps": 20,
+                    "step": 1
+                },
+                "epic":
+                {
+                    "min": 120,
+                    "steps": 20,
+                    "step": 1
+                },
+                "mythic":
+                {
+                    "min": 160,
+                    "steps": 20,
+                    "step": 1
+                },
+                "ancient":
+                {
+                    "min": 200,
+                    "steps": 20,
+                    "step": 1
+                }
+            }
+        }
+    ]
+}

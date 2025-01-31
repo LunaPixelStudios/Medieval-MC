@@ -1,0 +1,80 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	}],
+	"weight": 5,
+	"quality": 4.5,
+	"dimensions": ["aether:the_aether"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:stone",
+		"inputs": {
+			"tag": "forge:cobblestone"
+		},
+		"output": {
+			"item": "aether:holystone"
+		},
+		"values": {
+			"rare": 0.15,
+			"epic": 0.30,
+			"mythic": 0.45,
+			"ancient": 0.60,
+			"apotheotic_additions:artifact": 0.75,
+			"apotheotic_additions:heirloom": 0.90,
+			"apotheotic_additions:esoteric": 1
+		},
+		"desc": "gem.apotheotic_additions:alchemy/purity.pickaxe"
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "light_weapon",
+			"types": [
+				"sword",
+				"trident"
+			]
+		},
+		"attribute": "attributeslib:current_hp_damage",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.01,
+			"epic": 0.015,
+			"mythic": 0.02,
+			"ancient": 0.025,
+			"apotheotic_additions:artifact": 0.03,
+			"apotheotic_additions:heirloom": 0.035,
+			"apotheotic_additions:esoteric": 0.04
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "lower_armor",
+			"types": [
+				"leggings", "boots"
+			]
+		},
+		"attribute": "attributeslib:healing_received",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.05,
+			"epic": 0.1,
+			"mythic": 0.15,
+			"ancient": 0.2,
+			"apotheotic_additions:artifact": 0.25,
+			"apotheotic_additions:heirloom": 0.3,
+			"apotheotic_additions:esoteric": 0.35
+		}
+	}
+]
+}

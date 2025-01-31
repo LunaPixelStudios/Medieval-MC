@@ -1,0 +1,17 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:arrow_velocity",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:esoteric": {
+			"min": 0.60,
+			"steps": 20,
+			"step": 0.01
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}

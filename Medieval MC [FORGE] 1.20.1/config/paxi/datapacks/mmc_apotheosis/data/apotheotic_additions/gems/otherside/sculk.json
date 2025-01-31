@@ -1,0 +1,105 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "aether"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "deeperdarker"
+	}],
+	"weight": 7,
+	"quality": 3.5,
+	"dimensions": ["aether:the_aether", "deeperdarker:otherside"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+		"type": "apotheosis:drop_transform",
+		"gem_class": {
+			"key": "pickaxe",
+			"types": [
+				"pickaxe"
+			]
+		},
+		"blocks": "forge:ores/gravitite",
+		"inputs": {
+			"item": "aether:gravitite_ore"
+		},
+		"output": {
+			"item": "deeperdarker:warden_carapace"
+		},
+		"values": {
+			"mythic": 0.01,
+			"ancient": 0.02,
+			"apotheotic_additions:artifact": 0.03,
+			"apotheotic_additions:heirloom": 0.04,
+			"apotheotic_additions:esoteric": 0.05
+		},
+		"desc": "gem.apotheotic_additions:alchemy/sculk.bonus.pickaxe"
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios_armor",
+			"types": [
+			    "curios:body", "curios:head", "curios:back", "curios:feet", "curios:hands"
+			]
+		},
+		"attribute": "attributeslib:cold_damage",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.25,
+			"epic": 0.5,
+			"mythic": 0.75,
+			"ancient": 1,
+			"apotheotic_additions:artifact": 1.25,
+			"apotheotic_additions:heirloom": 1.5,
+			"apotheotic_additions:esoteric": 1.75
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "heavy_weapon",
+			"types": [
+			    "heavy_weapon"
+			]
+		},
+		"attribute": "attributeslib:current_hp_damage",
+		"operation": "MULTIPLY_BASE",
+		"values": {
+			"rare": 0.01,
+			"epic": 0.015,
+			"mythic": 0.02,
+			"ancient": 0.025,
+			"apotheotic_additions:artifact": 0.03,
+			"apotheotic_additions:heirloom": 0.035,
+			"apotheotic_additions:esoteric": 0.04
+		}
+	},
+	{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "curios_aether",
+			"types": [
+				"curios:aether_gloves", "curios:aether_accessory", "curios:aether_shield", "curios:aether_cape", "curios:aether_pendant", "curios:aether_ring"
+			]
+		},
+		"attribute": "minecraft:generic.max_health",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 0.25,
+			"epic": 0.5,
+			"mythic": 0.75,
+			"ancient": 1,
+			"apotheotic_additions:artifact": 1.25,
+			"apotheotic_additions:heirloom": 1.5,
+			"apotheotic_additions:esoteric": 2
+		}
+	}
+]
+}
