@@ -7,26 +7,30 @@
 	"haste_affects_cooldown": true,
 	// Spell costs exhausts (hunger) will be multiplied with this value. Set `0` for no exhaust.
 	"spell_cost_exhaust_multiplier": 1.0,
-	// Spells should cost items. Set `false` to remove rune (or other item) cost from all spells.
+	// Spells should levelCost items. Set `false` to remove rune (or other item) levelCost from all spells.
 	"spell_cost_item_allowed": true,
 	// Spells should damage items on use. Set `false` to disable.
 	"spell_cost_durability_allowed": true,
 	// The time in ticks of global cooldown to apply to all instant cast spells when casted.
 	"spell_instant_cast_gcd": 0,
 	// Players cannot unequip a spell book, if one of the spells in it is on cooldown.
-	"spell_book_cooldown_lock": true,
+	"spell_item_cooldown_lock": true,
 	// Players can use the Spell Binding Table to create spell books.
 	"spell_book_creation_enabled": true,
-	// Spell book creation level cost
+	// Spell book creation level levelCost
 	"spell_book_creation_cost": 1,
 	// Spell book creation level requirement
 	"spell_book_creation_requirement": 1,
-	// Spell binding level cost multiplier
+	// Spell binding level levelCost multiplier
 	"spell_binding_level_cost_multiplier": 1,
-	// Spell binding lapis lazuli cost multiplier
+	// Spell binding lapis lazuli levelCost multiplier
 	"spell_binding_lapis_cost_multiplier": 1,
-	// Should the player be able to cast spells from the offhand spell book?
-	"spell_book_offhand": false,
+	// Should spells on the offhand item be collected and used.
+	"spell_container_from_offhand": false,
+	// Should be used in compatibility mode, when Trinkets is not installed.
+	"spell_container_from_offhand_ignore_dual_wielding": false,
+	// Should spells on the offhand item be collected and used.
+	"spell_container_from_equipment": true,
 	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
 	"projectiles_pass_thru_irrelevant_targets": true,
 	// Auto swap Bow & Spear cooldown ticks to apply for attack and itemUse
@@ -59,8 +63,9 @@
 	"player_relations": {
 		"minecraft:player": "MIXED",
 		"minecraft:villager": "FRIENDLY",
+		"minecraft:allay": "FRIENDLY",
 		"minecraft:iron_golem": "NEUTRAL",
-		"guardvillagers:guard": "FRIENDLY",
+		"guardvillagers:guard": "NEUTRAL",
 		"minecraft:cat": "FRIENDLY"
 	},
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
