@@ -39,6 +39,10 @@
     "modId": "aether_villages",
     "version": "1.0.8"
   },
+  "affinity-0.1.7+1.21.1.jar": {
+    "modId": "affinity",
+    "version": "0.1.7+1.21.1"
+  },
   "alchimiae-fabric-0.2.5-1.21-sgd.jar": {
     "modId": "alchimiae",
     "version": "0.2.5-1.21"
@@ -198,9 +202,9 @@
     "modId": "carryon",
     "version": "2.2.2"
   },
-  "charm-fabric-1.21.1-7.0.41-forked.jar": {
+  "charm-fabric-1.21.1-7.0.42-forked.jar": {
     "modId": "charm",
-    "version": "7.0.41-forked"
+    "version": "7.0.42-forked"
   },
   "chat_heads-0.13.11-fabric-1.21.jar": {
     "modId": "chat_heads",
