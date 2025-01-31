@@ -1133,10 +1133,6 @@
     "modId": "spark",
     "version": "1.10.109"
   },
-  "Sparkweave-Fabric-0.507.0.jar": {
-    "modId": "sparkweave",
-    "version": "0.507.0"
-  },
   "spell_engine-1.4.5+1.21.1.jar": {
     "modId": "spell_engine",
     "version": "1.4.5+1.21.1"
