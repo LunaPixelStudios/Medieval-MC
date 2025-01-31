@@ -224,8 +224,11 @@
 				count: 4
 				id: "471B165146A1E8B0"
 				item: {
+					components: {
+						"ftbquests:missing_item": "natures_spirit:cheese_arrow"
+					}
 					count: 1
-					id: "natures_spirit:cheese_arrow"
+					id: "ftbquests:missing_item"
 				}
 				random_bonus: 4
 				type: "item"

@@ -4,7 +4,10 @@
 	filename: "dehydration"
 	group: "4BC43492EB4B3856"
 	icon: {
-		id: "dehydration:purified_water_bucket"
+		components: {
+			"scorchful:num_drinks": 16
+		}
+		id: "scorchful:water_skin"
 	}
 	id: "4D71D04257FC6CC7"
 	images: [
@@ -29,129 +32,6 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["2822E50A6F4EE71B"]
-			id: "2D3B4D3B83178C68"
-			rewards: [
-				{
-					id: "5470FACF2B6C8D87"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "3146B47C0C3CDC39"
-					item: {
-						count: 1
-						id: "minecraft:oak_log"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4C62D448758498A1"
-				item: { count: 1, id: "dehydration:campfire_cauldron" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2822E50A6F4EE71B"]
-			id: "3D7D3E6E77B52951"
-			rewards: [{
-				id: "78BB4AD99A8617F9"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "487FFB1893C50E5D"
-				item: { count: 1, id: "dehydration:bamboo_pump" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2822E50A6F4EE71B"]
-			id: "747A584BA1CF69EA"
-			rewards: [{
-				id: "68455DE50E0DE631"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "dehydration:iron_leather_flask"
-				}
-				id: "3EE263718515FCBD"
-				item: { count: 1, id: "dehydration:iron_leather_flask" }
-				type: "item"
-			}]
-			x: 0.25d
-			y: 1.5d
-		}
-		{
-			dependencies: ["747A584BA1CF69EA"]
-			id: "2B4B28A34BCCE2B1"
-			rewards: [{
-				id: "3787C90F25474D2D"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "59605D9E578955F6"
-				item: { count: 1, id: "dehydration:golden_leather_flask" }
-				type: "item"
-			}]
-			x: -0.25d
-			y: 0.25d
-		}
-		{
-			dependencies: ["2B4B28A34BCCE2B1"]
-			id: "3410D8B3D7124EC3"
-			rewards: [{
-				id: "07B2CC963057C29D"
-				item: {
-					count: 1
-					id: "mythicmetals:raw_adamantite"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
-			tasks: [{
-				id: "42D18027034AEDB5"
-				item: { count: 1, id: "dehydration:diamond_leather_flask" }
-				type: "item"
-			}]
-			x: -0.35d
-			y: -1.1d
-		}
-		{
-			dependencies: ["3410D8B3D7124EC3"]
-			id: "35FC5E4F0EEA04C2"
-			rewards: [{
-				id: "077E9469FBB5C3F7"
-				item: {
-					count: 1
-					id: "minecraft:bamboo"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "240DB08E0102ACEE"
-				item: { count: 1, id: "dehydration:netherite_leather_flask" }
-				type: "item"
-			}]
-			x: 0.15d
-			y: -2.5d
-		}
 		{
 			id: "5E5B131145B3C89C"
 			rewards: [{
@@ -207,9 +87,6 @@
 				id: "204E5C87A2184FFB"
 				item: {
 					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:purified_water"
-						}
 						"scorchful:drink_level": "hydrating"
 					}
 					count: 1
@@ -330,22 +207,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["35FC5E4F0EEA04C2"]
-			id: "02A0C939A32308CA"
-			rewards: [{
-				id: "6BC63482F6037D2E"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			tasks: [{
-				id: "47515850A82EB7D8"
-				item: { count: 1, id: "scorchful:water_skin" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["159637FFAB283D79"]
 			id: "676E51FECDE9F4C1"
 			rewards: [
@@ -374,35 +235,15 @@
 			y: -2.0d
 		}
 		{
-			icon: {
-				id: "dehydration:leather_flask"
-			}
-			id: "2822E50A6F4EE71B"
-			rewards: [{
-				id: "4AAD4C63ECB33AEF"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			shape: "circle"
-			size: 1.25d
-			tasks: [{
-				id: "4B129EC7F06170C7"
-				item: { count: 1, id: "dehydration:leather_flask" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.25d
-		}
-		{
 			id: "395D22288E514876"
 			rewards: [{
-				id: "069D17CE23F6E0F1"
+				id: "6D3579119414C534"
 				item: {
+					components: {
+						"scorchful:num_drinks": 16
+					}
 					count: 1
-					id: "dehydration:leather_flask"
+					id: "scorchful:water_skin"
 				}
 				type: "item"
 			}]

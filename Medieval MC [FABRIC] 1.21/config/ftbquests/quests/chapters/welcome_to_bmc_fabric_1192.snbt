@@ -117,10 +117,13 @@
 			id: "2165E80C52C79992"
 			invisible_until_tasks: 1
 			rewards: [{
-				id: "4A78A57601954674"
+				id: "2E62693777AC4F23"
 				item: {
+					components: {
+						"scorchful:num_drinks": 16
+					}
 					count: 1
-					id: "dehydration:leather_flask"
+					id: "scorchful:water_skin"
 				}
 				type: "item"
 			}]
