@@ -22,7 +22,7 @@
 
 [MobTextures]
 	#Mobs may spawn with different textures.
-	Enabled = true
+	Enabled = false
 	#If true, cows may spawn with different textures.
 	Cows = true
 	#If true, chickens may spawn with different textures.
