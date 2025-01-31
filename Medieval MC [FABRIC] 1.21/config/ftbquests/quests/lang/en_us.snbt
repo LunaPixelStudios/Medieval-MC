@@ -442,7 +442,7 @@
 	quest.615E1659938E97A1.title: "Craft a &2Backpack Hose&r"
 	quest.6164202DAC398029.quest_subtitle: "Upgradeable by repairing it in an anvil, using &6Honey Crystal Shards&r. Has double the durability of a normal shield at max level. Slows attackers."
 	quest.6164202DAC398029.title: "Craft a &6Honey Crystal Shield"
-	quest.6179325BB7304E2B.quest_subtitle: "&6Spell Scrolls&r are an alternative way to add spells to a &3Spell Tome&r. If you find one, it can be added to its matching &3tome&r, without needing bookshelves or nearly as many levels. "
+	quest.6179325BB7304E2B.quest_subtitle: "&6Spell Scrolls&r are an alternative way to obtain spells. If you find one, it can either be equipped directly, or added to its matching &3tome&r without needing bookshelves or nearly as many levels. "
 	quest.6179325BB7304E2B.title: "Obtain a &6Spell Scroll&r"
 	quest.619FF16C8CF1058C.quest_subtitle: "A mystical, peaceful place, where it is said that flowers from &danywhere&r can be found."
 	quest.619FF16C8CF1058C.title: "Find a &dHanging Garden"
