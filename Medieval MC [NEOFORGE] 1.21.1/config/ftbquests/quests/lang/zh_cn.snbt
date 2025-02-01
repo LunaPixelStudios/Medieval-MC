@@ -48,7 +48,7 @@
 	quest.0AE9DB5CFFFEA0F8.title: "获得&b星光物语"
 	quest.0C8009276F2B28D8.quest_subtitle: "它在遥远的沙漠地带中。这里有&d价值连城的战利品&r，但也有许多危险的敌人。"
 	quest.0E349CAEF1D249B6.quest_subtitle: "&b滑行魔石&r是出现在&e青铜地牢&r中的Boss。"
-	quest.0EDB1E145CB2D26F.quest_subtitle: "这里好像还没怪物入住。至少你可以先玩一玩这些很酷的门。"
+	quest.0EDB1E145CB2D26F.quest_subtitle: "这里好像还没怪物入住。不过你可以先玩一玩这些很酷的门。"
 	quest.0EDB1E145CB2D26F.title: "前往&f&l终焉城堡&r&r。"
 	quest.100082345FA03A9B.quest_subtitle: "&c哨石&r是&e青铜地牢&r中的&4敌对生物&r"
 	quest.1085588F956F6781.quest_desc: [
@@ -509,7 +509,7 @@
 	quest.759A9CF262C2D265.title: "制作&1灵魂鞘翅"
 	quest.7630C21661FED121.quest_subtitle: "可在森林中找到。解锁&e巫妖塔&r。"
 	quest.7630C21661FED121.title: "击败&a娜迦"
-	quest.76B3EC978FF0AC9C.quest_subtitle: "投掷&b灵魂之星&r可以找到巫妖的禁忌之塔。你需要将四颗灵魂之星分别在四个&8雕纹石祭坛&上使用才能召唤巫妖。"
+	quest.76B3EC978FF0AC9C.quest_subtitle: "投掷&b灵魂之星&r可以找到巫妖的禁忌之塔。你需要将四颗灵魂之星分别在四个&8雕纹石祭坛&r上使用才能召唤巫妖。"
 	quest.77620D66329E6AAC.quest_subtitle: "一座巨大的&9水下&r挑战地。据说通过它的人将会拿到丰富的&6奖励&r。"
 	quest.77620D66329E6AAC.title: "找到一座&3三叉戟试炼纪念碑（Trident Trial Monument）&r"
 	quest.788273367A7BFE3D.quest_subtitle: "Right click the air with a &6Honey Compass&r you crafted and it'll point to a &2Cell Maze&r. &6Honey Compasses&r found in structure loot may point to &dSomething Rarer...&r"
