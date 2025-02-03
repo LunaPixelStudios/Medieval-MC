@@ -59,6 +59,10 @@
     "modId": "apotheosis",
     "version": "8.1.3"
   },
+  "apothic_compats-0.1.5.jar": {
+    "modId": "apothic_compats",
+    "version": "0.1.5"
+  },
   "ApothicAttributes-1.21.1-2.6.2.jar": {
     "modId": "apothic_attributes",
     "version": "2.6.2"
@@ -640,10 +644,6 @@
   "LegendaryTooltips-1.21-neoforge-1.4.11.jar": {
     "modId": "legendarytooltips",
     "version": "1.4.11"
-  },
-  "letmedespawn-1.21.x-neoforge-1.4.4.jar": {
-    "modId": "letmedespawn",
-    "version": "1.4.4"
   },
   "libIPN-neoforge-1.21-6.2.1.jar": {
     "modId": "libipn",
