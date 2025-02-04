@@ -1,0 +1,25 @@
+{
+    "ordinal": 7,
+    "color": "#bd2323",
+    "material": "apotheotic_additions:heirloom_material",
+	"weight": 1,
+	"quality": 30,
+	"rules": [
+		{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1
+		},
+		{
+			"type": "durability",
+			"chance": 0.7
+		}
+	]
+}

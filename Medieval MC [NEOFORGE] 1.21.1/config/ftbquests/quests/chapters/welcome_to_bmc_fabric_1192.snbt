@@ -167,5 +167,83 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1426142C941CC794"
+			rewards: [
+				{
+					id: "56644C058D28B0B7"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					type: "item"
+				}
+				{
+					id: "0DB7228AC5B9801A"
+					item: {
+						count: 1
+						id: "apotheosis:common_material"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68C62C65C612AC88"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2FF116A1FB91A79E"
+			rewards: [{
+				count: 3
+				id: "17598F0D955BF1A6"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F8DF5CFA7FE34D7"
+				item: { components: { "apotheosis:gem": "apotheosis:the_end/endersurge", "apotheosis:purity": "flawless" }, count: 1, id: "apotheosis:gem" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2165E80C52C79992"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "5B9AEFBAF4ACEB1B"
+			rewards: [{
+				id: "53D588B105FB8E9D"
+				item: {
+					count: 1
+					id: "apotheosis:common_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "56447D89DFB08258"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
 	]
 }

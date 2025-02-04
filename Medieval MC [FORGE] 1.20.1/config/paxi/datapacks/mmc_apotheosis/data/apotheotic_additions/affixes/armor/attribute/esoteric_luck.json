@@ -1,0 +1,15 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.luck",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:esoteric": {
+			"min": 2,
+			"steps": 3,
+			"step": 1
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

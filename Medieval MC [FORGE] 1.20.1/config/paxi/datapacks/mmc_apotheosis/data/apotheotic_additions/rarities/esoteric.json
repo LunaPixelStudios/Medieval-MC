@@ -1,0 +1,72 @@
+{
+    "ordinal": 8,
+    "color": "#551097",
+    "material": "apotheotic_additions:esoteric_material",
+	"weight": 0,
+	"quality": 0,
+	"rules": [{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "stat",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "ability",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1
+		},
+		{
+			"type": "socket",
+			"chance": 1
+		},
+		{
+			"type": "socket",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1.0
+		},
+		{
+			"type": "socket",
+			"chance": 1.0
+		},
+		{
+			"type": "durability",
+			"chance": 1.0
+		}
+	]
+}

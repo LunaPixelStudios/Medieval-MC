@@ -1,0 +1,20 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "minecraft:generic.luck",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 1,
+			"steps": 2,
+			"step": 1
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 1,
+			"steps": 2,
+			"step": 0.25
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

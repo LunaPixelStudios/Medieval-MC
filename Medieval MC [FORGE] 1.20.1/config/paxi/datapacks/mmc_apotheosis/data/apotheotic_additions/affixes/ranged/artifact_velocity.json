@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:attribute",
+	"attribute": "attributeslib:arrow_velocity",
+	"operation": "ADDITION",
+	"values": {
+		"apotheotic_additions:artifact": {
+			"min": 0.35,
+			"steps": 25,
+			"step": 0.01
+		},
+		"apotheotic_additions:heirloom": {
+			"min": 0.05,
+			"steps": 10,
+			"step": 0.01
+		}
+	},
+	"types": [
+		"bow",
+		"crossbow",
+		"trident"
+	]
+}
