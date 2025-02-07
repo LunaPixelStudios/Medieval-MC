@@ -258,7 +258,7 @@ key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:0.5
-soundCategory_music:0.5153636663732394
+soundCategory_music:0.89
 soundCategory_record:0.5051386443661973
 soundCategory_weather:0.5019091109154928
 soundCategory_block:0.5051386443661973
