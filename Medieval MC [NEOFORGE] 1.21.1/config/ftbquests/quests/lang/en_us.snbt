@@ -64,6 +64,7 @@
 		""
 		"Spawn pumpkin stems when thrown at a Snow Golem."
 	]
+
 	quest.1085588F956F6781.quest_subtitle: "Obtained by mining a &fPile of Pollen&r. Click to read its many uses!"
 	quest.1085588F956F6781.title: "Obtain &6Pollen Puff"
 	quest.1106E8573D7BE257.quest_subtitle: "Once you've found a &2Vine Rune&r, head back to the &8Prison&r and find a &2Runic Vine&r to use the rune on, which will open the door to the Crypt."
