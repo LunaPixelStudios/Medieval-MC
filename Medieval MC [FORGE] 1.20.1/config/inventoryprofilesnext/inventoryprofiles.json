@@ -26,6 +26,13 @@
         }
     },
     "AutoRefillSettings": {
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "tool_damage_threshold": 0,
         "visual_durability_notification": {
             "value": false
         },
