@@ -1,4 +1,5 @@
 {
+	"enableCustomResourceBars": false,
 	"levelingSearchRadius": 128.0,
 	"levelsPerPoint": 0.4,
 	"cancelLevelsForPassives": true,
@@ -7,10 +8,16 @@
 		"cataclysm",
 		"dungeons_arise",
 		"dungeons_arise_seven_seas",
-		"mowziesmobs"
+		"mowziesmobs",
+		"deep_aether"
 	],
 	"additionalValidStructures": [
-		"irons_spellbooks:catacombs"
+		"irons_spellbooks:catacombs",
+		"aether:bronze_dungeon",
+		"aether:silver_dungeon",
+		"aether:gold_dungeon",
+		"ancient_aether:ancient_dungeon",
+		"dungeons_and_combat:blazing_fortress",
 	],
 	"applyPlayerBasedLeveling": true,
 	"structureSearchRadius": 6,
