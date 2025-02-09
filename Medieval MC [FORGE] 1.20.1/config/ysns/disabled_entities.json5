@@ -15,7 +15,8 @@
   "disabled": [
     "realmrpg_demons:chort",
     "endermanoverhaul:end_enderman",
-    "whatareyouvotingfor:penguin"
+    "whatareyouvotingfor:penguin",
+    "alexsmobs:cosmic_cod"
   ],
   // Don't touch this!
   "CONFIG_VERSION": 1
