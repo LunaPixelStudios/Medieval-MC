@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","fabric","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","file/Aether Regenerated v1.2.1.zip","file/Excalibur_V1.21.1.zip","file/Clarent_(26)_1.20.1.zip","file/Aether Excalibur Support.zip","file/Excal_ModSupport_Patched.zip","file/MMC4_Excalibur.zip","file/FarmersDelightExcaliburSupport.zip","file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Mod Compats v2.0.zip","file/STONEBORN - MMC","file/panorama_overrides.zip","file/EclecticTrove-1.20.1-1.3.0.zip","Moonlight Mods Dynamic Assets","file/EmbellishedStone-1.20.1-1.0.0.zip","file/NoBushyLeaves.zip","builtin/overrides/golden_swet_ball/DAGoldenSwetBallFixClient","file/CataclysmOldMusic 3.zip"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","fabric","builtin/ancient_aether_texture_tweaks","builtin/compatibility/deep_aether_assets","builtin/resource/overrides_pack","file/Aether Regenerated v1.2.1.zip","file/Excalibur_V1.21.1.zip","file/Clarent_(26)_1.20.1.zip","file/Aether Excalibur Support.zip","file/Excal_ModSupport_Patched.zip","file/FarmersDelightExcaliburSupport.zip","file/MMC4_Excalibur","file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip","file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN - Denis\u0027 Mod Compats v2.0.zip","file/STONEBORN - MMC","file/EclecticTrove-1.20.1-1.3.0.zip","file/panorama_overrides.zip","Moonlight Mods Dynamic Assets","file/EmbellishedStone-1.20.1-1.0.0.zip","file/Plague doctor.zip","file/3d itens.zip","file/NoBushyLeaves.zip","builtin/overrides/golden_swet_ball/DAGoldenSwetBallFixClient","file/CataclysmOldMusic 3.zip"]
 incompatibleResourcePacks:["builtin/towntalk"]
 lastServer:
 lang:en_us
@@ -145,7 +145,7 @@ key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.carry.desc:key.keyboard.left.shift
-key_key.cataclysm.ability:key.keyboard.x
+key_key.cataclysm.ability:key.keyboard.unknown
 key_key.cataclysm.helmet_ability:key.keyboard.unknown
 key_key.cataclysm.chestplate_ability:key.keyboard.unknown
 key_key.cataclysm.boots_ability:key.keyboard.unknown
@@ -158,7 +158,7 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.irons_spellbooks.spell_wheel:key.keyboard.grave.accent
-key_key.irons_spellbooks.spellbook_cast:key.keyboard.v
+key_key.irons_spellbooks.spellbook_cast:key.keyboard.unknown
 key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.left.shift
 key_key.irons_spellbooks.spell_quick_cast_1:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_2:key.keyboard.unknown
@@ -225,15 +225,15 @@ key_key.mobhealthbar.chooser:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
-key_key.travelersbackpack.cycle_tool:key.keyboard.z
+key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
 key_key.travelersbackpack.toggle_tank:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.r
 key_tetra.toolbelt.binding.access:key.keyboard.unknown
-key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
-key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
-key_tetra.toolbelt.binding.secondary_use:key.keyboard.v
+key_tetra.toolbelt.binding.restock:key.keyboard.unknown
+key_tetra.toolbelt.binding.open:key.keyboard.unknown
+key_tetra.toolbelt.binding.secondary_use:key.keyboard.unknown
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
@@ -255,10 +255,10 @@ key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown
-key_key.aether.open_accessories.desc:key.keyboard.i
+key_key.aether.open_accessories.desc:key.keyboard.unknown
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.space
-key_key.aether.invisibility_toggle.desc:key.keyboard.v
-key_key.deep_aether.stratus_dash_ability.desc:key.keyboard.y
+key_key.aether.invisibility_toggle.desc:key.keyboard.unknown
+key_key.deep_aether.stratus_dash_ability.desc:key.keyboard.unknown
 key_key.deep_aether.slider_eye_ability:key.keyboard.unknown
 key_key.aether_redux.shoot_fireball.desc:key.keyboard.unknown
 key_key.relics.ability_list:key.keyboard.unknown
@@ -280,7 +280,7 @@ key_key.journeymap.minimap_preset:key.keyboard.backslash
 key_key.journeymap.create_waypoint:key.keyboard.n
 key_key.journeymap.toggle_waypoints:key.keyboard.z
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.n
-key_key.journeymap.fullscreen_chat_position:key.keyboard.c
+key_key.journeymap.fullscreen_chat_position:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.j
 key_key.journeymap.fullscreen_waypoints:key.keyboard.u
 key_key.journeymap.minimap_toggle_alt:key.keyboard.j:CONTROL
@@ -326,14 +326,14 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_quark.keybind.narrator_readout:key.keyboard.unknown
 key_quark.keybind.narrator_full_readout:key.keyboard.unknown
-key_quark.keybind.variant_selector:key.keyboard.r
-key_supplementaries.keybind.quiver:key.keyboard.v
+key_quark.keybind.variant_selector:key.keyboard.unknown
+key_supplementaries.keybind.quiver:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown

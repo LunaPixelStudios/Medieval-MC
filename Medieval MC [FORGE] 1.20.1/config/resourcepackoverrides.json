@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
     "vanilla",
@@ -14,17 +14,19 @@
     "file/Clarent_(26)_1.20.1.zip",
     "file/Aether Excalibur Support.zip",
     "file/Excal_ModSupport_Patched.zip",
-    "file/MMC4_Excalibur.zip",
     "file/FarmersDelightExcaliburSupport.zip",
+    "file/MMC4_Excalibur",
     "file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
     "file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip",
     "file/STONEBORN - Denis\u0027 Mod Compats v2.0.zip",
     "file/STONEBORN - MMC",
-    "file/panorama_overrides.zip",
     "file/EclecticTrove-1.20.1-1.3.0.zip",
+    "file/panorama_overrides.zip",
     "Moonlight Mods Dynamic Assets",
     "file/EmbellishedStone-1.20.1-1.0.0.zip",
+    "file/Plague doctor.zip",
+    "file/3d itens.zip",
     "file/NoBushyLeaves.zip",
     "builtin/overrides/golden_swet_ball/DAGoldenSwetBallFixClient",
     "file/CataclysmOldMusic 3.zip"
