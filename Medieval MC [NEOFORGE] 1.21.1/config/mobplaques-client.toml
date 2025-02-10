@@ -41,7 +41,7 @@ allow_rendering = true
 	#Default Value: 2
 	# Default: 2
 	# Range: > -1
-	picked_entity_delay = 2
+	picked_entity_delay = 0
 	#Dynamically increase plaque size the further away the camera is to simplify readability.
 	#Default Value: true
 	scale_with_distance = true
@@ -51,7 +51,7 @@ allow_rendering = true
 	mob_selectors = ["minecraft:all"]
 	#Show plaques for the entity picked by the crosshair only.
 	#Default Value: false
-	picked_entity = false
+	picked_entity = true
 	#Custom scale for rendering plaques.
 	#Default Value: 0.5
 	# Default: 0.5
