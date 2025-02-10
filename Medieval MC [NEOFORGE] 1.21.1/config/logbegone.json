@@ -18,7 +18,8 @@
       "Ignoring unknown attribute",
       "Couldn't find template pool reference",
       "Template pool fallback chain found",
-      "Error while trying to apply a critical hit"
+      "unable to apply palette",
+      "Failed to load palette"
     ],
     "regex": [
       ".*(Unknown block '.*' in '.*' element '.*' at index).*",
