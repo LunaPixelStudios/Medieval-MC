@@ -1,6 +1,6 @@
 {
   "schemaVersion": 9,
-  "currentVersion": "v8",
+  "currentVersion": "see_bcc",
   "modpackName": "Medieval MC [NEOFORGE] MMC5",
   "modpackAuthor": "LunaPixelStudios",
   "modpackReleaseType": "stable",
@@ -11,6 +11,7 @@
     "expandButton": false,
     "updateCheckerType": 2,
     "retroWarning": false,
-    "modpackMods": []
+    "modpackMods": [],
+    "markdownRenderer": "builtin:basic"
   }
 }
