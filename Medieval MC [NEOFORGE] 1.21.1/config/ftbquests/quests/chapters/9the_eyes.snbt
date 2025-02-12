@@ -150,13 +150,10 @@
 		{
 			id: "3CA0E9745340762E"
 			rewards: [{
-				id: "44BB1E1CD4A3C68B"
+				id: "13AF84A28C1A8A4D"
 				item: {
-					components: {
-						"ftbquests:missing_item": "mcdar:corrupted_seeds"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "discerning_the_eldritch:eldritch_upgrade_orb"
 				}
 				type: "item"
 			}]
@@ -171,15 +168,24 @@
 		{
 			id: "4726C6C722EFE7C0"
 			rewards: [{
-				id: "0E23BD2C20E92E7E"
+				id: "39FC70C166C1F8EF"
 				item: {
 					components: {
-						"ftbquests:missing_item": "natures_spirit:drowsy_succulent"
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "cataclysm_spellbooks:desert_winds"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "irons_spellbooks:scroll"
 				}
-				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
@@ -260,13 +266,10 @@
 		{
 			id: "7D156C4A9331B0EB"
 			rewards: [{
-				id: "6DC12DDC6DB967D8"
+				id: "33947D86D9FDF047"
 				item: {
-					components: {
-						"ftbquests:missing_item": "bewitchment:hedgewitch_robes"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "witchery:witches_hat"
 				}
 				type: "item"
 			}]
