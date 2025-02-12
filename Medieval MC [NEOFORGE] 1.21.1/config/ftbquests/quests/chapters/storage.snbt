@@ -34,8 +34,9 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["1D550243ED7A0A05"]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "51B189EBCC1751F1"
 			rewards: [{
 				count: 2
@@ -132,6 +133,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["2252ACBB97526BB2"]
 			id: "5BCF9D61C52EABCC"
 			rewards: [
 				{
@@ -156,8 +158,8 @@
 				item: { count: 1, id: "toms_storage:storage_terminal" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -11.0d
+			x: 0.5d
+			y: -9.5d
 		}
 		{
 			id: "2252ACBB97526BB2"
@@ -171,14 +173,11 @@
 				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -11.0d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
-			dependencies: [
-				"2252ACBB97526BB2"
-				"5BCF9D61C52EABCC"
-			]
+			dependencies: ["5BCF9D61C52EABCC"]
 			id: "411FE795DBEB8033"
 			rewards: [{
 				id: "2B14496A4C61411B"
@@ -190,8 +189,8 @@
 				item: { count: 1, id: "toms_storage:inventory_cable" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.5d
+			x: 1.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["411FE795DBEB8033"]
@@ -216,8 +215,8 @@
 				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.0d
+			x: 3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["5BCF9D61C52EABCC"]
@@ -232,20 +231,17 @@
 				item: { count: 1, id: "toms_storage:crafting_terminal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.5d
+			x: -0.5d
+			y: -11.0d
 		}
 		{
-			dependencies: ["2252ACBB97526BB2"]
+			dependencies: ["123097813B579C3E"]
 			id: "2A1BA4AAA2162ECE"
 			rewards: [{
-				id: "601FBE6676D65204"
+				id: "71541A88D2F2EAA4"
 				item: {
-					components: {
-						"ftbquests:missing_item": "betternether:chest_of_drawers"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "minecraft:gold_ingot"
 				}
 				type: "item"
 			}]
@@ -277,6 +273,8 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["1D550243ED7A0A05"]
+			hide_dependency_lines: true
 			id: "1B420DB321E7344B"
 			rewards: [{
 				id: "49829C1616424501"
@@ -295,27 +293,95 @@
 			y: -6.0d
 		}
 		{
-			id: "615E1659938E97A1"
+			dependencies: ["1D550243ED7A0A05"]
+			hide_dependency_lines: true
+			id: "715932B211013DB9"
 			rewards: [{
-				id: "5CBEBD5C03FD31B0"
+				id: "3B9ABC643E2AE1E4"
 				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:fire_resistance"
-						}
-					}
 					count: 1
-					id: "minecraft:potion"
+					id: "minecraft:cookie"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "575404470FCC26B7"
-				item: { count: 1, id: "travelersbackpack:hose" }
+				id: "25E98215541AAFAE"
+				item: { count: 1, id: "travelersbackpack:pickup_upgrade" }
 				type: "item"
 			}]
 			x: -2.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["3F31C6C5D260B2DA"]
+			id: "0F502F628555BA2F"
+			rewards: [{
+				id: "777A5BA41EE0C4F3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "35DB8E00647A24B5"
+				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1D550243ED7A0A05"]
+			hide_dependency_lines: true
+			id: "20DD0C962BE34D76"
+			rewards: [{
+				id: "2F85F47900F220F7"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25FDF4C68D60E14C"
+				item: { count: 1, id: "travelersbackpack:void_upgrade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D550243ED7A0A05"]
+			hide_dependency_lines: true
+			id: "6436EE174542E312"
+			rewards: [{
+				id: "69C7E7CA90889C6D"
+				item: {
+					count: 1
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78438343B7656260"
+				item: { count: 1, id: "travelersbackpack:magnet_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "41AC4B2A92E7AD6D"
+			rewards: [{
+				id: "1C71DA07B6C462BC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "26EDF5E5DEDAC4BB"
+				item: { count: 1, id: "netherchested:nether_chest" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.5d
 		}
 	]
 }
