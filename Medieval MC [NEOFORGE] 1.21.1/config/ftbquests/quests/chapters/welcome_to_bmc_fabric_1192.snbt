@@ -170,7 +170,6 @@
 		{
 			dependencies: ["2165E80C52C79992"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			id: "1426142C941CC794"
 			rewards: [
 				{
@@ -201,7 +200,6 @@
 		{
 			dependencies: ["2165E80C52C79992"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			id: "2FF116A1FB91A79E"
 			rewards: [{
 				count: 3
@@ -223,7 +221,6 @@
 		{
 			dependencies: ["2165E80C52C79992"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:diamond_sword"
 			}
