@@ -612,9 +612,9 @@
     "modId": "irons_spellbooks",
     "version": "1.21-3.8.9"
   },
-  "ItemPhysicLite_NEOFORGE_v1.6.7_mc1.21.1.jar": {
-    "modId": "itemphysiclite",
-    "version": "1.6.7"
+  "ItemPhysic_NEOFORGE_v1.8.4_mc1.21.1.jar": {
+    "modId": "itemphysic",
+    "version": "1.8.4"
   },
   "Jade-1.21.1-NeoForge-15.9.3.jar": {
     "modId": "jade",
@@ -808,10 +808,6 @@
   "moreculling-neoforge-1.21.1-1.0.4.jar": {
     "modId": "moreculling",
     "version": "1.0.4"
-  },
-  "morevillagers-re-1.21.x-neoforge-5.1.0.jar": {
-    "modId": "morevillagers",
-    "version": "5.1.0"
   },
   "MouseTweaks-neoforge-mc1.21-2.26.1.jar": {
     "modId": "mousetweaks",
