@@ -222,27 +222,5 @@
 			x: 0.0d
 			y: 6.6d
 		}
-		{
-			dependencies: ["32226ED25E813908"]
-			id: "296C00DA7F0BE321"
-			rewards: [{
-				id: "3C01E938CAB3DF8C"
-				item: {
-					count: 1
-					id: "paradise_lost:cherine_campfire"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				dimension: "paradise_lost:paradise_lost"
-				icon: {
-					id: "paradise_lost:bloomed_calcite"
-				}
-				id: "58987E0C15E9FECD"
-				type: "dimension"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
 	]
 }
