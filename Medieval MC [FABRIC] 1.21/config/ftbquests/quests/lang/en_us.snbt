@@ -163,7 +163,7 @@
 	quest.1FF519095B59ED87.quest_subtitle: "&eShards&r can not be used to cast spells. Instead, hold them in the &6off-hand&r to amplify the power of your main weapon."
 	quest.20AE640D7E58DACC.quest_subtitle: "Allows for easy access to your Ender Chest."
 	quest.20AE640D7E58DACC.title: "Craft an &9Ender Pouch"
-	quest.20DD0C962BE34D76.quest_subtitle: "Attach this to your &3Traveler's Backpack&r on the &dright side&r of the &3backpack inventory&r. Particularly useful when combined with the &6Pickup Upgrade&r.\\n\\nIn &4Block&r mode, all items &4except&r those in the 3x3 grid will be voided (&4&lBe Careful!&r). \\n\\nIn &aAllow&r Mode, &aonly&r items in the 3x3 grid will be voided.\\n\\nIn &6Match Contents&r mode, only items matching those &6already in your&r &3backpack&r will be voided."
+	quest.20DD0C962BE34D76.quest_subtitle: "Attach this to your &3Traveler's Backpack&r on the &dright side&r of the &3backpack inventory&r to delete items entering the backpack. Particularly useful when combined with the &6Pickup Upgrade&r.\\n\\nIn &4Block&r mode, all items &4except&r those in the 3x3 grid will be voided (&4&lBe Careful!&r). \\n\\nIn &aAllow&r Mode, &aonly&r items in the 3x3 grid will be voided.\\n\\nIn &6Match Contents&r mode, only items matching those &6already in your&r &3backpack&r will be voided."
 	quest.2165E80C52C79992.quest_desc: [
 		"Press &bR &rwhile hovering over an item to view its Recipe"
 		""
@@ -462,7 +462,7 @@
 	quest.678B2562584E24EF.quest_subtitle: "Spawns in the &1Insufferable Crypt&r. To deal damage to &dConjunctivius&r, you must first kill the tentacles. Can drop the &4&lCursed Sword&r, which gives you the &4Cursed &reffect when held. Don't use this sword in Hardcore ;)"
 	quest.678B2562584E24EF.title: "Defeat &dConjunctivius"
 	quest.67AF0D287349A250.quest_subtitle: "Another strangely entropic item, meant only for the most &6versatile&r of elemental wizards..."
-	quest.681023F993C3FF3D.quest_subtitle: "A powerful wizard rumored to be spearheading the Illager invasions... Can be found in the &2Woodland Mansion&r."
+	quest.681023F993C3FF3D.quest_subtitle: "A powerful wizard rumored to be spearheading the Illager invasions... Can be found in the &2Woodland Mansion&r, or at the end of high level raids."
 	quest.68BF5A98532CD5C3.quest_subtitle: "&6The Valkyrie Queen&r is a boss found in the &8Silver Dungeon&r. "
 	quest.69872C1F1CCBDEBD.quest_subtitle: "Has a rare chance to spawn within &4Nether Fortresses&r."
 	quest.69872C1F1CCBDEBD.title: "Defeat a &8Necromancer"
@@ -516,7 +516,7 @@
 	quest.704CCA2CEAB23B4D.quest_subtitle: "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."
 	quest.704CCA2CEAB23B4D.title: "Enter The &8&lOtherside"
 	quest.7149B8FB49671630.quest_subtitle: "&6Gold Dungeons&r are located within spherical islands with lots of &eGolden Oak&r trees growing on top of them. This dungeon normally will only have the &c&lboss room&r&r in it, with no treasure/mob rooms beforehand. The &eSun Spirit&r cannot be killed by attacking it directly and must be killed by hitting the &fwhite object&r he throws back at it multiple times. Every time it is hit with the white object, it sends out a smaller version of itself to attack the player. Once the player kills the &eSun Spirit&r, the sun will finally set in the Aether. Before the player kills the Sun Spirit, the sun will never go down."
-	quest.715932B211013DB9.quest_subtitle: "Attach this to your &3Traveler's Backpack&r on the &dright side&r of the &3backpack inventory&r. \\n\\nIn &4Block&r mode, all items &4except&r those in the 3x3 grid will be picked up. \\n\\nIn &aAllow&r Mode, &aonly&r items in the 3x3 grid will be picked up.\\n\\nIn &6Match Contents&r mode, only items &6already in your&r &3backpack&r will be picked up."
+	quest.715932B211013DB9.quest_subtitle: "Attach this to your &3Traveler's Backpack&r on the &dright side&r of the &3backpack inventory&r to transfer picked up items into the backpack. \\n\\nIn &4Block&r mode, all items &4except&r those in the 3x3 grid will be moved. \\n\\nIn &aAllow&r Mode, &aonly&r items in the 3x3 grid will be moved.\\n\\nIn &6Match Contents&r mode, only items &6already in your&r &3backpack&r will be moved."
 	quest.71C349B7CEDE6CA8.quest_desc: [
 		"To build an &3Eye Shrine&r, start with a 5x5 &5Obsidian &rsquare. "
 		""
