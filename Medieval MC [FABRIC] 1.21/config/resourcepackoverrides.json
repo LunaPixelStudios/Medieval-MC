@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
     "moonlight:mods_dynamic_assets",
@@ -7,6 +7,7 @@
     "file/Clarent_(26)_1.20.2+.zip",
     "file/MMC_Excal",
     "file/Excalibur - RPG Series Addon",
+    "file/Excalibur - DramaticDoors continued.zip",
     "file/FarmersDelightExcaliburSupport.zip",
     "file/Stoneborn-1.20.2-1.21.4-V3.2.4.zip",
     "file/STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip",
