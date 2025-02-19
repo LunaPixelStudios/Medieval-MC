@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0309AFE9E3851209"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2overworld"
@@ -511,6 +512,14 @@
 		}
 		{
 			id: "69DEB17F302B7686"
+			rewards: [{
+				id: "6C81DF917DA68B12"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "386C7CD7800BF562"
 				structure: "#nova_structures:taverns"

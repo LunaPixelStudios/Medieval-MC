@@ -1,4 +1,5 @@
 {
+	autofocus_id: "60367DDACC525262"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "9the_eyes"
@@ -149,13 +150,16 @@
 		{
 			id: "3CA0E9745340762E"
 			rewards: [{
-				id: "44BB1E1CD4A3C68B"
+				id: "7BCD77D35DABCDB1"
 				item: {
 					components: {
-						"ftbquests:missing_item": "mcdar:corrupted_seeds"
+						"minecraft:potion_contents": {
+							potion: "spell_power:spell_power.arcane"
+						}
+						"scorchful:drink_level": "hydrating"
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "minecraft:potion"
 				}
 				type: "item"
 			}]
@@ -256,13 +260,11 @@
 		{
 			id: "7D156C4A9331B0EB"
 			rewards: [{
-				id: "6DC12DDC6DB967D8"
+				count: 2
+				id: "008C03ED5A3A124E"
 				item: {
-					components: {
-						"ftbquests:missing_item": "bewitchment:hedgewitch_robes"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "witchery:wormwood"
 				}
 				type: "item"
 			}]

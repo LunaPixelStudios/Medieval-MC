@@ -68,25 +68,6 @@
 			y: -0.5d
 		}
 		{
-			id: "55949A5DC9264888"
-			rewards: [{
-				id: "164901B2337E4D3A"
-				item: {
-					count: 1
-					id: "mythicmetals:mythril_ingot"
-				}
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [{
-				id: "23A25DA48F08655A"
-				item: { count: 1, id: "mythicmetals_decorations:orichalcum_chest" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
 			id: "7FE42B256F9BC9DF"
 			rewards: [{
 				count: 16
@@ -415,6 +396,25 @@
 			}]
 			x: 1.0d
 			y: 4.0d
+		}
+		{
+			id: "7A104BAD97526F7F"
+			rewards: [{
+				id: "6915442723761B31"
+				item: {
+					count: 1
+					id: "mythicmetals:raw_mythril"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "71181CF209BC8B46"
+				item: { count: 1, id: "mythicmetals_decorations:orichalcum_chest" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
 		}
 	]
 }
