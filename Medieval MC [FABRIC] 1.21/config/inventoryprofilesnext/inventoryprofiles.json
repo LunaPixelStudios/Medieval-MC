@@ -28,6 +28,9 @@
         "refill_armor": {
             "value": false
         },
+        "refill_before_tool_break": {
+            "value": false
+        },
         "auto_refill_enable_indicator_icons": {
             "value": false
         },
