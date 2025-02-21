@@ -400,5 +400,33 @@
     },
     "draylar.tiered.reforge.ReforgeScreenHandler": {
         "ignore": true
+    },
+    "com.tiviacz.travelersbackpack.client.screens.BackpackScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 10
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 67
+            },
+            "SORT": {
+                "horizontalOffset": 9,
+                "top": 67
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 11,
+                "top": 67
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 13,
+                "top": 67
+            },
+            "SETTINGS": {
+                "top": 1
+            }
+        }
+    },
+    "com.tiviacz.travelersbackpack.inventory.menu.BackpackItemMenu": {
+        "ignore": true
     }
 }
