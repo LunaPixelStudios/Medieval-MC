@@ -59,7 +59,7 @@
 
 [Beekeepers]
 	#Beekeepers are villagers that trade beekeeping items. Their job site is the beehive.
-	Enabled = true
+	Enabled = false
 
 [CampfiresHealPlayers]
 	#Standing within range and sight of a lit campfire provides a small regeneration boost.

@@ -52,7 +52,7 @@
   "generateTuffGolemInStronghold": true,
   "enableWildfire": true,
   "generateCitadelStructure": true,
-  "enableBeekeeperVillagerProfession": true,
+  "enableBeekeeperVillagerProfession": false,
   "generateBeekeeperAreaStructure": true,
-  "beekeeperAreaStructureWeight": 2
+  "beekeeperAreaStructureWeight": 1
 }
