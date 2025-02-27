@@ -1,0 +1,88 @@
+{
+	id: "66F60627B84831E0"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 8
+			id: "3899A481D0E7D31C"
+			item: {
+				count: 1
+				id: "more_rpg_classes:aqua_stone"
+			}
+		}
+		{
+			count: 8
+			id: "07CEE982297AF7AA"
+			item: {
+				count: 1
+				id: "more_rpg_classes:terra_stone"
+			}
+		}
+		{
+			count: 8
+			id: "21879881B4343B0C"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+		}
+		{
+			count: 8
+			id: "52C753B266E5D596"
+			item: {
+				count: 1
+				id: "more_rpg_classes:storm_stone"
+			}
+		}
+		{
+			count: 8
+			id: "100F036E475E9AFE"
+			item: {
+				count: 1
+				id: "runes:arcane_stone"
+			}
+		}
+		{
+			count: 8
+			id: "1DEAE8D5548B9FC6"
+			item: {
+				count: 1
+				id: "runes:fire_stone"
+			}
+		}
+		{
+			count: 8
+			id: "0D44D15EA1376912"
+			item: {
+				count: 1
+				id: "runes:frost_stone"
+			}
+		}
+		{
+			count: 8
+			id: "29EBBB069907C606"
+			item: {
+				count: 1
+				id: "runes:healing_stone"
+			}
+		}
+		{
+			count: 8
+			id: "7B1C4E2E83DF67A4"
+			item: {
+				count: 1
+				id: "runes:lightning_stone"
+			}
+		}
+		{
+			auto: "enabled"
+			count: 8
+			id: "6231803FF4D5CCA1"
+			item: {
+				count: 1
+				id: "runes:soul_stone"
+			}
+		}
+	]
+}

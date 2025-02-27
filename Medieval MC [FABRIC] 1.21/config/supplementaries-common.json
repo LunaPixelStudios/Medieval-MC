@@ -103,7 +103,8 @@
     },
     "urn": {
       "enabled": true,
-      "critter_spawn_chance": 0.01
+      "critter_spawn_chance": 0.01,
+      "cave_urns": true
     },
     "soap": {
       "enabled": true,
@@ -147,7 +148,8 @@
       "trapped_present": true
     },
     "flax": {
-      "enabled": true
+      "enabled": true,
+      "wild_flax": true
     },
     "lumisene": {
       "enabled": true,
@@ -204,13 +206,13 @@
       "gui": true
     },
     "pedestal": {
-      "enabled": true,
-      "crystal_enchanting": 3
+      "enabled": true
     },
     "ash": {
       "enabled": true,
       "ash_from_fire_chance": 1.0,
-      "rain_wash_ash": true
+      "rain_wash_ash": true,
+      "basalt_ash": true
     },
     "flag": {
       "enabled": true,
@@ -228,6 +230,7 @@
     "way_sign": {
       "enabled": true,
       "road_signs": {
+        "enabled": true,
         "show_distance_text": true
       }
     },
@@ -281,7 +284,7 @@
   },
   "tools": {
     "quiver": {
-      "enabled": true,
+      "enabled": false,
       "use_without_slow": true,
       "slots": 6,
       "quiver_skeleton_spawn_chance": 0.03,
@@ -302,7 +305,8 @@
       "stasis_cost": 5,
       "bubble_block": {
         "lifetime": 1200,
-        "break_when_touched": true
+        "break_when_touched": true,
+        "max_charges": 200
       }
     },
     "wrench": {
@@ -360,6 +364,9 @@
     "red_merchant_spawn_multiplier": 1.0
   },
   "tweaks": {
+    "dragon_banner_pattern": {
+      "enabled": true
+    },
     "shulker_helmet": {
       "enabled": true
     },
@@ -402,8 +409,6 @@
       "tinted_blocks_on_maps": true
     },
     "placeable_books": {
-      "book_power": 1.0,
-      "enchanted_book_power": 1.334,
       "mixed_books": false
     },
     "zombie_horse": {

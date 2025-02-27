@@ -163,5 +163,21 @@
 			x: -1.0d
 			y: 3.0d
 		}
+		{
+			id: "523EE969C30DAD7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17F435DAA5660C9A"
+				table_id: 7419124203804701152L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5F3ED8BB939E10A1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(trinkets:spell/quiver)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
 	]
 }

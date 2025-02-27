@@ -398,6 +398,7 @@
 	quest.51403A0817171DEA.quest_subtitle: "A 3 block high door. Great for tall origins!"
 	quest.51B189EBCC1751F1.quest_subtitle: "&6Used for Backpack upgrades."
 	quest.51B189EBCC1751F1.title: "Craft a &3Blank Upgrade"
+	quest.523EE969C30DAD7B.quest_subtitle: "A handy way to store large amounts of &4ammunition&r. Can be equipped in the &bQuiver Acessory Slot&r."
 	quest.5255219021BA2D23.quest_desc: [
 		"The more you feed and ride your Beehemoth, the more your &6friendship&r will grow, and the faster it will fly.  "
 		""
@@ -558,6 +559,7 @@
 	quest.7D156C4A9331B0EB.title: "Obtain the &dWitch Eye"
 	quest.7D1F5E31E0B0E309.quest_subtitle: "The densest of all alloys, forged from the rarest substances known to man. Used to craft powerful gear."
 	quest.7FE42B256F9BC9DF.quest_subtitle: "Magnum Torches prevent mob spawns in a large area. &bDiamond&r torches will prevent &4monster&r spawns."
+	reward_table.66F60627B84831E0.title: "Ammo"
 	reward_table.776C51E20F16A9F2.title: "Overworld Rewards"
 	task.0097AFBF80EDB74E.title: "Enter the &3Promenade of the Condemned"
 	task.012C5F87D8C75707.title: "Craft a &6Sun Hat"
@@ -691,6 +693,7 @@
 	task.5DC73CE594C0318B.title: "Slay a &4Fire Dragon"
 	task.5EB3275DC0489A05.title: "Enter the &5Glass Ocean"
 	task.5F2FD0A30DC4DE1B.title: "Encounter &3The Hexblades"
+	task.5F3ED8BB939E10A1.title: "Obtain a &6Quiver&r or &dRune Pouch&r"
 	task.5F5EBC058891ADC1.title: "Craft an &4Agglomeration"
 	task.5FADB24FD405741E.title: "Slay the &9&lNight Lich&r"
 	task.608179E2C8926B06.title: "Start to get &bCold"
