@@ -123,30 +123,11 @@
       "entries": [
         {
           "id": "#rpg_series:tier_1_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
+          "weight": 1
         },
         {
-          "id": "#rpg_series:tier_1_armors",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_1_accessories",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
         }
       ]
     },
@@ -175,7 +156,7 @@
       ]
     },
     "minecraft:chests/desert_pyramid": {
-      "rolls": 0.5,
+      "rolls": 1.0,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -204,11 +185,15 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
         }
       ]
     },
     "minecraft:chests/underwater_ruin_small": {
-      "rolls": 0.5,
+      "rolls": 1.0,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -237,11 +222,15 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
         }
       ]
     },
     "minecraft:chests/jungle_temple": {
-      "rolls": 0.5,
+      "rolls": 1.0,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -270,11 +259,15 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
         }
       ]
     },
     "minecraft:chests/pillager_outpost": {
-      "rolls": 0.5,
+      "rolls": 1.0,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -303,11 +296,15 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
         }
       ]
     },
     "minecraft:chests/woodland_mansion": {
-      "rolls": 0.5,
+      "rolls": 1.0,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -336,6 +333,10 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
         }
       ]
     },
@@ -411,6 +412,10 @@
         {
           "id": "#rpg_series:tier_3_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
+          "weight": 1
         }
       ]
     },
@@ -429,7 +434,7 @@
         },
         {
           "id": "#rpg_series:tier_2_accessories",
-          "weight": 2
+          "weight": 1
         }
       ]
     },
@@ -448,7 +453,7 @@
         },
         {
           "id": "#rpg_series:tier_2_accessories",
-          "weight": 2
+          "weight": 1
         }
       ]
     },
@@ -486,6 +491,10 @@
         {
           "id": "#rpg_series:tier_4_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_4_relics",
+          "weight": 1
         }
       ]
     },
@@ -520,6 +529,10 @@
         {
           "id": "#rpg_series:tier_1_armors",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
         }
       ]
     },
@@ -533,6 +546,10 @@
         },
         {
           "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
           "weight": 1
         }
       ]
@@ -562,6 +579,10 @@
         {
           "id": "#rpg_series:tier_2_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
+          "weight": 1
         }
       ]
     },
@@ -590,6 +611,10 @@
         {
           "id": "#rpg_series:tier_2_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
+          "weight": 1
         }
       ]
     },
@@ -609,6 +634,10 @@
         {
           "id": "#rpg_series:tier_4_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_relics",
+          "weight": 1
         }
       ]
     },
@@ -627,6 +656,30 @@
         },
         {
           "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:entities/evoker": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "minecraft:entities/illusioner": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_relics",
           "weight": 1
         }
       ]
@@ -656,6 +709,10 @@
         {
           "id": "#rpg_series:tier_4_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:theme_loot_dragon",
+          "weight": 1
         }
       ]
     },
@@ -683,6 +740,10 @@
         },
         {
           "id": "#rpg_series:tier_3_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
           "weight": 1
         }
       ]
@@ -712,6 +773,10 @@
         {
           "id": "#rpg_series:tier_2_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
+          "weight": 1
         }
       ]
     },
@@ -739,6 +804,10 @@
         },
         {
           "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
           "weight": 1
         }
       ]
@@ -768,6 +837,10 @@
         {
           "id": "#rpg_series:tier_4_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_relics",
+          "weight": 1
         }
       ]
     },
@@ -795,6 +868,10 @@
         },
         {
           "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
           "weight": 1
         }
       ]
@@ -824,6 +901,10 @@
         {
           "id": "#rpg_series:tier_2_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
+          "weight": 1
         }
       ]
     },
@@ -850,7 +931,29 @@
           }
         },
         {
+          "id": "#rpg_series:tier_3_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
           "id": "#rpg_series:tier_3_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_relics",
           "weight": 1
         }
       ]
@@ -880,6 +983,10 @@
         {
           "id": "#rpg_series:tier_4_accessories",
           "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_4_relics",
+          "weight": 1
         }
       ]
     },
@@ -889,6 +996,10 @@
       "entries": [
         {
           "id": "#rpg_series:tier_4_aether_weapons",
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
           "weight": 1
         }
       ]
@@ -899,12 +1010,385 @@
       "entries": [
         {
           "id": "#rpg_series:tier_4_aether_weapons",
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "aether_villages:chests/olympic_citadel/olympic_citadel_treasure": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_aether_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/ancient_city": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/undead_crypts_grave": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/desert_ruins/desert_ruin_main_temple": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/greater_loot": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/lesser_loot": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/treasure_lighthouse": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/vault_brigattine": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/vault_galleon": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_4_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/end_castle/vault_slope": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_4_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_4_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/nether_keep/skeleton_tower_chest": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/nether_keep/vault_keep": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_3_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/trident_trial_monument/ttm_common_vault": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_relics",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/illager_hideout_lesser_tresure": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/illager_hideout_tresure": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/illager_outpost_weaponry": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "nova_structures:chests/pillager_outpost_treasure": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
         }
       ]
     },
@@ -1036,158 +1520,6 @@
         }
       ]
     },
-    "nova_structures:chests/desert_ruins/desert_ruin_lesser_treasure": {
-      "rolls": 0.5,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_1_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/desert_ruins/desert_ruin_main_temple": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_1_armors",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_weapons",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/end_castle/vault_brigattine": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_4_weapons",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/end_castle/vault_galleon": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_3_armors",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/end_castle/vault_slope": {
-      "rolls": 0.5,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_4_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/end_castle/treasure_lighthouse": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_4_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/end_lighthouse/vault_lighthouse": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_4_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/illager_hideout_tresure": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_1_armors",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/nether_keep/vault_keep": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_3_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_3_armors",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_3_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/nether_keep/skeleton_tower_chest": {
-      "rolls": 0.5,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_2_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
-          "weight": 1
-        }
-      ]
-    },
-    "nova_structures:chests/pillager_outpost_treasure": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_1_armors",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_accessories",
-          "weight": 1
-        }
-      ]
-    },
     "nova_structures:chests/toxic_lair/toxic_vault": {
       "rolls": 0.5,
       "bonus_rolls": 0.2,
@@ -1244,30 +1576,6 @@
         },
         {
           "id": "#rpg_series:tier_2_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        }
-      ]
-    },
-    "nova_structures:chests/trident_trial_monument/ttm_common_vault": {
-      "rolls": 0.5,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_2_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_2_accessories",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
@@ -1405,6 +1713,72 @@
         }
       ]
     },
+    "illagerinvasion:chests/illusioner_tower_stairs": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "illagerinvasion:chests/labirynth": {
+      "rolls": 0.3,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "takesapillage:chests/bastille/church": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
     "betterdungeons:skeleton_dungeon/chests/common": {
       "rolls": 0.5,
       "bonus_rolls": 0.2,
@@ -1439,38 +1813,6 @@
         {
           "id": "#rpg_series:tier_1_armors",
           "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "betterdungeons:small_nether_dungeon/chests/common": {
-      "rolls": 0.5,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_1_armors",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
         },
         {
           "id": "#rpg_series:tier_1_accessories",
@@ -1523,18 +1865,110 @@
         }
       ]
     },
-    "betterstrongholds:chests/cmd_yung": {
-      "rolls": 1.0,
+    "betterdungeons:small_nether_dungeon/chests/common": {
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:tier_2_weapons",
+          "id": "#rpg_series:golden_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
           "weight": 1,
           "enchant": {
             "min_power": 1.0,
             "max_power": 30.0,
             "allow_treasure": true
           }
+        },
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "betterdeserttemples:chests/pharaoh_hidden": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:golden_weapons",
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "betterdeserttemples:chests/tomb_pharaoh": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:golden_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "betterdeserttemples:chests/wardrobe": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "betterfortresses:chests/keep": {
+      "rolls": 0.25,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_0_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:golden_weapons",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
         }
       ]
     },
@@ -1600,6 +2034,36 @@
         }
       ]
     },
+    "betterstrongholds:chests/cmd_yung": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "betterstrongholds:chests/grand_library": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
     "betterstrongholds:chests/crypt": {
       "rolls": 1.0,
       "bonus_rolls": 0.2,
@@ -1614,69 +2078,8 @@
         }
       ]
     },
-    "betterdeserttemples:chests/wardrobe": {
-      "rolls": 0.5,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_1_armors",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        }
-      ]
-    },
-    "betterdeserttemples:chests/tomb_pharaoh": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 2
-        },
-        {
-          "id": "#rpg_series:tier_2_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "betterdeserttemples:chests/pharaoh_hidden": {
-      "rolls": 1.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 2
-        },
-        {
-          "id": "#rpg_series:tier_2_accessories",
-          "weight": 1
-        }
-      ]
-    },
-    "betterfortresses:chests/keep": {
-      "rolls": 0.25,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_0_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:golden_weapons",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_1_accessories",
-          "weight": 1
-        }
-      ]
-    },
     "philipsruins:chest/lost_soul_city_loot": {
-      "rolls": 1.0,
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -1818,7 +2221,7 @@
       ]
     },
     "philipsruins:chest/nether_lava_ruins_loot": {
-      "rolls": 1.0,
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -1837,7 +2240,7 @@
       ]
     },
     "philipsruins:chest/badlands_dungeon_loot_low": {
-      "rolls": 1.0,
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -1855,15 +2258,6 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
-          "id": "#rpg_series:tier_1_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
           "id": "#rpg_series:tier_2_weapons",
           "weight": 1,
           "enchant": {
@@ -1871,10 +2265,6 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
-        },
-        {
-          "id": "#rpg_series:tier_4_weapons",
-          "weight": 1
         },
         {
           "id": "#rpg_series:tier_2_armors",
@@ -1886,7 +2276,7 @@
           }
         },
         {
-          "id": "#rpg_series:tier_2_accessories",
+          "id": "#rpg_series:tier_3_accessories",
           "weight": 1
         },
         {
@@ -1914,7 +2304,7 @@
       ]
     },
     "philipsruins:chest/bone_dungeon_loot": {
-      "rolls": 1.0,
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -1923,20 +2313,7 @@
         },
         {
           "id": "#rpg_series:tier_1_weapons",
-          "weight": 3
-        },
-        {
-          "id": "#rpg_series:tier_2_weapons",
           "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_2_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
         },
         {
           "id": "#rpg_series:tier_1_armors",
@@ -1950,10 +2327,6 @@
             "max_power": 30.0,
             "allow_treasure": true
           }
-        },
-        {
-          "id": "#rpg_series:tier_2_armors",
-          "weight": 1
         },
         {
           "id": "#rpg_series:tier_1_accessories",
@@ -1966,7 +2339,7 @@
       ]
     },
     "philipsruins:chest/ruin_loot": {
-      "rolls": 1.0,
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -1984,7 +2357,7 @@
       ]
     },
     "philipsruins:chest/ancient_ruins_loot": {
-      "rolls": 1.0,
+      "rolls": 0.5,
       "bonus_rolls": 0.2,
       "entries": [
         {
@@ -2259,6 +2632,34 @@
         }
       ]
     },
+    "terralith:mage/treasure": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
+          "weight": 1
+        }
+      ]
+    },
     "terralith:underground/chest": {
       "rolls": 1.0,
       "bonus_rolls": 0.2,
@@ -2440,6 +2841,34 @@
       "entries": [
         {
           "id": "#rpg_series:tier_3_weapons",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/bathhouse/bathhouse_normal": {
+      "rolls": 0.4,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:tier_1_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_1_accessories",
           "weight": 1
         }
       ]
@@ -3173,38 +3602,6 @@
         }
       ]
     },
-    "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure": {
-      "rolls": 2.0,
-      "bonus_rolls": 0.2,
-      "entries": [
-        {
-          "id": "#rpg_series:tier_3_weapons",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_3_armors",
-          "weight": 1,
-          "enchant": {
-            "min_power": 1.0,
-            "max_power": 30.0,
-            "allow_treasure": true
-          }
-        },
-        {
-          "id": "#rpg_series:tier_3_accessories",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_4_accessories",
-          "weight": 1
-        }
-      ]
-    },
     "dungeons_arise:chests/foundry/foundry_treasure": {
       "rolls": 1.0,
       "bonus_rolls": 0.2,
@@ -3325,6 +3722,42 @@
       "bonus_rolls": 0.2,
       "entries": [
         {
+          "id": "#rpg_series:tier_2_weapons",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_2_armors",
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:tier_3_armors",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_2_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_accessories",
+          "weight": 1
+        }
+      ]
+    },
+    "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure": {
+      "rolls": 2.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
           "id": "#rpg_series:tier_3_weapons",
           "weight": 1,
           "enchant": {
@@ -3343,15 +3776,11 @@
           }
         },
         {
-          "id": "#rpg_series:tier_3_armors",
-          "weight": 1
-        },
-        {
-          "id": "#rpg_series:tier_4_accessories",
-          "weight": 1
-        },
-        {
           "id": "#rpg_series:tier_3_accessories",
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:tier_3_relics",
           "weight": 1
         }
       ]
@@ -3359,7 +3788,7 @@
   },
   "regex_injectors": {
     "^dungeons_arise:chests.*barrels$": {
-      "rolls": 0.2,
+      "rolls": 0.1,
       "bonus_rolls": 0.2,
       "entries": [
         {
