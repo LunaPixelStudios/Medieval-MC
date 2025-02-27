@@ -1,0 +1,38 @@
+{
+	"clockAccessory": true,
+	"compassAccessory": true,
+	"recoveryCompassAccessory": true,
+	"calendarAccessory": true,
+	"elytraAccessory": true,
+	"spyglassAccessory": true,
+	"totemOfUndyingAccessory": true,
+	"shulkerBoxAccessory": false,
+	"hideDebugInfoInSurvival": false,
+	"overlay": {
+		"showYCoordinate": true,
+		"obfuscateCompassIfNotOverworld": true,
+		"obfuscateClockIfNotOverworld": true,
+		"position": "TOP_LEFT",
+		"offsetX": 0,
+		"offsetY": 60,
+		"textBackground": false,
+		"textBackgroundOpacity": 0.30000001192092896,
+		"textShadow": true,
+		"coloredSeason": true,
+		"coloredWeather": true,
+		"colors": {
+			"raining": 5415159,
+			"thundering": 3171228,
+			"cloudy": 8882055,
+			"snowing": 3133138,
+			"spring": 4388186,
+			"summer": 15922498,
+			"autumn": 16086338,
+			"winter": 4388341
+		}
+	},
+	"spyglassZoom": {
+		"scrollableZoom": true,
+		"rememberZoomLevel": true
+	}
+}
