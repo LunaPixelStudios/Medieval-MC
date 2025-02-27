@@ -60,8 +60,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(spell_engine:spell_book)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "0CADC1DF4112B007"
@@ -112,8 +112,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(runes:runes)item(more_rpg_classes:aqua_stone)item(more_rpg_classes:terra_stone)item(more_rpg_classes:storm_stone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.5d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "6179325BB7304E2B"
@@ -127,8 +127,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(spell_engine:spell_book_mergeable)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			id: "785B67209C84E4C6"
@@ -147,6 +147,21 @@
 			}]
 			x: -1.0d
 			y: 0.0d
+		}
+		{
+			id: "20F82C3AAEEBA53D"
+			rewards: [{
+				id: "238CB92842399D7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "71A06BF4FC4AE621"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(relics_rpgs:all)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
 		}
 	]
 }
