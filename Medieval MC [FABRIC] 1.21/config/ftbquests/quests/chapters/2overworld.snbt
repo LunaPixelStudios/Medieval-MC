@@ -588,5 +588,26 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			id: "5E28A400F8FEB838"
+			rewards: [{
+				id: "553A41867F25A0FE"
+				item: {
+					count: 1
+					id: "armoroftheages:anubis_armor_head"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:chiseled_sandstone"
+				}
+				id: "01FD55FA988FFA4B"
+				structure: "ancient_trials:dungeon_trial"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
 	]
 }
