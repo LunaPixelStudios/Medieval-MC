@@ -217,7 +217,7 @@
       "origins:phantomize_callback": true
     },
     "medievalorigins:pixie": {
-      "enabled": true,
+      "enabled": false,
       "medievalorigins:pixie/flight": true,
       "medievalorigins:pixie/pixie_properties": true,
       "medievalorigins:pixie/feather_footed": true,
