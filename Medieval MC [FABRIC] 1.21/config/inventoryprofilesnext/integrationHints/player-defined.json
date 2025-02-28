@@ -428,5 +428,11 @@
     },
     "com.tiviacz.travelersbackpack.inventory.menu.BackpackItemMenu": {
         "ignore": true
+    },
+    "io.wispforest.affinity.client.screen.RitualSocleComposerScreen": {
+        "ignore": true
+    },
+    "io.wispforest.affinity.client.screen.OuijaBoardScreen": {
+        "ignore": true
     }
 }
