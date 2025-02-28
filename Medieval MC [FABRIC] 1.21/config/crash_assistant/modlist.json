@@ -7,13 +7,13 @@
     "modId": "accessories",
     "version": "1.1.0-beta.28+1.21.1"
   },
-  "accessories_tclayer-3.10.0-beta.19+1.21.1.jar": {
+  "accessories_tclayer-3.10.0-beta.20+1.21.1.jar": {
     "modId": "tclayer",
-    "version": "3.10.0+beta.19"
+    "version": "3.10.0+beta.20"
   },
-  "accessorify-1.3.2+1.21.1.jar": {
+  "accessorify-1.3.3+1.21.1.jar": {
     "modId": "accessorify",
-    "version": "1.3.2+1.21.1"
+    "version": "1.3.3+1.21.1"
   },
   "additional_rpg_jewelry-2.0.4-1.21.1.jar": {
     "modId": "additional_rpg_jewelry",
@@ -43,10 +43,6 @@
     "modId": "affinity",
     "version": "0.1.8+1.21.1"
   },
-  "alchimiae-fabric-0.2.5-1.21-sgd.jar": {
-    "modId": "alchimiae",
-    "version": "0.2.5-1.21"
-  },
   "alloy-forgery-2.4.1+1.21.jar": {
     "modId": "alloy_forgery",
     "version": "2.4.1+1.21"
@@ -75,17 +71,21 @@
     "modId": "animatica",
     "version": "0.6.1+1.21"
   },
-  "archers-2.3.0+1.21.1.jar": {
+  "archers-2.4.0+1.21.1.jar": {
     "modId": "archers",
-    "version": "2.3.0+1.21.1"
+    "version": "2.4.0+1.21.1"
   },
-  "archers-expansion-1.2.1-1.21.1.jar": {
+  "archers-expansion-1.3.0-1.21.1.jar": {
     "modId": "archers_expansion",
-    "version": "1.2.1-1.21.1"
+    "version": "1.3.0-1.21.1"
   },
   "architectury-13.0.8-fabric.jar": {
     "modId": "architectury",
     "version": "13.0.8"
+  },
+  "ArmorDamageLimit-Fabric-1.21.1-1.21.4-1.0.0.jar": {
+    "modId": "armordamagelimit",
+    "version": "1.0.0+mc1.21.1"
   },
   "armoroftheages-fabric-1.21.1-1.5.2.jar": {
     "modId": "armoroftheages",
@@ -115,9 +115,9 @@
     "modId": "badoptimizations",
     "version": "2.2.1"
   },
-  "balm-fabric-1.21.1-21.0.30.jar": {
+  "balm-fabric-1.21.1-21.0.31.jar": {
     "modId": "balm-fabric",
-    "version": "21.0.30"
+    "version": "21.0.31"
   },
   "BarteringStation-v21.1.0-1.21.1-Fabric.jar": {
     "modId": "barteringstation",
@@ -195,9 +195,13 @@
     "modId": "bookshelf",
     "version": "21.1.48"
   },
-  "bundle-api-1.0.2.jar": {
+  "BrewinAndChewin-fabric-4.0.0+1.21.1.jar": {
+    "modId": "brewinandchewin",
+    "version": "4.0.0"
+  },
+  "bundle-api-1.0.3.jar": {
     "modId": "bundleapi",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "cardinal-components-api-6.1.2.jar": {
     "modId": "cardinal-components",
@@ -231,6 +235,10 @@
     "modId": "clientcrafting",
     "version": "1.21-1.8"
   },
+  "clientsort-fabric-1.3.0+1.21.jar": {
+    "modId": "clientsort",
+    "version": "1.3.0+1.21"
+  },
   "cloth-config-15.0.140-fabric.jar": {
     "modId": "cloth-config",
     "version": "15.0.140"
@@ -239,9 +247,9 @@
     "modId": "clumps",
     "version": "19.0.0.1"
   },
-  "collective-1.21.1-7.92.jar": {
+  "collective-1.21.1-7.93.jar": {
     "modId": "collective",
-    "version": "7.92"
+    "version": "7.93"
   },
   "combat_roll-fabric-2.0.2+1.21.1.jar": {
     "modId": "combat_roll",
@@ -259,9 +267,9 @@
     "modId": "configureddefaults",
     "version": "21.1.3"
   },
-  "connectivity-fabric-1.21-6.9.jar": {
+  "connectivity-fabric-1.21-7.1.jar": {
     "modId": "connectivity",
-    "version": "1.21-6.9"
+    "version": "1.21-7.1"
   },
   "continuity-3.0.0+1.21.jar": {
     "modId": "continuity",
@@ -275,9 +283,9 @@
     "modId": "coroutil",
     "version": "1.21.0-1.3.7"
   },
-  "crash_assistant-fabric-1.4.1.jar": {
+  "crash_assistant-fabric-1.4.3.jar": {
     "modId": "crash_assistant",
-    "version": "1.4.1"
+    "version": "1.4.3"
   },
   "crawl-0.13.0.jar": {
     "modId": "crawl",
@@ -363,6 +371,10 @@
     "modId": "dungeons_arise_seven_seas",
     "version": "1.0.3"
   },
+  "dungeonz-1.2.1.jar": {
+    "modId": "dungeonz",
+    "version": "1.2.1"
+  },
   "EasyAnvils-v21.1.0-1.21.1-Fabric.jar": {
     "modId": "easyanvils",
     "version": "21.1.0"
@@ -375,9 +387,9 @@
     "modId": "eldritch_mobs",
     "version": "1.16.4"
   },
-  "elemental_wizards_rpg-2.3.1-1.21.1.jar": {
+  "elemental_wizards_rpg-2.4.0-1.21.1.jar": {
     "modId": "elemental_wizards_rpg",
-    "version": "2.3.1-1.21.1"
+    "version": "2.4.0-1.21.1"
   },
   "emi-1.1.20+1.21.1+fabric.jar": {
     "modId": "emi",
@@ -391,9 +403,9 @@
     "modId": "emi_loot",
     "version": "0.7.5+1.21+fabric"
   },
-  "EMIProfessions-fabric-1.21.1-1.0.2.jar": {
+  "EMIProfessions-fabric-1.21.1-1.0.3.jar": {
     "modId": "emiprofessions",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "enchdesc-fabric-1.21.1-21.1.5.jar": {
     "modId": "enchdesc",
@@ -415,9 +427,9 @@
     "modId": "entity_texture_features",
     "version": "6.2.9"
   },
-  "entityculling-fabric-1.7.2-mc1.21.jar": {
+  "entityculling-fabric-1.7.3-mc1.21.jar": {
     "modId": "entityculling",
-    "version": "1.7.2"
+    "version": "1.7.3"
   },
   "eternalstarlight-0.4.0+1.21.1+fabric.jar": {
     "modId": "eternal_starlight",
@@ -471,13 +483,13 @@
     "modId": "fallingleaves",
     "version": "1.16.4"
   },
-  "FallingTree-1.21.1-1.21.1.4.jar": {
+  "FallingTree-1.21.1-1.21.1.6.jar": {
     "modId": "fallingtree",
-    "version": "1.21.1.4"
+    "version": "1.21.1.6"
   },
-  "fancymenu_fabric_3.4.4_MC_1.21.1.jar": {
+  "fancymenu_fabric_3.4.6_MC_1.21.1.jar": {
     "modId": "fancymenu",
-    "version": "3.4.4"
+    "version": "3.4.6"
   },
   "FarmersDelight-1.21.1-2.3.0+refabricated.jar": {
     "modId": "farmersdelight",
@@ -511,9 +523,9 @@
     "modId": "ferritecore",
     "version": "7.0.2-hotfix"
   },
-  "forcemaster-class-mod-2.3.0-1.21.jar": {
+  "forcemaster-class-mod-2.4.0-1.21.jar": {
     "modId": "forcemaster_rpg",
-    "version": "2.3.0-1.21"
+    "version": "2.4.0-1.21"
   },
   "ForgeConfigAPIPort-v21.1.3-1.21.1-Fabric.jar": {
     "modId": "forgeconfigapiport",
@@ -547,9 +559,9 @@
     "modId": "ftbfiltersystem",
     "version": "21.0.0"
   },
-  "ftb-library-fabric-2101.1.9.jar": {
+  "ftb-library-fabric-2101.1.10.jar": {
     "modId": "ftblibrary",
-    "version": "2101.1.9"
+    "version": "2101.1.10"
   },
   "ftb-quests-fabric-2101.1.5.jar": {
     "modId": "ftbquests",
@@ -603,9 +615,9 @@
     "modId": "hearths",
     "version": "1.0.2"
   },
-  "hexblade-1.1.2+1.21.1.jar": {
+  "hexblade-1.2.0+1.21.1.jar": {
     "modId": "hexblade",
-    "version": "1.1.2+1.21.1"
+    "version": "1.2.0+1.21.1"
   },
   "Highlighter-1.21-fabric-1.1.11.jar": {
     "modId": "highlighter",
@@ -627,9 +639,9 @@
     "modId": "illagerinvasion",
     "version": "21.1.3"
   },
-  "ImmediatelyFast-Fabric-1.3.4+1.21.1.jar": {
+  "ImmediatelyFast-Fabric-1.3.5+1.21.1.jar": {
     "modId": "immediatelyfast",
-    "version": "1.3.4+1.21.1"
+    "version": "1.3.5+1.21.1"
   },
   "immersivelanterns-fabric-1.0.6-1.21.1.jar": {
     "modId": "immersivelanterns",
@@ -655,10 +667,6 @@
     "modId": "inventoryprofilesnext",
     "version": "2.1.3"
   },
-  "invoke-1.0.3.1+1.21.1.jar": {
-    "modId": "invoke",
-    "version": "1.0.3.1+1.21.1"
-  },
   "iris-fabric-1.8.8+mc1.21.1.jar": {
     "modId": "iris",
     "version": "1.8.8+mc1.21.1"
@@ -671,17 +679,13 @@
     "modId": "jade",
     "version": "15.9.3+fabric"
   },
-  "jamlib-fabric-1.2.2-build.2+1.21.1.jar": {
+  "jamlib-fabric-1.3.2+1.21.1.jar": {
     "modId": "jamlib",
-    "version": "1.2.2-build.2+1.21.1"
+    "version": "1.3.2+1.21.1"
   },
   "jeed-1.21-2.2.15-fabric.jar": {
     "modId": "jeed",
     "version": "1.21-2.2.15"
-  },
-  "jei-1.21.1-fabric-19.21.0.247.jar": {
-    "modId": "jei",
-    "version": "19.21.0.247"
   },
   "jewelry-2.0.5+1.21.1.jar": {
     "modId": "jewelry",
@@ -707,9 +711,9 @@
     "modId": "kiwi",
     "version": "15.1.4+fabric"
   },
-  "kleeslabs-fabric-1.21.1-21.1.3.jar": {
+  "kleeslabs-fabric-1.21.1-21.1.4.jar": {
     "modId": "kleeslabs",
-    "version": "21.1.3"
+    "version": "21.1.4"
   },
   "konkrete_fabric_1.9.9_MC_1.21.jar": {
     "modId": "konkrete",
@@ -759,9 +763,9 @@
     "modId": "logbegone",
     "version": "1.0.3"
   },
-  "Loot Beams Refork-fabric-1.21.1-2.5.10.jar": {
+  "Loot Beams Refork-fabric-1.21.1-2.5.11.jar": {
     "modId": "lootbeams",
-    "version": "2.5.10"
+    "version": "2.5.11"
   },
   "lootintegrations-fabric-1.21-4.0.jar": {
     "modId": "lootintegrations"
@@ -794,13 +798,13 @@
     "modId": "maxhealthfix",
     "version": "21.1.4"
   },
-  "medieval-fabric-1.8.0+1.21.1.jar": {
+  "medieval-fabric-1.8.2+1.21.1.jar": {
     "modId": "medieval",
-    "version": "1.8.0+1.21.1"
+    "version": "1.8.2+1.21.1"
   },
-  "medievalorigins-7.0.1-alpha-3.jar": {
+  "medievalorigins-7.0.1-alpha-4.jar": {
     "modId": "medievalorigins",
-    "version": "7.0.1-alpha-3"
+    "version": "7.0.1-alpha-4"
   },
   "mediumcore-fabric-1.0.0+1.21.jar": {
     "modId": "mediumcore",
@@ -818,9 +822,9 @@
     "modId": "mes",
     "version": "1.3.5-1.21-fabric"
   },
-  "midnightlib-1.6.8-fabric+1.21.jar": {
+  "midnightlib-1.6.9-fabric+1.21.jar": {
     "modId": "midnightlib",
-    "version": "1.6.8"
+    "version": "1.6.9"
   },
   "mixintrace-1.1.1+1.17.jar": {
     "modId": "mixintrace",
@@ -858,17 +862,13 @@
     "modId": "monolib",
     "version": "2.0.0"
   },
-  "moonlight-1.21-2.17.28-fabric.jar": {
+  "moonlight-1.21-2.17.29-fabric.jar": {
     "modId": "moonlight",
-    "version": "1.21-2.17.28"
+    "version": "1.21-2.17.29"
   },
-  "more_rpg_classes-2.1.1-1.21.1.jar": {
+  "more_rpg_classes-2.2.0-1.21.1.jar": {
     "modId": "more_rpg_classes",
-    "version": "2.1.1-1.21.1"
-  },
-  "morevillagers-re-1.21.x-fabric-5.1.0.jar": {
-    "modId": "morevillagers",
-    "version": "5.1.0"
+    "version": "2.2.0-1.21.1"
   },
   "MouseTweaks-fabric-mc1.21-2.26.jar": {
     "modId": "mousetweaks",
@@ -922,9 +922,9 @@
     "modId": "neruina",
     "version": "2.2.8"
   },
-  "netherportalfix-fabric-1.21.1-21.1.1.jar": {
+  "netherportalfix-fabric-1.21.1-21.1.3.jar": {
     "modId": "netherportalfix",
-    "version": "21.1.1"
+    "version": "21.1.3"
   },
   "Nirvana Library-fabric-1.21.1-1.0.1.jar": {
     "modId": "nirvana_lib",
@@ -946,6 +946,10 @@
     "modId": "notenoughanimations",
     "version": "1.9.2"
   },
+  "oathswornpaladins-1.0.0+1.21.1.jar": {
+    "modId": "oathswornpaladins",
+    "version": "1.0.0+1.21.1"
+  },
   "Origins-1.13.0-alpha.12+mc.1.21.1.jar": {
     "modId": "origins",
     "version": "1.13.0-alpha.12+mc.1.21.1"
@@ -962,9 +966,9 @@
     "modId": "packetfixer",
     "version": "2.1.0"
   },
-  "paladins-2.3.1+1.21.1.jar": {
+  "paladins-2.4.2+1.21.1.jar": {
     "modId": "paladins",
-    "version": "2.3.1+1.21.1"
+    "version": "2.4.2+1.21.1"
   },
   "Particle Effects-1.0.2+1.21.jar": {
     "modId": "particle-effects",
@@ -1010,21 +1014,21 @@
     "modId": "puffish_attributes",
     "version": "0.7.2"
   },
-  "puffish_skills-0.14.7-1.21-fabric.jar": {
+  "puffish_skills-0.15.1-1.21-fabric.jar": {
     "modId": "puffish_skills",
-    "version": "0.14.7"
+    "version": "0.15.1"
   },
   "puzzle-fabric-2.0.1+1.21.jar": {
     "modId": "puzzle",
     "version": "2.0.1"
   },
-  "PuzzlesLib-v21.1.27-1.21.1-Fabric.jar": {
+  "PuzzlesLib-v21.1.28-1.21.1-Fabric.jar": {
     "modId": "puzzleslib",
-    "version": "21.1.27"
+    "version": "21.1.28"
   },
-  "Quest-Kill-Task-fabric-0.1.0+1.21.1.jar": {
+  "Quest-Kill-Task-fabric-0.2.0+1.21.1.jar": {
     "modId": "questkilltask",
-    "version": "0.1.0+1.21.1"
+    "version": "0.2.0+1.21.1"
   },
   "ranged_weapon_api-2.0.5+1.21.1.jar": {
     "modId": "ranged_weapon_api",
@@ -1050,6 +1054,10 @@
     "modId": "reeses-sodium-options",
     "version": "1.8.3+mc1.21.4"
   },
+  "relics-1.0.1+1.21.1.jar": {
+    "modId": "relics_rpgs",
+    "version": "1.0.1+1.21.1"
+  },
   "repurposed_structures-7.5.13+1.21.1-fabric.jar": {
     "modId": "repurposed_structures",
     "version": "7.5.13+1.21.1-fabric"
@@ -1066,13 +1074,17 @@
     "modId": "resourcepackoverrides",
     "version": "21.1.0"
   },
-  "rightclickharvest-fabric-4.5.0+1.21.1.jar": {
+  "rightclickharvest-fabric-4.5.1+1.21.1.jar": {
     "modId": "rightclickharvest",
-    "version": "4.5.0+1.21.1"
+    "version": "4.5.1+1.21.1"
   },
-  "rogues-2.3.0+1.21.1.jar": {
+  "rogues-2.4.0+1.21.1.jar": {
     "modId": "rogues",
-    "version": "2.3.0+1.21.1"
+    "version": "2.4.0+1.21.1"
+  },
+  "rpg-minibosses-0.2.0+1.21.1.jar": {
+    "modId": "rpg-minibosses",
+    "version": "0.2.0+1.21.1"
   },
   "rpgdifficulty-1.3.17.jar": {
     "modId": "rpgdifficulty",
@@ -1170,17 +1182,17 @@
     "modId": "spark",
     "version": "1.10.109"
   },
-  "spell_engine-1.4.5+1.21.1.jar": {
+  "spell_engine-1.5.1+1.21.1.jar": {
     "modId": "spell_engine",
-    "version": "1.4.5+1.21.1"
+    "version": "1.5.1+1.21.1"
   },
-  "spell_power-1.1.2+1.21.1.jar": {
+  "spell_power-1.2.1+1.21.1.jar": {
     "modId": "spell_power",
-    "version": "1.1.2+1.21.1"
+    "version": "1.2.1+1.21.1"
   },
-  "spellbladenext-1.0.23.5+1.21.1.jar": {
+  "spellbladenext-2.0.0+1.21.1.jar": {
     "modId": "spellbladenext",
-    "version": "1.0.23.5+1.21.1"
+    "version": "2.0.0+1.21.1"
   },
   "StackDeobfuscatorFabric-1.4.3+08e71cc.jar": {
     "modId": "stackdeobfuscator",
@@ -1202,29 +1214,29 @@
     "modId": "structure_pool_api",
     "version": "1.1.3+1.21.1"
   },
-  "structureessentials-fabric-1.21-4.2.jar": {
+  "structureessentials-fabric-1.21-4.3.jar": {
     "modId": "structureessentials",
-    "version": "1.21-4.2"
+    "version": "1.21-4.3"
   },
   "structurify-fabric-mc1.21.1-1.0.11.jar": {
     "modId": "structurify",
     "version": "1.0.11"
   },
-  "SubtleEffects-fabric-1.21-1.8.0.jar": {
+  "SubtleEffects-fabric-1.21.1-1.9.0.jar": {
     "modId": "subtle_effects",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
-  "supplementaries-1.21-3.0.35-beta-fabric.jar": {
+  "supplementaries-1.21-3.0.37-beta-fabric.jar": {
     "modId": "supplementaries",
-    "version": "1.21-3.0.35-beta"
+    "version": "1.21-3.0.37-beta"
   },
   "t_and_t-neoforge-fabric-1.13.2.jar": {
     "modId": "t_and_t",
     "version": "1.13.2"
   },
-  "takesapillage-fabric-mc1.21.1-1.0.5.jar": {
+  "takesapillage-fabric-mc1.21.1-1.0.6.jar": {
     "modId": "takesapillage",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   "talkbubbles-1.0.8.jar": {
     "modId": "talkbubbles",
@@ -1242,9 +1254,9 @@
     "modId": "terrablender",
     "version": "4.1.0.8"
   },
-  "the_bumblezone-7.7.18+1.21.1-fabric.jar": {
+  "the_bumblezone-7.7.20+1.21.1-fabric.jar": {
     "modId": "the_bumblezone",
-    "version": "7.7.18+1.21.1-fabric"
+    "version": "7.7.20+1.21.1-fabric"
   },
   "thermoo-4.3.jar": {
     "modId": "thermoo",
@@ -1346,9 +1358,9 @@
     "modId": "watut",
     "version": "1.21.0-1.1.3"
   },
-  "witcher-class-mod-2.3.1-1.21.jar": {
+  "witcher-class-mod-2.4.1-1.21.jar": {
     "modId": "witcher_rpg",
-    "version": "2.3.1-1.21"
+    "version": "2.4.1-1.21"
   },
   "witchery-fabric-0.2.0i.jar": {
     "modId": "witchery",
@@ -1358,9 +1370,9 @@
     "modId": "wither_spawn_fix",
     "version": "MC1.21-1.0.0"
   },
-  "wizards-2.3.3+1.21.1.jar": {
+  "wizards-2.4.0+1.21.1.jar": {
     "modId": "wizards",
-    "version": "2.3.3+1.21.1"
+    "version": "2.4.0+1.21.1"
   },
   "worldweaver-21.0.13.jar": {
     "modId": "wover",
@@ -1370,9 +1382,9 @@
     "modId": "fwaystones",
     "version": "3.3.4+mc1.21.1"
   },
-  "YetAnotherConfigLib-3.6.2+1.21-fabric.jar": {
+  "yet_another_config_lib_v3-3.6.3+1.21.1-fabric.jar": {
     "modId": "yet_another_config_lib_v3",
-    "version": "3.6.2+1.21-fabric"
+    "version": "3.6.3+1.21.1-fabric"
   },
   "youre-in-grave-danger-fabric-2.4.14.jar": {
     "modId": "yigd",
