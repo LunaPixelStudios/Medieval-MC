@@ -615,9 +615,9 @@
     "modId": "hearths",
     "version": "1.0.2"
   },
-  "hexblade-1.2.0+1.21.1.jar": {
+  "hexblade-1.2.1+1.21.1.jar": {
     "modId": "hexblade",
-    "version": "1.2.0+1.21.1"
+    "version": "1.2.1+1.21.1"
   },
   "Highlighter-1.21-fabric-1.1.11.jar": {
     "modId": "highlighter",
@@ -1086,9 +1086,9 @@
     "modId": "rogues",
     "version": "2.4.1+1.21.1"
   },
-  "rpg-minibosses-0.2.0+1.21.1.jar": {
+  "rpg-minibosses-0.2.1+1.21.1.jar": {
     "modId": "rpg-minibosses",
-    "version": "0.2.0+1.21.1"
+    "version": "0.2.1+1.21.1"
   },
   "rpgdifficulty-1.3.17.jar": {
     "modId": "rpgdifficulty",
