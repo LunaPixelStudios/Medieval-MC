@@ -105,12 +105,12 @@
   },
   "amphithere": {
     "iceandfire.amphithere.spawn": true,
-    "iceandfire.amphithere.spawnWeight": 50,
+    "iceandfire.amphithere.spawnWeight": 15,
     "iceandfire.amphithere.villagerSearchLength": 48.0,
     "iceandfire.amphithere.tameTime": 400,
     "iceandfire.amphithere.flightSpeed": 1.75,
     "iceandfire.amphithere.maxHealth": 50.0,
-    "iceandfire.amphithere.attackDamage": 7.0
+    "iceandfire.amphithere.attackDamage": 4.0
   },
   "seaSerpent": {
     "iceandfire.seaSerpent.spawnChance": 0.004,
