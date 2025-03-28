@@ -26,11 +26,10 @@
     "passiveHeatingTickInterval": 1,
     "maxPassiveHeatingScale": 1.0,
     "enableTurtleArmorEffects": true,
+    "minTemperatureForHeatC": 30.0,
+    "degreesCPerTemperatureIncrease": 10.0,
+    "environmentTemperatureMultiplier": 1.0,
     "coolingFromIce": 12,
-    "minSkyLightLevelForHeat": 15,
-    "heatFromSun": 1,
-    "scorchingBiomeHeatIncrease": 1,
-    "sunHatShadeTemperatureChange": -2,
     "onFireWarmRate": 12,
     "onFireWarmRateWithFireResistance": 3,
     "inLavaWarmRate": 12,
@@ -38,19 +37,12 @@
     "powderSnowCoolRate": 24,
     "fireballHeat": 500,
     "waterBreathingDurationPerTurtleArmorPieceSeconds": 10,
-    "lightLevelPerHeatInNether": 5,
-    "minLightLevelForHeatInNether": 14,
-    "blocksAboveLavaOceanPerHeatInNether": 5,
-    "maxHeatFromLavaOceanInNether": 3,
     "temperatureFromCoolingFood": -1260
   },
   "combatConfig": {
     "fireBallThrownType": "SMALL",
     "enableDesertVisions": true,
-    "defaultArmorHeatResistance": 0.0,
-    "veryHarmfulArmorHeatResistance": -0.5,
-    "protectiveArmorHeatResistance": 0.5,
-    "veryProtectiveArmorHeatResistance": 1.0,
+    "fireProtectionHeatResistancePerLevel": 0.125,
     "fearDetectionRangeMultiplier": 2.0,
     "impalingDamagePerLevel": 2.5
   },
@@ -69,19 +61,15 @@
     "rehydrationDrinkSize": 120,
     "soakingFromSplashPotions": 300,
     "touchingWaterWetnessIncrease": 1,
-    "dryRate": 1,
     "onFireDryDate": 3,
     "humidBiomeSweatEfficiency": 0.16666667,
+    "extraHumidBiomeSweatEfficiency": 0.16666667,
+    "aridBiomeSweatEfficiency": 1.5,
     "maxRehydrationEfficiency": 0.75
   },
   "integrationConfig": {
     "dehydrationConfig": {
       "minWaterLevelForSweat": 16
-    },
-    "seasonsConfig": {
-      "enableSeasonsIntegration": true,
-      "wetSeasonHumidBiomeSweatEfficiency": 0.16666667,
-      "drySeasonHumidBiomeSweatEfficiency": 0.5
     }
   }
 }
